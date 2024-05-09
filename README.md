@@ -1,11 +1,6 @@
-## Nova Sector (/tg/station Downstream)
+**Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
 
-[![CI Suite](https://github.com/NovaSector/NovaSector/workflows/CI%20Suite/badge.svg)](https://github.com/NovaSector/NovaSector/actions?query=workflow%3A%22CI+Suite%22)
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/NovaSector/NovaSector.svg)](https://isitmaintained.com/project/NovaSector/NovaSector "Percentage of issues still open")
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/NovaSector/NovaSector.svg)](https://isitmaintained.com/project/NovaSector/NovaSector "Average time to resolve an issue")
-![Coverage](https://img.shields.io/codecov/c/github/NovaSector/NovaSector)
-
-[![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+## WARRENSTATION (Nova Sector | /tg/station Downstream)
 
 | Website                   | Link                                           |
 |---------------------------|------------------------------------------------|
@@ -18,11 +13,6 @@
 | Nova Sector's Discord     | [https://discord.gg/novasector](https://discord.gg/novasector) |
 | Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)               |
 
-This is Nova Sector's downstream fork of /tg/station created in byond.
-
-**Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
-
-Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
 
 ## Important note - TEST YOUR PULL REQUESTS
 

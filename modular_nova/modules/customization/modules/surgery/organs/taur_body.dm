@@ -20,7 +20,27 @@
 	/// The mob's old left leg. Used if the person switches to this organ and then back, so they don't just, have no legs anymore. Can be null.
 	var/obj/item/bodypart/leg/right/old_left_leg = null
 
+	/// If true, this taur body allows a saddle to be equipped and used.
+	var/can_use_saddle = FALSE
+
+	/// If true, can piggyback and by piggybacked by other taurs with this set to TRUE.
+	var/can_piggyback_taurs = FALSE
+
+	/// When being ridden via saddle, how much the rider is offset on the x axis when facing west or east.
+	var/riding_offset_side_x = 12
+	/// When being ridden via saddle, how much the rider is offset on the y axis when facing west or east.
+	var/riding_offset_side_y = 2
+
+	/// When being ridden via saddle, how much the rider is offset on the x axis when facing north or south.
+	var/riding_offset_front_x = 0
+	/// When being ridden via saddle, how much the rider is offset on the y axis when facing north or south.
+	var/riding_offset_front_y = 5
+
+	/// When considering how much to offset our rider, we multiply size scaling against this.
+	var/riding_offset_scaling_mult = 0.8
+
 /obj/item/organ/external/taur_body/horselike
+	can_use_saddle = TRUE
 
 /obj/item/organ/external/taur_body/horselike/synth
 	organ_flags = ORGAN_ROBOTIC
@@ -47,6 +67,8 @@
 /obj/item/organ/external/taur_body/anthro
 	left_leg_name = null
 	right_leg_name = null
+
+	can_piggyback_taurs = TRUE
 
 /datum/bodypart_overlay/mutant/taur_body
 	feature_key = "taur"
@@ -137,3 +159,14 @@
 
 	if(old_right_leg)
 		QDEL_NULL(old_right_leg)
+
+/obj/item/organ/external/taur_body/proc/get_riding_offset(oversized = FALSE)
+	var/size_scaling = (owner.dna.features["body_size"] / BODY_SIZE_NORMAL) - 1
+	var/scaling_mult = 1 + (size_scaling * riding_offset_scaling_mult)
+
+	return list(
+				TEXT_NORTH = list(riding_offset_front_x, round(riding_offset_front_y * scaling_mult, 1)),
+				TEXT_SOUTH = list(riding_offset_front_x, round(riding_offset_front_y * scaling_mult, 1)),
+				TEXT_EAST = list(round(-riding_offset_side_x * scaling_mult, 1), round(riding_offset_side_y * scaling_mult, 1)),
+				TEXT_WEST = list(round(riding_offset_side_x * scaling_mult, 1), round(riding_offset_side_y * scaling_mult, 1))
+			)

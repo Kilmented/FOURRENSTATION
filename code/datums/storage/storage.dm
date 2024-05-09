@@ -937,12 +937,12 @@ GLOBAL_LIST_EMPTY(cached_storage_typecaches)
 
 
 /// Opens the storage to the mob, showing them the contents to their UI.
-/datum/storage/proc/open_storage(mob/to_show)
+/datum/storage/proc/open_storage(mob/to_show, can_reach_target = parent) // NOVA EDIT ADDITION -- Original: /datum/storage/proc/open_storage(mob/to_show)
 	if(isobserver(to_show))
 		show_contents(to_show)
 		return FALSE
 
-	if(!to_show.CanReach(parent))
+	if(!to_show.CanReach(can_reach_target)) // NOVA EDIT ADDITION -- can_reach_target arg
 		parent.balloon_alert(to_show, "can't reach!")
 		return FALSE
 
@@ -1107,9 +1107,9 @@ GLOBAL_LIST_EMPTY(cached_storage_typecaches)
 			parent.balloon_alert(user, "will now pick up one at a time")
 
 /// Gives a spiffy animation to our parent to represent opening and closing.
-/datum/storage/proc/animate_parent()
-	var/matrix/old_matrix = parent.transform
-	animate(parent, time = 1.5, loop = 0, transform = parent.transform.Scale(1.07, 0.9))
+/datum/storage/proc/animate_parent(atom/target = parent) // NOVA EDIT ADDITION -- target arg
+	var/matrix/old_matrix = target.transform // NOVA EDIT -- target var
+	animate(target, time = 1.5, loop = 0, transform = target.transform.Scale(1.07, 0.9)) // NOVA EDIT -- target var
 	animate(time = 2, transform = old_matrix)
 
 /// Signal proc for [COMSIG_ATOM_CONTENTS_WEIGHT_CLASS_CHANGED] to drop items out of our storage if they're suddenly too heavy.

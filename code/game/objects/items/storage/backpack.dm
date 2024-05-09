@@ -461,7 +461,7 @@
 	balloon_alert(user, "unzipping...")
 	playsound(src, unzip_sfx, 100, FALSE)
 	var/datum/callback/can_unzip = CALLBACK(src, PROC_REF(zipper_matches), TRUE)
-	if(!do_after(user, unzip_duration, src, extra_checks = can_unzip))
+	if(!do_after(user, unzip_duration, src, timed_action_flags = IGNORE_USER_LOC_CHANGE, extra_checks = can_unzip))
 		user.balloon_alert(user, "unzip failed!")
 		return
 	balloon_alert(user, "unzipped")
@@ -478,7 +478,7 @@
 	balloon_alert(user, "zipping...")
 	playsound(src, zip_up_sfx, 100, FALSE)
 	var/datum/callback/can_zip = CALLBACK(src, PROC_REF(zipper_matches), FALSE)
-	if(!do_after(user, zip_up_duration, src, extra_checks = can_zip))
+	if(!do_after(user, zip_up_duration, src, timed_action_flags = IGNORE_USER_LOC_CHANGE, extra_checks = can_zip))
 		user.balloon_alert(user, "zip failed!")
 		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 	balloon_alert(user, "zipped")

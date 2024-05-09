@@ -6,7 +6,7 @@ DAMAGE_MULTIPLIER 1
 ## REVIVAL ###
 
 ## whether pod plants work or not
-REVIVAL_POD_PLANTS
+#REVIVAL_POD_PLANTS
 
 ## amount of time (in hundredths of seconds) for which a brain retains the "spark of life" after the person's death (set to -1 for infinite)
 REVIVAL_BRAIN_LIFE -1
@@ -17,11 +17,11 @@ OOC_DURING_ROUND
 
 ## EMOJI ###
 ## Comment this out if you want to disable emojis
-EMOJIS
+#EMOJIS
 
 ## HEART COMMENDATIONS ###
 ## Uncomment this if you'd like to enable commendation pollings for this percentage of players near the end of the round (5% suggested)
-COMMENDATION_PERCENT_POLL 0.05
+#COMMENDATION_PERCENT_POLL 0.05
 
 ## MOB MOVEMENT ###
 
@@ -34,7 +34,7 @@ COMMENDATION_PERCENT_POLL 0.05
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied.
 RUN_DELAY 1.5
-WALK_DELAY 4
+WALK_DELAY 2.5
 
 ## The variables below affect the movement of specific mob types. THIS AFFECTS ALL SUBTYPES OF THE TYPE YOU CHOOSE!
 ## Entries completely override all subtypes. Later entries have precedence over earlier entries.
@@ -158,14 +158,14 @@ EVENTS_FREQUENCY_UPPER 4200
 ## AI ###
 
 ## Allow the AI job to be picked.
-ALLOW_AI
+#ALLOW_AI
 
 ## Allow the AI Multicamera feature to be used by AI players
-ALLOW_AI_MULTICAM
+#ALLOW_AI_MULTICAM
 
 ## Secborg ###
 ## Uncomment to prevent the security cyborg model from being chosen
-#DISABLE_SECBORG
+DISABLE_SECBORG
 
 ## Peacekeeper Borg ###
 ## Uncomment to prevent the peacekeeper cyborg model from being chosen

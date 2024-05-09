@@ -239,7 +239,7 @@
 	if(!isliving(nearby_atom))
 		return
 	var/mob/living/nearby_mob = nearby_atom
-	if(!(FACTION_MOLD in nearby_mob.faction))
+	if(!(FACTION_SLIME in nearby_mob.faction))
 		INVOKE_ASYNC(src, PROC_REF(discharge))
 
 /obj/structure/mold/structure/bulb/proc/make_full()
@@ -268,7 +268,7 @@
 	addtimer(CALLBACK(src, PROC_REF(make_full)), 1 MINUTES, TIMER_UNIQUE|TIMER_NO_HASH_WAIT)
 
 /obj/structure/mold/structure/bulb/attack_generic(mob/user, damage_amount, damage_type, damage_flag, sound_effect, armor_penetration)
-	if(FACTION_MOLD in user.faction)
+	if(FACTION_SLIME in user.faction)
 		return ..()
 	discharge()
 	. = ..()
@@ -385,8 +385,7 @@
 		spawn_types = mold_type.mob_types, \
 		spawn_time = mold_type.spawn_cooldown, \
 		max_spawned = mold_type.max_spawns, \
-		faction = list(FACTION_MOLD), \
-		spawn_text = "emerges from", \
+		spawn_text = "takes shape from", \
 	)
 
 #undef CORE_RETALIATION_COOLDOWN

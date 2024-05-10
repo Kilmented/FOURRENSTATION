@@ -93,7 +93,8 @@
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/poddoor/preopen{
-	id = "888"
+	id = "888";
+	name = "Bridge Blast Doors"
 	},
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
@@ -470,7 +471,9 @@
 /area/station/maintenance/floor1)
 "dU" = (
 /obj/machinery/power/shuttle_engine/heater,
-/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/north{
+	dir = 5
+	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "dW" = (
@@ -1354,6 +1357,10 @@
 /obj/effect/decal/cleanable/food/plant_smudge,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
+"lz" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "lA" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
@@ -2900,7 +2907,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "669";
-	name = "research lab shutters"
+	name = "Research Lab Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/science)
@@ -3036,6 +3043,13 @@
 "xU" = (
 /turf/closed/wall,
 /area/station/common/cryopods)
+"yd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "ye" = (
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
@@ -3647,9 +3661,12 @@
 /turf/open/floor/plating,
 /area/station/hallway/primary/central)
 "DE" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
@@ -4406,7 +4423,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "669";
-	name = "research lab shutters"
+	name = "Research Lab Shutters"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
@@ -6065,6 +6082,10 @@
 "Xm" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/preopen{
+	id = "888";
+	name = "Bridge Blast Doors"
+	},
 /turf/open/floor/plating,
 /area/station/command/bridge)
 "Xq" = (
@@ -169768,7 +169789,7 @@ qR
 qR
 qR
 Us
-Tx
+yd
 ca
 ca
 dU
@@ -170796,7 +170817,7 @@ PJ
 PJ
 PJ
 Us
-Tx
+DE
 ca
 ca
 dU
@@ -172567,7 +172588,7 @@ hz
 sl
 hj
 hj
-DE
+lz
 hj
 Qo
 NE

@@ -156,9 +156,7 @@
 /area/station/maintenance/eva_shed)
 "bk" = (
 /obj/structure/urinal/directional/north,
-/obj/structure/window{
-	dir = 4
-	},
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet)
 "bl" = (
@@ -470,10 +468,14 @@
 /turf/closed/wall,
 /area/station/maintenance/floor1)
 "dU" = (
-/obj/machinery/power/shuttle_engine/heater,
-/obj/structure/window/reinforced/spawner/directional/north,
-/turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/structure/table,
+/obj/item/stack/medical/mesh,
+/obj/item/stack/medical/suture,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "dW" = (
 /turf/open/floor/wood,
 /area/station/maintenance/floor1)
@@ -857,19 +859,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/upper)
 "hr" = (
-/obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/gun/syringe{
-	pixel_x = 3;
-	pixel_y = 6
-	},
-/obj/item/tank/internals/anesthetic{
-	pixel_x = 8;
-	pixel_y = -6
-	},
-/obj/item/clothing/mask/breath/medical,
+/obj/machinery/smartfridge/organ,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "ht" = (
@@ -1040,9 +1030,7 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain/private)
 "iZ" = (
-/obj/structure/window{
-	dir = 4
-	},
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet)
 "ja" = (
@@ -1356,9 +1344,12 @@
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "lz" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "lA" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
@@ -2043,11 +2034,14 @@
 /turf/open/floor/wood,
 /area/station/maintenance/floor1)
 "qX" = (
-/obj/structure/bed,
-/obj/item/bedsheet/medical,
-/obj/structure/curtain,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/structure/table,
+/obj/item/food/lollipop{
+	pixel_x = 5
+	},
+/obj/item/food/lollipop,
+/obj/item/food/lollipop{
+	pixel_x = 1;
+	pixel_y = 7
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
@@ -2438,10 +2432,17 @@
 /area/space/nearstation)
 "tt" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
 /obj/item/radio/intercom/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/item/gun/syringe{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/clothing/mask/breath/medical,
+/obj/item/tank/internals/anesthetic{
+	pixel_x = 8;
+	pixel_y = -6
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "tu" = (
@@ -3659,10 +3660,8 @@
 /turf/open/floor/plating,
 /area/station/hallway/primary/central)
 "DE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "DG" = (
@@ -3716,16 +3715,10 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/main)
 "Eg" = (
-/obj/structure/table,
-/obj/item/food/lollipop,
-/obj/item/food/lollipop{
-	pixel_x = 5
-	},
-/obj/item/food/lollipop{
-	pixel_x = 1;
-	pixel_y = 7
-	},
 /obj/structure/cable,
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/obj/structure/curtain,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "Ek" = (
@@ -4511,11 +4504,11 @@
 /turf/open/floor/plating,
 /area/station/medical/medbay/central)
 "JT" = (
-/obj/structure/table,
-/obj/item/stack/medical/mesh,
-/obj/item/stack/medical/suture,
 /obj/machinery/light/directional/west,
 /obj/structure/cable,
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/obj/structure/curtain,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "JV" = (
@@ -169276,7 +169269,7 @@ ca
 ca
 ca
 ca
-dU
+DE
 mI
 dv
 dv
@@ -169533,7 +169526,7 @@ MO
 tw
 ca
 ca
-dU
+DE
 mI
 Nf
 dv
@@ -169790,7 +169783,7 @@ Us
 yd
 ca
 ca
-dU
+DE
 mI
 dv
 dv
@@ -170047,7 +170040,7 @@ Us
 YO
 ca
 ca
-dU
+DE
 mI
 dv
 al
@@ -170304,7 +170297,7 @@ vy
 Tx
 ca
 ca
-dU
+DE
 mI
 dv
 dv
@@ -170561,7 +170554,7 @@ Us
 Cp
 ca
 ca
-dU
+DE
 mI
 dv
 dv
@@ -170815,10 +170808,10 @@ PJ
 PJ
 PJ
 Us
+lz
+ca
+ca
 DE
-ca
-ca
-dU
 mI
 Nf
 dv
@@ -171075,7 +171068,7 @@ lb
 ur
 ca
 ca
-dU
+DE
 mI
 dv
 dv
@@ -171332,7 +171325,7 @@ ca
 ca
 HB
 ca
-dU
+DE
 mI
 dv
 dv
@@ -172332,7 +172325,7 @@ hj
 hj
 hj
 qX
-Qo
+dU
 NE
 hj
 hj
@@ -172586,7 +172579,7 @@ hz
 sl
 hj
 hj
-lz
+hr
 hj
 Qo
 NE
@@ -172849,7 +172842,7 @@ kw
 Or
 gA
 tt
-hr
+NY
 OO
 rp
 Rv

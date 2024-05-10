@@ -86,16 +86,15 @@
 /turf/open/floor/iron/white,
 /area/station/science)
 "aS" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "888";
-	name = "Bridge blast door"
-	},
 /obj/machinery/door/airlock/command{
 	name = "Bridge"
 	},
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/poddoor/preopen{
+	id = "888"
+	},
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
 "aU" = (
@@ -471,9 +470,7 @@
 /area/station/maintenance/floor1)
 "dU" = (
 /obj/machinery/power/shuttle_engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "dW" = (
@@ -546,10 +543,8 @@
 /area/station/hallway/primary/central)
 "ey" = (
 /obj/structure/cable,
-/obj/structure/sign/poster/ripped{
-	pixel_y = 31
-	},
 /obj/machinery/airalarm/directional/south,
+/obj/structure/sign/poster/ripped/directional/north,
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "eA" = (
@@ -1359,10 +1354,6 @@
 /obj/effect/decal/cleanable/food/plant_smudge,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
-"lz" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
 "lA" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
@@ -2907,6 +2898,10 @@
 "xd" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "669";
+	name = "research lab shutters"
+	},
 /turf/open/floor/plating,
 /area/station/science)
 "xe" = (
@@ -3041,10 +3036,6 @@
 "xU" = (
 /turf/closed/wall,
 /area/station/common/cryopods)
-"yd" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/wall,
-/area/station/hallway/primary/upper)
 "ye" = (
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
@@ -3656,12 +3647,9 @@
 /turf/open/floor/plating,
 /area/station/hallway/primary/central)
 "DE" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/power/shuttle_engine/heater,
-/turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "DG" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
@@ -4134,11 +4122,11 @@
 /obj/structure/lattice/catwalk,
 /obj/docking_port/stationary{
 	dir = 2;
-	dwidth = 12;
-	height = 18;
-	id = "emergency_home";
-	name = "bearcat emergency evac bay";
-	width = 32
+	dwidth = 9;
+	height = 25;
+	name = "SuzerainNokura emergency evac bay";
+	shuttle_id = "emergency_home";
+	width = 29
 	},
 /turf/open/space/basic,
 /area/space)
@@ -4417,7 +4405,7 @@
 "JB" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "rnd";
+	id = "669";
 	name = "research lab shutters"
 	},
 /obj/machinery/door/firedoor,
@@ -4579,7 +4567,7 @@
 "KZ" = (
 /obj/machinery/smartfridge,
 /obj/machinery/door/firedoor,
-/turf/closed/wall,
+/turf/open/floor/plating,
 /area/station/service/hydroponics)
 "La" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -5475,7 +5463,7 @@
 	dir = 8
 	},
 /obj/machinery/button/door/directional/north{
-	id = "rnd";
+	id = "669";
 	name = "Shutters Control Button";
 	pixel_x = 26;
 	pixel_y = 0
@@ -38943,7 +38931,7 @@ bP
 tS
 Kh
 aZ
-Yf
+Dm
 XI
 XI
 XI
@@ -169269,7 +169257,7 @@ ca
 ca
 ca
 ca
-DE
+dU
 mI
 dv
 dv
@@ -169526,7 +169514,7 @@ MO
 tw
 ca
 ca
-DE
+dU
 mI
 Nf
 dv
@@ -169783,7 +169771,7 @@ Us
 Tx
 ca
 ca
-DE
+dU
 mI
 dv
 dv
@@ -170040,7 +170028,7 @@ Us
 YO
 ca
 ca
-DE
+dU
 mI
 dv
 al
@@ -170529,7 +170517,7 @@ WA
 ce
 oB
 oB
-yd
+Ek
 Gd
 Gd
 Gd
@@ -170554,7 +170542,7 @@ Us
 Cp
 ca
 ca
-DE
+dU
 mI
 dv
 dv
@@ -170811,7 +170799,7 @@ Us
 Tx
 ca
 ca
-DE
+dU
 mI
 Nf
 dv
@@ -171068,7 +171056,7 @@ lb
 ur
 ca
 ca
-DE
+dU
 mI
 dv
 dv
@@ -171325,7 +171313,7 @@ ca
 ca
 HB
 ca
-DE
+dU
 mI
 dv
 dv
@@ -172579,7 +172567,7 @@ hz
 sl
 hj
 hj
-lz
+DE
 hj
 Qo
 NE

@@ -1,17 +1,12 @@
 {
 	"version": 1,
 	"map_name": "SSN Suzerain Nokura",
-	"map_path": "map_files/SuzerainNokura",
-	"map_file": "SuzerainNokura.dmm",
+	"map_path": "map_files/suzerainnokura",
+	"map_file": "suzerainnokura.dmm",
 	"shuttles": {
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_meta",
 		"emergency": "emergency_meta"
-	},
-	"job_changes": {
-		"Cook": {
-			"additional_cqc_areas": ["/area/station/maintenance/floor1"]
-		}
 	}
 }

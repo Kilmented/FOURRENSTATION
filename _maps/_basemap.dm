@@ -19,7 +19,7 @@
 		#include "map_files\Ouroboros\Ouroboros.dmm"
 		// NOVA EDIT END
 		// WARRENSTATION EDIT START
-		#include "map_files\AAA_Ship\ship.dmm"
+		#include "map_files\SuzerainNokura\SuzerainNokura.dmm"
 		// WARRENSTATION EDIT END
 
 		#ifdef CIBUILDING

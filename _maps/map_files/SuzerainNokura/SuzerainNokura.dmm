@@ -471,9 +471,7 @@
 /area/station/maintenance/floor1)
 "dU" = (
 /obj/machinery/power/shuttle_engine/heater,
-/obj/structure/window/reinforced/spawner/directional/north{
-	dir = 5
-	},
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "dW" = (

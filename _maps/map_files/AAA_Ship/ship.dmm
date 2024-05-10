@@ -580,7 +580,6 @@
 /obj/machinery/door/poddoor/shutters/radiation/preopen,
 /obj/machinery/door/airlock/engineering{
 	name = "Engine Room";
-	req_one_access_txt = "10;24"
 	},
 /obj/structure/fans/tiny/forcefield,
 /turf/open/floor/engine,
@@ -2743,7 +2742,6 @@
 /obj/machinery/door/poddoor/shutters/radiation/preopen,
 /obj/machinery/door/airlock/engineering{
 	name = "Engine Room";
-	req_one_access_txt = "10;24"
 	},
 /obj/structure/fans/tiny/forcefield,
 /turf/open/floor/engine,

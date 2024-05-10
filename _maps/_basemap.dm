@@ -18,6 +18,9 @@
 		#include "map_files\NSVBlueshift\Blueshift.dmm"
 		#include "map_files\Ouroboros\Ouroboros.dmm"
 		// NOVA EDIT END
+		// WARRENSTATION EDIT START
+		#include "map_files\AAA_Ship\ship.dmm"
+		// WARRENSTATION EDIT END
 
 		#ifdef CIBUILDING
 			#include "templates.dm"

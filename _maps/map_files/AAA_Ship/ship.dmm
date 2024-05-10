@@ -2946,11 +2946,6 @@
 	pixel_x = -25;
 	pixel_y = -3
 	},
-/obj/machinery/button/door{
-	id = meetingroom_blast;
-	pixel_x = -28;
-	pixel_y = 6
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},

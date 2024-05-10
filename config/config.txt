@@ -48,7 +48,7 @@ ROUND_END_COUNTDOWN 90
 ## Comment this out if you want to use the SQL based admin system, the legacy system uses admins.txt.
 ## You need to set up your database to use the SQL based system.
 ## This flag is automatically enabled if SQL_ENABLED isn't
-ADMIN_LEGACY_SYSTEM
+#ADMIN_LEGACY_SYSTEM
 
 ##Uncomment this to stop any admins loaded by the legacy system from having their rank edited by the permissions panel
 #PROTECT_LEGACY_ADMINS
@@ -187,7 +187,7 @@ IPINTEL_REJECT_BAD
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
-# SERVER ss13.example.com:2506
+SERVER ss13.coyotebayou.com:60000
 
 ## forum address
 # FORUMURL http://tgstation13.org/phpBB/index.php
@@ -224,7 +224,7 @@ IPINTEL_REJECT_BAD
 ## from https://github.com/rg3/youtube-dl/releases
 ## or your package manager
 ## The default value assumes youtube-dl is in your system PATH
-# INVOKE_YOUTUBEDL youtube-dl
+INVOKE_YOUTUBEDL yt-dlp
 
 ## Comment this out to disable users ability to use the request internet sounds to be played.
 REQUEST_INTERNET_SOUND

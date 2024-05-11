@@ -8,28 +8,5 @@
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_meta",
 		"emergency": "emergency_meta"
-	},
-	"traits": [
-		{
-			"Up": true,
-			"Linkage": null
-		},
-		{
-			"Up": true,
-			"Down": true,
-			"Baseturf": "/turf/open/openspace",
-			"Linkage": null
-		},
-		{
-			"Up": true,
-			"Down": true,
-			"Baseturf": "/turf/open/openspace",
-			"Linkage": null
-		},
-		{
-			"Down": true,
-			"Baseturf": "/turf/open/openspace",
-			"Linkage": null
-		}
-	]
+	}
 }

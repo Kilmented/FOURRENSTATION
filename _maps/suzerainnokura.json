@@ -12,24 +12,24 @@
 	"traits": [
 		{
 			"Up": true,
-			"Linkage": null
+			"Linkage": "Cross"
 		},
 		{
 			"Up": true,
 			"Down": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": null
+			"Linkage": "Cross"
 		},
 		{
 			"Up": true,
 			"Down": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": null
+			"Linkage": "Cross"
 		},
 		{
 			"Down": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": null
+			"Linkage": "Cross"
 		}
 	]
 }

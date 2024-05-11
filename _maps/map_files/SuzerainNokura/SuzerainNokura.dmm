@@ -468,14 +468,12 @@
 /turf/closed/wall,
 /area/station/maintenance/floor1)
 "dU" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
-/obj/structure/table,
-/obj/item/stack/medical/mesh,
-/obj/item/stack/medical/suture,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "dW" = (
 /turf/open/floor/wood,
 /area/station/maintenance/floor1)
@@ -1344,12 +1342,17 @@
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "lz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 3;
+	height = 15;
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/box;
+	shuttle_id = "arrival_stationary";
+	width = 7
 	},
-/obj/structure/window/reinforced/spawner/directional/west,
-/turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/turf/open/floor/engine/airless,
+/area/space/nearstation)
 "lA" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
@@ -2629,6 +2632,15 @@
 	},
 /obj/structure/fans/tiny,
 /obj/structure/fans/tiny/forcefield,
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 3;
+	height = 15;
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/box;
+	shuttle_id = "arrival_stationary";
+	width = 7
+	},
 /turf/open/floor/plating,
 /area/station/hallway/primary/upper)
 "uI" = (
@@ -2669,6 +2681,13 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/floor1)
+"vb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter)
 "vd" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -3043,12 +3062,14 @@
 /turf/closed/wall,
 /area/station/common/cryopods)
 "yd" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/structure/disposalpipe/segment{
+	dir = 6
 	},
-/obj/structure/window/reinforced/spawner/directional/east,
-/turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/obj/structure/table,
+/obj/item/stack/medical/mesh,
+/obj/item/stack/medical/suture,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "ye" = (
 /obj/structure/sign/poster/contraband/random,
 /turf/closed/wall,
@@ -169780,7 +169801,7 @@ qR
 qR
 qR
 Us
-yd
+vb
 ca
 ca
 DE
@@ -170808,7 +170829,7 @@ PJ
 PJ
 PJ
 Us
-lz
+dU
 ca
 ca
 DE
@@ -172325,7 +172346,7 @@ hj
 hj
 hj
 qX
-dU
+yd
 NE
 hj
 hj
@@ -236314,7 +236335,7 @@ yY
 yY
 yY
 yY
-yY
+lz
 yY
 yY
 yY

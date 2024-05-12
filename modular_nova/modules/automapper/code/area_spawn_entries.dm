@@ -15,7 +15,8 @@
 	target_areas = list(/area/station/engineering/main, /area/station/engineering/break_room, /area/station/engineering/lobby, /area/station/engineering/supermatter/room)
 	desired_atom = /mob/living/simple_animal/pet/poppy
 
-// Structures
+// Structures // Jaeger edit, we don't fucking use these.
+/*
 /datum/area_spawn/blueshield_locker
 	target_areas = list(/area/station/command/heads_quarters/captain, /area/station/command/bridge, /area/station/command/corporate_dock, /area/station/command/meeting_room, /area/station/command/gateway)
 	desired_atom = /obj/structure/closet/secure_closet/blueshield
@@ -100,3 +101,4 @@
 /datum/area_spawn/corrections_officer_landmark
 	desired_atom = /obj/effect/landmark/start/corrections_officer
 	target_areas = list(/area/station/security/brig, /area/station/security/prison/)
+*/

@@ -5,7 +5,25 @@
 // /obj/item/gun/ballistic/shotgun // basically comes down to "hit activate to cock and eject between every shot"
 // /obj/item/gun/ballistic/revolver // basically comes down to "a semi but hit activate to drop the whole cylinder"
 // That's all the relevant ones. Enjoy.
-// Anyways, here's probably what you were looking for. The order is; Guns, magazines, and -at the very bottom- casings and then projectiles. Take care. - Jaeger
+// Anyways, here's probably what you were looking for. The order is; Defines, Guns, magazines, and -at the very bottom- casings and then projectiles. Take care. - Jaeger
+
+
+
+// LINE BREAK FOR CALIBER DEFINES
+
+#define CALIBER_WSCOMPACT "10x25mm Common Security Cartridge"
+
+#define CALIBER_WSMEDIUM "5.56x45mm Common Gothic Cartridge"
+
+#define CALIBER_WSLONG "8.6x70mm Common Magnum Cartridge"
+
+#define CALIBER_WSSHOTGUN "12 gauge Common Cartridge"
+
+// Special Warrenstation calibers start below!
+
+#define CALIBER_WSGRENADE "40x46mm Common Grenade Launcher Cartridge"
+
+
 
 // LINE BREAK FOR GUN TEMPLATES
 
@@ -224,13 +242,158 @@
 
 // LINE BREAK FOR ACTUAL GUNS
 
+// Guns are broken into two tiers. Loadout, and loot. Loadout is "free" roundstart, and a reduced projectile_damage_multiplier. Found guns are better but require a new pin.
+
+/obj/item/gun/ballistic/automatic/pistol/wscompactpistol/compactsemi
+	name = "\improper (COMPANY-MODEL REDACTED) Clarissa"
+	desc = "An autoloading pistol chambered in 10x25mm Security. Held to the SolStill standard- means it's just reliable enough to take out rats and terrorists."
+	icon = 'modular_warrenstation/icons/obj/guns/thirtytwo.dmi'
+	inhand_icon_state = "clarissa"
+	w_class = WEIGHT_CLASS_SMALL
+	slot_flags = ITEM_SLOT_BELT
+	can_suppress = TRUE
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/revolver/wscompactrevolver/compactrevolver
+	name = "\improper (COMPANY-MODEL REDACTED) Detective"
+	desc = "A compact revolver chambered in 10x25mm Security. Designed to be reminiscent of the Noir days, designs of its ilk are modernized to carry eight shots."
+	icon = 'modular_warrenstation/icons/obj/guns/thirtytwo.dmi'
+	inhand_icon_state = "detective"
+	w_class = WEIGHT_CLASS_SMALL
+	slot_flags = ITEM_SLOT_BELT
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/revolver/wsmediumrevolver/mediumrevolver
+	name = "\improper (COMPANY-MODEL REDACTED) Mistral"
+	desc = "A modernized revolver chambered in 5.56x45mm Gothic. A classic design, the first of its kind to be updated for standardized ammunition."
+	icon = 'modular_warrenstation/icons/obj/guns/thirtytwo.dmi'
+	inhand_icon_state = "mistral"
+	w_class = WEIGHT_CLASS_NORMAL
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/revolver/wslongrevolver/longrevolver
+	name = "\improper (COMPANY-MODEL REDACTED) Hornet"
+	desc = "A large revolver chambered in 8.6x70mm Magnum. Seemingly a misnomer, the name alludes to the stinging in the wrists after use."
+	icon = 'modular_warrenstation/icons/obj/guns/thirtytwo.dmi'
+	inhand_icon_state = "hornet"
+	w_class = WEIGHT_CLASS_NORMAL
+	slot_flags = ITEM_SLOT_BELT
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/automatic/wscompactsmg/compactsmg
+	name = "\improper (COMPANY-MODEL REDACTED) Vector"
+	desc = "A fully automatic folding stock 10x25mm Security submachine gun. Once a design owned by a dead company, it has been revitalized sees popular use in mercenary circles."
+	icon = 'modular_warrenstation/icons/obj/guns/fourtyeight.dmi'
+	inhand_icon_state = "vector"
+	burst_size = 1
+	actions_types = list()
+	empty_indicator = FALSE
+	bolt_type = BOLT_TYPE_LOCKING
+	show_bolt_icon = TRUE
+	can_suppress = TRUE
+	w_class = WEIGHT_CLASS_NORMAL
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
+	projectile_damage_multiplier = 0.9 // haha.
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/automatic/wsmediumcarbine/mediumrifle
+	name = "\improper (COMPANY-MODEL REDACTED) Lord"
+	desc = "A semi-automatic 5.56x45mm Gothic rifle. The right arm of SolStill's free worlds."
+	icon = 'modular_warrenstation/icons/obj/guns/fourtyeight.dmi'
+	inhand_icon_state = "lord"
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
+	accepted_magazine_type = /obj/item/ammo_box/magazine/mediumcarbine
+	can_suppress = FALSE
+	fire_delay = 1
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/rifle/boltaction/wsmediumboltrifle/mediumboltgun
+	name = "\improper (COMPANY-MODEL REDACTED) Zatvor"
+	desc = "A bolt action 5.56x45mm Gothic rifle. It's awfully.. something. Will totally get the job done, though."
+	icon = 'modular_warrenstation/icons/obj/guns/fourtyeight.dmi'
+	inhand_icon_state = "zatvor"
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/mediumboltrifle
+	weapon_weight = WEAPON_HEAVY
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
+	can_jam = FALSE
+	projectile_damage_multiplier = 1.4
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/rifle/boltaction/wslongboltrifle/longboltgun
+	name = "\improper (COMPANY-MODEL REDACTED) Kubok"
+	desc = "A bolt action 8.6x70mm Magnum rifle. Slower than most, but sends slugs down range like nobody's business."
+	icon = 'modular_warrenstation/icons/obj/guns/fourtyeight.dmi'
+	inhand_icon_state = "kubok"
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/longboltrifle
+	can_bayonet = FALSE
+	can_be_sawn_off = FALSE
+	weapon_weight = WEAPON_HEAVY
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
+	can_jam = FALSE
+	projectile_damage_multiplier = 1.5
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+/obj/item/gun/ballistic/shotgun/wspumpshotgun/shotgun
+	name = "\improper (COMPANY-MODEL REDACTED) Kuh"
+	desc = "A bleeding edge prototype improvement of a traditional shotgun with wood furniture and a five shot tubular magazine on the underneath."
+	icon = 'modular_warrenstation/icons/obj/guns/fourtyeight.dmi'
+	inhand_icon_state = "kuh"
+	inhand_x_dimension = 32
+	inhand_y_dimension = 32
+	w_class = BULKY
+	force = 10
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
+	weapon_weight = WEAPON_HEAVY
+	pb_knockback = 2
+	pin = /obj/item/firing_pin/implant/wsbroken
+
+// LINE SEPERATION FOR LOADOUT VERSIONS
+
+/obj/item/gun/ballistic/automatic/pistol/wscompactpistol/compactsemi/loadout
+	projectile_damage_multiplier = 0.9
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/wscompactrevolver/compactrevolver/loadout
+	projectile_damage_multiplier = 0.9
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/wsmediumrevolver/mediumrevolver/loadout
+	projectile_damage_multiplier = 0.9
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/wslongrevolver/longrevolver/loadout
+	projectile_damage_multiplier = 0.8 // haha.
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/wscompactsmg/compactsmg/loadout
+	projectile_damage_multiplier = 0.8
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/wsmediumcarbine/loadout
+	projectile_damage_multiplier = 0.9
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/rifle/boltaction/wsmediumboltrifle/mediumboltgun/loadout
+	projectile_damage_multiplier = 1.3
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/rifle/boltaction/wslongboltrifle/longboltgun/loadout
+	projectile_damage_multiplier = 1.3
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/shotgun/wspumpshotgun/shotgun
+	projectile_damage_multiplier = 0.9
+	pin = /obj/item/firing_pin/wsexplorer
+
+// LINE SEPERATION FOR RESKINS
 
 
 // LINE SEPERATION FOR FIRING PINS
 
 /obj/item/firing_pin/wsexplorer
 	name = "SolStill TAC Firing Pin"
-	desc = "A firing pin created and used by SolStill to allow civilians to use guns without the risk of them going off in civil areas. TAC stands for Tracer And Civilian."
+	desc = "A firing pin created and used by SolStill to allow civilians to use guns without the risk of them going off in civil areas. TAC doesn't stand for anything, it just sounds cool."
 	icon_state = "firing_pin_explorer"
 	fail_message = "Location error!"
 
@@ -450,7 +613,7 @@
 /obj/item/ammo_box/magazine/internal/longrevolver
 	name = "4 round 8.6x70mm Magnum cylinder"
 	caliber = CALIBER_WSLONG
-	max_ammo = 4
+	max_ammo = 6
 	start_empty = TRUE
 
 /obj/item/ammo_box/magazine/internal/longboltrifle

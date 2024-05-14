@@ -420,6 +420,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/r_wall,
 /area/space)
+"bw" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 4;
+	tag = "icon-railing0 (EAST)"
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
 "bx" = (
 /obj/structure/filingcabinet/security,
 /turf/open/floor/iron/dark,
@@ -438,7 +448,8 @@
 /turf/open/space/basic,
 /area/space)
 "bB" = (
-/turf/open/space/openspace,
+/obj/structure/foamedmetal,
+/turf/open/floor/plating/foam,
 /area/space)
 "bC" = (
 /obj/structure/railing{
@@ -1139,6 +1150,12 @@
 /obj/machinery/light/red/dim/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"dZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/security,
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/iron/dark,
+/area/space)
 "ea" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1786,10 +1803,10 @@
 /turf/open/space/basic,
 /area/space)
 "ge" = (
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
 	},
-/turf/open/space/openspace,
+/turf/open/floor/plating/reinforced,
 /area/space)
 "gf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2847,6 +2864,12 @@
 /obj/machinery/light/red/dim/directional/east,
 /turf/open/floor/plating,
 /area/space)
+"kc" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 2
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
 "kd" = (
 /obj/machinery/seed_extractor,
 /turf/open/space/basic,
@@ -2981,6 +3004,15 @@
 	pixel_x = 24
 	},
 /turf/open/space/basic,
+/area/space)
+"kB" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 2
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "kC" = (
 /obj/item/clothing/glasses/monocle,
@@ -5045,7 +5077,8 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/obj/structure/foamedmetal,
+/turf/open/floor/plating/foam,
 /area/space)
 "rb" = (
 /obj/item/paper_bin,
@@ -5493,8 +5526,10 @@
 /turf/open/space/basic,
 /area/space)
 "sE" = (
-/obj/structure/window/reinforced,
-/turf/open/space/openspace,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "sF" = (
 /obj/machinery/recharge_station,
@@ -5977,6 +6012,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
+/area/space)
+"ui" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "uk" = (
 /obj/machinery/light{
@@ -6914,10 +6958,11 @@
 /turf/open/space/basic,
 /area/space)
 "xT" = (
+/obj/structure/foamedmetal,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/open/space/openspace,
+/turf/open/floor/plating/foam,
 /area/space)
 "xU" = (
 /obj/machinery/light/small,
@@ -7307,6 +7352,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"zn" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/turf/open/floor/plating/reinforced,
+/area/space)
 "zo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -7621,10 +7670,11 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "Ay" = (
+/obj/structure/foamedmetal,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/space/openspace,
+/turf/open/floor/plating/foam,
 /area/space)
 "Az" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8677,9 +8727,13 @@
 /turf/open/space/basic,
 /area/space)
 "DT" = (
-/obj/structure/table/glass,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/space/basic,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "DU" = (
 /obj/item/trash/waffles,
@@ -8713,6 +8767,15 @@
 	},
 /obj/structure/toilet,
 /turf/open/floor/iron/dark,
+/area/space)
+"DZ" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "Ea" = (
 /obj/machinery/light/small{
@@ -10231,6 +10294,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
 /area/space)
+"Jf" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
 "Jg" = (
 /obj/item/paper/crumpled,
 /obj/item/paper/crumpled,
@@ -10496,6 +10565,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"Kj" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
 "Kk" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -10562,7 +10638,10 @@
 	dir = 6;
 	layer = 1.9
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "Ky" = (
 /obj/structure/table/reinforced,
@@ -11147,7 +11226,8 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/open/floor/iron,
+/obj/structure/foamedmetal,
+/turf/open/floor/plating/foam,
 /area/space)
 "Mv" = (
 /obj/machinery/bookbinder,
@@ -11273,6 +11353,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
+/area/space)
+"MR" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "MT" = (
 /obj/structure/flora/bush,
@@ -12497,9 +12583,10 @@
 /turf/closed/wall,
 /area/space)
 "QY" = (
-/obj/structure/barricade,
-/obj/effect/decal/cleanable/rubble,
-/turf/open/space/basic,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "QZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12904,6 +12991,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/pile,
 /turf/open/floor/plating,
+/area/space)
+"Sy" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "Sz" = (
 /obj/structure/railing{
@@ -13374,6 +13468,12 @@
 "Ua" = (
 /obj/machinery/light/small,
 /turf/open/floor/iron,
+/area/space)
+"Ub" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "Uc" = (
 /obj/effect/turf_decal/weather/snow/corner{
@@ -14579,6 +14679,15 @@
 /obj/structure/table,
 /turf/open/floor/iron/dark,
 /area/space)
+"Yx" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/reinforced,
+/area/space)
 "Yy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external/glass,
@@ -14877,6 +14986,12 @@
 /obj/structure/ore_box,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
+/area/space)
+"ZE" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/open/floor/plating/reinforced,
 /area/space)
 "ZF" = (
 /obj/item/target,
@@ -69040,8 +69155,8 @@ oO
 Br
 uB
 oO
-KH
-KH
+bB
+bB
 Br
 Br
 Br
@@ -69446,13 +69561,13 @@ Br
 oO
 oO
 oO
-QX
-QX
-jT
-jT
-jT
-QX
-QX
+oO
+oO
+oO
+oO
+oO
+oO
+oO
 Br
 Br
 Br
@@ -69645,16 +69760,16 @@ oO
 QX
 Br
 Br
-QX
-jT
-jT
-QX
-jT
-jT
-jT
-jT
-jT
-QX
+oO
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oO
 RQ
 Br
 Tw
@@ -69847,16 +69962,16 @@ oO
 QX
 Br
 Br
-QX
-jT
-jT
-QX
-jT
-jT
-jT
-jT
-jT
-QX
+oO
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oO
 Br
 Br
 Br
@@ -70049,16 +70164,16 @@ oO
 QX
 Br
 Br
-QX
-jT
-jT
-QX
-jT
-jT
-jT
-jT
-jT
-QX
+oO
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oO
 Br
 Br
 Br
@@ -70251,16 +70366,16 @@ oO
 QX
 Br
 Br
-QX
-QX
-QX
-QX
-jT
-jT
-jT
-jT
-jT
-QX
+oO
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oO
 Br
 Br
 Br
@@ -70453,16 +70568,16 @@ oO
 Br
 Br
 Br
-aa
-jT
-jT
-QX
-jT
-jT
-jT
-jT
-jT
-QX
+oO
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oO
 Br
 Br
 Br
@@ -70655,16 +70770,16 @@ Br
 Br
 Br
 Br
-aa
-jT
-vm
-QX
-QX
-QX
-QX
-QX
-QX
-QX
+oO
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oO
 Br
 Br
 Br
@@ -70857,7 +70972,7 @@ Br
 Br
 Br
 uB
-QX
+oO
 oO
 oO
 oO
@@ -105773,15 +105888,15 @@ oU
 oO
 oO
 oO
-AH
+dZ
 oO
 oO
 oO
-AH
+dZ
 oO
 oO
 oO
-AH
+dZ
 oO
 oO
 oO
@@ -118311,7 +118426,7 @@ Pb
 Pb
 mP
 mP
-Kx
+Kj
 fi
 KH
 uJ
@@ -119726,10 +119841,10 @@ oU
 oU
 oU
 oU
-QX
-QX
-QX
-QX
+oU
+oU
+oU
+oU
 oO
 oU
 oU
@@ -119928,10 +120043,10 @@ oU
 oU
 oU
 oU
-QX
-ge
-sE
-QX
+oU
+oU
+oU
+oU
 oO
 oU
 oU
@@ -120130,10 +120245,10 @@ oU
 oU
 oU
 oU
-QX
-ge
-sE
-QX
+oU
+oU
+oU
+oU
 oO
 oU
 oU
@@ -120332,10 +120447,10 @@ oU
 oU
 oU
 oU
-QX
-HY
-jT
-QX
+oU
+oU
+oU
+oU
 oO
 oO
 oO
@@ -120534,10 +120649,10 @@ oU
 oU
 oU
 oU
-QX
-jT
-jT
-QX
+oU
+oU
+oU
+oU
 oU
 oU
 oU
@@ -120736,14 +120851,14 @@ oU
 oU
 oU
 oU
-QX
-jT
-jT
-QX
-QX
-QX
-QX
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 oU
 oU
 oO
@@ -120938,14 +121053,14 @@ oU
 oU
 oU
 oU
-QX
-Br
-Br
-jT
-jT
-yt
-jT
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 oU
 oU
 oO
@@ -121140,14 +121255,14 @@ oU
 oU
 oU
 oU
-QX
-pv
-pv
-Br
-Br
-Br
-jT
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 oU
 oU
 oO
@@ -121342,14 +121457,14 @@ oU
 oU
 oU
 oU
-QX
-Cs
-Br
-jT
-jT
-Br
-jT
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 oU
 oU
 oO
@@ -121544,14 +121659,14 @@ oU
 oU
 oU
 oU
-QX
-Br
-Br
-jT
-jT
-Br
-jT
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 oU
 oU
 oO
@@ -121746,14 +121861,14 @@ oU
 oU
 oU
 oU
-rq
-Br
-Br
-Br
-Br
-fJ
-jT
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 oU
 oU
 QX
@@ -121949,15 +122064,15 @@ oU
 oU
 oU
 oU
-Br
-Br
-QX
-QX
-QX
-QX
-QX
-QX
-QX
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 QX
 VK
 VK
@@ -122152,14 +122267,14 @@ oU
 oU
 oU
 oU
-Br
-QX
-jT
-vW
-DT
-DT
-LV
-Br
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 QX
 VK
 VK
@@ -122354,14 +122469,14 @@ oU
 oU
 oU
 oU
-Br
-QX
-jT
-Br
-DT
-DT
-rq
-Br
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 QX
 jv
 VK
@@ -122555,16 +122670,16 @@ Ul
 oU
 oU
 oU
-rq
-mU
-Br
-Br
-Br
-Br
-Br
-Br
-Br
-jT
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+QX
 VK
 VK
 QX
@@ -122756,17 +122871,17 @@ Ul
 Ul
 oU
 oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 QX
-rq
-Br
-fJ
-Br
-Br
-Br
-pv
-tx
-tx
-jT
 VK
 VK
 QX
@@ -122958,16 +123073,16 @@ Ul
 Ul
 oU
 oU
-QX
-QX
-QX
-QX
-QX
-QX
-QX
-QY
-jT
-jT
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
+oU
 QX
 VK
 VK
@@ -123167,7 +123282,7 @@ oU
 oU
 oU
 oU
-jT
+oU
 oU
 oU
 QX
@@ -124195,23 +124310,23 @@ oO
 jl
 nr
 yS
-tK
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-gD
-rk
-rk
-gD
-an
+MR
+ge
+ge
+ge
+ge
+ge
+ge
+ge
+ge
+ge
+ge
+ge
+ge
+DZ
+DZ
+ge
+Jf
 HJ
 nr
 jl
@@ -124397,23 +124512,23 @@ oO
 jl
 tl
 yS
-yA
-tl
-tl
-Ig
-Ig
-Ig
-Ig
-Ig
-Ig
-tl
-tl
-tl
-Ss
+Ub
+WZ
+WZ
+QY
+QY
+QY
+QY
+QY
+QY
+WZ
+WZ
+WZ
+kc
 Kt
 Kt
-yA
-Ss
+Ub
+kc
 HJ
 tl
 jl
@@ -124599,23 +124714,23 @@ oO
 jl
 nr
 yS
-yA
-tl
-wi
+Ub
+WZ
+ZE
 Kt
 Kt
 Kt
 Kt
 Kt
 Kt
-ce
-tl
-tl
-Ss
+sE
+WZ
+WZ
+kc
 Kt
 Kt
-yA
-Ss
+Ub
+kc
 Tt
 nr
 jl
@@ -124801,8 +124916,8 @@ oO
 jl
 nr
 Gz
-yA
-cD
+Ub
+zn
 Kt
 Kt
 Kt
@@ -124811,13 +124926,13 @@ Kt
 Kt
 Kt
 Kt
-yA
-tl
-tl
-Uc
-Uc
-tl
-Ss
+Ub
+WZ
+WZ
+Yx
+Yx
+WZ
+kc
 HJ
 nr
 jl
@@ -125003,8 +125118,8 @@ oO
 jl
 nr
 yS
-Fj
-cD
+bw
+zn
 Kt
 Kt
 Kt
@@ -125012,14 +125127,14 @@ Kt
 Kt
 Kt
 Kt
-tK
-tl
-Ig
+MR
+WZ
+QY
 Kx
 Kt
 Kt
-ce
-Ss
+sE
+kc
 Ey
 nr
 tl
@@ -125206,22 +125321,22 @@ jl
 tl
 tl
 vB
-yA
-gD
-an
+Ub
+ge
+Jf
 Kt
 Kt
 Kt
 Kt
-tK
-tl
+MR
+WZ
 Kx
 Kt
 Kt
 Kt
 Kt
 Kt
-GZ
+kB
 HJ
 nr
 jl
@@ -125408,14 +125523,14 @@ jl
 nr
 nr
 ZH
-yA
-tl
-tl
-gD
-gD
-gD
-gD
-Ig
+Ub
+WZ
+WZ
+ge
+ge
+ge
+ge
+QY
 Kx
 Kt
 Kt
@@ -125423,7 +125538,7 @@ Kt
 Kt
 Kt
 Kt
-GZ
+kB
 HJ
 nr
 jl
@@ -125610,13 +125725,13 @@ jl
 nr
 nr
 JK
-yA
-tl
-tl
-tl
-tl
-tl
-cD
+Ub
+WZ
+WZ
+WZ
+WZ
+WZ
+zn
 Kt
 Kt
 Kt
@@ -125625,7 +125740,7 @@ Kt
 Kt
 Kt
 Kt
-GZ
+kB
 HJ
 tl
 jl
@@ -125811,14 +125926,14 @@ oO
 tl
 nr
 bH
-Cl
-tl
-tl
-tl
-Ig
-Ig
-Ig
-wi
+DT
+WZ
+WZ
+WZ
+QY
+QY
+QY
+ZE
 Kt
 Kt
 Kt
@@ -125826,8 +125941,8 @@ Kt
 Kt
 Kt
 Kt
-tK
-Ss
+MR
+kc
 HJ
 nr
 jl
@@ -126013,10 +126128,10 @@ oO
 jl
 nr
 Gz
-yA
-tl
-Ig
-cD
+Ub
+WZ
+QY
+zn
 Kt
 Kt
 Kt
@@ -126027,9 +126142,9 @@ Kt
 Kt
 Kt
 Kt
-tK
-tl
-Ss
+MR
+WZ
+kc
 HJ
 nr
 jl
@@ -126215,12 +126330,10 @@ oO
 jl
 nr
 yS
-yA
-Ss
+Ub
+kc
 Kt
-JO
-Kt
-Kt
+Sy
 Kt
 Kt
 Kt
@@ -126229,9 +126342,11 @@ Kt
 Kt
 Kt
 Kt
-yA
-tl
-Ss
+Kt
+Kt
+Ub
+WZ
+kc
 Tt
 nr
 jl
@@ -126417,23 +126532,23 @@ oO
 jl
 nr
 yS
-yA
-tl
-gD
-tl
-an
+Ub
+WZ
+ge
+WZ
+Jf
 Kt
 Kt
 Kt
 Kt
 Kt
 Kt
-Wa
+ui
 Kt
 Kt
-yA
-tl
-Ss
+Ub
+WZ
+kc
 HJ
 tl
 jl
@@ -126619,23 +126734,23 @@ oO
 jl
 nr
 yS
-ce
-Ig
-Ig
-Ig
-Ig
-Uc
-Uc
-Uc
-Uc
-Uc
-Uc
-Ig
-Uc
-Uc
-Ig
-Ig
-wi
+sE
+QY
+QY
+QY
+QY
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+QY
+Yx
+Yx
+QY
+QY
+ZE
 HJ
 nr
 tl

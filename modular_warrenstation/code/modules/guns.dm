@@ -313,6 +313,7 @@
 	desc = "A bolt action 5.56x45mm Gothic rifle. It's awfully.. something. Will totally get the job done, though."
 	icon = 'modular_warrenstation/icons/obj/guns/fourtyeight.dmi'
 	inhand_icon_state = "zatvor"
+	w_class = WEIGHT_CLASS_BULKY
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/mediumboltrifle
 	weapon_weight = WEAPON_HEAVY
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
@@ -328,6 +329,7 @@
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/longboltrifle
 	can_bayonet = FALSE
 	can_be_sawn_off = FALSE
+	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
 	can_jam = FALSE
@@ -341,7 +343,7 @@
 	inhand_icon_state = "kuh"
 	inhand_x_dimension = 32
 	inhand_y_dimension = 32
-	w_class = BULKY
+	w_class = WEIGHT_CLASS_BULKY
 	force = 10
 	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_SUITSTORE
 	weapon_weight = WEAPON_HEAVY

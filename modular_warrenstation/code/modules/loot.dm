@@ -6,7 +6,7 @@
 
 /obj/structure/maintenance_loot_structure
 	name = "abandoned crate"
-	icon = 'modular_nova/modules/epic_loot/icons/loot_structures.dmi'
+	icon = 'modular_warrenstation/icons/obj/loot_structures.dmi'
 	density = TRUE
 	anchored = TRUE
 	layer = BELOW_OBJ_LAYER
@@ -59,7 +59,7 @@
 	rustle_sound = FALSE
 	screen_max_columns = 3
 	/// What sound this makes when people open it's storage
-	var/opening_sound = 'modular_nova/modules/epic_loot/sound/containers/plastic.mp3'
+	var/opening_sound = 'modular_warrenstation/sound/plastic.mp3'
 
 /datum/storage/maintenance_loot_structure/open_storage(mob/to_show)
 	. = ..()
@@ -71,7 +71,7 @@
 /obj/item/epic_loot
 	name = "epic loot!!!!!"
 	desc = "Unknown purpose, unknown maker, unknown value. The only thing I know for real: There will be loot."
-	icon = 'modular_nova/modules/epic_loot/icons/epic_loot.dmi'
+	icon = 'modular_warrenstation/icons/obj/epic_loot.dmi'
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 	inhand_icon_state = "binoculars"
@@ -319,7 +319,7 @@
 /obj/item/keycard/epic_loot
 	name = "broken keycard"
 	desc = "You shouldn't have this."
-	icon = 'modular_nova/modules/epic_loot/icons/epic_loot.dmi'
+	icon = 'modular_warrenstation/icons/obj/epic_loot.dmi'
 	icon_state = "keycard_basetype"
 	color = "#ffffff"
 	puzzle_id = "黄昏の"
@@ -510,7 +510,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 6
 	screen_max_columns = 3
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_3.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_3.mp3'
 
 /obj/structure/maintenance_loot_structure/ammo_box
 	name = "ammunition box"
@@ -543,7 +543,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 4
 	screen_max_columns = 2
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/plastic.mp3'
+	opening_sound = 'modular_warrenstation/sound/plastic.mp3'
 
 /obj/structure/maintenance_loot_structure/computer_tower
 	name = "computer tower"
@@ -580,7 +580,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 6
 	screen_max_columns = 2
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/cabinet.mp3'
+	opening_sound = 'modular_warrenstation/sound/cabinet.mp3'
 
 /obj/structure/maintenance_loot_structure/file_cabinet
 	name = "filing cabinet"
@@ -613,7 +613,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 4
 	screen_max_columns = 2
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_2.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_2.mp3'
 
 /obj/structure/maintenance_loot_structure/grenade_box
 	name = "grenade box"
@@ -646,7 +646,7 @@
 	max_specific_storage = WEIGHT_CLASS_BULKY
 	max_total_storage = WEIGHT_CLASS_BULKY * 4
 	screen_max_columns = 4
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_3.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_3.mp3'
 
 /obj/structure/maintenance_loot_structure/gun_box
 	name = "large gun case"
@@ -681,7 +681,7 @@
 	max_specific_storage = WEIGHT_CLASS_BULKY
 	max_total_storage = WEIGHT_CLASS_BULKY * 16
 	screen_max_columns = 4
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_3.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_3.mp3'
 
 /obj/structure/maintenance_loot_structure/large_crate
 	name = "ration supply box"
@@ -735,7 +735,7 @@
 /obj/effect/spawner/random/epic_loot/random_supply_crate
 	name = "random supply crate spawner"
 	desc = "Automagically transforms into a random supply crate, hopefully filled with goodies."
-	icon = 'modular_nova/modules/epic_loot/icons/loot_structures.dmi'
+	icon = 'modular_warrenstation/icons/obj/loot_structures.dmi'
 	icon_state = "crate_random"
 	loot = list(
 		/obj/structure/maintenance_loot_structure/large_crate,
@@ -751,7 +751,7 @@
 	max_specific_storage = WEIGHT_CLASS_BULKY
 	max_total_storage = WEIGHT_CLASS_BULKY * 6
 	screen_max_columns = 3
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/plastic.mp3'
+	opening_sound = 'modular_warrenstation/sound/plastic.mp3'
 
 /obj/structure/maintenance_loot_structure/medbox
 	name = "emergency medical box"
@@ -854,7 +854,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 2
 	screen_max_columns = 2
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_2.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_2.mp3'
 
 /obj/structure/maintenance_loot_structure/register
 	name = "credits register"
@@ -897,7 +897,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 2
 	screen_max_columns = 1
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_3.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_3.mp3'
 
 /obj/structure/maintenance_loot_structure/desk_safe
 	name = "compact safe"
@@ -931,7 +931,7 @@
 	max_specific_storage = WEIGHT_CLASS_BULKY
 	max_total_storage = WEIGHT_CLASS_BULKY * 6
 	screen_max_columns = 3
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_1.mp3'
+	opening_sound = 'modular_warrenstation/sound/wood_crate_1.mp3'
 
 /obj/structure/maintenance_loot_structure/toolbox
 	name = "heavy toolbox"
@@ -1049,7 +1049,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/maintenance_loot_structure/wall_jacke
 /obj/effect/spawner/random/epic_loot
 	name = "extraction loot spawner"
 	desc = "Gods please let there be nobody extract camping."
-	icon = 'modular_nova/modules/epic_loot/icons/epic_loot.dmi'
+	icon = 'modular_warrenstation/icons/obj/epic_loot.dmi'
 	icon_state = null
 
 /obj/effect/spawner/random/epic_loot/chainlet

@@ -34,7 +34,7 @@ GLOBAL_LIST_INIT(armor_by_type, generate_armor_type_cache())
 	VAR_PROTECTED/laser = 0
 	VAR_PROTECTED/fire = 0
 	VAR_PROTECTED/melee = 0
-	VAR_PROTECTED/wound = 0
+	VAR_PROTECTED/wound = 0 // never EVER increase this. Thank you.
 
 /// A version of armor with no protections
 /datum/armor/none

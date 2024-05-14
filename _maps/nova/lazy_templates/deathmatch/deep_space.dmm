@@ -1123,7 +1123,6 @@
 "Gl" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /obj/structure/rack/shelf,
-/obj/item/storage/medkit/mechanical/regular,
 /turf/open/floor/iron/white,
 /area/deathmatch)
 "Gq" = (

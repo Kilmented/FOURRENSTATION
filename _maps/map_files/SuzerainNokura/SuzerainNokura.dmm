@@ -68,6 +68,7 @@
 	dir = 2;
 	layer = 4.1
 	},
+/obj/item/storage/medkit/robotic_repair/stocked,
 /turf/open/floor/iron/smooth,
 /area/station/science/research/abandoned)
 "aD" = (
@@ -303,6 +304,10 @@
 /area/station/science/research/abandoned)
 "cR" = (
 /obj/structure/chair,
+/obj/machinery/vending/imported/yangyu{
+	pixel_x = -32;
+	density = 0
+	},
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
 "cS" = (
@@ -395,9 +400,10 @@
 /turf/open/floor/iron/smooth,
 /area/station/hallway/primary/central/fore)
 "dI" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/iron/smooth,
-/area/station/engineering/storage_shared)
+/obj/structure/maintenance_loot_structure/gun_box/random,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/lockers)
 "dK" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
@@ -440,17 +446,17 @@
 	layer = 3.1
 	},
 /obj/structure/rack/gunrack,
+/obj/item/gun/ballistic/shotgun/riot/sol/evil,
+/obj/item/gun/ballistic/shotgun/riot/sol/evil,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "dW" = (
 /turf/closed/wall/r_wall,
 /area/station/service/kitchen)
 "eb" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/wallmed/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/catwalk_floor/iron_dark,
+/obj/structure/table/reinforced,
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "ec" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -723,6 +729,7 @@
 /area/station/hallway/primary/central/aft)
 "gb" = (
 /obj/machinery/light/directional/east,
+/obj/structure/maintenance_loot_structure/military_case/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "ge" = (
@@ -782,12 +789,11 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/storage)
 "gw" = (
-/obj/item/clothing/shoes/combat,
-/obj/structure/closet/secure_closet{
-	icon_state = "hos";
-	req_access = list(58)
+/obj/machinery/ammo_workbench/unlocked,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
 	},
-/obj/item/storage/belt/military,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "gx" = (
@@ -843,14 +849,8 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 10
 	},
-/obj/structure/closet/secure_closet/security/sec,
-/obj/item/gun/energy/disabler{
-	pixel_y = -2;
-	pixel_x = 3
-	},
 /obj/item/radio/intercom/directional/south,
 /obj/machinery/camera/autoname/directional/west,
-/obj/item/storage/belt/military,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "he" = (
@@ -1001,9 +1001,10 @@
 /turf/open/floor/iron/white,
 /area/station/command/bridge)
 "hX" = (
-/obj/item/bot_assembly/medbot,
 /obj/machinery/door/firedoor/border_only,
-/obj/effect/decal/cleanable/oil,
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "ia" = (
@@ -1051,6 +1052,10 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/item/storage/box/spaceman_ration/meats,
+/obj/item/storage/box/spaceman_ration/meats/fish{
+	pixel_x = 5;
+	pixel_y = 3
+	},
 /turf/open/floor/plating,
 /area/station/service/kitchen)
 "ij" = (
@@ -1283,12 +1288,14 @@
 /area/station/service/kitchen)
 "kd" = (
 /obj/machinery/rnd/production/colony_lathe,
+/obj/machinery/cell_charger_multi/wall_mounted/directional/north,
 /turf/open/floor/plating,
 /area/station/engineering/storage_shared)
 "kg" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/maintenance_loot_structure/military_case/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "ki" = (
@@ -1307,6 +1314,26 @@
 	dir = 8;
 	layer = 3.1
 	},
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/magazine/c35sol_pistol/starts_empty,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
+/obj/item/ammo_box/c35sol,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "kq" = (
@@ -1969,6 +1996,7 @@
 /area/station/hallway/primary/central/fore)
 "ow" = (
 /obj/structure/table,
+/obj/item/storage/box/donkpockets/donkpocketpizza,
 /turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "oy" = (
@@ -2428,6 +2456,13 @@
 /obj/item/clothing/gloves/color/yellow,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/main)
+"sg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/bot_assembly/medbot,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "sj" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
@@ -2824,6 +2859,11 @@
 	layer = 3.1
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
+/obj/structure/closet/secure_closet/security/sec,
+/obj/item/storage/belt/military,
+/obj/item/gun/energy/disabler/cyborg,
+/obj/item/storage/pouch/ammo,
+/obj/item/storage/pouch/medical/firstaid/loaded,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/security/lockers)
 "uX" = (
@@ -3000,7 +3040,6 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/engineering/main)
 "vV" = (
-/obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/box/ingredients/wildcard{
 	pixel_y = 3;
@@ -3010,6 +3049,7 @@
 	pixel_y = 9;
 	pixel_x = 8
 	},
+/obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen)
 "vY" = (
@@ -3822,6 +3862,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/closet/secure_closet/security/sec,
+/obj/item/storage/belt/military,
+/obj/item/gun/energy/disabler/cyborg,
+/obj/item/storage/pouch/ammo,
+/obj/item/storage/pouch/medical/firstaid/loaded,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/security/lockers)
 "Az" = (
@@ -3943,6 +3988,9 @@
 	dir = 4;
 	layer = 3.1
 	},
+/obj/item/gun/ballistic/automatic/sol_rifle/evil/no_mag,
+/obj/item/gun/ballistic/automatic/sol_rifle/evil/no_mag,
+/obj/item/gun/ballistic/automatic/sol_rifle/evil/no_mag,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "Bc" = (
@@ -4360,6 +4408,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/cell_charger_multi/wall_mounted/directional/north,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/hallway/primary/central/aft)
 "Ds" = (
@@ -4563,7 +4612,6 @@
 /turf/open/floor/plating,
 /area/station/hallway/primary/central)
 "EN" = (
-/obj/structure/rack,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/machinery/light/directional/south,
 /obj/structure/cable,
@@ -4698,12 +4746,6 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 9
 	},
-/obj/structure/closet/secure_closet/security/sec,
-/obj/item/gun/energy/disabler{
-	pixel_y = -2;
-	pixel_x = 3
-	},
-/obj/item/storage/belt/military,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "FC" = (
@@ -4886,7 +4928,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "GK" = (
-/obj/structure/closet/secure_closet/freezer/meat/open,
 /obj/effect/turf_decal/box/corners{
 	dir = 8
 	},
@@ -4902,6 +4943,7 @@
 	pixel_y = 9;
 	pixel_x = -7
 	},
+/obj/structure/closet/secure_closet/freezer/meat/all_access,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen)
 "GR" = (
@@ -5240,7 +5282,6 @@
 /turf/open/floor/iron/smooth,
 /area/station/engineering/main)
 "Jq" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/turf_decal/box/corners{
 	dir = 4
 	},
@@ -5254,6 +5295,7 @@
 	pixel_y = 6;
 	pixel_x = 8
 	},
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen)
 "Jx" = (
@@ -5559,6 +5601,7 @@
 	dir = 1
 	},
 /obj/machinery/light/directional/north,
+/obj/machinery/cell_charger_multi/wall_mounted/directional/north,
 /turf/open/floor/iron/smooth,
 /area/station/hallway/primary/central)
 "Ln" = (
@@ -5670,6 +5713,10 @@
 /obj/structure/sign/poster/contraband/space_cube/directional/north,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/warehouse)
+"LR" = (
+/obj/machinery/ammo_workbench,
+/turf/open/floor/plating,
+/area/station/engineering/storage_shared)
 "LS" = (
 /obj/machinery/autolathe,
 /obj/item/radio/intercom/directional/west,
@@ -5833,6 +5880,10 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/storage/box/utensils{
+	pixel_y = 4;
+	pixel_x = 3
+	},
 /turf/open/floor/plating,
 /area/station/service/kitchen)
 "Nv" = (
@@ -5864,10 +5915,6 @@
 /turf/open/floor/iron/smooth,
 /area/station/science/research/abandoned)
 "NK" = (
-/obj/item/book/manual/wiki/security_space_law{
-	pixel_x = -5;
-	pixel_y = 16
-	},
 /obj/machinery/light/directional/west{
 	light_color = "#e8eaff"
 	},
@@ -5917,6 +5964,8 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 1
 	},
+/obj/structure/table/reinforced,
+/obj/structure/maintenance_loot_structure/gun_box/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "NU" = (
@@ -6290,6 +6339,18 @@
 	dir = 8;
 	layer = 3.1
 	},
+/obj/item/ammo_box/magazine/c40sol_rifle/standard/starts_empty,
+/obj/item/ammo_box/magazine/c40sol_rifle/standard/starts_empty,
+/obj/item/ammo_box/magazine/c40sol_rifle/standard/starts_empty,
+/obj/item/ammo_box/magazine/c40sol_rifle/standard/starts_empty,
+/obj/item/ammo_box/magazine/c40sol_rifle/standard/starts_empty,
+/obj/item/ammo_box/magazine/c40sol_rifle/standard/starts_empty,
+/obj/item/ammo_box/c40sol,
+/obj/item/ammo_box/c40sol,
+/obj/item/ammo_box/c40sol,
+/obj/item/ammo_box/c40sol,
+/obj/item/ammo_box/c40sol,
+/obj/item/ammo_box/c40sol,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "Qe" = (
@@ -6303,7 +6364,6 @@
 /turf/open/floor/iron/smooth,
 /area/station/hallway/primary/central/fore)
 "Qf" = (
-/obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/smooth,
 /area/station/service/bar/backroom)
 "Qg" = (
@@ -6494,6 +6554,18 @@
 /area/station/command/heads_quarters/captain/private)
 "RC" = (
 /obj/structure/table/reinforced,
+/obj/item/storage/box/utensils{
+	pixel_y = -4
+	},
+/obj/item/storage/box/utensils{
+	pixel_y = 0
+	},
+/obj/item/storage/box/utensils{
+	pixel_y = 4
+	},
+/obj/item/storage/box/utensils{
+	pixel_y = 8
+	},
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
 "RE" = (
@@ -6567,6 +6639,12 @@
 	dir = 8;
 	layer = 3.1
 	},
+/obj/item/ammo_box/advanced/s12gauge/buckshot,
+/obj/item/ammo_box/advanced/s12gauge/buckshot,
+/obj/item/ammo_box/advanced/s12gauge/buckshot,
+/obj/item/ammo_box/advanced/s12gauge/buckshot,
+/obj/item/ammo_box/advanced/s12gauge/buckshot,
+/obj/item/ammo_box/advanced/s12gauge/buckshot,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "Sl" = (
@@ -6655,6 +6733,11 @@
 	dir = 4;
 	layer = 3.1
 	},
+/obj/structure/closet/secure_closet/security/sec,
+/obj/item/storage/belt/military,
+/obj/item/gun/energy/disabler/cyborg,
+/obj/item/storage/pouch/ammo,
+/obj/item/storage/pouch/medical/firstaid/loaded,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/security/lockers)
 "Tb" = (
@@ -6796,15 +6879,9 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/security/sec,
 /obj/machinery/light/directional/west{
 	light_color = "#e8eaff"
 	},
-/obj/item/gun/energy/disabler{
-	pixel_y = -2;
-	pixel_x = 3
-	},
-/obj/item/storage/belt/military,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "Uh" = (
@@ -6990,6 +7067,9 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8
 	},
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "VT" = (
@@ -7097,6 +7177,11 @@
 	dir = 4;
 	layer = 3.1
 	},
+/obj/item/gun/ballistic/automatic/pistol/sol/evil/no_mag,
+/obj/item/gun/ballistic/automatic/pistol/sol/evil/no_mag,
+/obj/item/gun/ballistic/automatic/pistol/sol/evil/no_mag,
+/obj/item/gun/ballistic/automatic/pistol/sol/evil/no_mag,
+/obj/item/gun/ballistic/automatic/pistol/sol/evil/no_mag,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "Wu" = (
@@ -7573,6 +7658,11 @@
 	layer = 3.1
 	},
 /obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/closet/secure_closet/security/sec,
+/obj/item/storage/belt/military,
+/obj/item/gun/energy/disabler/cyborg,
+/obj/item/storage/pouch/ammo,
+/obj/item/storage/pouch/medical/firstaid/loaded,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/security/lockers)
 "ZJ" = (
@@ -7593,6 +7683,11 @@
 	dir = 8;
 	layer = 3.1
 	},
+/obj/structure/closet/secure_closet/hos,
+/obj/item/storage/belt/military,
+/obj/item/gun/energy/disabler/smg,
+/obj/item/storage/pouch/ammo,
+/obj/item/storage/pouch/medical/firstaid/loaded,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/security/lockers)
 "ZT" = (
@@ -43755,7 +43850,7 @@ KS
 gr
 NU
 mn
-mn
+sg
 YF
 ez
 id
@@ -45811,7 +45906,7 @@ lz
 Cn
 Db
 Hh
-dI
+Bx
 Cn
 Ae
 yv
@@ -46582,7 +46677,7 @@ KZ
 Cn
 Ap
 As
-Nk
+LR
 Cn
 ry
 rj
@@ -47338,7 +47433,7 @@ SY
 SY
 ZI
 NS
-eb
+LG
 Up
 pd
 ij
@@ -47594,7 +47689,7 @@ Ma
 Vj
 Up
 Vj
-SD
+eb
 LG
 kg
 pd
@@ -47851,7 +47946,7 @@ Ma
 Sk
 Qb
 kk
-SD
+dI
 CI
 Uq
 pd

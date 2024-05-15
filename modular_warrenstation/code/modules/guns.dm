@@ -5,232 +5,131 @@
 // /obj/item/gun/ballistic/shotgun // basically comes down to "hit activate to cock and eject between every shot"
 // /obj/item/gun/ballistic/revolver // basically comes down to "a semi but hit activate to drop the whole cylinder"
 // That's all the relevant ones. Enjoy.
-// Anyways, here's probably what you were looking for. The order is; Guns, magazines, and -at the very bottom- casings and then projectiles. Take care. - Jaeger
-
-// LINE BREAK FOR GUN TEMPLATES
-
-/obj/item/gun/ballistic/automatic/pistol/wscompactpistol
-	name = "\improper M2111"
-	desc = "A protoype of an upgrade to a classic .45 handgun rechambered to 10x25mm Security, ready for use in all sectors."
-	icon = 'modular_nova/modules/aesthetics/guns/icons/guns.dmi'
-	inhand_icon_state = "colt"
-	lefthand_file = 'modular_nova/modules/aesthetics/guns/icons/guns_lefthand.dmi'
-	righthand_file = 'modular_nova/modules/aesthetics/guns/icons/guns_righthand.dmi'
-	w_class = WEIGHT_CLASS_NORMAL
-	accepted_magazine_type = /obj/item/ammo_box/magazine/compactpistol
-	can_suppress = FALSE
-	fire_sound = 'sound/weapons/gun/pistol/shot_alt.ogg'
-	rack_sound = 'sound/weapons/gun/pistol/rack.ogg'
-	lock_back_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
-	bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/revolver/wscompactrevolver
-	name = "\improper C10-8"
-	desc = "A prototype revolver chambered in 10x25mm Security, ready for use in all sectors. Eight shots, make them count!"
-	icon_state = "revolver"
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/compactrevolver
-	fire_sound = 'sound/weapons/gun/revolver/shot_alt.ogg'
-	load_sound = 'sound/weapons/gun/revolver/load_bullet.ogg'
-	eject_sound = 'sound/weapons/gun/revolver/empty.ogg'
-	fire_sound_volume = 90
-	dry_fire_sound = 'sound/weapons/gun/revolver/dry_fire.ogg'
-	casing_ejector = FALSE
-	internal_magazine = TRUE
-	bolt_type = BOLT_TYPE_NO_BOLT
-	tac_reloads = FALSE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/automatic/wscompactsmg
-	name = "\improper NTR SMG"
-	desc = "A prototype full-auto 10x25mm Security submachine gun, designated project 'SABER'. Has a threaded barrel for suppressors."
-	icon_state = "saber"
-	burst_size = 1
-	actions_types = list()
-	mag_display = TRUE
-	empty_indicator = TRUE
-	accepted_magazine_type = /obj/item/ammo_box/magazine/compactsmg
-	bolt_type = BOLT_TYPE_LOCKING
-	show_bolt_icon = FALSE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/revolver/wsmediumrevolver
-	name = "\improper C20-6"
-	desc = "A prototype revolver chambered in 5.56x45mm Gothic, ready for use in all sectors. Six shots, enough to kill anything that moves!"
-	icon_state = "revolver"
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/mediumrevolver
-	fire_sound = 'sound/weapons/gun/revolver/shot_alt.ogg'
-	load_sound = 'sound/weapons/gun/revolver/load_bullet.ogg'
-	eject_sound = 'sound/weapons/gun/revolver/empty.ogg'
-	fire_sound_volume = 90
-	dry_fire_sound = 'sound/weapons/gun/revolver/dry_fire.ogg'
-	casing_ejector = FALSE
-	internal_magazine = TRUE
-	bolt_type = BOLT_TYPE_NO_BOLT
-	tac_reloads = FALSE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/rifle/boltaction/wsmediumboltrifle
-	name = "\improper Sakhno Precision Rifle"
-	desc = "A bleeding edge 'precision' boltrifle that is often given out to the less fortunate to arm themselves against wildlife."
-	icon_state = "sakhno"
-	inhand_icon_state = "sakhno"
-	worn_icon_state = "sakhno"
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/mediumboltrifle
-	can_bayonet = TRUE
-	knife_x_offset = 42
-	knife_y_offset = 12
-	can_be_sawn_off = FALSE
-	weapon_weight = WEAPON_HEAVY
-	can_jam = TRUE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/automatic/wsmediumcarbine
-	name = "\improper NTR ARG-63"
-	desc = "SolStill's bleeding edge prototype based on the Stoner design, fitted with a light polymer frame and other tactical furniture, and chambered in 5.56x45 Gothic - nicknamed 'Boarder' by Special Operations teams."
-	icon = 'modular_nova/modules/aesthetics/guns/icons/guns_gubman2.dmi'
-	icon_state = "arg"
-	inhand_icon_state = "arg"
-	slot_flags = 0
-	accepted_magazine_type = /obj/item/ammo_box/magazine/mediumcarbine
-	can_suppress = FALSE
-	burst_size = 3
-	fire_delay = 1
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/revolver/wslongrevolver
-	name = "\improper C30-4"
-	desc = "A prototype revolver chambered in 8.6x70mm Magnum, ready for use in all sectors. FOUR shots, more than enough to kill anything that moves!"
-	icon_state = "revolver"
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/longrevolver
-	fire_sound = 'sound/weapons/gun/revolver/shot_alt.ogg'
-	load_sound = 'sound/weapons/gun/revolver/load_bullet.ogg'
-	eject_sound = 'sound/weapons/gun/revolver/empty.ogg'
-	fire_sound_volume = 90
-	dry_fire_sound = 'sound/weapons/gun/revolver/dry_fire.ogg'
-	casing_ejector = FALSE
-	internal_magazine = TRUE
-	bolt_type = BOLT_TYPE_NO_BOLT
-	tac_reloads = FALSE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/rifle/boltaction/wslongboltrifle
-	name = "\improper Sakhno Super-Precision Rifle"
-	desc = "The standard issue in long boltrifles. Was bleeding edge a week ago."
-	icon_state = "sakhno"
-	inhand_icon_state = "sakhno"
-	worn_icon_state = "sakhno"
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/longboltrifle
-	can_bayonet = TRUE
-	knife_x_offset = 42
-	knife_y_offset = 12
-	can_be_sawn_off = FALSE
-	weapon_weight = WEAPON_HEAVY
-	can_jam = TRUE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/automatic/sniper_rifle/wslongrifle
-	name = "SAG-107 anti-personnel rifle"
-	desc = "An illegal Scarborrowed Arms rendition of an prototype bleeding edge rifle."
-	icon_state = "sniper2"
-	fire_sound = 'modular_nova/modules/aesthetics/guns/sound/sniperrifle.ogg'
-	suppressed_sound = 'modular_nova/modules/aesthetics/guns/sound/sniperrifle_s.ogg'
-	fire_sound_volume = 90
-	vary_fire_sound = FALSE
-	load_sound = 'sound/weapons/gun/sniper/mag_insert.ogg'
-	rack_sound = 'sound/weapons/gun/sniper/rack.ogg'
-	w_class = WEIGHT_CLASS_NORMAL
-	can_suppress = TRUE
-	can_unsuppress = TRUE
-	recoil = 1.8
-	weapon_weight = WEAPON_HEAVY
-	accepted_magazine_type = /obj/item/ammo_box/magazine/longrifle
-	fire_delay = 55
-	burst_size = 1
-	slot_flags = ITEM_SLOT_BACK
-	mag_display = TRUE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/revolver/wsshotgunrevolver
-	name = "\improper C40-2"
-	desc = "A prototype revolver chambered in 12 Gauge, ready for use in all sectors. Two shotty shots, what's the point?"
-	icon_state = "revolver"
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shotgun/two/cylinder
-	fire_sound = 'sound/weapons/gun/revolver/shot_alt.ogg'
-	load_sound = 'sound/weapons/gun/revolver/load_bullet.ogg'
-	eject_sound = 'sound/weapons/gun/revolver/empty.ogg'
-	fire_sound_volume = 90
-	dry_fire_sound = 'sound/weapons/gun/revolver/dry_fire.ogg'
-	casing_ejector = FALSE
-	internal_magazine = TRUE
-	bolt_type = BOLT_TYPE_NO_BOLT
-	tac_reloads = FALSE
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/shotgun/wsdoublebarrel
-	name = "double-barreled shotgun"
-	desc = "A true frontier classic."
-	icon_state = "dshotgun"
-	inhand_icon_state = "shotgun_db"
-	w_class = WEIGHT_CLASS_BULKY
-	weapon_weight = WEAPON_MEDIUM
-	force = 10
-	obj_flags = CONDUCTS_ELECTRICITY
-	slot_flags = ITEM_SLOT_BACK
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shotgun/two
-	obj_flags = UNIQUE_RENAME
-	rack_sound_volume = 0
-	unique_reskin = list("Default" = "dshotgun",
-						"Dark Red Finish" = "dshotgun_d",
-						"Ash" = "dshotgun_f",
-						"Faded Grey" = "dshotgun_g",
-						"Maple" = "dshotgun_l",
-						"Rosewood" = "dshotgun_p"
-						)
-	semi_auto = TRUE
-	bolt_type = BOLT_TYPE_NO_BOLT
-	pb_knockback = 3 // it's a super shotgun!
-	pin = /obj/item/firing_pin/implant/wsbroken
-
-/obj/item/gun/ballistic/shotgun/wspumpshotgun
-	name = "\improper S3-X shotgun"
-	desc = "A bleeding edge prototype improvement of a traditional shotgun with wood furniture and a five shot tubular magazine on the underneath."
-	icon_state = "shotgun"
-	worn_icon_state = null
-	lefthand_file = 'icons/mob/inhands/weapons/64x_guns_left.dmi'
-	righthand_file = 'icons/mob/inhands/weapons/64x_guns_right.dmi'
-	inhand_icon_state = "shotgun"
-	inhand_x_dimension = 64
-	inhand_y_dimension = 64
-	fire_sound = 'sound/weapons/gun/shotgun/shot.ogg'
-	fire_sound_volume = 90
-	rack_sound = 'sound/weapons/gun/shotgun/rack.ogg'
-	load_sound = 'sound/weapons/gun/shotgun/insert_shell.ogg'
-	w_class = WEIGHT_CLASS_BULKY
-	force = 10
-	obj_flags = CONDUCTS_ELECTRICITY
-	slot_flags = ITEM_SLOT_BACK
-	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shotgun
-	semi_auto = FALSE
-	internal_magazine = TRUE
-	casing_ejector = FALSE
-	bolt_wording = "pump"
-	cartridge_wording = "shell"
-	tac_reloads = FALSE
-	weapon_weight = WEAPON_HEAVY
-	pb_knockback = 2
-	pin = /obj/item/firing_pin/implant/wsbroken
+// Anyways, here's probably what you were looking for. The order is; Defines, Guns, magazines, and -at the very bottom- casings and then projectiles. Take care. - Jaeger
 
 
-// LINE BREAK FOR ACTUAL GUNS
+
+// LINE BREAK FOR CALIBER DEFINES
+
+#define CALIBER_WSCOMPACT "10x25mm Common Security Cartridge"
+
+#define CALIBER_WSMEDIUM "5.56x45mm Common Gothic Cartridge"
+
+#define CALIBER_WSLONG "8.6x70mm Common Magnum Cartridge"
+
+#define CALIBER_WSSHOTGUN "12 gauge Common Cartridge"
+
+// Special Warrenstation calibers start below!
+
+#define CALIBER_WSGRENADE "40x46mm Common Grenade Launcher Cartridge"
 
 
+
+// LINE SEPERATION FOR GUN EDITS
+
+/obj/item/gun/ballistic/automatic/pistol/sol
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/pistol/sol/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/pistol/trappiste
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/c38
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/sol
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/takbok
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_smg
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_smg/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/m6pdw
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/e_gun/mini
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/modular_laser_rifle/carbine
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/pistol/plasma_thrower
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/pistol/plasma_marksman
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/shotgun_revolver
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/miecz
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle/marksman
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle/machinegun
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_grenade_launcher
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/xhihao_smg
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/shotgun/riot/sol
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/shotgun/riot/sol/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/rifle/boltaction/prime
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/laser
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/laser/hellgun
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/tesla_cannon
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/e_gun
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/modular_laser_rifle
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/lanca
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/wylom
+	pin = /obj/item/firing_pin/wsexplorer
+
+// LINE SEPERATION FOR RESKINS
 
 // LINE SEPERATION FOR FIRING PINS
 
 /obj/item/firing_pin/wsexplorer
 	name = "SolStill TAC Firing Pin"
-	desc = "A firing pin created and used by SolStill to allow civilians to use guns without the risk of them going off in civil areas. TAC stands for Tracer And Civilian."
+	desc = "A firing pin created and used by SolStill to allow civilians to use guns without the risk of them going off in civil areas. TAC doesn't stand for anything, it just sounds cool."
 	icon_state = "firing_pin_explorer"
 	fail_message = "Location error!"
 
@@ -450,7 +349,7 @@
 /obj/item/ammo_box/magazine/internal/longrevolver
 	name = "4 round 8.6x70mm Magnum cylinder"
 	caliber = CALIBER_WSLONG
-	max_ammo = 4
+	max_ammo = 6
 	start_empty = TRUE
 
 /obj/item/ammo_box/magazine/internal/longboltrifle

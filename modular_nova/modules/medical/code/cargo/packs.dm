@@ -39,7 +39,7 @@
 	name = "Mechanical Repair Kits"
 	desc = "Contains a few low-grade portable synthetic medkits, useful for distributing to the crew."
 	cost = CARGO_CRATE_VALUE * 4.5 // same as treatment kits
-	contains = list(/obj/item/storage/medkit/mechanical/regular = 4)
+	contains = list(/obj/item/storage/medkit/robotic_repair/stocked = 4)
 
 	crate_name = "synthetic repair kits crate"
 
@@ -51,4 +51,4 @@
 	name = "Mechanical Repair Kit Single-Pack"
 	desc = "A single mechanical repair kit, fit for fixing most robotic injuries."
 	cost = PAYCHECK_CREW * 3
-	contains = list(/obj/item/storage/medkit/mechanical/regular)
+	contains = list(/obj/item/storage/medkit/robotic_repair/stocked)

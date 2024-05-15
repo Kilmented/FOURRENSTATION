@@ -1683,7 +1683,6 @@
 /turf/open/space/basic,
 /area/space)
 "mh" = (
-/obj/structure/closet/crate/freezer/surplus_limbs,
 /obj/structure/railing{
 	dir = 10;
 	layer = 4.1
@@ -3276,9 +3275,7 @@
 /area/station/science/research/abandoned)
 "xN" = (
 /obj/structure/cable,
-/obj/machinery/power/rtg{
-	power_gen = 35000
-	},
+/obj/machinery/power/micro_reactor,
 /turf/open/floor/engine,
 /area/station/engineering/hallway)
 "xQ" = (
@@ -38212,8 +38209,8 @@ hl
 hl
 hl
 Yq
-xN
-xN
+Yq
+Yq
 PL
 Jh
 Vv
@@ -38726,8 +38723,8 @@ hl
 hl
 hl
 Yq
-xN
-xN
+Yq
+Yq
 PL
 sn
 Jh

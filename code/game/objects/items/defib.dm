@@ -14,7 +14,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 5
 	throwforce = 6
-	w_class = WEIGHT_CLASS_BULKY
+	w_class = WEIGHT_CLASS_NORMAL // so you can like. Y'know.
 	actions_types = list(/datum/action/item_action/toggle_paddles)
 	armor_type = /datum/armor/item_defibrillator
 

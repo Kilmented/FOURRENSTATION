@@ -439,24 +439,30 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	list_reagents = list(/datum/reagent/drug/nicotine = 9, /datum/reagent/oxygen = 9)
 	smoketime = 4 MINUTES // space cigs have a shorter burn time than normal cigs
 	smoke_all = TRUE // so that it doesn't runout of oxygen while being smoked in space
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/dromedary
 	desc = "A DromedaryCo brand cigarette. Contrary to popular belief, does not contain Calomel, but is reported to have a watery taste."
 	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/water = 5) //camel has water
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/uplift
 	desc = "An Uplift Smooth brand cigarette. Smells refreshing."
 	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/menthol = 5)
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/robust
 	desc = "A Robust brand cigarette."
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/robustgold
 	desc = "A Robust Gold brand cigarette."
 	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/gold = 3) // Just enough to taste a hint of expensive metal.
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/carp
 	desc = "A Carp Classic brand cigarette. A small label on its side indicates that it does NOT contain carpotoxin."
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/carp/Initialize(mapload)
 	. = ..()
@@ -469,17 +475,17 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	chem_volume = 60
 	smoketime = 2 MINUTES
 	smoke_all = TRUE
-	lung_harm = 1.5
+	lung_harm = -0.1
 	list_reagents = list(/datum/reagent/drug/nicotine = 10, /datum/reagent/medicine/omnizine = 15)
 
 /obj/item/clothing/mask/cigarette/shadyjims
 	desc = "A Shady Jim's Super Slims cigarette."
-	lung_harm = 1.5
+	lung_harm = 0.1
 	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/toxin/lipolicide = 4, /datum/reagent/ammonia = 2, /datum/reagent/toxin/plantbgone = 1, /datum/reagent/toxin = 1.5)
 
 /obj/item/clothing/mask/cigarette/xeno
 	desc = "A Xeno Filtered brand cigarette."
-	lung_harm = 2
+	lung_harm = -0.1
 	list_reagents = list (/datum/reagent/drug/nicotine = 20, /datum/reagent/medicine/regen_jelly = 15, /datum/reagent/drug/krokodil = 4)
 
 // Rollies.
@@ -566,7 +572,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	inhand_icon_off = "candyoff"
 	type_butt = /obj/item/food/candy_trash
 	heat = 473.15 // Lowered so that the sugar can be carmalized, but not burnt.
-	lung_harm = 0.5
+	lung_harm = 0.1
 	list_reagents = list(/datum/reagent/consumable/sugar = 20)
 	choke_time_max = 70 SECONDS // This shit really is deadly
 
@@ -605,6 +611,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	chem_volume = 40
 	list_reagents = list(/datum/reagent/drug/nicotine = 25)
 	choke_time_max = 40 SECONDS
+	lung_harm = -0.1
 
 /obj/item/clothing/mask/cigarette/cigar/premium
 	name = "premium cigar"

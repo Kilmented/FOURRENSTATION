@@ -25,48 +25,105 @@
 
 
 
-// LINE BREAK FOR GUN TEMPLATES
+// LINE SEPERATION FOR GUN EDITS
 
-// LINE SEPERATION FOR LOADOUT VERSIONS
-/*
-/obj/item/gun/ballistic/automatic/pistol/wscompactpistol/compactsemi/loadout
-	projectile_damage_multiplier = 0.9
+/obj/item/gun/ballistic/automatic/pistol/sol
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/revolver/wscompactrevolver/compactrevolver/loadout
-	projectile_damage_multiplier = 0.9
+/obj/item/gun/ballistic/automatic/pistol/sol/evil
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/revolver/wsmediumrevolver/mediumrevolver/loadout
-	projectile_damage_multiplier = 0.9
+/obj/item/gun/ballistic/automatic/pistol/trappiste
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/revolver/wslongrevolver/longrevolver/loadout
-	projectile_damage_multiplier = 0.8 // haha.
+/obj/item/gun/ballistic/revolver/c38
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/automatic/wscompactsmg/compactsmg/loadout
-	projectile_damage_multiplier = 0.8
+/obj/item/gun/ballistic/revolver/sol
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/automatic/wsmediumcarbine/loadout
-	projectile_damage_multiplier = 0.9
+/obj/item/gun/ballistic/revolver/takbok
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/rifle/boltaction/wsmediumboltrifle/mediumboltgun/loadout
-	projectile_damage_multiplier = 1.3
+/obj/item/gun/ballistic/automatic/sol_smg
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/rifle/boltaction/wslongboltrifle/longboltgun/loadout
-	projectile_damage_multiplier = 1.3
+/obj/item/gun/ballistic/automatic/sol_smg/evil
 	pin = /obj/item/firing_pin/wsexplorer
 
-/obj/item/gun/ballistic/shotgun/wspumpshotgun/shotgun
-	projectile_damage_multiplier = 0.9
+/obj/item/gun/ballistic/automatic/m6pdw
 	pin = /obj/item/firing_pin/wsexplorer
-*/
+
+/obj/item/gun/energy/e_gun/mini
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/modular_laser_rifle/carbine
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/pistol/plasma_thrower
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/pistol/plasma_marksman
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/revolver/shotgun_revolver
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/miecz
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle/marksman
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_rifle/machinegun
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_grenade_launcher
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/xhihao_smg
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/shotgun/riot/sol
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/shotgun/riot/sol/evil
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/rifle/boltaction/prime
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/laser
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/laser/hellgun
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/tesla_cannon
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/e_gun
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/energy/modular_laser_rifle
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/lanca
+	pin = /obj/item/firing_pin/wsexplorer
+
+/obj/item/gun/ballistic/automatic/wylom
+	pin = /obj/item/firing_pin/wsexplorer
+
 // LINE SEPERATION FOR RESKINS
-
 
 // LINE SEPERATION FOR FIRING PINS
 

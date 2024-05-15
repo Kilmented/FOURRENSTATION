@@ -400,8 +400,8 @@
 /turf/open/floor/iron/smooth,
 /area/station/hallway/primary/central/fore)
 "dI" = (
-/obj/structure/maintenance_loot_structure/gun_box/random,
 /obj/structure/table/reinforced,
+/obj/structure/maintenance_loot_structure/military_case/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/lockers)
 "dK" = (
@@ -454,10 +454,9 @@
 /turf/closed/wall/r_wall,
 /area/station/service/kitchen)
 "eb" = (
-/obj/structure/table/reinforced,
-/obj/structure/maintenance_loot_structure/military_case/random,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/security/lockers)
+/obj/machinery/ammo_workbench,
+/turf/open/floor/plating,
+/area/station/engineering/storage_shared)
 "ec" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable,
@@ -2357,6 +2356,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron/smooth,
 /area/station/science/research/abandoned)
 "rn" = (
@@ -2456,13 +2456,6 @@
 /obj/item/clothing/gloves/color/yellow,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/main)
-"sg" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/item/bot_assembly/medbot,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay)
 "sj" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
@@ -2558,6 +2551,7 @@
 	pixel_y = 28;
 	density = 0
 	},
+/mob/living/basic/pet/bumbles,
 /turf/open/floor/iron/smooth,
 /area/station/science/research/abandoned)
 "sK" = (
@@ -2755,6 +2749,7 @@
 "ug" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "ur" = (
@@ -5713,10 +5708,6 @@
 /obj/structure/sign/poster/contraband/space_cube/directional/north,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/warehouse)
-"LR" = (
-/obj/machinery/ammo_workbench,
-/turf/open/floor/plating,
-/area/station/engineering/storage_shared)
 "LS" = (
 /obj/machinery/autolathe,
 /obj/item/radio/intercom/directional/west,
@@ -7207,6 +7198,13 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/pumproom)
+"Wz" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/bot_assembly/medbot,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "WC" = (
 /obj/machinery/rnd/production/techfab/department/security,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -7517,6 +7515,11 @@
 "YU" = (
 /turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
+"YV" = (
+/obj/structure/maintenance_loot_structure/gun_box/random,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/lockers)
 "YY" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -43850,7 +43853,7 @@ KS
 gr
 NU
 mn
-sg
+Wz
 YF
 ez
 id
@@ -46677,7 +46680,7 @@ KZ
 Cn
 Ap
 As
-LR
+eb
 Cn
 ry
 rj
@@ -47689,7 +47692,7 @@ Ma
 Vj
 Up
 Vj
-eb
+dI
 LG
 kg
 pd
@@ -47946,7 +47949,7 @@ Ma
 Sk
 Qb
 kk
-dI
+YV
 CI
 Uq
 pd

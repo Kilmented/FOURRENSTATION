@@ -142,6 +142,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"ay" = (
+/mob/living/basic/spider/giant/tangle,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "az" = (
 /obj/item/storage/box/gloves,
 /obj/item/storage/box/beakers,
@@ -243,6 +247,14 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"aO" = (
+/mob/living/basic/hivebot,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
+"aP" = (
+/mob/living/basic/spider/giant/tarantula,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "aQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
@@ -267,6 +279,10 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/ore_box,
 /turf/open/space/basic,
+/area/space)
+"aV" = (
+/mob/living/simple_animal/hostile/looter,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "aW" = (
 /obj/item/storage/toolbox/electrical,
@@ -696,6 +712,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"ct" = (
+/mob/living/basic/heretic_summon/rust_walker,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "cu" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -880,6 +900,10 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/checker,
 /area/space)
+"cZ" = (
+/mob/living/simple_animal/hostile/megafauna/wendigo,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "da" = (
 /obj/effect/decal/cleanable/blood/splatter{
 	icon_state = "gibmid1"
@@ -902,6 +926,10 @@
 /turf/open/floor/iron/smooth{
 	baseturfs = /turf/open/floor/plating/reinforced
 	},
+/area/space)
+"df" = (
+/mob/living/basic/trooper/syndicate/melee,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "dg" = (
 /obj/machinery/light{
@@ -1752,6 +1780,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"fW" = (
+/mob/living/basic/mega_arachnid,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "fX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -1930,6 +1962,10 @@
 /obj/machinery/door/firedoor,
 /turf/open/space/basic,
 /area/space)
+"gy" = (
+/mob/living/basic/spider/giant/ambush,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "gz" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -1980,6 +2016,11 @@
 	pixel_y = -28
 	},
 /turf/open/space/basic,
+/area/space)
+"gI" = (
+/obj/structure/flora/grass/both/style_random,
+/mob/living/basic/regal_rat,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "gJ" = (
 /obj/effect/decal/cleanable/blood/gibs,
@@ -2484,6 +2525,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"iA" = (
+/mob/living/basic/mining/basilisk,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "iB" = (
 /obj/machinery/camera/motion/directional/north,
 /turf/open/floor/plating,
@@ -2499,6 +2544,10 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/iron,
+/area/space)
+"iH" = (
+/mob/living/basic/trooper/syndicate/ranged/smg,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "iI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2809,6 +2858,10 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron,
+/area/space)
+"jS" = (
+/mob/living/basic/spider/giant/nurse,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "jT" = (
 /turf/open/space/basic,
@@ -3282,6 +3335,10 @@
 	pixel_y = -30
 	},
 /turf/open/floor/plating,
+/area/space)
+"lm" = (
+/mob/living/basic/heretic_summon/ash_spirit,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "ln" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4084,6 +4141,10 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
+/area/space)
+"nO" = (
+/mob/living/basic/spider/giant/viper,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "nP" = (
 /obj/structure/toilet,
@@ -6643,6 +6704,10 @@
 /obj/item/book/manual/chef_recipes,
 /turf/open/space/basic,
 /area/space)
+"wF" = (
+/mob/living/basic/mining/lobstrosity,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "wG" = (
 /obj/item/storage/belt/security,
 /turf/open/space/basic,
@@ -6687,6 +6752,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
+/area/space)
+"wN" = (
+/mob/living/basic/spider/giant/guard,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "wO" = (
 /obj/structure/dresser,
@@ -6969,6 +7038,10 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/item/mecha_parts/mecha_tracking,
 /turf/open/space/basic,
+/area/space)
+"xV" = (
+/mob/living/basic/spider/giant/midwife,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "xW" = (
 /obj/structure/grille/broken,
@@ -7386,6 +7459,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"zs" = (
+/mob/living/basic/hivebot/strong,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "zt" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
@@ -7669,6 +7746,10 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron/dark,
 /area/space)
+"Ax" = (
+/mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/doom,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Ay" = (
 /obj/structure/foamedmetal,
 /obj/structure/window/reinforced{
@@ -7741,6 +7822,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
+/area/space)
+"AL" = (
+/mob/living/basic/spider/giant/hunter,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "AM" = (
 /obj/item/stock_parts/matter_bin,
@@ -8182,6 +8267,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"Ce" = (
+/mob/living/basic/migo,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Cf" = (
 /obj/machinery/mineral/processing_unit,
 /turf/open/space/basic,
@@ -8621,6 +8710,10 @@
 "Dx" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/space)
+"Dy" = (
+/mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/guidance,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Dz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
@@ -8921,6 +9014,10 @@
 	icon_state = "vomit_2"
 	},
 /turf/open/space/basic,
+/area/space)
+"Ew" = (
+/mob/living/basic/heretic_summon/raw_prophet,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "Ex" = (
 /obj/structure/closet/crate/bin,
@@ -9487,6 +9584,10 @@
 "Gl" = (
 /obj/structure/table/glass,
 /turf/open/space/basic,
+/area/space)
+"Gn" = (
+/mob/living/basic/hivebot/mechanic,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "Go" = (
 /obj/structure/cable{
@@ -10324,6 +10425,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Jn" = (
+/mob/living/basic/heretic_summon/star_gazer,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Jo" = (
 /obj/machinery/meter,
 /turf/open/space/basic,
@@ -10663,6 +10768,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"KA" = (
+/mob/living/basic/hivebot/rapid,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "KB" = (
 /obj/machinery/door/airlock/research{
 	autoclose = 0;
@@ -10828,6 +10937,10 @@
 	pixel_x = 24
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"Ld" = (
+/mob/living/basic/heretic_summon/stalker,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "Le" = (
 /obj/machinery/newscaster/directional,
@@ -11280,6 +11393,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
+/area/space)
+"ME" = (
+/mob/living/simple_animal/hostile/looter/ranged,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "MF" = (
 /obj/machinery/recharge_station,
@@ -11848,6 +11965,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"Ox" = (
+/mob/living/simple_animal/hostile/looter/crusher,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Oy" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -12400,6 +12521,10 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
+"Qm" = (
+/mob/living/basic/mining/wolf,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Qn" = (
 /obj/structure/table/reinforced,
 /turf/open/space/basic,
@@ -12686,6 +12811,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/space)
+"Rs" = (
+/mob/living/basic/spider/giant/breacher,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/space)
 "Rt" = (
 /obj/effect/decal/cleanable/rubble,
 /turf/open/floor/iron,
@@ -12909,6 +13038,10 @@
 "Si" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/open/space/basic,
+/area/space)
+"Sj" = (
+/mob/living/basic/trooper/syndicate/ranged/infiltrator,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "Sk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -14981,6 +15114,10 @@
 	pixel_y = -24
 	},
 /turf/open/floor/plating,
+/area/space)
+"ZC" = (
+/mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/hunter,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/space)
 "ZD" = (
 /obj/structure/ore_box,
@@ -96327,21 +96464,21 @@ Ul
 Ul
 Ul
 Ul
+jl
+jl
+jl
+jl
+jl
 Ul
+fW
 Ul
+gy
 Ul
+aV
 Ul
+df
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+Ew
 Ul
 "}
 (3,1,3) = {"
@@ -96529,21 +96666,21 @@ Ul
 Ul
 Ul
 Ul
+jl
+Ul
+jl
+Ul
+jl
 Ul
 Ul
 Ul
+Rs
 Ul
+Ox
 Ul
+Sj
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+ct
 Ul
 "}
 (4,1,3) = {"
@@ -96731,21 +96868,21 @@ Ul
 Ul
 Ul
 Ul
+jl
+jl
+jl
+jl
+jl
 Ul
+gI
 Ul
+wN
 Ul
+ME
 Ul
+iH
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+Ld
 Ul
 "}
 (5,1,3) = {"
@@ -96941,13 +97078,13 @@ Ul
 Ul
 Ul
 Ul
+AL
 Ul
 Ul
 Ul
 Ul
 Ul
-Ul
-Ul
+lm
 Ul
 "}
 (6,1,3) = {"
@@ -97135,19 +97272,19 @@ Ul
 Ul
 Ul
 Ul
+jl
+jl
+jl
+jl
+jl
 Ul
+zs
 Ul
+xV
 Ul
+wF
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+Ce
 Ul
 Ul
 Ul
@@ -97337,17 +97474,17 @@ Ul
 Ul
 Ul
 Ul
+jl
 Ul
 Ul
 Ul
+jl
 Ul
+KA
 Ul
+jS
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+iA
 Ul
 Ul
 Ul
@@ -97539,17 +97676,17 @@ Ul
 Ul
 Ul
 Ul
+jl
+jl
+jl
+jl
+jl
 Ul
+aO
 Ul
+nO
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+Qm
 Ul
 Ul
 Ul
@@ -97747,9 +97884,9 @@ Ul
 Ul
 Ul
 Ul
+Gn
 Ul
-Ul
-Ul
+ay
 Ul
 Ul
 Ul
@@ -97943,15 +98080,15 @@ Ul
 Ul
 Ul
 Ul
+jl
+jl
+jl
+Ul
+jl
 Ul
 Ul
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+aP
 Ul
 Ul
 Ul
@@ -98145,11 +98282,11 @@ Dx
 Ul
 Ul
 Ul
+jl
 Ul
+jl
 Ul
-Ul
-Ul
-Ul
+jl
 Ul
 Ul
 Ul
@@ -98347,21 +98484,21 @@ Dx
 Dx
 Ul
 Ul
+jl
 Ul
+jl
+jl
+jl
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+jl
+jl
+jl
+jl
+jl
+jl
+jl
+jl
+jl
 Ul
 "}
 (13,1,3) = {"
@@ -98751,18 +98888,18 @@ Dx
 Dx
 Ul
 Ul
+jl
+jl
+jl
+Ul
+jl
 Ul
 Ul
+Jn
 Ul
+ZC
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+cZ
 Ul
 Ul
 Ul
@@ -98953,16 +99090,16 @@ Dx
 Dx
 Ul
 Ul
+jl
+Ul
+jl
+Ul
+jl
 Ul
 Ul
 Ul
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+Dy
 Ul
 Ul
 Ul
@@ -99155,16 +99292,16 @@ Dx
 Dx
 Ul
 Ul
+jl
+Ul
+jl
+jl
+jl
 Ul
 Ul
 Ul
 Ul
-Ul
-Ul
-Ul
-Ul
-Ul
-Ul
+Ax
 Ul
 Ul
 Ul
@@ -115451,13 +115588,13 @@ rw
 MZ
 Dx
 Dx
+fW
 Dx
+gy
 Dx
+aV
 Dx
-Dx
-Dx
-Dx
-Dx
+df
 Dx
 Dx
 Dx
@@ -115655,11 +115792,11 @@ Dx
 Dx
 Dx
 Dx
+Rs
 Dx
+Ox
 Dx
-Dx
-Dx
-Dx
+Sj
 Dx
 Dx
 sS
@@ -115855,13 +115992,13 @@ rw
 MZ
 Dx
 Dx
-AA
+gI
 Dx
+wN
 Dx
+ME
 Dx
-Dx
-Dx
-Dx
+iH
 Dx
 Dx
 Dx
@@ -116059,7 +116196,7 @@ Dx
 Dx
 Dx
 Dx
-Dx
+AL
 Dx
 Dx
 Dx
@@ -116259,11 +116396,11 @@ oO
 zj
 Dx
 Dx
+zs
 Dx
+xV
 Dx
-Dx
-Dx
-Dx
+wF
 Dx
 Dx
 Dx
@@ -116461,9 +116598,9 @@ rw
 MZ
 Ez
 Dx
+KA
 Dx
-Dx
-Dx
+jS
 Dx
 Dx
 Dx
@@ -116663,9 +116800,9 @@ rw
 MZ
 Dx
 Dx
+aO
 Dx
-Dx
-Dx
+nO
 Dx
 Dx
 Dx
@@ -116865,9 +117002,9 @@ rw
 MZ
 Dx
 Dx
+Gn
 Dx
-Dx
-Dx
+ay
 Dx
 Dx
 Dx
@@ -117069,7 +117206,7 @@ Dx
 Dx
 Dx
 Dx
-Dx
+aP
 Dx
 Dx
 Dx

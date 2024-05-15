@@ -38,6 +38,7 @@
 	inhand_icon_state = "utility"
 	worn_icon_state = "utility"
 	content_overlays = TRUE
+	w_class = WEIGHT_CLASS_NORMAL
 	custom_premium_price = PAYCHECK_CREW * 2
 	drop_sound = 'sound/items/handling/toolbelt_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbelt_pickup.ogg'
@@ -228,6 +229,7 @@
 	icon_state = "medical"
 	inhand_icon_state = "medical"
 	worn_icon_state = "medical"
+	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/belt/medical/Initialize(mapload)
 	. = ..()
@@ -357,6 +359,7 @@
 	inhand_icon_state = "security"//Could likely use a better one.
 	worn_icon_state = "security"
 	content_overlays = TRUE
+	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/belt/security/Initialize(mapload)
 	. = ..()

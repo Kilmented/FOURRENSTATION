@@ -11,11 +11,10 @@
 /area/shuttle/supply)
 "ds" = (
 /obj/docking_port/mobile/supply,
-/obj/machinery/door/airlock/grunge{
-	name = "Supply Shuttle Airlock";
-	req_access = list("cargo")
-	},
 /obj/effect/turf_decal/delivery/white,
+/obj/machinery/door/airlock/grunge{
+	name = "Supply Shuttle Airlock"
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/supply)
 "go" = (
@@ -120,11 +119,10 @@
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "wR" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Supply Shuttle Airlock";
-	req_access = list("cargo")
-	},
 /obj/effect/turf_decal/delivery/white,
+/obj/machinery/door/airlock/grunge{
+	name = "Supply Shuttle Airlock"
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/supply)
 "zQ" = (

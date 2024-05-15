@@ -7044,7 +7044,6 @@
 #include "modular_nova\modules\company_imports\code\armament_datums\_armament_basetype.dm"
 #include "modular_nova\modules\company_imports\code\armament_datums\akh_frontier.dm"
 #include "modular_nova\modules\company_imports\code\armament_datums\deforest_medical.dm"
-#include "modular_nova\modules\company_imports\code\armament_datums\jarnsmiour.dm"
 #include "modular_nova\modules\company_imports\code\armament_datums\kahraman_industries.dm"
 #include "modular_nova\modules\company_imports\code\armament_datums\microstar_energy.dm"
 #include "modular_nova\modules\company_imports\code\armament_datums\nakamura_modsuits.dm"

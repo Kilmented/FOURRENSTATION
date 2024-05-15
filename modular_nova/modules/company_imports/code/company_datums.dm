@@ -30,14 +30,6 @@
 	cost_change_lower = -1000
 	cost_change_upper = 4000
 
-// Jarnsmiour sells some melee weapons and some forging related items
-/datum/cargo_company/jarnsmiour
-	name = BLACKSTEEL_FOUNDATION_NAME
-	company_flag = CARGO_COMPANY_BLACKSTEEL
-	cost = 3000
-	cost_change_lower = 0
-	cost_change_upper = 3000
-
 // Sells NRI military surplus clothing, gear, and a few firearms
 /datum/cargo_company/nri_surplus
 	name = NRI_SURPLUS_COMPANY_NAME

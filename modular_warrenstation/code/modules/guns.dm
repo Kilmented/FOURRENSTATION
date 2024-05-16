@@ -31,7 +31,7 @@
 	pin = /obj/item/firing_pin/wsexplorer
 
 /obj/item/gun/ballistic/automatic/pistol/sol/evil
-	pin = /obj/item/firing_pin/wsexplorer
+	pin = /obj/item/firing_pin/wsnormal
 
 /obj/item/gun/ballistic/automatic/pistol/trappiste
 	pin = /obj/item/firing_pin/wsexplorer
@@ -49,7 +49,7 @@
 	pin = /obj/item/firing_pin/wsexplorer
 
 /obj/item/gun/ballistic/automatic/sol_smg/evil
-	pin = /obj/item/firing_pin/wsexplorer
+	pin = /obj/item/firing_pin/wsnormal
 
 /obj/item/gun/ballistic/automatic/m6pdw
 	pin = /obj/item/firing_pin/wsexplorer
@@ -79,7 +79,7 @@
 	pin = /obj/item/firing_pin/wsexplorer
 
 /obj/item/gun/ballistic/automatic/sol_rifle/evil
-	pin = /obj/item/firing_pin/wsexplorer
+	pin = /obj/item/firing_pin/wsnormal
 
 /obj/item/gun/ballistic/automatic/sol_rifle/machinegun
 	pin = /obj/item/firing_pin/wsexplorer
@@ -97,7 +97,7 @@
 	pin = /obj/item/firing_pin/wsexplorer
 
 /obj/item/gun/ballistic/shotgun/riot/sol/evil
-	pin = /obj/item/firing_pin/wsexplorer
+	pin = /obj/item/firing_pin/wsnormal
 
 /obj/item/gun/ballistic/rifle/boltaction/prime
 	pin = /obj/item/firing_pin/wsexplorer

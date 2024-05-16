@@ -124,10 +124,10 @@ PROTECT_ROLES_FROM_ANTAGONIST
 #ENFORCE_HUMAN_AUTHORITY_ON_EVERYONE
 
 ## If late-joining players have a chance to become a traitor/changeling
-ALLOW_LATEJOIN_ANTAGONISTS
+#ALLOW_LATEJOIN_ANTAGONISTS
 
 ## Uncomment to prevent the nuclear operative leader from getting the war declaration item
-#DISABLE_WAROPS
+DISABLE_WAROPS
 
 ## Uncomment to enable dynamic ruleset config file.
 DYNAMIC_CONFIG_ENABLED
@@ -158,10 +158,10 @@ EVENTS_FREQUENCY_UPPER 4200
 ## AI ###
 
 ## Allow the AI job to be picked.
-#ALLOW_AI
+ALLOW_AI
 
 ## Allow the AI Multicamera feature to be used by AI players
-#ALLOW_AI_MULTICAM
+ALLOW_AI_MULTICAM
 
 ## Secborg ###
 ## Uncomment to prevent the security cyborg model from being chosen
@@ -169,7 +169,7 @@ DISABLE_SECBORG
 
 ## Peacekeeper Borg ###
 ## Uncomment to prevent the peacekeeper cyborg model from being chosen
-#DISABLE_PEACEBORG
+DISABLE_PEACEBORG
 
 ## AWAY MISSIONS ###
 

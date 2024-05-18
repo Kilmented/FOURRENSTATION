@@ -3348,9 +3348,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
 "eMW" = (
-/obj/effect/decal/cleanable/blood/gibs/body{
-	blood_color = "#A10808"
-	},
+/obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
 /area/icemoon/underground)
@@ -10373,9 +10371,7 @@
 /area/icemoon/underground)
 "oIz" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/body{
-	blood_color = "#A10808"
-	},
+/obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/iron/white,
 /area/icemoon/underground)
 "oIQ" = (

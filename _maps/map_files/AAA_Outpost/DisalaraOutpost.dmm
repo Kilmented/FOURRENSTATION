@@ -2734,9 +2734,7 @@
 "cVn" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	id_tag = "checkpoint1";
-	name = "Forest Airlock";
-	req_access = newlist();
-	req_one_access = list(78,19,1)
+	name = "Forest Airlock"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -2850,9 +2848,7 @@
 /area/icemoon/underground)
 "dbf" = (
 /obj/machinery/door/airlock/command{
-	name = "AI Core";
-	req_access = newlist();
-	req_one_access = list(30,56)
+	name = "AI Core"
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
@@ -12738,7 +12734,6 @@
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
 	name = "chute windoor";
-	req_access = newlist()
 	},
 /turf/open/floor/plating,
 /area/icemoon/underground)

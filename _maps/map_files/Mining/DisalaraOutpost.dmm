@@ -1436,7 +1436,7 @@
 /area/icemoon/underground)
 "ciG" = (
 /obj/machinery/vending/security{
-	categories = 3
+	shut_up = 1
 	},
 /obj/machinery/light/red/directional/west,
 /turf/open/floor/iron/dark,
@@ -4944,14 +4944,12 @@
 /area/icemoon/surface/outdoors)
 "gWH" = (
 /obj/machinery/vending/hydroseeds{
-	shut_up = 1;
-	categories = 3
+	shut_up = 1
 	},
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
 "gXp" = (
 /obj/machinery/vending/hydronutrients{
-	categories = 3;
 	shut_up = 1
 	},
 /turf/open/floor/iron/dark,
@@ -8886,7 +8884,7 @@
 /area/icemoon/underground)
 "mDt" = (
 /obj/machinery/vending/hydronutrients{
-	categories = 3
+	shut_up = 1
 	},
 /turf/open/floor/iron,
 /area/icemoon/underground)

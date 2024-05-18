@@ -4454,9 +4454,7 @@
 /turf/open/floor/plating/dumpsterair,
 /area/icemoon/underground)
 "gqD" = (
-/obj/item/storage/backpack/industrial{
-	oldified = 1
-	},
+/obj/item/storage/backpack/industrial,
 /obj/effect/decal/cleanable/cobweb{
 	dir = 4
 	},
@@ -5859,9 +5857,7 @@
 /turf/open/floor/iron,
 /area/icemoon/underground)
 "ixf" = (
-/obj/item/storage/backpack/industrial{
-	oldified = 1
-	},
+/obj/item/storage/backpack/industrial,
 /obj/effect/decal/cleanable/cobweb{
 	dir = 4
 	},
@@ -5966,9 +5962,7 @@
 /turf/open/floor/iron,
 /area/icemoon/underground)
 "iIw" = (
-/obj/item/storage/backpack/industrial{
-	oldified = 1
-	},
+/obj/item/storage/backpack/industrial,
 /obj/effect/decal/cleanable/cobweb{
 	dir = 4
 	},
@@ -6949,9 +6943,7 @@
 /turf/open/floor/iron,
 /area/icemoon/underground)
 "jXb" = (
-/obj/item/storage/backpack/industrial{
-	oldified = 1
-	},
+/obj/item/storage/backpack/industrial,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/smooth_large,

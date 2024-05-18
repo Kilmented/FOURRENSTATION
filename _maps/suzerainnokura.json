@@ -46,7 +46,7 @@
 			"Gravity": false,
 			"Ice Ruins": false,
 			"Weather_Snowstorm": false,
-			"Baseturf": "/turf/open/space/basic",
+			"Baseturf": "/turf/open/openspace",
 			"No Parallax": false
 		}
 	],

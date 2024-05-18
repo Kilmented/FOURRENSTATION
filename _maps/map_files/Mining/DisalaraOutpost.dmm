@@ -4418,10 +4418,6 @@
 "gmg" = (
 /turf/open/floor/carpet/blue,
 /area/icemoon/underground)
-"gnd" = (
-/obj/structure/closet/crate/trashcart,
-/turf/open/floor/iron,
-/area/icemoon/underground)
 "goR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/space_heater,
@@ -7403,11 +7399,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/rock/icy/style_random,
 /turf/open/misc/dirt/icemoon,
-/area/icemoon/underground)
-"kCy" = (
-/obj/effect/decal/cleanable/blood/gibs/body,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/freezer,
 /area/icemoon/underground)
 "kCC" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -15961,7 +15952,7 @@
 	dir = 2;
 	dwidth = 3;
 	height = 10;
-	name = "Disalara IV: Landing Pad Charlie";
+	name = "Disalara IV: Landing Pad Alpha";
 	shuttle_id = "mining_away";
 	width = 7
 	},
@@ -84204,7 +84195,7 @@ iZT
 qtF
 gwf
 hiT
-kCy
+eMW
 qtF
 hiT
 cZt
@@ -84403,11 +84394,11 @@ kMY
 cZt
 cZt
 cLz
-kCy
+eMW
 jeL
 hiT
 hiT
-kCy
+eMW
 jeL
 cZt
 dbD
@@ -118338,13 +118329,13 @@ tXi
 tXi
 wZZ
 wZZ
-gnd
+dHw
 qOZ
 wZZ
 qOZ
 qOZ
-gnd
-gnd
+dHw
+dHw
 xEZ
 tXi
 xEZ
@@ -118537,7 +118528,7 @@ qfQ
 rHt
 tXi
 xEZ
-gnd
+dHw
 qOZ
 wZZ
 wZZ
@@ -120153,7 +120144,7 @@ wZZ
 rHt
 tXi
 tXi
-gnd
+dHw
 qOZ
 qOZ
 wZZ
@@ -120358,13 +120349,13 @@ xEZ
 tXi
 wZZ
 wZZ
-gnd
+dHw
 qOZ
 wZZ
 wZZ
 wZZ
-gnd
-gnd
+dHw
+dHw
 tXi
 tXi
 xEZ

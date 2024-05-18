@@ -7,7 +7,6 @@
 "aba" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -151,7 +150,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -160,7 +158,6 @@
 "amN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -179,7 +176,6 @@
 /area/icemoon/underground)
 "aoj" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -226,7 +222,6 @@
 /area/icemoon/underground)
 "ate" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -281,12 +276,10 @@
 "awE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "2"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "4"
 	},
@@ -440,7 +433,6 @@
 "aHm" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating/dumpsterair,
@@ -492,7 +484,6 @@
 "aKH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -555,7 +546,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -577,7 +567,6 @@
 "aQy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/wood,
@@ -598,7 +587,6 @@
 /area/icemoon/underground)
 "aSg" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -626,7 +614,6 @@
 "aUu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /mob/living/simple_animal/hostile/looter/ranged,
@@ -672,7 +659,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -697,11 +683,9 @@
 "aXV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -877,7 +861,6 @@
 /area/icemoon/underground)
 "bmN" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor7"
 	},
@@ -893,7 +876,6 @@
 "bnq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor5"
 	},
@@ -903,7 +885,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -982,7 +963,6 @@
 /area/icemoon/surface/outdoors)
 "bve" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -1019,7 +999,6 @@
 /area/icemoon/underground)
 "bBr" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -1029,7 +1008,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating,
@@ -1086,7 +1064,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -1369,7 +1346,6 @@
 "cde" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -1385,7 +1361,6 @@
 "cdq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -1480,17 +1455,14 @@
 "cjD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "2"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "4"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "5"
 	},
@@ -1499,7 +1471,6 @@
 /area/icemoon/underground)
 "cjT" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -1545,7 +1516,6 @@
 "cnL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -1682,7 +1652,6 @@
 "cyq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/kitchen,
@@ -1736,7 +1705,6 @@
 "cDC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -1804,7 +1772,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -1853,7 +1820,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/dirt/icemoon,
@@ -1861,7 +1827,6 @@
 "cNA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl3"
 	},
@@ -1869,7 +1834,6 @@
 /area/icemoon/underground)
 "cOn" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -2000,7 +1964,6 @@
 /area/icemoon/surface/outdoors)
 "cVq" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2175,7 +2138,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2326,7 +2288,6 @@
 "dra" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -2335,7 +2296,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -2349,7 +2309,6 @@
 /area/icemoon/underground)
 "dtc" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -2369,7 +2328,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -2388,7 +2346,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2541,7 +2498,6 @@
 "dHX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -2555,7 +2511,6 @@
 "dIf" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -2597,7 +2552,6 @@
 "dLP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2727,7 +2681,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -2738,12 +2691,10 @@
 /area/icemoon/underground)
 "dRo" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "gib6_flesh"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2753,7 +2704,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2788,7 +2738,6 @@
 "dUm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "lizard"
 	},
@@ -2811,7 +2760,6 @@
 "dUV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -2882,7 +2830,6 @@
 "dYd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating,
@@ -2905,7 +2852,6 @@
 "dZE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/white,
@@ -2948,7 +2894,6 @@
 "edE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -2996,7 +2941,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl3"
 	},
@@ -3034,7 +2978,6 @@
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -3103,7 +3046,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor7"
 	},
@@ -3158,7 +3100,6 @@
 "euh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -3179,7 +3120,6 @@
 /area/icemoon/underground)
 "evX" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -3188,17 +3128,14 @@
 "ewd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "2"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "4"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "5"
 	},
@@ -3206,7 +3143,6 @@
 /area/icemoon/underground)
 "ewB" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -3232,7 +3168,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /mob/living/basic/heretic_summon/raw_prophet,
@@ -3277,7 +3212,6 @@
 "eDG" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -3363,7 +3297,6 @@
 "eIz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/dirt/icemoon,
@@ -3376,7 +3309,6 @@
 "eKT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor7"
 	},
@@ -3395,7 +3327,6 @@
 /area/icemoon/underground)
 "eLm" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark,
@@ -3478,7 +3409,6 @@
 "eRW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -3667,27 +3597,22 @@
 "ffh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
@@ -3816,7 +3741,6 @@
 /area/icemoon/underground)
 "foX" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /mob/living/basic/heretic_summon/raw_prophet,
@@ -3845,7 +3769,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -3868,7 +3791,6 @@
 /area/icemoon/underground)
 "fre" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -3890,7 +3812,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/white,
@@ -3931,7 +3852,6 @@
 "fwz" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/dirt/icemoon,
@@ -3992,7 +3912,6 @@
 "fCZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -4047,7 +3966,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4087,12 +4005,10 @@
 "fJp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4115,7 +4031,6 @@
 "fKF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4150,7 +4065,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4183,7 +4097,6 @@
 "fPD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -4214,12 +4127,10 @@
 /area/icemoon/underground)
 "fRj" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -4253,7 +4164,6 @@
 /area/icemoon/underground)
 "fUP" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4373,7 +4283,6 @@
 "gdE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -4435,7 +4344,6 @@
 "ggj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -4456,7 +4364,6 @@
 "ghs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4562,7 +4469,6 @@
 /area/icemoon/underground)
 "grc" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4678,7 +4584,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -4717,7 +4622,6 @@
 "gAq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4765,7 +4669,6 @@
 "gCU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -4804,7 +4707,6 @@
 "gFN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -4833,7 +4735,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "itemblood"
 	},
@@ -4877,7 +4778,6 @@
 /area/icemoon/underground)
 "gKh" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -5007,7 +4907,6 @@
 /area/icemoon/underground)
 "gUW" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -5016,7 +4915,6 @@
 "gVA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
@@ -5095,7 +4993,6 @@
 /area/icemoon/underground)
 "hbM" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -5112,12 +5009,10 @@
 "hcM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "5"
 	},
@@ -5195,7 +5090,6 @@
 /area/icemoon/underground)
 "hly" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -5215,7 +5109,6 @@
 "hmG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -5252,7 +5145,6 @@
 /area/icemoon/underground)
 "hpy" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -5305,7 +5197,6 @@
 "huR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /mob/living/simple_animal/hostile/looter/ranged,
@@ -5407,7 +5298,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -5428,7 +5318,6 @@
 "hEs" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -5556,7 +5445,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -5596,7 +5484,6 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -5657,7 +5544,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -5760,7 +5646,6 @@
 /area/icemoon/underground)
 "ijd" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -5785,7 +5670,6 @@
 "iks" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -5807,7 +5691,6 @@
 "ilp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -5880,7 +5763,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6011,7 +5893,6 @@
 "ixW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6126,7 +6007,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/floor,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6146,7 +6026,6 @@
 "iMG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/spawner/random/epic_loot/random_ammunition,
@@ -6185,7 +6064,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -6195,7 +6073,6 @@
 /area/icemoon/underground)
 "iNO" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6279,7 +6156,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6304,7 +6180,6 @@
 "iTE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -6700,12 +6575,10 @@
 "jyS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6752,7 +6625,6 @@
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6792,7 +6664,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl3"
 	},
@@ -6815,7 +6686,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6856,7 +6726,6 @@
 /area/icemoon/underground)
 "jJo" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/spawner/random/epic_loot/random_other_military_loot,
@@ -6913,12 +6782,10 @@
 "jMR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "4"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "5"
 	},
@@ -6979,7 +6846,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -6987,7 +6853,6 @@
 /area/icemoon/underground)
 "jRz" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7083,7 +6948,6 @@
 "jWv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7105,7 +6969,6 @@
 "jYh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl3"
 	},
@@ -7121,7 +6984,6 @@
 "jYA" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7129,7 +6991,6 @@
 /area/icemoon/underground)
 "jYY" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/asteroid/snow/icemoon,
@@ -7148,7 +7009,6 @@
 "kai" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -7159,7 +7019,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -7306,7 +7165,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7369,7 +7227,6 @@
 "koe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7480,7 +7337,6 @@
 /area/icemoon/underground)
 "kud" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7582,7 +7438,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7649,7 +7504,6 @@
 /area/icemoon/underground)
 "kHP" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -7658,7 +7512,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7697,7 +7550,6 @@
 "kKB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
@@ -7790,7 +7642,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/white,
@@ -7826,7 +7677,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -7865,7 +7715,6 @@
 "kVs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -7885,7 +7734,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -7906,7 +7754,6 @@
 "kXJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -7930,7 +7777,6 @@
 "kYD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor7"
 	},
@@ -8078,7 +7924,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/side,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -8097,12 +7942,10 @@
 "lkq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "2"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "4"
 	},
@@ -8128,7 +7971,6 @@
 /area/icemoon/underground)
 "llx" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -8161,12 +8003,10 @@
 "lmV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -8374,7 +8214,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -8405,7 +8244,6 @@
 "lFm" = (
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/dirt/icemoon,
@@ -8673,7 +8511,6 @@
 "maC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -8711,7 +8548,6 @@
 "mbH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor5"
 	},
@@ -8749,7 +8585,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -8890,7 +8725,6 @@
 /area/icemoon/underground)
 "mpR" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -8909,7 +8743,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/white,
@@ -8936,7 +8769,6 @@
 "msM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -8959,7 +8791,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -9126,12 +8957,10 @@
 "mJX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "itemblood"
 	},
@@ -9180,7 +9009,6 @@
 /area/icemoon/underground)
 "mOo" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
@@ -9273,17 +9101,14 @@
 "mTE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "2"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "4"
 	},
 /obj/effect/decal/cleanable/blood/drip{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "5"
 	},
@@ -9315,7 +9140,6 @@
 "mXh" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -9334,7 +9158,6 @@
 "mZg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/spawner/random/epic_loot/random_ammunition,
@@ -9385,7 +9208,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -9575,7 +9397,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -9711,7 +9532,6 @@
 "nAi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -9749,7 +9569,6 @@
 /area/icemoon/underground)
 "nBC" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -9780,7 +9599,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -9829,7 +9647,6 @@
 /area/icemoon/underground)
 "nHm" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating/dumpsterair,
@@ -9843,7 +9660,6 @@
 /area/icemoon/underground)
 "nHE" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -9854,7 +9670,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark,
@@ -9900,7 +9715,6 @@
 "nNk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -9927,7 +9741,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/white,
@@ -9978,7 +9791,6 @@
 /area/icemoon/underground)
 "nRW" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -10204,7 +10016,6 @@
 "okP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -10304,7 +10115,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -10449,7 +10259,6 @@
 "oBt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark,
@@ -10529,7 +10338,6 @@
 /area/icemoon/underground)
 "oGO" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -10625,7 +10433,6 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -10832,7 +10639,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -10873,7 +10679,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/dirt/icemoon,
@@ -10881,7 +10686,6 @@
 "pmW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -11273,7 +11077,6 @@
 "pXq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -11308,7 +11111,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -11524,7 +11326,6 @@
 /area/icemoon/surface/outdoors)
 "qvf" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -11611,7 +11412,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -11655,7 +11455,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor7"
 	},
@@ -11741,7 +11540,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -11766,7 +11564,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating/dumpsterair,
@@ -11849,7 +11646,6 @@
 "qTz" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -11858,7 +11654,6 @@
 "qVa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -11902,7 +11697,6 @@
 "qWt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /obj/effect/decal/cleanable/blood{
@@ -11919,7 +11713,6 @@
 /area/icemoon/underground)
 "qXc" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/closed/mineral/snowmountain/cavern/icemoon,
@@ -11938,7 +11731,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -12064,7 +11856,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "itemblood"
 	},
@@ -12339,7 +12130,6 @@
 "rEg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -12394,7 +12184,6 @@
 /area/icemoon/underground)
 "rHD" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -12435,7 +12224,6 @@
 "rKI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -12445,7 +12233,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -12501,7 +12288,6 @@
 "rNs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor7"
 	},
@@ -12676,7 +12462,6 @@
 "sbg" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -12731,7 +12516,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -12836,7 +12620,6 @@
 "slq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -13034,7 +12817,6 @@
 "sDp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -13138,7 +12920,6 @@
 /area/icemoon/underground)
 "sNg" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -13187,7 +12968,6 @@
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -13339,7 +13119,6 @@
 /area/icemoon/underground)
 "tab" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -13381,7 +13160,6 @@
 "ten" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -13424,7 +13202,6 @@
 "tgS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -13607,7 +13384,6 @@
 "twM" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /mob/living/basic/heretic_summon/raw_prophet,
@@ -13618,7 +13394,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -13704,7 +13479,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -13712,7 +13486,6 @@
 /area/icemoon/underground)
 "tGX" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -13794,7 +13567,6 @@
 "tMD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -13998,7 +13770,6 @@
 "ueN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -14037,7 +13808,6 @@
 "uiF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -14045,7 +13815,6 @@
 /area/icemoon/underground)
 "uiX" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/white,
@@ -14083,7 +13852,6 @@
 "ull" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -14275,7 +14043,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating/dumpsterair,
@@ -14327,7 +14094,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -14367,7 +14133,6 @@
 "uFm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -14387,7 +14152,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -14687,7 +14451,6 @@
 /area/icemoon/underground)
 "vgn" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -14706,7 +14469,6 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron,
@@ -14813,7 +14575,6 @@
 "voX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -14837,7 +14598,6 @@
 "vsx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_3"
 	},
@@ -14850,7 +14610,6 @@
 /area/icemoon/underground)
 "vtb" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -14859,12 +14618,10 @@
 "vtw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mfloor6"
 	},
@@ -14901,7 +14658,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
@@ -15038,7 +14794,6 @@
 "vGf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -15060,7 +14815,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -15079,7 +14833,6 @@
 "vHY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -15135,7 +14888,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/dark/smooth_large,
@@ -15144,7 +14896,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -15330,7 +15081,6 @@
 "vZV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -15378,7 +15128,6 @@
 "wew" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/large,
@@ -15476,7 +15225,6 @@
 /area/icemoon/underground)
 "wnk" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -15514,7 +15262,6 @@
 /area/icemoon/underground)
 "wqi" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/misc/dirt/icemoon,
@@ -15529,7 +15276,6 @@
 /area/icemoon/underground)
 "wqQ" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -15552,7 +15298,6 @@
 "wrN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -15771,7 +15516,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -15885,7 +15629,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /mob/living/simple_animal/hostile/looter/ranged,
@@ -15960,7 +15703,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -15975,7 +15717,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/glasses/welding,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -15988,7 +15729,6 @@
 "wZC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl1"
 	},
@@ -16051,7 +15791,6 @@
 "xgE" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -16181,7 +15920,6 @@
 "xpD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/freezer,
@@ -16229,7 +15967,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_2"
 	},
@@ -16387,7 +16124,6 @@
 /area/icemoon/underground)
 "xyD" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -16590,12 +16326,10 @@
 "xPK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "vomit_4"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -16609,7 +16343,6 @@
 "xQF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -16693,12 +16426,10 @@
 "xYH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl3"
 	},
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "lizard"
 	},
@@ -16765,7 +16496,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "lizard"
 	},
@@ -16791,7 +16521,6 @@
 /area/icemoon/underground)
 "yaq" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -16814,7 +16543,6 @@
 /area/icemoon/underground)
 "ybn" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "u_ketchup"
 	},
@@ -16889,7 +16617,6 @@
 /area/icemoon/underground)
 "yhh" = (
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808";
 	icon_state = "mgibbl3"
 	},
@@ -16938,7 +16665,6 @@
 "ykr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/plating/dumpsterair,
@@ -16956,7 +16682,6 @@
 "ylT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
-	blood_color = "#A10808";
 	color = "#A10808"
 	},
 /turf/open/floor/iron/large,

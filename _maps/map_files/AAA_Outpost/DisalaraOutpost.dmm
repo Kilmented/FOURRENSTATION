@@ -3300,6 +3300,14 @@
 	},
 /turf/open/floor/plating,
 /area/icemoon/underground)
+"dxc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/barricade/wooden,
+/turf/open/floor/plating,
+/area/icemoon/underground)
 "dxr" = (
 /turf/open/openspace/icemoon,
 /area/icemoon/underground)
@@ -19977,14 +19985,6 @@
 	},
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/iron/white,
-/area/icemoon/underground)
-"uFn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/barricade/wooden,
-/turf/open/floor/plating,
 /area/icemoon/underground)
 "uFv" = (
 /obj/machinery/light,
@@ -81095,7 +81095,7 @@ rHt
 rHt
 cZt
 cZt
-uFn
+dxc
 ktJ
 cZt
 wxB

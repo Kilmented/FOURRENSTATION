@@ -4419,9 +4419,7 @@
 /turf/open/floor/carpet/blue,
 /area/icemoon/underground)
 "gnd" = (
-/obj/structure/closet/crate/trashcart{
-	old_lock_odds = -20
-	},
+/obj/structure/closet/crate/trashcart,
 /turf/open/floor/iron,
 /area/icemoon/underground)
 "goR" = (

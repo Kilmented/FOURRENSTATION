@@ -11,7 +11,7 @@
 		#include "map_files\Mining\Lavaland.dmm"
 		#include "map_files\Mining\DisalaraOutpost.dmm"
 		// WARRENSTATION EDIT START
-		#include "map_files\SuzerainNokura\SuzerainNokura.dmm"
+		#include "map_files\SuzerainNokura\SuzerainNokura2.dmm"
 		// WARRENSTATION EDIT END
 
 		#ifdef CIBUILDING

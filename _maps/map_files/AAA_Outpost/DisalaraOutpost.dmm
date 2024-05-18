@@ -433,13 +433,6 @@
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/iron/checker,
 /area/icemoon/underground)
-"aGR" = (
-/obj/structure/window/reinforced/plasma{
-	dir = 4
-	},
-/obj/structure/table/reinforced,
-/turf/open/misc/dirt/icemoon,
-/area/icemoon/underground)
 "aHb" = (
 /obj/machinery/door/airlock/glass{
 	name = "Kitchen Access";
@@ -967,10 +960,6 @@
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/iron/white,
 /area/icemoon/underground)
-"bsx" = (
-/mob/living/simple_animal/hostile/looter/crusher,
-/turf/open/floor/wood/icemoon,
-/area/icemoon/surface/outdoors)
 "bsR" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 1
@@ -1406,10 +1395,6 @@
 /obj/effect/decal/cleanable/garbage,
 /turf/open/floor/plating,
 /area/icemoon/underground)
-"cdb" = (
-/mob/living/simple_animal/hostile/looter/big,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
 "cde" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood{
@@ -1735,6 +1720,13 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/icemoon/underground)
+"cyx" = (
+/obj/machinery/light/floor{
+	pixel_y = -15
+	},
+/mob/living/simple_animal/hostile/looter/ranged/space,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "cza" = (
 /obj/structure/flora/grass/brown,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -2920,10 +2912,6 @@
 /obj/effect/spawner/random/epic_loot/medpens,
 /turf/open/floor/iron/white,
 /area/icemoon/underground)
-"dXD" = (
-/mob/living/simple_animal/hostile/looter/ranged/space,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
 "dXX" = (
 /obj/machinery/door/airlock{
 	name = "Toilet"
@@ -5019,6 +5007,10 @@
 /obj/machinery/microwave,
 /turf/open/floor/iron/kitchen,
 /area/icemoon/underground)
+"gNm" = (
+/mob/living/simple_animal/hostile/looter/ranged/space,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "gNO" = (
 /obj/machinery/door/window{
 	dir = 2;
@@ -5488,11 +5480,6 @@
 /obj/machinery/photocopier,
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
-"hye" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/looter/crusher,
-/turf/open/floor/wood/icemoon,
-/area/icemoon/surface/outdoors)
 "hza" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -5885,12 +5872,6 @@
 /mob/living/simple_animal/hostile/looter,
 /turf/open/floor/iron,
 /area/icemoon/underground)
-"iii" = (
-/obj/structure/window/reinforced/plasma{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/icemoon/underground)
 "iiE" = (
 /obj/effect/decal/cleanable/generic,
 /obj/machinery/smartfridge/drying_rack,
@@ -6014,11 +5995,6 @@
 /obj/effect/spawner/random/epic_loot/random_components,
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
-"ipw" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/looter/ranged/space/laser,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
 "ipy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -6212,12 +6188,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/dumpsterair,
-/area/icemoon/underground)
-"iFO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags,
-/obj/structure/barricade/sandbags,
-/turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
 "iGi" = (
 /obj/machinery/door/airlock/command{
@@ -7337,11 +7307,6 @@
 /mob/living/basic/spider/giant/guard,
 /turf/open/floor/iron,
 /area/icemoon/underground)
-"kbc" = (
-/obj/machinery/door/firedoor,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
 "kbX" = (
 /obj/item/storage/box/donkpockets,
 /turf/open/floor/iron/dark,
@@ -7729,12 +7694,6 @@
 /obj/structure/flora/rock/icy/style_random,
 /turf/open/misc/dirt/icemoon,
 /area/icemoon/underground)
-"kBq" = (
-/obj/structure/closet,
-/obj/structure/closet,
-/obj/effect/spawner/random/epic_loot/medical_tools,
-/turf/open/floor/iron/white,
-/area/icemoon/underground)
 "kCy" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/dirt,
@@ -7749,6 +7708,10 @@
 /turf/open/floor/iron/smooth{
 	baseturfs = /turf/open/floor/plating/reinforced
 	},
+/area/icemoon/surface/outdoors)
+"kDa" = (
+/mob/living/simple_animal/hostile/looter/ranged/space,
+/turf/open/misc/dirt/icemoon,
 /area/icemoon/surface/outdoors)
 "kDr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8131,10 +8094,6 @@
 /mob/living/simple_animal/hostile/looter/ranged,
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
-"lbB" = (
-/mob/living/simple_animal/hostile/looter/ranged/space,
-/turf/open/misc/dirt/icemoon,
-/area/icemoon/surface/outdoors)
 "lbH" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/overlay/water,
@@ -8198,6 +8157,11 @@
 /obj/structure/grille,
 /turf/open/floor/iron/large,
 /area/icemoon/underground)
+"lfy" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/looter/ranged/space,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "lfM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
@@ -8903,10 +8867,6 @@
 /turf/open/floor/plating/reinforced,
 /area/icemoon/surface/outdoors)
 "mdw" = (
-/obj/structure/window/reinforced/tinted/frosted{
-	dir = 1;
-	opacity = 0
-	},
 /obj/machinery/microwave,
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
@@ -8990,6 +8950,11 @@
 /mob/living/basic/spider/giant/viper,
 /turf/open/floor/iron,
 /area/icemoon/underground)
+"mku" = (
+/obj/machinery/door/firedoor,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "mlm" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -9091,11 +9056,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/icemoon/underground)
-"mrr" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/looter/ranged/space,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
 "mrF" = (
 /obj/item/towel,
 /obj/item/towel,
@@ -9288,6 +9248,10 @@
 	},
 /turf/open/floor/iron,
 /area/icemoon/underground)
+"mHb" = (
+/mob/living/simple_animal/hostile/looter/big,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "mHi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/sheet/iron,
@@ -9570,6 +9534,10 @@
 /obj/structure/chair/office,
 /turf/open/floor/carpet,
 /area/icemoon/underground)
+"naE" = (
+/mob/living/simple_animal/hostile/looter/crusher,
+/turf/open/floor/wood/icemoon,
+/area/icemoon/surface/outdoors)
 "naI" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/basic/heretic_summon/ash_spirit,
@@ -10530,6 +10498,10 @@
 /obj/structure/flora/grass/jungle,
 /turf/open/misc/grass,
 /area/icemoon/underground)
+"osB" = (
+/mob/living/simple_animal/hostile/looter/ranged/space/laser,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "osE" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
@@ -11125,6 +11097,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/icemoon/underground)
+"pqT" = (
+/mob/living/simple_animal/hostile/looter/big,
+/turf/open/floor/wood/icemoon,
+/area/icemoon/surface/outdoors)
 "pra" = (
 /obj/item/trash/shok_roks/lanternfruit,
 /turf/open/floor/plating/dumpsterair,
@@ -11342,13 +11318,6 @@
 "pIh" = (
 /mob/living/basic/hivebot/strong,
 /turf/open/floor/iron/dark/smooth_large,
-/area/icemoon/underground)
-"pIp" = (
-/obj/structure/table/reinforced,
-/obj/structure/window/reinforced/plasma{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
 /area/icemoon/underground)
 "pIH" = (
 /obj/machinery/door/firedoor,
@@ -11674,12 +11643,6 @@
 	pixel_y = -32
 	},
 /turf/open/floor/iron/dark/small,
-/area/icemoon/underground)
-"qnx" = (
-/obj/structure/closet/l3closet,
-/obj/effect/spawner/random/epic_loot/random_tools,
-/obj/effect/spawner/random/epic_loot/random_tools,
-/turf/open/floor/iron/white,
 /area/icemoon/underground)
 "qnM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12202,10 +12165,10 @@
 /turf/open/floor/wood,
 /area/icemoon/underground)
 "qXY" = (
-/obj/structure/barricade/sandbags,
-/obj/structure/barricade/sandbags,
-/turf/open/misc/dirt/icemoon,
-/area/icemoon/underground)
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/looter/ranged/space/laser,
+/turf/open/floor/iron,
+/area/icemoon/surface/outdoors)
 "qXZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -12577,10 +12540,6 @@
 /mob/living/basic/hivebot/rapid,
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
-"ryy" = (
-/obj/structure/toilet,
-/turf/open/misc/dirt/icemoon,
-/area/icemoon/underground)
 "ryY" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security,
@@ -12852,10 +12811,6 @@
 "rSv" = (
 /obj/machinery/computer/mecha,
 /turf/open/floor/iron/dark/small,
-/area/icemoon/underground)
-"rTE" = (
-/obj/machinery/vending/cola,
-/turf/open/floor/iron,
 /area/icemoon/underground)
 "rTH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13425,6 +13380,12 @@
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/iron,
 /area/icemoon/underground)
+"sMe" = (
+/obj/structure/closet/l3closet,
+/obj/effect/spawner/random/epic_loot/random_tools,
+/obj/effect/spawner/random/epic_loot/random_tools,
+/turf/open/floor/iron/white,
+/area/icemoon/underground)
 "sMH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing{
@@ -13688,10 +13649,6 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
-"tes" = (
-/mob/living/simple_animal/hostile/looter/big,
-/turf/open/floor/wood/icemoon,
-/area/icemoon/surface/outdoors)
 "tfK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet{
@@ -14137,6 +14094,10 @@
 	pixel_y = -4
 	},
 /turf/open/floor/iron/white,
+/area/icemoon/underground)
+"tQc" = (
+/obj/machinery/vending/cola,
+/turf/open/floor/iron,
 /area/icemoon/underground)
 "tRH" = (
 /obj/machinery/door/airlock/external{
@@ -15059,6 +15020,11 @@
 /obj/structure/spider/stickyweb,
 /turf/open/misc/dirt/icemoon,
 /area/icemoon/underground)
+"vjs" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/looter/crusher,
+/turf/open/floor/wood/icemoon,
+/area/icemoon/surface/outdoors)
 "vjt" = (
 /obj/machinery/flasher{
 	dir = 6;
@@ -15483,12 +15449,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
-"vNK" = (
-/obj/structure/window/reinforced/plasma{
-	dir = 8
-	},
-/turf/open/misc/dirt/icemoon,
-/area/icemoon/underground)
 "vNU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet{
@@ -15744,10 +15704,6 @@
 /area/icemoon/underground)
 "whj" = (
 /obj/structure/closet/secure_closet/freezer,
-/obj/structure/window/reinforced/tinted/frosted{
-	dir = 1;
-	opacity = 0
-	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/icemoon/underground)
 "whZ" = (
@@ -15961,10 +15917,10 @@
 /obj/effect/spawner/random/epic_loot/random_strongbox_loot,
 /turf/open/floor/iron,
 /area/icemoon/underground)
-"wwO" = (
-/mob/living/simple_animal/hostile/looter/ranged/space/laser,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
+"wvM" = (
+/obj/structure/toilet,
+/turf/open/misc/dirt/icemoon,
+/area/icemoon/underground)
 "wwU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/stairs/old{
@@ -16305,13 +16261,6 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
-"wXF" = (
-/obj/machinery/light/floor{
-	pixel_y = -15
-	},
-/mob/living/simple_animal/hostile/looter/ranged/space,
-/turf/open/floor/iron,
-/area/icemoon/surface/outdoors)
 "wXO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/glasses/welding,
@@ -16485,11 +16434,6 @@
 /obj/effect/spawner/random/epic_loot/random_components,
 /obj/effect/spawner/random/epic_loot/random_components,
 /turf/open/floor/iron/dark,
-/area/icemoon/underground)
-"xnf" = (
-/obj/structure/barricade/sandbags,
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plating/dumpsterair,
 /area/icemoon/underground)
 "xnw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23318,7 +23262,7 @@ uQu
 jRS
 mRC
 jRS
-qXY
+jRS
 xhf
 dtc
 dbD
@@ -27516,7 +27460,7 @@ rHt
 spv
 smt
 spv
-iFO
+smt
 rHt
 dbD
 dbD
@@ -32604,7 +32548,7 @@ wxB
 tYr
 wxB
 qET
-pIp
+hcJ
 dbD
 dlq
 vYx
@@ -33008,7 +32952,7 @@ dbD
 dbD
 dbD
 wxB
-iii
+qET
 vYx
 vYx
 vYx
@@ -33816,7 +33760,7 @@ dbD
 lWK
 dbD
 wxB
-aGR
+oIu
 sDp
 kNH
 vYx
@@ -34220,7 +34164,7 @@ dbD
 dbD
 dbD
 dbD
-vNK
+wxB
 wxB
 vYx
 wxB
@@ -35934,7 +35878,7 @@ dbD
 dbD
 dbD
 dbD
-ryy
+wvM
 kKI
 dZE
 iFh
@@ -36338,7 +36282,7 @@ eOc
 rHt
 dbD
 cZt
-ryy
+wvM
 kKI
 rmO
 rmO
@@ -42384,7 +42328,7 @@ wZZ
 wxB
 jRS
 jRS
-xnf
+seN
 wZZ
 sRk
 wxB
@@ -76440,7 +76384,7 @@ lTn
 rHt
 rHt
 pOx
-kBq
+coD
 qET
 qET
 tJz
@@ -77210,7 +77154,7 @@ dbD
 dbD
 dbD
 rHt
-rTE
+tQc
 wZZ
 jaW
 cSF
@@ -77853,7 +77797,7 @@ qET
 qOZ
 qET
 qET
-qnx
+sMe
 rHt
 vYx
 vYx
@@ -78055,7 +77999,7 @@ ucl
 qET
 qOZ
 qET
-qnx
+sMe
 rHt
 vYx
 vYx
@@ -86728,7 +86672,7 @@ cZt
 cZt
 cZt
 cZt
-rTE
+tQc
 gfQ
 gfQ
 kMY
@@ -110161,17 +110105,17 @@ rNd
 nDX
 rNd
 rNd
-ipw
+qXY
 rNd
 rNd
 rNd
 rNd
-ipw
+qXY
 wyg
 rNd
 rNd
 rNd
-ipw
+qXY
 rNd
 rNd
 rNd
@@ -110184,7 +110128,7 @@ rNd
 rNd
 iJZ
 uKx
-wwO
+osB
 uKx
 uKx
 aQm
@@ -110192,7 +110136,7 @@ aQm
 rNd
 rNd
 uKx
-wwO
+osB
 fLv
 ubp
 ubp
@@ -110798,7 +110742,7 @@ aQm
 aQm
 rNd
 uKx
-wXF
+cyx
 fLv
 ubp
 ubp
@@ -111172,16 +111116,16 @@ uKx
 fKS
 aQm
 awy
-hye
+vjs
 rFl
 aQm
 awy
 ulY
-bsx
+naE
 aQm
 awy
-tes
-hye
+pqT
+vjs
 aQm
 awy
 cRO
@@ -111386,7 +111330,7 @@ cRO
 lFR
 aQm
 kjx
-tes
+pqT
 lFR
 aQm
 hLG
@@ -111404,7 +111348,7 @@ aQm
 aQm
 uKx
 uKx
-dXD
+gNm
 fLv
 ubp
 ubp
@@ -111980,24 +111924,24 @@ wyg
 dnY
 rNd
 tWy
-ipw
+qXY
 nDX
 oaq
 rNd
 rNd
-ipw
+qXY
 rNd
 rNd
 rNd
 rNd
 nDX
-ipw
+qXY
 rNd
 rNd
 uVl
 rNd
 rNd
-ipw
+qXY
 oaq
 rNd
 aQm
@@ -112404,7 +112348,7 @@ ubp
 ubp
 ubp
 uKx
-kbc
+mku
 uKx
 uKx
 uKx
@@ -112606,12 +112550,12 @@ eom
 eom
 eom
 eom
-kbc
+mku
 uKx
 uKx
-cdb
+mHb
 uKx
-kbc
+mku
 eom
 eom
 eom
@@ -112810,7 +112754,7 @@ eom
 eom
 bNb
 rNd
-mrr
+lfy
 rNd
 rNd
 cVn
@@ -113207,17 +113151,17 @@ eom
 eom
 eom
 eom
-lbB
+kDa
 eom
 eom
 eom
 ubp
-kbc
+mku
 rNd
 rNd
 rNd
 goR
-kbc
+mku
 eom
 eom
 ubp
@@ -113418,7 +113362,7 @@ aQm
 aQm
 aQm
 ckM
-kbc
+mku
 aQm
 ubp
 ubp

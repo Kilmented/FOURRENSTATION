@@ -9,9 +9,8 @@
 		#include "map_files\IceBoxStation\IceBoxStation.dmm"
 		#include "map_files\MetaStation\MetaStation.dmm"
 		#include "map_files\Mining\Lavaland.dmm"
-		#include "map_files\Mining\DisalaraOutpost.dmm"
 		// WARRENSTATION EDIT START
-		#include "map_files\SuzerainNokura\SuzerainNokura2.dmm"
+		#include "map_files\SuzerainNokura\SuzerainNokura.dmm"
 		// WARRENSTATION EDIT END
 
 		#ifdef CIBUILDING

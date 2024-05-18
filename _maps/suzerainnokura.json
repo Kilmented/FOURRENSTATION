@@ -2,7 +2,7 @@
 	"version": 1,
 	"map_name": "SSN Suzerain Nokura",
 	"map_path": "map_files/SuzerainNokura",
-	"map_file": "SuzerainNokura2.dmm",
+	"map_file": "SuzerainNokura.dmm",
 	"shuttles": {
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",

@@ -41,13 +41,13 @@
 		},
 		{
 			"Down": true,
-			"Mining": false,
+			"Mining": true,
 			"Linkage": null,
-			"Gravity": false,
-			"Ice Ruins": false,
-			"Weather_Snowstorm": false,
-			"Baseturf": "/turf/open/openspace",
-			"No Parallax": false
+			"Gravity": true,
+			"Ice Ruins": true,
+			"Weather_Snowstorm": true,
+			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
+			"No Parallax": true
 		}
 	],
 	"minetype": "none",

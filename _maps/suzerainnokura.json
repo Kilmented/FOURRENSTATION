@@ -3,6 +3,8 @@
 	"map_name": "SSN Suzerain Nokura",
 	"map_path": "map_files/SuzerainNokura",
 	"map_file": "SuzerainNokura.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
 	"shuttles": {
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",

@@ -78,11 +78,10 @@ export const DepartmentOrderContent = (props) => {
         <Stack fill vertical>
           <Stack.Item>
             <NoticeBox info>
-              As employees of Nanotrasen, the selection of orders here are
-              completely free of charge, only incurring a cooldown on the
-              service. Cheaper items will make you wait for less time before
-              Nanotrasen allows another purchase, to encourage tasteful
-              spending.
+              As you are government contractors, the selection of orders here
+              are paid by SolStill, only incurring a cooldown on the service.
+              Naturally, Cheaper items will have a lowered cooldown... to
+              encourage tasteful spending.
             </NoticeBox>
           </Stack.Item>
           <Stack.Item grow>

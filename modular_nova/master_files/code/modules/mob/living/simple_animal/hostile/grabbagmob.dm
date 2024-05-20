@@ -73,8 +73,7 @@
 	attack_sound = 'sound/weapons/punch1.ogg'
 	combat_mode = TRUE
 	loot = list(/obj/effect/gibspawner/human)
-	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
-	unsuitable_atmos_damage = 7.5
+	atmos_requirements = null
 	faction = list(FACTION_HOSTILE, FACTION_CULT)
 	status_flags = CANPUSH
 	del_on_death = 1
@@ -232,8 +231,7 @@
 	attack_verb_continuous = "pipes"
 	attack_verb_simple = "bludgeon"
 	attack_sound = 'sound/weapons/smash.ogg'
-	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
-	unsuitable_atmos_damage = 15
+	atmos_requirements = null
 	check_friendly_fire = 1
 	dodging = TRUE
 	faction = list(FACTION_HOSTILE)

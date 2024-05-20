@@ -8,8 +8,6 @@
 		#include "map_files\debug\runtimestation.dmm"
 		#include "map_files\IceBoxStation\IceBoxStation.dmm"
 		#include "map_files\MetaStation\MetaStation.dmm"
-//		#include "map_files\Mining\Lavaland.dmm" // at one point we had it so it's kinda relevant
-		#include "map_files\Mining\DisalaraOutpost.dmm"
 		// WARRENSTATION EDIT START
 		#include "map_files\SuzerainNokura\SuzerainNokura.dmm"
 		// WARRENSTATION EDIT END

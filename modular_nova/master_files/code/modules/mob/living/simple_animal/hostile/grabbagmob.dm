@@ -74,6 +74,7 @@
 	combat_mode = TRUE
 	loot = list(/obj/effect/gibspawner/human)
 	atmos_requirements = null
+	minbodytemp = 0
 	faction = list(FACTION_HOSTILE, FACTION_CULT)
 	status_flags = CANPUSH
 	del_on_death = 1
@@ -232,6 +233,7 @@
 	attack_verb_simple = "bludgeon"
 	attack_sound = 'sound/weapons/smash.ogg'
 	atmos_requirements = null
+	minbodytemp = 0
 	check_friendly_fire = 1
 	dodging = TRUE
 	faction = list(FACTION_HOSTILE)

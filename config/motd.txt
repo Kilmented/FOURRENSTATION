@@ -2,4 +2,3 @@
 
 <h1>Welcome to Warrenstation!</h1>
 <i>This server is 18+ only and considered "High Roleplay", please act accordingly.</i>
-<i>Failure to do so will result in a ban.</i>

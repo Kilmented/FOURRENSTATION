@@ -22,7 +22,7 @@ $include auxtools.txt
 @SERVERNAME Warrenstation
 
 ## Server tagline: This will appear right below the server's title.
-@SERVERTAGLINE A WIP PVE-HRP Nova Sector downstream.
+@SERVERTAGLINE An 18+ HRP-PVE Nova Sector downstream.
 
 ## Discord Link: This is the link to Nova Sector's discord server
 DISCORD_LINK https://discord.gg/nmRsdygz3c
@@ -40,7 +40,7 @@ STATIONNAME Warrenstation
 #MAX_HUB_POP 100
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
-LOBBY_COUNTDOWN 30
+LOBBY_COUNTDOWN 120
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
 ROUND_END_COUNTDOWN 20

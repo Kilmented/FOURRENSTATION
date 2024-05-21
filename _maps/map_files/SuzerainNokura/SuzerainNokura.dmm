@@ -9991,12 +9991,6 @@
 /obj/effect/spawner/random/epic_loot/random_provisions,
 /turf/open/floor/wood,
 /area/icemoon/underground)
-"kGI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spider/stickyweb,
-/mob/living/basic/spider/giant/tarantula,
-/turf/open/floor/iron/dark,
-/area/icemoon/underground)
 "kIb" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/room2)
@@ -12066,10 +12060,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/cargo/storage)
-"mWl" = (
-/mob/living/basic/spider/giant/tarantula,
-/turf/open/floor/plating,
-/area/icemoon/underground)
 "mWF" = (
 /turf/closed/wall,
 /area/station/cargo/storage)
@@ -13859,7 +13849,7 @@
 /area/icemoon/underground)
 "oPW" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/basic/spider/giant/tarantula,
+/mob/living/basic/spider/giant/nurse,
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
 "oPZ" = (
@@ -17342,7 +17332,7 @@
 "sEg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
-/mob/living/basic/spider/giant/tarantula,
+/mob/living/basic/spider/giant/nurse,
 /turf/open/floor/plating,
 /area/icemoon/underground)
 "sEn" = (
@@ -21790,7 +21780,8 @@
 /area/icemoon/underground)
 "xhQ" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/basic/spider/giant/tarantula,
+/obj/structure/spider/stickyweb,
+/mob/living/basic/spider/giant/midwife,
 /turf/open/floor/plating,
 /area/icemoon/underground)
 "xid" = (
@@ -169980,7 +169971,7 @@ fhG
 fhG
 fhG
 vTa
-xhQ
+tNS
 fhG
 fhG
 pbd
@@ -170233,7 +170224,7 @@ gSW
 fhG
 jEF
 xVR
-mWl
+bre
 ngb
 xQr
 fhG
@@ -171267,8 +171258,8 @@ xQr
 xQr
 tft
 uOM
-kGI
-xTt
+fhG
+xhQ
 fSf
 gQd
 tft

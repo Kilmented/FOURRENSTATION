@@ -88,26 +88,9 @@
 		"Junior Botanist",
 	)
 
-/datum/job/bouncer
-	alt_titles = list(
-		"Bouncer",
-		"Service Guard",
-		"Doorman",
-	)
-
-/datum/job/corrections_officer
-	alt_titles = list(
-		"Corrections Officer",
-		"Brig Officer",
-		"Prison Guard",
-	)
-
 /datum/job/captain
 	alt_titles = list(
-		"Captain",
-		"Commanding Officer",
-		"Site Manager",
-		"Station Commander",
+		"First Officer",
 	)
 
 /datum/job/cargo_technician
@@ -213,14 +196,6 @@
 		"Cyborg",
 		"Android",
 		"Robot",
-	)
-
-/datum/job/detective
-	alt_titles = list(
-		"Detective",
-		"Forensic Scientist",
-		"Forensic Technician",
-		"Private Investigator",
 	)
 
 /datum/job/doctor

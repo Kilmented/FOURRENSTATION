@@ -7,7 +7,7 @@ would only be recognisable with someone that had the syndicate trait.
 */
 
 // Give the detective the ability to see this stuff.
-/datum/job/detective
+/datum/job/security_officer // was once /datum/job/detective
 	mind_traits = list(TRAIT_DETECTIVE)
 
 /obj/item

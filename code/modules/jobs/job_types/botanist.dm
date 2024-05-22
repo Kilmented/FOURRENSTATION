@@ -1,11 +1,11 @@
 /datum/job/botanist
 	title = JOB_BOTANIST
-	description = "Grow plants for the cook, for medicine, and for recreation."
-	department_head = list(JOB_HEAD_OF_PERSONNEL)
+	description = "Grow plants."
+	department_head = list(JOB_CAPTAIN)
 	faction = FACTION_STATION
 	total_positions = 3
 	spawn_positions = 2
-	supervisors = SUPERVISOR_HOP
+	supervisors = SUPERVISOR_CAPTAIN
 	exp_granted_type = EXP_TYPE_CREW
 	config_tag = "BOTANIST"
 
@@ -14,7 +14,7 @@
 
 	paycheck = PAYCHECK_CREW
 	paycheck_department = ACCOUNT_SRV
-	display_order = JOB_DISPLAY_ORDER_BOTANIST
+	display_order = JOB_DISPLAY_ORDER_ASSISTANT
 	bounty_types = CIV_JOB_GROW
 	departments_list = list(
 		/datum/job_department/service,

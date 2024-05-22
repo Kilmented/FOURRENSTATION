@@ -529,17 +529,17 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 /datum/loadout_item/head/cowboyhat_sec
 	name = "Cattleman Hat, Security"
 	item_path = /obj/item/clothing/head/cowboy/nova/cattleman/sec
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
+	restricted_roles = list(JOB_WARDEN, JOB_SECURITY_OFFICER)
 
 /datum/loadout_item/head/cowboyhat_secwide
 	name = "Wide-Brimmed Cattleman Hat, Security"
 	item_path = /obj/item/clothing/head/cowboy/nova/cattleman/wide/sec
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
+	restricted_roles = list(JOB_WARDEN, JOB_SECURITY_OFFICER)
 
 /datum/loadout_item/head/ushanka/sec
 	name = "Security Ushanka"
 	item_path = /obj/item/clothing/head/costume/ushanka/sec
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
+	restricted_roles = list(JOB_WARDEN, JOB_SECURITY_OFFICER)
 
 /datum/loadout_item/head/blasthelmet
 	name = "Blast Helmet"
@@ -548,12 +548,12 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 /datum/loadout_item/head/navybluehoscap
 	name = "Head of Security's Naval Cap"
 	item_path = /obj/item/clothing/head/hats/imperial/hos
-	restricted_roles = list(JOB_HEAD_OF_SECURITY)
+	restricted_roles = list(JOB_WARDEN)
 
 /datum/loadout_item/head/navyblueofficerberet
 	name = "Security Officer's Navy Blue beret"
 	item_path = /obj/item/clothing/head/beret/sec/navyofficer
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_WARDEN)
+	restricted_roles = list(JOB_WARDEN, JOB_SECURITY_OFFICER)
 
 /datum/loadout_item/head/navybluewardenberet
 	name = "Warden's Navy Blue beret"
@@ -567,7 +567,7 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 /datum/loadout_item/head/cybergoggles	//Cyberpunk-P.I. Outfit
 	name = "Type-34P Forensics Headwear"
 	item_path = /obj/item/clothing/head/fedora/det_hat/cybergoggles
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
+	restricted_roles = list(JOB_WARDEN, JOB_SECURITY_OFFICER)
 
 /datum/loadout_item/head/nursehat
 	name = "Nurse Hat"

@@ -41,9 +41,6 @@
 /datum/job/curator
 	akula_outfit = /datum/outfit/akula
 
-/datum/job/detective
-	akula_outfit = /datum/outfit/akula/security_officer
-
 /datum/job/geneticist
 	akula_outfit = /datum/outfit/akula/scientist
 
@@ -144,24 +141,6 @@
 
 /datum/job/coroner
 	akula_outfit = /datum/outfit/akula/doctor
-
-/datum/job/corrections_officer
-	akula_outfit = /datum/outfit/akula/security_officer
-
-/datum/job/orderly
-	akula_outfit = /datum/outfit/akula/security_officer
-
-/datum/job/science_guard
-	akula_outfit = /datum/outfit/akula/security_officer
-
-/datum/job/customs_agent
-	akula_outfit = /datum/outfit/akula/security_officer
-
-/datum/job/bouncer
-	akula_outfit = /datum/outfit/akula/security_officer
-
-/datum/job/engineering_guard
-	akula_outfit = /datum/outfit/akula/security_officer
 
 /datum/job/fleetmaster
 	akula_outfit = /datum/outfit/akula

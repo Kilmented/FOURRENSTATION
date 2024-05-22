@@ -47,7 +47,6 @@
 
 	possible_items = list(
 		/datum/objective_item/steal/traitor/rpd,
-		/datum/objective_item/steal/traitor/space_law,
 		/datum/objective_item/steal/traitor/granted_stamp,
 		/datum/objective_item/steal/traitor/denied_stamp,
 		/datum/objective_item/steal/traitor/lizard_plush,

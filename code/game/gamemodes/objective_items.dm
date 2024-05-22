@@ -192,18 +192,6 @@
 /obj/item/clothing/mask/fakemoustache/italian/add_stealing_item_objective()
 	return add_item_to_steal(src, /obj/item/clothing/mask/fakemoustache/italian)
 
-/datum/objective_item/steal/traitor/det_revolver
-	name = "detective's revolver"
-	targetitem = /obj/item/gun/ballistic/revolver/c38/detective
-	excludefromjob = list(JOB_DETECTIVE)
-	exists_on_map = TRUE
-	difficulty = 3
-	steal_hint = "A .38 special revolver found in the Detective's holder. \
-		Usually found on the Detective's person, or if none are around, in the detective's locker, in their office."
-
-/obj/item/gun/ballistic/revolver/c38/detective/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/gun/ballistic/revolver/c38/detective)
-
 /datum/objective_item/steal/traitor/lawyers_badge
 	name = "the lawyer's badge"
 	targetitem = /obj/item/clothing/accessory/lawyers_badge
@@ -620,18 +608,6 @@
 /obj/item/stamp/granted/add_stealing_item_objective()
 	return add_item_to_steal(src, /obj/item/stamp/granted)
 
-/datum/objective_item/steal/traitor/space_law
-	name = "a book on space law"
-	targetitem = /obj/item/book/manual/wiki/security_space_law
-	excludefromjob = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY, JOB_LAWYER, JOB_DETECTIVE)
-	exists_on_map = TRUE
-	difficulty = 1
-	steal_hint = "Sometimes found in the possession of members of Security and Lawyers. \
-		The courtroom and the library are also good places to look."
-
-/obj/item/book/manual/wiki/security_space_law/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/book/manual/wiki/security_space_law)
-
 /datum/objective_item/steal/traitor/rpd
 	name = "rapid pipe dispenser"
 	targetitem = /obj/item/pipe_dispenser
@@ -657,16 +633,8 @@
 	targetitem = /obj/item/storage/fancy/donut_box
 	excludefromjob = list(
 		JOB_CAPTAIN,
-		JOB_CHIEF_ENGINEER,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_QUARTERMASTER,
-		JOB_CHIEF_MEDICAL_OFFICER,
-		JOB_RESEARCH_DIRECTOR,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
-		JOB_LAWYER,
-		JOB_DETECTIVE,
 	)
 	exists_on_map = TRUE
 	difficulty = 1
@@ -694,100 +662,11 @@
 	targetitem = /obj/item/gun/energy/disabler
 	excludefromjob = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
 	)
 	difficulty = 2
 	steal_hint = "A hand-held disabler, often found in the possession of Security Officers."
-
-/datum/objective_item/steal/spy/energy_gun
-	name = "an energy gun"
-	targetitem = /obj/item/gun/energy/e_gun
-	excludefromjob = list(
-		JOB_CAPTAIN,
-		JOB_CHIEF_ENGINEER,
-		JOB_CHIEF_MEDICAL_OFFICER,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_QUARTERMASTER,
-		JOB_RESEARCH_DIRECTOR,
-		JOB_SECURITY_OFFICER,
-		JOB_WARDEN,
-	)
-	exists_on_map = TRUE
-	difficulty = 2
-	steal_hint = "A two-mode energy gun, found in the station's Armory, as well as in the hands of some heads of staff for personal defense."
-
-/datum/objective_item/steal/spy/energy_gun/check_special_completion(obj/item/thing)
-	return thing.type == /obj/item/gun/energy/e_gun
-
-/obj/item/gun/energy/e_gun/add_stealing_item_objective()
-	if(type == /obj/item/gun/energy/e_gun)
-		return add_item_to_steal(src, /obj/item/gun/energy/e_gun)
-
-/datum/objective_item/steal/spy/laser_gun
-	name = "a laser gun"
-	targetitem = /obj/item/gun/energy/laser
-	excludefromjob = list(
-		JOB_CAPTAIN,
-		JOB_CHIEF_ENGINEER,
-		JOB_CHIEF_MEDICAL_OFFICER,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_QUARTERMASTER,
-		JOB_RESEARCH_DIRECTOR,
-		JOB_SECURITY_OFFICER,
-		JOB_WARDEN,
-	)
-	exists_on_map = TRUE
-	difficulty = 3
-	steal_hint = "A simple laser gun, found in the station's Armory."
-
-/datum/objective_item/steal/spy/laser_gun/check_special_completion(obj/item/thing)
-	return thing.type == /obj/item/gun/energy/laser
-
-/obj/item/gun/energy/laser/add_stealing_item_objective()
-	if(type == /obj/item/gun/energy/laser)
-		return add_item_to_steal(src, /obj/item/gun/energy/laser)
-
-/datum/objective_item/steal/spy/shotgun
-	name = "a riot shotgun"
-	targetitem = /obj/item/gun/ballistic/shotgun/riot
-	excludefromjob = list(
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_SECURITY_OFFICER,
-		JOB_WARDEN,
-	)
-	exists_on_map = TRUE
-	difficulty = 3
-	steal_hint = "A shotgun found in the station's Armory for riot suppression. Doesn't miss."
-
-/obj/item/gun/ballistic/shotgun/riot/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/gun/ballistic/shotgun/riot)
-
-/datum/objective_item/steal/spy/temp_gun
-	name = "security's temperature gun"
-	targetitem = /obj/item/gun/energy/temperature/security
-	excludefromjob = list(
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_SECURITY_OFFICER,
-		JOB_WARDEN,
-	)
-	exists_on_map = TRUE
-	difficulty = 2 // lowered for the meme
-	steal_hint = "Security's TRUSTY temperature gun, found in the station's Armory."
-
-/obj/item/gun/energy/temperature/security/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/gun/energy/temperature/security)
 
 /datum/objective_item/steal/spy/stamp
 	name = "a head of staff's stamp"
@@ -876,9 +755,6 @@
 	targetitem = /obj/item/melee/baton/security
 	excludefromjob = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
 	)
@@ -887,28 +763,6 @@
 
 /datum/objective_item/steal/spy/stun_baton/check_special_completion(obj/item/thing)
 	return !istype(thing, /obj/item/melee/baton/security/cattleprod)
-
-/datum/objective_item/steal/spy/det_baton
-	name = "the detective's baton"
-	targetitem = /obj/item/melee/baton
-	excludefromjob = list(
-		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
-		JOB_SECURITY_OFFICER,
-		JOB_WARDEN,
-	)
-	exists_on_map = TRUE
-	difficulty = 2
-	steal_hint = "The detective's old wooden truncheon, commonly found on their person for self defense."
-
-/datum/objective_item/steal/spy/det_baton/check_special_completion(obj/item/thing)
-	return thing.type == /obj/item/melee/baton
-
-/obj/item/melee/baton/add_stealing_item_objective()
-	if(type == /obj/item/melee/baton)
-		return add_item_to_steal(src, /obj/item/melee/baton)
 
 /datum/objective_item/steal/spy/captain_sabre_sheathe
 	name = "the captain's sabre sheathe"

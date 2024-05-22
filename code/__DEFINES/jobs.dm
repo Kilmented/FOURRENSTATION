@@ -42,7 +42,7 @@
 #define JOB_ASSISTANT "Assistant"
 #define JOB_PRISONER "Prisoner"
 //Command
-#define JOB_CAPTAIN "Captain"
+#define JOB_CAPTAIN "First Mate"
 #define JOB_HEAD_OF_PERSONNEL "Head of Personnel"
 #define JOB_HEAD_OF_SECURITY "Head of Security"
 #define JOB_RESEARCH_DIRECTOR "Research Director"
@@ -57,36 +57,26 @@
 #define JOB_HUMAN_AI "Big Brother"
 //Security
 #define JOB_WARDEN "Warden"
-#define JOB_DETECTIVE "Detective"
 #define JOB_SECURITY_OFFICER "Security Officer"
-#define JOB_SECURITY_OFFICER_MEDICAL "Security Officer (Medical)"
-#define JOB_SECURITY_OFFICER_ENGINEERING "Security Officer (Engineering)"
-#define JOB_SECURITY_OFFICER_SCIENCE "Security Officer (Science)"
-#define JOB_SECURITY_OFFICER_SUPPLY "Security Officer (Cargo)"
-#define JOB_CORRECTIONS_OFFICER "Corrections Officer" // NOVA EDIT ADDITION
 //Engineering
 #define JOB_STATION_ENGINEER "Station Engineer"
 #define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
-#define JOB_ENGINEERING_GUARD "Engineering Guard" // NOVA EDIT ADDITION
 //Medical
 #define JOB_CORONER "Coroner"
 #define JOB_MEDICAL_DOCTOR "Medical Doctor"
 #define JOB_PARAMEDIC "Paramedic"
 #define JOB_CHEMIST "Chemist"
 #define JOB_VIROLOGIST "Virologist" // NOVA EDIT ADDITION
-#define JOB_ORDERLY "Orderly" // NOVA EDIT ADDITION
 //Science
 #define JOB_SCIENTIST "Scientist"
 #define JOB_ROBOTICIST "Roboticist"
 #define JOB_GENETICIST "Geneticist"
-#define JOB_SCIENCE_GUARD "Science Guard" // NOVA EDIT ADDITION
 //Supply
 #define JOB_QUARTERMASTER "Quartermaster"
 #define JOB_CARGO_TECHNICIAN "Cargo Technician"
 #define JOB_CARGO_GORILLA "Cargo Gorilla"
 #define JOB_SHAFT_MINER "Shaft Miner"
 #define JOB_BITRUNNER "Bitrunner"
-#define JOB_CUSTOMS_AGENT "Customs Agent" // NOVA EDIT ADDITION
 //Service
 #define JOB_BARTENDER "Bartender"
 #define JOB_BOTANIST "Botanist"
@@ -100,7 +90,6 @@
 #define JOB_CHAPLAIN "Chaplain"
 #define JOB_PSYCHOLOGIST "Psychologist"
 #define JOB_BARBER "Barber" // NOVA EDIT ADDITION
-#define JOB_BOUNCER "Service Guard" // NOVA EDIT ADDITION
 //ERTs
 #define JOB_ERT_DEATHSQUAD "Death Commando"
 #define JOB_ERT_COMMANDER "Emergency Response Team Commander"
@@ -291,7 +280,7 @@ DEFINE_BITFIELD(job_flags, list(
 #define FACTION_STATION "Station"
 
 // Variable macros used to declare who is the supervisor for a given job, announced to the player when they join as any given job.
-#define SUPERVISOR_CAPTAIN "the Captain"
+#define SUPERVISOR_CAPTAIN "the First Mate"
 #define SUPERVISOR_CE "the Chief Engineer"
 #define SUPERVISOR_CMO "the Chief Medical Officer"
 #define SUPERVISOR_HOP "the Head of Personnel"

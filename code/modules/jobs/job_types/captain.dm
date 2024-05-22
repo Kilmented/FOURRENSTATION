@@ -1,14 +1,12 @@
 /datum/job/captain
 	title = JOB_CAPTAIN
-	description = "Be responsible for the station, manage your Heads of Staff, \
-		keep the crew alive, be prepared to do anything and everything or die \
-		horribly trying."
+	description = "Be responsible for the ship this shift."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list("CentCom")
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Nanotrasen officials and Space Law"
+	supervisors = "SolStill Officials and the Ministry of Justice, Law, and Order"
 	req_admin_notify = 1
 	minimal_player_age = 14
 	exp_requirements = 180
@@ -50,14 +48,14 @@
 
 
 /datum/job/captain/get_captaincy_announcement(mob/living/captain)
-	return "Captain [captain.real_name] on deck!"
+	return "First Mate [captain.real_name] on deck!"
 
 /datum/job/captain/get_radio_information()
 	. = ..()
 	. += "\nYou have access to all radio channels, but they are not automatically tuned. Check your radio for more information."
 
 /datum/outfit/job/captain
-	name = "Captain"
+	name = "First Mate"
 	jobtype = /datum/job/captain
 
 	id = /obj/item/card/id/advanced/gold
@@ -117,7 +115,7 @@
 	celestial_charter.name_type = special_charter
 
 /datum/outfit/job/captain/mod
-	name = "Captain (MODsuit)"
+	name = "First Mate (MODsuit)"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/magnate

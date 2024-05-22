@@ -13,8 +13,6 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 	minimum_required_age = 0
 	protected_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
@@ -101,8 +99,6 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 	antag_datum = /datum/antagonist/brother
 	protected_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
@@ -151,8 +147,6 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 	antag_datum = /datum/antagonist/changeling
 	protected_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
@@ -199,8 +193,6 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 	antag_datum = /datum/antagonist/heretic
 	protected_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
@@ -322,9 +314,6 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 		JOB_CAPTAIN,
 		JOB_CHAPLAIN,
 		JOB_CYBORG,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
@@ -494,15 +483,8 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 	restricted_roles = list(
 		JOB_AI,
 		JOB_CAPTAIN,
-		JOB_CHIEF_ENGINEER,
-		JOB_CHIEF_MEDICAL_OFFICER,
 		JOB_CYBORG,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL,
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
-		JOB_QUARTERMASTER,
-		JOB_RESEARCH_DIRECTOR,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
 	)
@@ -701,9 +683,6 @@ GLOBAL_VAR_INIT(revolutionary_win, FALSE)
 	minimum_required_age = 0
 	protected_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_PERSONNEL, // AA = bad
-		JOB_HEAD_OF_SECURITY,
 		JOB_PRISONER,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,

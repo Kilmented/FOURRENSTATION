@@ -12558,15 +12558,6 @@
 /obj/structure/table,
 /turf/open/floor/iron/dark,
 /area/icemoon/underground)
-"nkB" = (
-/obj/machinery/power/shuttle_engine/heater{
-	dir = 8;
-	pixel_x = -5;
-	layer = 2.8
-	},
-/obj/structure/window/reinforced/spawner/directional/east,
-/turf/closed/wall/r_wall,
-/area/icemoon/surface/outdoors)
 "nkX" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 8
@@ -269991,8 +269982,8 @@ pHv
 cbo
 uwZ
 iln
-nkB
-nkB
+iln
+iln
 iln
 bsl
 jpe

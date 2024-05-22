@@ -89,7 +89,7 @@
 			else
 				SSeconomy.bank_accounts_by_id -= "[account_id]"
 		if(NAMEOF(src, account_balance))
-			add_log_to_history(var_value - old_balance, "Nanotrasen: Moderator Action")
+			add_log_to_history(var_value - old_balance, "SolStill: Moderator Action")
 
 /**
  * Sets the bank_account to behave as though a CRAB-17 event is happening.
@@ -151,7 +151,7 @@
 		var/reason_from = "Transfer: To [account_holder]"
 
 		if(IS_DEPARTMENTAL_ACCOUNT(from))
-			reason_to = "Nanotrasen: Salary"
+			reason_to = "SolStill Ministry of Labour and Social Protection: Salary"
 			reason_from = ""
 
 		if(transfer_reason)
@@ -172,14 +172,14 @@
  * * amount_of_paychecks - literally the number of salaries, 1 for issuing one salary, 5 for issuing five salaries.
  * * free - issuance of free funds, if TRUE then takes funds from the void, if FALSE (default) tries to send from the department's account.
  */
-/datum/bank_account/proc/payday(amount_of_paychecks, free = FALSE)
+/datum/bank_account/proc/payday(amount_of_paychecks, free = TRUE) // set to true because this is just a point of conflict
 	if(!account_job)
 		return
 	var/money_to_transfer = round(account_job.paycheck * payday_modifier * amount_of_paychecks)
 	if(amount_of_paychecks == 1)
 		money_to_transfer = clamp(money_to_transfer, 0, PAYCHECK_CREW) //We want to limit single, passive paychecks to regular crew income.
 	if(free)
-		adjust_money(money_to_transfer, "Nanotrasen: Shift Payment")
+		adjust_money(money_to_transfer, "SolStill Ministry of Labour and Social Protection: Shift Payment")
 		SSblackbox.record_feedback("amount", "free_income", money_to_transfer)
 		SSeconomy.station_target += money_to_transfer
 		log_econ("[money_to_transfer] credits were given to [src.account_holder]'s account from income.")

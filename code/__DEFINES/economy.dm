@@ -13,7 +13,7 @@
 ///Paygrade for all regular crew not belonging to PAYGRADE_LOWER or PAYGRADE_COMMAND.
 #define PAYCHECK_CREW 100
 ///Paygrade for Heads of Staff.
-#define PAYCHECK_COMMAND 250
+#define PAYCHECK_COMMAND 150
 
 
 

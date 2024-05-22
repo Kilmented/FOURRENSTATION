@@ -94,7 +94,6 @@
 		// Security
 		/datum/job/security_officer,
 		/datum/job/warden,
-		/datum/job/detective,
 		// Heads of staff
 		/datum/job/head_of_personnel,
 		/datum/job/chief_medical_officer,

@@ -100,7 +100,6 @@
 		/datum/job/research_director,
 		/datum/job/quartermaster,
 		// Security
-		/datum/job/detective,
 		/datum/job/security_officer,
 		/datum/job/warden,
 	)

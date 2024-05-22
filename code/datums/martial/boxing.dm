@@ -104,10 +104,6 @@
 	var/current_atk_verb = atk_verb
 	var/current_atk_verbed = atk_verbed
 
-	if(is_detective_job(attacker.mind?.assigned_role)) //In short: discombobulate
-		current_atk_verb = "discombobulate"
-		current_atk_verbed = "discombulated"
-
 	// Similar to a normal punch, should we have a value of 0 for our lower force, we simply miss outright.
 	if(!lower_force)
 		playsound(defender.loc, active_arm.unarmed_miss_sound, 25, TRUE, -1)

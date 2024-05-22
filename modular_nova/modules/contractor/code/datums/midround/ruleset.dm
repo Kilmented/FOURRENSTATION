@@ -6,8 +6,7 @@
 	antag_flag_override = ROLE_DRIFTING_CONTRACTOR
 	enemy_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_SECURITY,
+		JOB_WARDEN,
 		JOB_SECURITY_OFFICER,
 	)
 	required_enemies = list(2,2,1,1,1,1,1,0,0,0)

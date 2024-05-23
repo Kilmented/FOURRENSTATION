@@ -28,7 +28,7 @@
 	typepath = /datum/round_event/disease_outbreak
 	max_occurrences = 1
 	min_players = 10
-	weight = 5
+	weight = 0
 	category = EVENT_CATEGORY_HEALTH
 	description = "A 'classic' virus will infect some members of the crew."
 	min_wizard_trigger_potency = 2

@@ -210,7 +210,6 @@
 "amY" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/sign/departments/custodian/directional/south,
-/obj/effect/landmark/start/science_guard,
 /turf/open/floor/plating,
 /area/station/hallway/primary/central/aft)
 "ani" = (
@@ -8325,10 +8324,6 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon/do_not_chasm,
 /area/icemoon/surface/outdoors)
-"iEC" = (
-/obj/effect/landmark/start/orderly,
-/turf/open/floor/iron/smooth,
-/area/station/service/bar)
 "iEF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/epic_loot/random_ammunition,
@@ -12469,7 +12464,6 @@
 /area/icemoon/underground)
 "mSU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/bouncer,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14303,7 +14297,6 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/obj/effect/landmark/start/engineering_guard,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_smooth,
@@ -17434,7 +17427,6 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/obj/effect/landmark/start/customs_agent,
 /turf/open/floor/iron/smooth,
 /area/station/service/bar)
 "sgd" = (
@@ -21276,8 +21268,9 @@
 /turf/open/floor/plating/dumpsterair,
 /area/icemoon/underground)
 "vPn" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/landmark/start/bartender,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/service/bar)
 "vPr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -280108,7 +280101,7 @@ pAb
 bAP
 ozW
 ozW
-vPn
+aIZ
 gUH
 kqz
 cXz
@@ -281653,7 +281646,7 @@ ock
 gXR
 pvY
 bjQ
-oJB
+vPn
 uiT
 gjv
 aPa
@@ -282165,7 +282158,7 @@ iaD
 miO
 xIN
 qqo
-iEC
+aIZ
 xZQ
 oJB
 uiT

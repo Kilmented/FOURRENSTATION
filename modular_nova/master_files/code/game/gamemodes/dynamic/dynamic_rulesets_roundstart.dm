@@ -5,8 +5,6 @@
 	restricted_roles = list()
 	enemy_roles = list(
 		JOB_CAPTAIN,
-		JOB_DETECTIVE,
-		JOB_HEAD_OF_SECURITY,
 		JOB_SECURITY_OFFICER,
 	)
 	required_candidates = 1

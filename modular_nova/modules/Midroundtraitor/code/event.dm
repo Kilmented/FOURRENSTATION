@@ -7,17 +7,8 @@
 							JOB_AI,
 							JOB_SECURITY_OFFICER,
 							JOB_WARDEN,
-							JOB_DETECTIVE,
-							JOB_HEAD_OF_SECURITY,
 							JOB_CAPTAIN,
-							JOB_CORRECTIONS_OFFICER,
-							JOB_NT_REP,
-							JOB_BLUESHIELD,
-							JOB_ORDERLY,
-							JOB_BOUNCER,
-							JOB_CUSTOMS_AGENT,
-							JOB_ENGINEERING_GUARD,
-							JOB_SCIENCE_GUARD,
+							JOB_BLUESHIELD
 							)
 	required_candidates = 1
 	weight = 4 //Slightly less common than normal midround traitors.

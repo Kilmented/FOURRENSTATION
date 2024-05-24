@@ -136,3 +136,8 @@
 /datum/sprite_accessory/horns/broadcurls
 	name = "Broad Curls"
 	icon_state = "broadcurls"
+/datum/sprite_accessory/horns/sylveon_bow
+	name = "Sylveon Head Bow"
+	icon_state = "sylveon_bow"
+	relevent_layers = list(BODY_BEHIND_LAYER, BODY_FRONT_LAYER)
+	color_src = USE_MATRIXED_COLORS

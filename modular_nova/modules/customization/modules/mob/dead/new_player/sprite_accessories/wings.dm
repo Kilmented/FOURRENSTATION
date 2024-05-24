@@ -415,3 +415,8 @@
 	name = "Arfel Harpy"
 	icon_state = "arfelharpy_top"
 	color_src = USE_ONE_COLOR
+
+/datum/sprite_accessory/wings/sylveon_bow
+	name = "Sylveon Head Bow"
+	icon_state = "sylveon_bow"
+	color_src = USE_MATRIXED_COLORS

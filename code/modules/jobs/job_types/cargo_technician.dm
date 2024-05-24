@@ -5,7 +5,7 @@
 		ship bounty cubes."
 	department_head = list(JOB_QUARTERMASTER)
 	faction = FACTION_STATION
-	total_positions = 5
+	total_positions = 3
 	spawn_positions = 3
 	supervisors = SUPERVISOR_QM
 	exp_granted_type = EXP_TYPE_CREW

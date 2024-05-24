@@ -7905,6 +7905,7 @@
 	dir = 9;
 	layer = 4.1
 	},
+/obj/structure/sink,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/service/bar)
 "ilq" = (
@@ -8352,6 +8353,13 @@
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/plating,
 /area/icemoon/underground)
+"iJC" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/structure/sink,
+/turf/open/floor/iron/smooth,
+/area/station/hallway/primary/central/aft)
 "iLh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/splatter{
@@ -22753,8 +22761,10 @@
 /turf/open/floor/plating/dumpsterair,
 /area/icemoon/underground)
 "xxo" = (
-/obj/machinery/button/door/directional/east,
 /obj/structure/cable,
+/obj/machinery/button/door/directional/east{
+	id = "516"
+	},
 /turf/open/floor/iron/smooth,
 /area/station/cargo/storage)
 "xxq" = (
@@ -274144,7 +274154,7 @@ eoq
 eoq
 eoq
 eoq
-apA
+iJC
 qOO
 lsB
 kbM

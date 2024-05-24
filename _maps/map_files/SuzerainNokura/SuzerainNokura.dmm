@@ -11101,7 +11101,7 @@
 	dir = 8;
 	layer = 3.1
 	},
-/obj/structure/closet/secure_closet/hos,
+/obj/structure/closet/secure_closet/warden,
 /obj/item/storage/belt/military,
 /obj/item/storage/pouch/ammo,
 /obj/item/storage/pouch/medical/firstaid/loaded,

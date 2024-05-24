@@ -2899,6 +2899,7 @@
 /area/station/hallway/primary/central/aft)
 "cPs" = (
 /obj/machinery/conveyor,
+/obj/structure/drain/big,
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/disposal)
 "cQc" = (
@@ -8209,6 +8210,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/drain/big,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/maintenance/disposal)
 "iwv" = (
@@ -9017,6 +9019,7 @@
 /area/station/maintenance/disposal)
 "jnj" = (
 /obj/machinery/door/airlock/medical,
+/obj/structure/drain/big,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay)
 "jnD" = (
@@ -10079,6 +10082,7 @@
 /obj/machinery/conveyor{
 	dir = 8
 	},
+/obj/structure/drain/big,
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/disposal)
 "ktp" = (
@@ -12658,6 +12662,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/left/directional/south,
+/obj/structure/drain/big,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "ncJ" = (
@@ -12724,6 +12729,7 @@
 /obj/structure/cable,
 /obj/machinery/light/small/directional/west,
 /obj/machinery/conveyor,
+/obj/structure/drain/big,
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/disposal)
 "nho" = (
@@ -23300,6 +23306,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/left/directional/north,
+/obj/structure/drain/big,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "xOy" = (

@@ -229,10 +229,16 @@
 					if(prob(2))
 						to_chat(carbon_owner, span_notice("You feel your fitness improving!"))
 
-			if(health_ratio > 0.8) // only heals minor physical damage
+			if(health_ratio < 0.55) // gets you on your feet for further treatment
 				need_mob_update += owner.adjustBruteLoss(-0.4 * sleep_quality * seconds_between_ticks, updating_health = FALSE, required_bodytype = BODYTYPE_ORGANIC)
 				need_mob_update += owner.adjustFireLoss(-0.4 * sleep_quality * seconds_between_ticks, updating_health = FALSE, required_bodytype = BODYTYPE_ORGANIC)
 				need_mob_update += owner.adjustToxLoss(-0.2 * sleep_quality * seconds_between_ticks, updating_health = FALSE, forced = TRUE, required_biotype = MOB_ORGANIC)
+				need_mob_update += owner.adjustOxyLoss(-0.2 * sleep_quality * seconds_between_ticks, updating_health = FALSE, forced = TRUE, required_biotype = MOB_ORGANIC)
+			if(health_ratio > 0.9) // lets you get around going to medical for minor damage
+				need_mob_update += owner.adjustBruteLoss(-0.4 * sleep_quality * seconds_between_ticks, updating_health = FALSE, required_bodytype = BODYTYPE_ORGANIC)
+				need_mob_update += owner.adjustFireLoss(-0.4 * sleep_quality * seconds_between_ticks, updating_health = FALSE, required_bodytype = BODYTYPE_ORGANIC)
+				need_mob_update += owner.adjustToxLoss(-0.2 * sleep_quality * seconds_between_ticks, updating_health = FALSE, forced = TRUE, required_biotype = MOB_ORGANIC)
+				need_mob_update += owner.adjustOxyLoss(-0.2 * sleep_quality * seconds_between_ticks, updating_health = FALSE, forced = TRUE, required_biotype = MOB_ORGANIC)
 		need_mob_update += owner.adjustStaminaLoss(min(-0.4 * sleep_quality * seconds_between_ticks, -0.4 * HEALING_SLEEP_DEFAULT * seconds_between_ticks), updating_stamina = FALSE)
 		if(need_mob_update)
 			owner.updatehealth()

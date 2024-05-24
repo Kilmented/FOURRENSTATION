@@ -3,7 +3,7 @@
 	description = "Grow plants."
 	department_head = list(JOB_CAPTAIN)
 	faction = FACTION_STATION
-	total_positions = 3
+	total_positions = 2
 	spawn_positions = 2
 	supervisors = SUPERVISOR_CAPTAIN
 	exp_granted_type = EXP_TYPE_CREW

@@ -131,7 +131,7 @@
 /obj/item/storage/medkit/frontier
 	name = "frontier medical kit"
 	desc = "A handy roll-top waterproof medkit often seen alongside those on the frontier, where medical support is less than optimal. \
-		It has a clip for hooking onto your belt, handy!"
+		It has a clip for hooking onto your belt or pocket, handy!"
 	icon = 'modular_nova/modules/deforest_medical_items/icons/storage.dmi'
 	icon_state = "frontier"
 	lefthand_file = 'modular_nova/modules/deforest_medical_items/icons/inhands/cases_lefthand.dmi'
@@ -141,7 +141,7 @@
 	worn_icon_teshari = 'modular_nova/modules/deforest_medical_items/icons/worn/worn_teshari.dmi'
 	pickup_sound = 'sound/items/handling/cloth_pickup.ogg'
 	drop_sound = 'sound/items/handling/cloth_drop.ogg'
-	slot_flags = ITEM_SLOT_BELT
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_LPOCKET | ITEM_SLOT_RPOCKET
 
 /obj/item/storage/medkit/frontier/stocked
 

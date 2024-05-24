@@ -34,10 +34,10 @@ DISCORD_LINK https://discord.gg/nmRsdygz3c
 STATIONNAME Warrenstation
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Once the server population reaches this number, it will be taken off the byond hub. 0 disables.
-#MAX_HUB_POP 100
+MAX_HUB_POP 50
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 120

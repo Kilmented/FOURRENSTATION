@@ -261,6 +261,12 @@
 	name = "Tiny-Feathery"
 	icon_state = "tinyfeather"
 
+/datum/sprite_accessory/wings/mammal/sylveon_bow
+	name = "Sylveon Neck Bow"
+	icon_state = "sylveon_bow"
+	color_src = USE_MATRIXED_COLORS
+
+
 /*
 *	LOW WINGS
 */
@@ -415,8 +421,3 @@
 	name = "Arfel Harpy"
 	icon_state = "arfelharpy_top"
 	color_src = USE_ONE_COLOR
-
-/datum/sprite_accessory/wings/sylveon_bow
-	name = "Sylveon Head Bow"
-	icon_state = "sylveon_bow"
-	color_src = USE_MATRIXED_COLORS

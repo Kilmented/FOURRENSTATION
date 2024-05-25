@@ -283,7 +283,7 @@
 /turf/open/floor/iron/freezer,
 /area/icemoon/underground)
 "aqh" = (
-/obj/machinery/autolathe,
+/obj/machinery/computer/cargo,
 /turf/open/floor/iron/smooth,
 /area/station/cargo/storage)
 "aqI" = (
@@ -1878,7 +1878,7 @@
 "bPA" = (
 /obj/machinery/firealarm/directional/east,
 /obj/structure/cable,
-/obj/item/kirbyplants/organic/plant20,
+/obj/machinery/autolathe,
 /turf/open/floor/iron/smooth,
 /area/station/cargo/storage)
 "bPK" = (
@@ -3109,6 +3109,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/status_display/shuttle{
+	pixel_y = 32;
+	pixel_x = 32
+	},
 /turf/open/floor/iron/smooth,
 /area/station/cargo/storage)
 "cZR" = (
@@ -13048,10 +13052,6 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/engineering/main)
 "nyI" = (
-/obj/machinery/status_display/shuttle{
-	pixel_y = 32;
-	pixel_x = 32
-	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,

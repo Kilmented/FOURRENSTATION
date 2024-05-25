@@ -261,12 +261,6 @@
 	name = "Tiny-Feathery"
 	icon_state = "tinyfeather"
 
-/datum/sprite_accessory/wings/mammal/sylveon_bow
-	name = "Sylveon Neck Bow"
-	icon_state = "sylveon_bow"
-	color_src = USE_MATRIXED_COLORS
-
-
 /*
 *	LOW WINGS
 */
@@ -421,3 +415,20 @@
 	name = "Arfel Harpy"
 	icon_state = "arfelharpy_top"
 	color_src = USE_ONE_COLOR
+
+/*
+*	32*32 size wings
+*/
+
+/datum/sprite_accessory/wings/smallwing
+	icon = 'modular_nova/master_files/icons/mob/sprite_accessory/smallwings.dmi'
+	default_color = DEFAULT_PRIMARY
+	relevent_layers = list(BODY_BEHIND_LAYER, BODY_FRONT_LAYER)
+	dimension_x = 32
+	dimension_y = 32
+	center = TRUE
+
+/datum/sprite_accessory/wings/smallwing/sylveon_bow
+	name = "Sylveon Neck Bow"
+	icon_state = "sylveon_bow"
+	color_src = USE_MATRIXED_COLORS

@@ -5961,6 +5961,12 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/plate,
+/obj/item/plate,
+/obj/item/plate,
+/obj/item/reagent_containers/cup/bowl/soup,
+/obj/item/reagent_containers/cup/bowl/soup,
+/obj/item/reagent_containers/cup/bowl/soup,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/service/bar/backroom)
 "glQ" = (
@@ -10499,6 +10505,7 @@
 	},
 /obj/machinery/light/directional/east,
 /obj/machinery/light_switch/directional/east,
+/obj/machinery/rnd/production/protolathe/department/security,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/office)
 "kLo" = (
@@ -14622,6 +14629,7 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/rnd/production/protolathe/department/service,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/service/bar/backroom)
 "pbd" = (

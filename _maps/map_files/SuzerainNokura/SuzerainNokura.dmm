@@ -7992,7 +7992,9 @@
 	dir = 9;
 	layer = 4.1
 	},
-/obj/structure/sink,
+/obj/structure/sink/directional/south{
+	pixel_y = -4
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/service/bar)
 "ilq" = (
@@ -16992,9 +16994,6 @@
 "rzO" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/cargo{
-	pixel_y = 28
-	},
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/storage)
 "rAe" = (

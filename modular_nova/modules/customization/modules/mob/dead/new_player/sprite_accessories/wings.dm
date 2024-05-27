@@ -415,20 +415,3 @@
 	name = "Arfel Harpy"
 	icon_state = "arfelharpy_top"
 	color_src = USE_ONE_COLOR
-
-/*
-*	32*32 size wings
-*/
-
-/datum/sprite_accessory/wings/smallwings
-	icon = 'modular_nova/master_files/icons/mob/sprite_accessory/smallwings.dmi'
-	default_color = DEFAULT_PRIMARY
-	relevent_layers = list(BODY_BEHIND_LAYER, BODY_FRONT_LAYER)
-	dimension_x = 32
-	dimension_y = 32
-	center = TRUE
-
-/datum/sprite_accessory/wings/smallwings/sylveon_bow
-	name = "Sylveon Neck Bow"
-	icon_state = "sylveon_bow"
-	color_src = USE_MATRIXED_COLORS

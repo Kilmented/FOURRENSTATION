@@ -13,9 +13,9 @@
 	attack_sound = 'sound/weapons/punch1.ogg'
 	melee_attack_cooldown = 1.2 SECONDS
 	combat_mode = TRUE
-	unsuitable_atmos_damage = 7.5
-	unsuitable_cold_damage = 7.5
-	unsuitable_heat_damage = 7.5
+	unsuitable_atmos_damage = 0 // was 7.5 but we changed it so they're actually a threat
+	unsuitable_cold_damage = 0 // was 7.5 but we changed it so they're actually a threat
+	unsuitable_heat_damage = 0 // was 7.5 but we changed it so they're actually a threat
 	ai_controller = /datum/ai_controller/basic_controller/trooper
 
 	/// Loot this mob drops on death.

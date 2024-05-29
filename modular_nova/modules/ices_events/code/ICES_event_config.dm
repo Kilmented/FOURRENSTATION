@@ -453,11 +453,11 @@
 /**
  * Scrubber Overflow
  *
- * Combined weight: 16
+ * Combined weight: 0
  */
 
 /datum/round_event_control/scrubber_overflow
-	max_occurrences = 2
+	max_occurrences = 0
 
 /datum/round_event_control/scrubber_overflow/threatening
 	max_occurrences = 0

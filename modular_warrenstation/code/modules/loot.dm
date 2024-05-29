@@ -1694,3 +1694,69 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/maintenance_loot_structure/wall_jacke
 		/obj/item/keycard/epic_loot/yellow = 1,
 		/obj/item/keycard/epic_loot/black = 1,
 	)
+
+
+// defines for exports - todo, turn the loot into a define lol if that's even posible
+
+// time for exports!
+/datum/export/loot
+	cost = CARGO_CRATE_VALUE * 1
+	unit_name = "default loot item"
+	export_types = list(/obj/item/epic_loot) // basically, to make it where bugs aren't game breaking
+
+/datum/export/loot/lowvalue
+	cost = CARGO_CRATE_VALUE * 1.5
+	unit_name = "low value loot item"
+	export_types = list(
+		/obj/item/epic_loot/grenade_fuze,
+		/obj/item/epic_loot/water_filter,
+		/obj/item/epic_loot/thermometer,
+		/obj/item/epic_loot/nail_box,
+		/obj/item/epic_loot/cold_weld,
+		/obj/item/epic_loot/fuel_conditioner,
+		/obj/item/epic_loot/aramid,
+		/obj/item/epic_loot/cordura,
+		/obj/item/epic_loot/ripstop,
+		/obj/item/epic_loot/device_fan,
+		/obj/item/epic_loot/display_broken,
+		/obj/item/epic_loot/eye_scope,
+		/obj/item/epic_loot/disk_drive,
+		/obj/item/epic_loot/diary,
+		/obj/item/epic_loot/slim_diary,
+	)
+
+/datum/export/loot/midvalue
+	cost = CARGO_CRATE_VALUE * 2.5
+	unit_name = "medium value loot item"
+	export_types = list(
+		/obj/item/epic_loot/electric_motor,
+		/obj/item/epic_loot/current_converter,
+		/obj/item/epic_loot/signal_amp,
+		/obj/item/epic_loot/shuttle_gyro,
+		/obj/item/epic_loot/phased_array,
+		/obj/item/epic_loot/display,
+		/obj/item/epic_loot/civilian_circuit,
+		/obj/item/epic_loot/processor,
+		/obj/item/epic_loot/power_supply,
+		/obj/item/epic_loot/press_pass,
+		/obj/item/epic_loot/hdd,
+		/obj/item/epic_loot/plasma_explosive,
+		/obj/item/epic_loot/silver_chainlet,
+	)
+
+/datum/export/loot/highvalue
+	cost = CARGO_CRATE_VALUE * 5
+	unit_name = "high value loot item"
+	export_types = list(
+		/obj/item/epic_loot/thermal_camera,
+		/obj/item/epic_loot/shuttle_battery,
+		/obj/item/epic_loot/graphics,
+		/obj/item/epic_loot/military_circuit,
+		/obj/item/keycard/epic_loot,
+		/obj/item/epic_loot/vein_finder,
+		/obj/item/epic_loot/ssd,
+		/obj/item/epic_loot/military_flash,
+		/obj/item/epic_loot/corpo_folder,
+		/obj/item/epic_loot/intel_folder,
+		/obj/item/epic_loot/gold_chainlet,
+	)

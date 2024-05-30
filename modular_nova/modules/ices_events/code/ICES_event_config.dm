@@ -466,6 +466,7 @@
 	max_occurrences = 0
 
 /datum/round_event_control/scrubber_overflow/ices
+	max_occurrences = 0
 	weight = MED_EVENT_FREQ
 
 /**

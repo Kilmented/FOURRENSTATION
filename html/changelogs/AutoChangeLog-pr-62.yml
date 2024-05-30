@@ -1,0 +1,5 @@
+author: "Aphast"
+delete-after: True
+changes:
+  - rscdel: "head and neck accessories"
+  - bugfix: "residual donor clothes that escaped the initial purge"

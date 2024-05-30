@@ -1011,12 +1011,19 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	item_path = /obj/item/clothing/under/rank/azulean/upstart/skirt
 	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
 	restricted_species = list(SPECIES_AKULA)
+/datum/loadout_item/under/jumpsuit/enclavesergeant
+	name = "Enclave - Sergeant"
+	item_path = /obj/item/clothing/under/syndicate/nova/enclave
 
-/// DONATOR
-/datum/loadout_item/under/donator
-	donator_only = TRUE
+/datum/loadout_item/under/jumpsuit/enclaveofficer
+	name = "Enclave - Officer"
+	item_path = /obj/item/clothing/under/syndicate/nova/enclave/officer
 
-/datum/loadout_item/under/donator/captain_black
+/datum/loadout_item/under/jumpsuit/blondie
+	name = "Blonde Cowboy Uniform"
+	item_path = /obj/item/clothing/under/rank/security/detective/cowboy/armorless
+
+/datum/loadout_item/under/captain_black
 	name  = "Captains Black Uniform"
 	item_path = /obj/item/clothing/under/rank/captain/nova/black
 	restricted_roles = list(JOB_CAPTAIN)

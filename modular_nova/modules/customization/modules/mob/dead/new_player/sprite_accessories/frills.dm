@@ -58,10 +58,3 @@
 	name = "Split"
 	icon_state = "split"
 	icon = 'modular_nova/master_files/icons/mob/sprite_accessory/frills.dmi'
-
-/datum/sprite_accessory/frills/sylveon_bow
-	name = "Sylveon Neck Bow"
-	icon_state = "sylveon_bow"
-	icon = 'modular_nova/master_files/icons/mob/sprite_accessory/frills.dmi'
-	color_src = USE_MATRIXED_COLORS
-	relevent_layers = list(BODY_BEHIND_LAYER, BODY_FRONT_LAYER)

@@ -136,6 +136,7 @@
 /datum/sprite_accessory/horns/broadcurls
 	name = "Broad Curls"
 	icon_state = "broadcurls"
+
 /datum/sprite_accessory/horns/sylveon_bow
 	name = "Sylveon Head Bow"
 	icon_state = "sylveon_bow"

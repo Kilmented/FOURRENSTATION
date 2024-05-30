@@ -59,7 +59,7 @@
 	icon_state = "split"
 	icon = 'modular_nova/master_files/icons/mob/sprite_accessory/frills.dmi'
 
-/datum/sprite_accessory/frills/sylveon
+/datum/sprite_accessory/frills/sylveon_bow
 	name = "Sylveon Neck Bow"
 	icon_state = "sylveon_bow"
 	icon = 'modular_nova/master_files/icons/mob/sprite_accessory/frills.dmi'

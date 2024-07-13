@@ -125,9 +125,9 @@ Always compile, always use that verb, and always make sure that it works for wha
 
 // default trait definitions, used by SSmapping
 ///Z level traits for CentCom
-#define ZTRAITS_CENTCOM list(ZTRAIT_CENTCOM = TRUE, ZTRAIT_NOPHASE = TRUE)
+#define ZTRAITS_CENTCOM list(ZTRAIT_CENTCOM = TRUE)
 ///Z level traits for Space Station 13
-#define ZTRAITS_STATION list(ZTRAIT_LINKAGE = CROSSLINKED, ZTRAIT_STATION = TRUE)
+#define ZTRAITS_STATION list(ZTRAIT_LINKAGE = CROSSLINKED, ZTRAIT_STATION = TRUE, ZTRAIT_NOXRAY = TRUE)
 ///Z level traits for Deep Space
 #define ZTRAITS_SPACE list(ZTRAIT_LINKAGE = CROSSLINKED, ZTRAIT_SPACE_RUINS = TRUE)
 ///Z level traits for Lavaland

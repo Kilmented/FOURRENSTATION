@@ -30,3 +30,6 @@
 
 /area/station/commons/dorms/dormblock/starboardfive
 	name = "\improper Starboard Dormblock, Room 5"
+
+/area/station/service/cafeteria // modular edit
+	name = "\improper Canteen"

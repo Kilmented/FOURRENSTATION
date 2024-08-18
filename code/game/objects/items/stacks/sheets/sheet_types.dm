@@ -267,7 +267,7 @@ GLOBAL_LIST_INIT(plasteel_recipes, list ( \
 /obj/item/stack/sheet/plasteel
 	name = "plasteel"
 	singular_name = "plasteel sheet"
-	desc = "This sheet is an alloy of iron and plasma."
+	desc = "This sheet is an alloy of iron and plastic. It owes it's strength to a unique molecular makeup."
 	icon_state = "sheet-plasteel"
 	inhand_icon_state = "sheet-plasteel"
 	mats_per_unit = list(/datum/material/alloy/plasteel=SHEET_MATERIAL_AMOUNT)
@@ -277,7 +277,7 @@ GLOBAL_LIST_INIT(plasteel_recipes, list ( \
 	armor_type = /datum/armor/sheet_plasteel
 	resistance_flags = FIRE_PROOF
 	merge_type = /obj/item/stack/sheet/plasteel
-	grind_results = list(/datum/reagent/iron = 20, /datum/reagent/toxin/plasma = 20)
+	grind_results = list(/datum/reagent/iron = 20, /datum/reagent/carbon = 20)
 	gulag_valid = TRUE
 	tableVariant = /obj/structure/table/reinforced
 	material_flags = NONE

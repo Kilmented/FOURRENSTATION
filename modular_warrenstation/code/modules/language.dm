@@ -464,3 +464,116 @@
 	default_priority = 90
 
 	secret = TRUE
+
+/datum/language/spacer
+	name = "Spacer"
+	desc = "A rough, informal tongue used as a last resort when attempts to establish dialogue in more proper languages fail and no automatic translators are available. It relies heavily on tone, body language, signing, and a multitude of creole loanwords. While its use has fallen severely over the years, it's still practiced by a quantity of Frontier crews and favored by the Free Trade Union."
+	key = "j"
+	flags = TONGUELESS_SPEECH
+	syllables = list(
+		"ada", "zir", "bian", "ach", "usk", "ado", "ich", "cuan", "iga", "qing", "le", "que", "ki", "qaf", "dei", "eta"
+	)
+	icon_state = "spacer"
+	icon = 'modular_nova/master_files/icons/misc/language.dmi'
+	default_priority = 50
+
+	secret = TRUE
+
+/datum/language/voltaic
+	name = "Voltaic"
+	desc = "A sparky language made by manipulating electrical discharge."
+	key = "v"
+	space_chance = 20
+	syllables = list(
+		"bzzt", "skrrt", "zzp", "mmm", "hzz", "tk", "shz", "k", "z",
+		"bzt", "zzt", "skzt", "skzz", "hmmt", "zrrt", "hzzt", "hz",
+		"vzt", "zt", "vz", "zip", "tzp", "lzzt", "dzzt", "zdt", "kzt",
+		"zzzz", "mzz"
+	)
+	icon_state = "volt"
+	default_priority = 90
+
+	secret = TRUE
+
+/datum/language/uncommon
+	name = "Galactic Uncommon"
+	desc = "The second-most spoken Human language."
+	key = "!"
+	flags = TONGUELESS_SPEECH
+	space_chance = 50
+	syllables = list(
+		"ba", "be", "bo", "ca", "ce", "co", "da", "de", "do",
+		"fa", "fe", "fo", "ga", "ge", "go", "ha", "he", "ho",
+		"ja", "je", "jo", "ka", "ke", "ko", "la", "le", "lo",
+		"ma", "me", "mo", "na", "ne", "no", "ra", "re", "ro",
+		"sa", "se", "so", "ta", "te", "to", "va", "ve", "vo",
+		"xa", "xe", "xo", "ya", "ye", "yo", "za", "ze", "zo"
+	)
+	icon_state = "galuncom"
+	default_priority = 90
+
+	secret = TRUE
+
+/datum/language/sylvan
+	name = "Sylvan"
+	desc = "A complicated, ancient language spoken by sentient plants."
+	key = "h"
+	space_chance = 20
+	syllables = list(
+		"fii", "sii", "rii", "rel", "maa", "ala", "san", "tol", "tok", "dia", "eres",
+		"fal", "tis", "bis", "qel", "aras", "losk", "rasa", "eob", "hil", "tanl", "aere",
+		"fer", "bal", "pii", "dala", "ban", "foe", "doa", "cii", "uis", "mel", "wex",
+		"incas", "int", "elc", "ent", "aws", "qip", "nas", "vil", "jens", "dila", "fa",
+		"la", "re", "do", "ji", "ae", "so", "qe", "ce", "na", "mo", "ha", "yu"
+	)
+	icon_state = "plant"
+	default_priority = 90
+
+	secret = TRUE
+
+/datum/language/slime
+	name = "Slime"
+	desc = "A melodic and complex language spoken by slimes. Some of the notes are inaudible to humans."
+	key = "k"
+	syllables = list("qr","qrr","xuq","qil","quum","xuqm","vol","xrim","zaoo","qu-uu","qix","qoo","zix","*","!")
+	default_priority = 70
+
+	icon_state = "slime"
+
+	secret = TRUE
+
+/datum/language/draconic
+	name = "Draconic"
+	desc = "The common language of lizard-people, composed of sibilant hisses and rattles."
+	key = "o"
+	flags = TONGUELESS_SPEECH
+	space_chance = 40
+	syllables = list(
+		"za", "az", "ze", "ez", "zi", "iz", "zo", "oz", "zu", "uz", "zs", "sz",
+		"ha", "ah", "he", "eh", "hi", "ih", "ho", "oh", "hu", "uh", "hs", "sh",
+		"la", "al", "le", "el", "li", "il", "lo", "ol", "lu", "ul", "ls", "sl",
+		"ka", "ak", "ke", "ek", "ki", "ik", "ko", "ok", "ku", "uk", "ks", "sk",
+		"sa", "as", "se", "es", "si", "is", "so", "os", "su", "us", "ss", "ss",
+		"ra", "ar", "re", "er", "ri", "ir", "ro", "or", "ru", "ur", "rs", "sr",
+		"a",  "a",  "e",  "e",  "i",  "i",  "o",  "o",  "u",  "u",  "s",  "s"
+	)
+	icon_state = "lizard"
+	default_priority = 90
+
+	secret = TRUE
+
+/datum/language/machine
+	name = "Encoded Audio Language"
+	desc = "An efficient language of encoded tones developed by synthetics and cyborgs."
+	spans = list(SPAN_ROBOT)
+	key = "6"
+	flags = NO_STUTTER
+	syllables = list(
+		"beep", "beep", "beep", "beep", "beep", "boop", "boop", "boop",
+		"bop", "bop", "dee", "dee", "doo", "doo", "hiss", "hss", "buzz",
+		"buzz", "bzz", "ksssh", "keey", "wurr", "wahh", "tzzz",
+	)
+	space_chance = 10
+	default_priority = 90
+
+	icon_state = "eal"

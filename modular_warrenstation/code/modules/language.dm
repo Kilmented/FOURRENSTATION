@@ -1,3 +1,143 @@
+/datum/language/common
+	name = "Anglo-American"
+	desc = "A language descended from North American English and the United Kingdom's English. A lot of people came to Europe after North America was rendered uninhabitable by corporate greed. \
+			Features loanwords from all over Earth, and thus, the rest of space. The official language of SolStill!"
+	key = "0"
+	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_UNDERSTOOD
+	default_priority = 100
+
+	icon_state = "galcom"
+
+/datum/language/common/syllables = list(
+	// each sublist has an equal chance of being picked, so each syllable has an equal chance of being english or chinese
+	list(
+		"a", "ai", "an", "ang", "ao", "ba", "bai", "ban", "bang", "bao", "bei", "ben", "beng", "bi", "bian", "biao",
+		"bie", "bin", "bing", "bo", "bu", "ca", "cai", "can", "cang", "cao", "ce", "cei", "cen", "ceng", "cha", "chai",
+		"chan", "chang", "chao", "che", "chen", "cheng", "chi", "chong", "chou", "chu", "chua", "chuai", "chuan", "chuang", "chui", "chun",
+		"chuo", "ci", "cong", "cou", "cu", "cuan", "cui", "cun", "cuo", "da", "dai", "dan", "dang", "dao", "de", "dei",
+		"den", "deng", "di", "dian", "diao", "die", "ding", "diu", "dong", "dou", "du", "duan", "dui", "dun", "duo", "e",
+		"ei", "en", "er", "fa", "fan", "fang", "fei", "fen", "feng", "fo", "fou", "fu", "ga", "gai", "gan", "gang",
+		"gao", "ge", "gei", "gen", "geng", "gong", "gou", "gu", "gua", "guai", "guan", "guang", "gui", "gun", "guo", "ha",
+		"hai", "han", "hang", "hao", "he", "hei", "hen", "heng", "hm", "hng", "hong", "hou", "hu", "hua", "huai", "huan",
+		"huang", "hui", "hun", "huo", "ji", "jia", "jian", "jiang", "jiao", "jie", "jin", "jing", "jiong", "jiu", "ju", "juan",
+		"jue", "jun", "ka", "kai", "kan", "kang", "kao", "ke", "kei", "ken", "keng", "kong", "kou", "ku", "kua", "kuai",
+		"kuan", "kuang", "kui", "kun", "kuo", "la", "lai", "lan", "lang", "lao", "le", "lei", "leng", "li", "lia", "lian",
+		"liang", "liao", "lie", "lin", "ling", "liu", "long", "lou", "lu", "luan", "lun", "luo", "ma", "mai", "man", "mang",
+		"mao", "me", "mei", "men", "meng", "mi", "mian", "miao", "mie", "min", "ming", "miu", "mo", "mou", "mu", "na",
+		"nai", "nan", "nang", "nao", "ne", "nei", "nen", "neng", "ng", "ni", "nian", "niang", "niao", "nie", "nin", "ning",
+		"niu", "nong", "nou", "nu", "nuan", "nuo", "o", "ou", "pa", "pai", "pan", "pang", "pao", "pei", "pen", "peng",
+		"pi", "pian", "piao", "pie", "pin", "ping", "po", "pou", "pu", "qi", "qia", "qian", "qiang", "qiao", "qie", "qin",
+		"qing", "qiong", "qiu", "qu", "quan", "que", "qun", "ran", "rang", "rao", "re", "ren", "reng", "ri", "rong", "rou",
+		"ru", "rua", "ruan", "rui", "run", "ruo", "sa", "sai", "san", "sang", "sao", "se", "sei", "sen", "seng", "sha",
+		"shai", "shan", "shang", "shao", "she", "shei", "shen", "sheng", "shi", "shou", "shu", "shua", "shuai", "shuan", "shuang", "shui",
+		"shun", "shuo", "si", "song", "sou", "su", "suan", "sui", "sun", "suo", "ta", "tai", "tan", "tang", "tao", "te",
+		"teng", "ti", "tian", "tiao", "tie", "ting", "tong", "tou", "tu", "tuan", "tui", "tun", "tuo", "wa", "wai", "wan",
+		"wang", "wei", "wen", "weng", "wo", "wu", "xi", "xia", "xian", "xiang", "xiao", "xie", "xin", "xing", "xiong", "xiu",
+		"xu", "xuan", "xue", "xun", "ya", "yan", "yang", "yao", "ye", "yi", "yin", "ying", "yong", "you", "yu", "yuan",
+		"yue", "yun", "za", "zai", "zan", "zang", "zao", "ze", "zei", "zen", "zeng", "zha", "zhai", "zhan", "zhang", "zhao",
+		"zhe", "zhei", "zhen", "zheng", "zhi", "zhong", "zhou", "zhu", "zhua", "zhuai", "zhuan", "zhuang", "zhui", "zhun", "zhuo", "zi",
+		"zong", "zou", "zuan", "zui", "zun", "zuo", "zu",
+	),
+	list(
+		"al", "an", "ar", "as", "at", "ea", "ed", "en", "er", "es", "ha", "he", "hi", "in", "is", "it",
+		"le", "me", "nd", "ne", "ng", "nt", "on", "or", "ou", "re", "se", "st", "te", "th", "ti", "to",
+		"ve", "wa", "all", "and", "are", "but", "ent", "era", "ere", "eve", "for", "had", "hat", "hen", "her", "hin",
+		"his", "ing", "ion", "ith", "not", "ome", "oul", "our", "sho", "ted", "ter", "tha", "the", "thi",
+	),
+)
+
+/datum/language/yangyu
+	name = "Pan-Asianic Mandarin"
+	desc = "Simply, the forced convergent evolution of all Asian languages. If you're a speaker, you're either someone who should know WELL about your family's traditions and history, or a minimum wage data entry tech."
+	key = "Y"
+	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_NOT_UNDERSTOOD // a lot of Anglo-American is borrowed from the same root languages. Thus, it sounds like mostly correct gibberish to the average person, and takes skill to discern.
+	space_chance = 70
+	syllables = list (
+		"ai", "ang", "bai", "beng", "bian", "biao", "bie", "bing", "cai", "can", "cao", "cei", "ceng", "chai", "chan", "chang",
+		"chen", "chi", "chong", "chou", "chu", "chuai", "chuang", "chui", "chun", "dai", "dao", "dang", "deng", "diao", "dong", "duan",
+		"fain", "fang", "feng", "fou", "gai", "gang", "gao", "gong", "guai", "guang", "hai", "han", "hang", "hao", "heng", "huai", "ji", "jiang",
+		"jiao", "jin", "jun", "kai", "kang", "kong", "kuang", "lang", "lao", "liang", "ling", "long", "luan", "mao", "meng", "mian", "miao",
+		"ming", "miu", "nyai", "nang", "nao", "neng", "nyang", "nuan", "qi", "qiang", "qiao", "quan", "qing", "sen", "shang", "shao", "shuan", "song", "tai",
+		"tang", "tian", "tiao", "tong", "tuan", "wai", "wang", "wei", "weng", "xi", "xiang", "xiao", "xie", "xin", "xing", "xiong", "xiu", "xuan", "xue", "yan", "yang",
+		"yao", "yin", "ying", "yong", "yuan", "zang", "zao", "zeng", "zhai", "zhang",
+		"zhen", "zhi", "zhuai", "zhui", "zou", "zun", "zuo"
+	)
+	icon_state = "hanzi"
+	icon = 'modular_nova/master_files/icons/misc/language.dmi'
+	default_priority = 94
+
+
+/datum/language/panslavic
+	name = "Interslavic"
+	desc = "The language of the Cosmodrome. Slavic regions are perfect for launch conditions for certain types of aerocraft, and thus, SolStill decided to make extensive use of them, whether the people liked it or not. Suddenly, a four hundred year hatred was turned from eachother to a common enemy. Now the official language of Mars."
+	key = "P"
+	flags = TONGUELESS_SPEECH
+	syllables = list(
+		"do", "ber", "sve", "tel", "po", "ča", "sen", "jag", "nje", "sla", "do",
+		"led", "klo", "ba", "sa", "pa", "ra", "diž", "nik", "vol", "ko", "vi", "ži",
+		"ra", "fa", "zob", "na", "ščet", "ka", "zgo", "do", "vi", "na", "zah", "ra",
+		"da", "tam", "ten", "led", "nič", "ka", "zá", "pis", "ník", "krá", "va",
+		"ku", "ku", "ři", "ce", "ve", "přo", "vé", "ma", "so", "mo", "cný", "pi",
+		"kan", "tní", "o", "ran", "žo", "vý", "vlast", "nos", "ti", "hvi", "li", "na",
+		"mіs", "ce", "vij", "snі", "da", "nok", "kva", "so", "lja", "char", "ka", "mіs",
+		"jacj", "gar", "na", "ne", "pra", "vil", "niy", "min", "dal", "io", "lam", "pa",
+		"i", "zo", "bra", "ze", "ni", "e", "is", "kus", "stvo", "bi", "bli", "o", "te",
+		"ka", "bas", "se", "in", "fut", "bol", "o", "fis", "po", "che", "mu", "ru",
+		"bash", "ka", "kuh", "nia", "rech", "nik", "gor", "ko", "pi", "le", "ti", "na",
+		"ko", "ni", "spa", "va", "ha", "so", "ba", "sve", "ska", "nov", "cha", "nik",
+		"zem", "lya", "kan", "ce", "la", "ri", "јa", "snezh", "ne", "pa", "da", "vi", "ne"
+	)
+	icon_state = "russian"
+	icon = 'modular_nova/master_files/icons/misc/language.dmi'
+	default_priority = 95
+
+	secret = TRUE
+
+	// Pan-SLAVIC? Do you even understand what you WROTE? "Hm, let's combine all the people who HATE EACHOTHER to DEATH in a singular language! Nothing can go wrong!" I bet you a Russian shitgoblin wrote this.
+
+/datum/language/gutter
+	name = "Plutonian"
+	desc = "Plutonian derives from the original French and Spanish settlers that made up the original Plutonian Colonization mission. It's a kinder word for what was essentially the Anglo-Americans kicking out their closest neighbors to make for more space to put an immediately bloated and strained population."
+	key = "G"
+	flags = TONGUELESS_SPEECH
+	syllables = list (
+		"bai", "cai", "jai", "quai", "vai", "dei", "lei", "quei", "sei", "noi", "quoi", "voi", "beu", "queu", "seu", "gan", "zan", "quan", "len", "ten",
+		"ba", "be", "bi", "bo", "bu", "ca", "ce", "ci", "co", "cu", "da", "de", "di", "do", "du", "fa", "fe", "fi", "fo", "fu", "ga", "gue", "gui", "go",
+		"gu", "ña", "ñe", "ñi", "ño", "ñu", "que", "qui", "cha", "che", "chi", "cho", "chu", "lla", "lle", "lli", "llo", "llu",
+		"tá", "vé", "sál", "fáb", "l'e", "seu", "deu", "meu", "vai", "ción", "tá"
+	)
+	icon_state = "gutter"
+	icon = 'modular_nova/master_files/icons/misc/language.dmi'
+	default_priority = 40
+
+/datum/language/canilunzt
+	name = "Technichespra"
+	desc = "The parlance from the remnants of an empire on which is notorious for starting the original first two World Wars. Reduced to a special economic zone, and then to its people, and then to nothing. Constant use in science and engineering circles led to significant use of technical terms even in casual use."
+	key = "7"
+	flags = TONGUELESS_SPEECH
+	space_chance = 80
+	syllables = list (
+		// germanic
+		"rah","mur","ru","ke","grok","wen","tot","sch",
+		"grst","crentz","cet","waz","et","du","kor","heizt","loch","jach","qet","anzhem","icht",
+		"unt","kech","gech","flei","deint","weim","kan","neiz","mende","lak","jen","gor","bor",
+		"kol","hau","au","vau","amh","av","vogh","guau","hev","haf","auh","bhao","jau","yar","owff",
+		"ghav","buh","rur","ya","cen","bar","kuk","tek","qat","uk","wu","vuh","tah","tch","schz",
+		"auch","ist","ein","entch","zwichs","tut","mir","wo","bis","es","vor","nic","gro","lll",
+		"enem","zandt","tzch","noch","hel","ischt","far","wa","baram","iereng","tech","lach","sam",
+		"mak","lich","gen","or","ag","eck","gec","stag","onn","bin","ket","einech","cresthz","azunein","ghzth",
+		// technik terms
+		"neuronal","verstrickung","kyrogen","supraleiter","biosynthetik","katalytik","faser","optik","kinetik","magnetik","resonanz","konverter","gefangenschaft","netzwerk"
+	)
+	icon_state = "technichespra"
+	icon = 'modular_nova/master_files/icons/misc/language.dmi'
+	default_priority = 90
+
+/////////////////////////////// !!!!HEADER!!!! ///////////////////////////////
+// languages below this point are soft removals.
+// under no circumstances can they come back in their current state. either rework it to show off a different earth culture, or leave it how it is, dusty and forgotten at the bottom of a modular folder.
+/////////////////////////////// !!!!HEADER!!!! ///////////////////////////////
+
 /datum/language/akulan
 	name = "Te Velu Akko"
 	desc = "Translating to 'The Song of the King', this language was custom-made in Agurkrral to allow those with little education, including aliens, to better integrate into Azulean society. \
@@ -65,27 +205,7 @@
 	icon = 'modular_nova/master_files/icons/misc/language.dmi'
 	default_priority = 95
 
-	secret = TRUE
-
-/datum/language/yangyu
-	name = "Pan-Asianic Mandarin"
-	desc = "Simply, the convergent evolution of all Asian languages. If you're a speaker, you're either someone who should know WELL about your family's traditions and history, or someone who doesn't care."
-	key = "Y"
-	flags = TONGUELESS_SPEECH
-	space_chance = 70
-	syllables = list (
-		"ai", "ang", "bai", "beng", "bian", "biao", "bie", "bing", "cai", "can", "cao", "cei", "ceng", "chai", "chan", "chang",
-		"chen", "chi", "chong", "chou", "chu", "chuai", "chuang", "chui", "chun", "dai", "dao", "dang", "deng", "diao", "dong", "duan",
-		"fain", "fang", "feng", "fou", "gai", "gang", "gao", "gong", "guai", "guang", "hai", "han", "hang", "hao", "heng", "huai", "ji", "jiang",
-		"jiao", "jin", "jun", "kai", "kang", "kong", "kuang", "lang", "lao", "liang", "ling", "long", "luan", "mao", "meng", "mian", "miao",
-		"ming", "miu", "nyai", "nang", "nao", "neng", "nyang", "nuan", "qi", "qiang", "qiao", "quan", "qing", "sen", "shang", "shao", "shuan", "song", "tai",
-		"tang", "tian", "tiao", "tong", "tuan", "wai", "wang", "wei", "weng", "xi", "xiang", "xiao", "xie", "xin", "xing", "xiong", "xiu", "xuan", "xue", "yan", "yang",
-		"yao", "yin", "ying", "yong", "yuan", "zang", "zao", "zeng", "zhai", "zhang",
-		"zhen", "zhi", "zhuai", "zhui", "zou", "zun", "zuo"
-	)
-	icon_state = "hanzi"
-	icon = 'modular_nova/master_files/icons/misc/language.dmi'
-	default_priority = 94
+	secret = TRUE // get a better gimmick than having oil, tourism, and exclusivity trade deals and you can come out the timeout corner. at least the anglo-americans have that whole "colonizer" thing going on. c'mon try harder.
 
 /datum/language/siiktajr
 	name = "Siik'tajr"
@@ -111,53 +231,6 @@
 
 	secret = TRUE
 
-/datum/language/common
-	name = "Anglo-American"
-	desc = "A language descended from North American English and the United Kingdom's English. A lot of people came to Europe after North America was rendered uninhabitable by corporate greed. \
-			Features loanwords from all over Earth, and thus, the rest of space. The official language of SolStill!"
-	key = "0"
-	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_UNDERSTOOD
-	default_priority = 100
-
-	icon_state = "galcom"
-
-/datum/language/common/syllables = list(
-	// each sublist has an equal chance of being picked, so each syllable has an equal chance of being english or chinese
-	list(
-		"a", "ai", "an", "ang", "ao", "ba", "bai", "ban", "bang", "bao", "bei", "ben", "beng", "bi", "bian", "biao",
-		"bie", "bin", "bing", "bo", "bu", "ca", "cai", "can", "cang", "cao", "ce", "cei", "cen", "ceng", "cha", "chai",
-		"chan", "chang", "chao", "che", "chen", "cheng", "chi", "chong", "chou", "chu", "chua", "chuai", "chuan", "chuang", "chui", "chun",
-		"chuo", "ci", "cong", "cou", "cu", "cuan", "cui", "cun", "cuo", "da", "dai", "dan", "dang", "dao", "de", "dei",
-		"den", "deng", "di", "dian", "diao", "die", "ding", "diu", "dong", "dou", "du", "duan", "dui", "dun", "duo", "e",
-		"ei", "en", "er", "fa", "fan", "fang", "fei", "fen", "feng", "fo", "fou", "fu", "ga", "gai", "gan", "gang",
-		"gao", "ge", "gei", "gen", "geng", "gong", "gou", "gu", "gua", "guai", "guan", "guang", "gui", "gun", "guo", "ha",
-		"hai", "han", "hang", "hao", "he", "hei", "hen", "heng", "hm", "hng", "hong", "hou", "hu", "hua", "huai", "huan",
-		"huang", "hui", "hun", "huo", "ji", "jia", "jian", "jiang", "jiao", "jie", "jin", "jing", "jiong", "jiu", "ju", "juan",
-		"jue", "jun", "ka", "kai", "kan", "kang", "kao", "ke", "kei", "ken", "keng", "kong", "kou", "ku", "kua", "kuai",
-		"kuan", "kuang", "kui", "kun", "kuo", "la", "lai", "lan", "lang", "lao", "le", "lei", "leng", "li", "lia", "lian",
-		"liang", "liao", "lie", "lin", "ling", "liu", "long", "lou", "lu", "luan", "lun", "luo", "ma", "mai", "man", "mang",
-		"mao", "me", "mei", "men", "meng", "mi", "mian", "miao", "mie", "min", "ming", "miu", "mo", "mou", "mu", "na",
-		"nai", "nan", "nang", "nao", "ne", "nei", "nen", "neng", "ng", "ni", "nian", "niang", "niao", "nie", "nin", "ning",
-		"niu", "nong", "nou", "nu", "nuan", "nuo", "o", "ou", "pa", "pai", "pan", "pang", "pao", "pei", "pen", "peng",
-		"pi", "pian", "piao", "pie", "pin", "ping", "po", "pou", "pu", "qi", "qia", "qian", "qiang", "qiao", "qie", "qin",
-		"qing", "qiong", "qiu", "qu", "quan", "que", "qun", "ran", "rang", "rao", "re", "ren", "reng", "ri", "rong", "rou",
-		"ru", "rua", "ruan", "rui", "run", "ruo", "sa", "sai", "san", "sang", "sao", "se", "sei", "sen", "seng", "sha",
-		"shai", "shan", "shang", "shao", "she", "shei", "shen", "sheng", "shi", "shou", "shu", "shua", "shuai", "shuan", "shuang", "shui",
-		"shun", "shuo", "si", "song", "sou", "su", "suan", "sui", "sun", "suo", "ta", "tai", "tan", "tang", "tao", "te",
-		"teng", "ti", "tian", "tiao", "tie", "ting", "tong", "tou", "tu", "tuan", "tui", "tun", "tuo", "wa", "wai", "wan",
-		"wang", "wei", "wen", "weng", "wo", "wu", "xi", "xia", "xian", "xiang", "xiao", "xie", "xin", "xing", "xiong", "xiu",
-		"xu", "xuan", "xue", "xun", "ya", "yan", "yang", "yao", "ye", "yi", "yin", "ying", "yong", "you", "yu", "yuan",
-		"yue", "yun", "za", "zai", "zan", "zang", "zao", "ze", "zei", "zen", "zeng", "zha", "zhai", "zhan", "zhang", "zhao",
-		"zhe", "zhei", "zhen", "zheng", "zhi", "zhong", "zhou", "zhu", "zhua", "zhuai", "zhuan", "zhuang", "zhui", "zhun", "zhuo", "zi",
-		"zong", "zou", "zuan", "zui", "zun", "zuo", "zu",
-	),
-	list(
-		"al", "an", "ar", "as", "at", "ea", "ed", "en", "er", "es", "ha", "he", "hi", "in", "is", "it",
-		"le", "me", "nd", "ne", "ng", "nt", "on", "or", "ou", "re", "se", "st", "te", "th", "ti", "to",
-		"ve", "wa", "all", "and", "are", "but", "ent", "era", "ere", "eve", "for", "had", "hat", "hen", "her", "hin",
-		"his", "ing", "ion", "ith", "not", "ome", "oul", "our", "sho", "ted", "ter", "tha", "the", "thi",
-	),
-)
 
 /datum/language/schechi
 	name = "Schechi"
@@ -177,6 +250,7 @@
 
 	secret = TRUE
 
+
 /datum/language/skrell
 	name = "Skrelluq"
 	desc = "Popularly known as \"Skrellian\" by foreigners, this newly-discovered language that the Skrell employ follows no traditional speech patterns. It relies on various differently-pitched warbles and low-frequency sound to construct different sentences, and is nearly inaudible to non-Skrell and anyone lacking an appropriate implant."
@@ -189,6 +263,7 @@
 	icon = 'modular_nova/master_files/icons/misc/language.dmi'
 
 	secret = TRUE
+
 
 /datum/language/shadowtongue
 	name = "Shadowtongue"
@@ -209,6 +284,7 @@
 
 	secret = TRUE // dog this is just cringe
 
+
 /datum/language/piratespeak
 	name = "Spatial Sea-tongue"
 	desc = "The language of Space Pirates. It's rough, convoluted, and tough to decipher on purpose."
@@ -219,33 +295,6 @@
 	)
 	secret = TRUE
 
-/datum/language/panslavic
-	name = "Pan-Slavic"
-	desc = "An elaborate mix of various Slavic languages with similar properties that has long since become the official language of the NRI, with a steady amount of relevance in SolFed colonies with Slavic descendants and various types of trading posts and spaceports across Human space - it even managed to find a niche in communication with other species."
-	key = "P"
-	flags = TONGUELESS_SPEECH
-	syllables = list(
-		"do", "ber", "sve", "tel", "po", "ča", "sen", "jag", "nje", "sla", "do",
-		"led", "klo", "ba", "sa", "pa", "ra", "diž", "nik", "vol", "ko", "vi", "ži",
-		"ra", "fa", "zob", "na", "ščet", "ka", "zgo", "do", "vi", "na", "zah", "ra",
-		"da", "tam", "ten", "led", "nič", "ka", "zá", "pis", "ník", "krá", "va",
-		"ku", "ku", "ři", "ce", "ve", "přo", "vé", "ma", "so", "mo", "cný", "pi",
-		"kan", "tní", "o", "ran", "žo", "vý", "vlast", "nos", "ti", "hvi", "li", "na",
-		"mіs", "ce", "vij", "snі", "da", "nok", "kva", "so", "lja", "char", "ka", "mіs",
-		"jacj", "gar", "na", "ne", "pra", "vil", "niy", "min", "dal", "io", "lam", "pa",
-		"i", "zo", "bra", "ze", "ni", "e", "is", "kus", "stvo", "bi", "bli", "o", "te",
-		"ka", "bas", "se", "in", "fut", "bol", "o", "fis", "po", "che", "mu", "ru",
-		"bash", "ka", "kuh", "nia", "rech", "nik", "gor", "ko", "pi", "le", "ti", "na",
-		"ko", "ni", "spa", "va", "ha", "so", "ba", "sve", "ska", "nov", "cha", "nik",
-		"zem", "lya", "kan", "ce", "la", "ri", "јa", "snezh", "ne", "pa", "da", "vi", "ne"
-	)
-	icon_state = "russian"
-	icon = 'modular_nova/master_files/icons/misc/language.dmi'
-	default_priority = 95
-
-	secret = TRUE
-
-	// Pan-SLAVIC? Do you even understand what you WROTE? "Hm, let's combine all the people who HATE EACHOTHER to DEATH in a singular language! Nothing can go wrong!" I bet you a Russian shitgoblin wrote this.
 /datum/language/mushroom
 	name = "Mushroom"
 	desc = "A language that consists of the sound of periodic gusts of spore-filled air being released."
@@ -291,21 +340,6 @@
 
 	secret = TRUE
 
-/datum/language/gutter
-	name = "Plutonian"
-	desc = "Plutonian derives from the original French and Spanish settlers that made up the original Plutonian Colonization mission. It's a kinder word for what was essentially the Anglo-Americans kicking out their closest neighbors to make for more space to put an immediately bloated and strained population."
-	key = "G"
-	flags = TONGUELESS_SPEECH
-	syllables = list (
-		"bai", "cai", "jai", "quai", "vai", "dei", "lei", "quei", "sei", "noi", "quoi", "voi", "beu", "queu", "seu", "gan", "zan", "quan", "len", "ten",
-		"ba", "be", "bi", "bo", "bu", "ca", "ce", "ci", "co", "cu", "da", "de", "di", "do", "du", "fa", "fe", "fi", "fo", "fu", "ga", "gue", "gui", "go",
-		"gu", "ña", "ñe", "ñi", "ño", "ñu", "que", "qui", "cha", "che", "chi", "cho", "chu", "lla", "lle", "lli", "llo", "llu",
-		"tá", "vé", "sál", "fáb", "l'e", "seu", "deu", "meu", "vai", "ción", "tá"
-	)
-	icon_state = "gutter"
-	icon = 'modular_nova/master_files/icons/misc/language.dmi'
-	default_priority = 40
-
 /datum/language/chitinclick
 	name = "Chitinclick"
 	desc = "A popular non-Human language that finds extensive use by various types of anthropomorphic invertebrates. It consists of complex flutters, chittering, antenna movements, and sparse guttural syllables."
@@ -330,28 +364,6 @@
 
 	secret = TRUE
 
-/datum/language/canilunzt
-	name = "Canilunzt"
-	desc = "A somewhat simple language consisting of heavily articulate barks, growls, yapping, and combined movements of the tail and ears. It's natively spoken by the Vulpkanin, although certain groups of gene modders have adopted it as a secondary form of communication. Its parlance has been loosely compared to the Germanic language group."
-	key = "7"
-	flags = TONGUELESS_SPEECH
-	space_chance = 80
-	syllables = list (
-		"rah","mur","ru","ke","grok","wen","tot","sch",
-		"grst","crentz","cet","waz","et","du","kor","heizt","loch","jach","qet","anzhem","icht",
-		"unt","kech","gech","flei","deint","weim","kan","neiz","mende","lak","jen","gor","bor",
-		"kol","hau","au","vau","amh","av","vogh","guau","hev","haf","auh","bhao","jau","yar","owff",
-		"ghav","buh","rur","ya","cen","bar","kuk","tek","qat","uk","wu","vuh","tah","tch","schz",
-		"auch","ist","ein","entch","zwichs","tut","mir","wo","bis","es","vor","nic","gro","lll",
-		"enem","zandt","tzch","noch","hel","ischt","far","wa","baram","iereng","tech","lach","sam",
-		"mak","lich","gen","or","ag","eck","gec","stag","onn","bin","ket","einech","cresthz","azunein","ghzth"
-	)
-	icon_state = "canilunzt"
-	icon = 'modular_nova/master_files/icons/misc/language.dmi'
-	default_priority = 90
-
-	secret = TRUE
-
 /datum/language/calcic
 	name = "Calcic"
 	desc = "The disjointed and staccato language of plasmamen. Also understood by skeletons."
@@ -368,6 +380,7 @@
 	default_priority = 90
 
 	secret = TRUE
+
 
 /datum/language/buzzwords
 	name = "Buzzwords"
@@ -403,8 +416,8 @@
 	)
 
 	icon_state = "beach"
-
 	secret = TRUE
+
 
 /datum/language/ashtongue
 	name = "Ashtongue"
@@ -456,7 +469,7 @@
 	syllables = list(
 		"neko", "nyan", "mimi", "moe", "mofu", "fuwa", "kyaa", "kawaii", "poka", "munya",
 		"puni", "munyu", "ufufu", "uhuhu", "icha", "doki", "kyun", "kusu", "nya", "nyaa",
-		"desu", "kis", "ama", "chuu", "baka", "hewo", "boop", "gatto", "kit", "sune", "yori", //NOVA EDIT gatto
+		"desu", "kis", "ama", "chuu", "baka", "hewo", "boop", "gatto", "kit", "sune", "yori",
 		"sou", "baka", "chan", "san", "kun", "mahou", "yatta", "suki", "usagi", "domo", "ori",
 		"uwa", "zaazaa", "shiku", "puru", "ira", "heto", "etto"
 	)

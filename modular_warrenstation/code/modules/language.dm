@@ -6,7 +6,7 @@
 	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_UNDERSTOOD
 	default_priority = 100
 
-	icon_state = "galcom"
+	icon_state = "solstill"
 
 /datum/language/common/syllables = list(
 	// each sublist has an equal chance of being picked, so each syllable has an equal chance of being english or chinese
@@ -87,11 +87,9 @@
 		"ko", "ni", "spa", "va", "ha", "so", "ba", "sve", "ska", "nov", "cha", "nik",
 		"zem", "lya", "kan", "ce", "la", "ri", "јa", "snezh", "ne", "pa", "da", "vi", "ne"
 	)
-	icon_state = "russian"
+	icon_state = "interslavic"
 	icon = 'modular_nova/master_files/icons/misc/language.dmi'
 	default_priority = 95
-
-	secret = TRUE
 
 	// Pan-SLAVIC? Do you even understand what you WROTE? "Hm, let's combine all the people who HATE EACHOTHER to DEATH in a singular language! Nothing can go wrong!" I bet you a Russian shitgoblin wrote this.
 
@@ -106,7 +104,7 @@
 		"gu", "ña", "ñe", "ñi", "ño", "ñu", "que", "qui", "cha", "che", "chi", "cho", "chu", "lla", "lle", "lli", "llo", "llu",
 		"tá", "vé", "sál", "fáb", "l'e", "seu", "deu", "meu", "vai", "ción", "tá"
 	)
-	icon_state = "gutter"
+	icon_state = "plutonian"
 	icon = 'modular_nova/master_files/icons/misc/language.dmi'
 	default_priority = 40
 

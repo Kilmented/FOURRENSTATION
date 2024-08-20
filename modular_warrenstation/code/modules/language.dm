@@ -69,11 +69,10 @@
 
 /datum/language/yangyu
 	name = "Pan-Asianic Mandarin"
-	desc = "Simply, the convergent evolution of all Asian languages. If you're a speaker, you should know WELL about your traditions and history, keep this in mind."
+	desc = "Simply, the convergent evolution of all Asian languages. If you're a speaker, you're either someone who should know WELL about your family's traditions and history, or someone who doesn't care."
 	key = "Y"
 	flags = TONGUELESS_SPEECH
 	space_chance = 70
-	// Entirely Chinese save for the isolated 2 "nya" style syllables. I don't want to bloat the syllable list with other mixes, but they generally sound somewhat alike.
 	syllables = list (
 		"ai", "ang", "bai", "beng", "bian", "biao", "bie", "bing", "cai", "can", "cao", "cei", "ceng", "chai", "chan", "chang",
 		"chen", "chi", "chong", "chou", "chu", "chuai", "chuang", "chui", "chun", "dai", "dao", "dang", "deng", "diao", "dong", "duan",
@@ -87,8 +86,6 @@
 	icon_state = "hanzi"
 	icon = 'modular_nova/master_files/icons/misc/language.dmi'
 	default_priority = 94
-
-	secret = TRUE
 
 /datum/language/siiktajr
 	name = "Siik'tajr"

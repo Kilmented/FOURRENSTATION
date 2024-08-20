@@ -48,7 +48,7 @@
 
 /datum/language/yangyu
 	name = "Pan-Asianic Mandarin"
-	desc = "Simply, the forced convergent evolution of all Asian languages. If you're a speaker, you're either someone who should know WELL about your family's traditions and history, or a minimum wage data entry tech."
+	desc = "The forced convergent evolution of all Asian languages. If you're a speaker, you're either someone who should know WELL about your family's traditions and history, or a minimum wage data entry tech."
 	key = "Y"
 	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_NOT_UNDERSTOOD // a lot of Anglo-American is borrowed from the same root languages. Thus, it sounds like mostly correct gibberish to the average person, and takes skill to discern.
 	space_chance = 70
@@ -69,7 +69,7 @@
 
 /datum/language/panslavic
 	name = "Interslavic"
-	desc = "The language of the Cosmodrome. Slavic regions are perfect for launch conditions for certain types of aerocraft, and thus, SolStill decided to make extensive use of them, whether the people liked it or not. Suddenly, a four hundred year hatred was turned from eachother to a common enemy. Now the official language of Mars."
+	desc = "The language of the Cosmodrome, and Mars. Slavic regions are perfect for launch conditions for certain types of aerocraft, and thus, SolStill decided to make extensive use of them whether the people liked it or not. Suddenly, a four hundred year hatred was turned from eachother to SolStill."
 	key = "P"
 	flags = TONGUELESS_SPEECH
 	syllables = list(
@@ -110,7 +110,7 @@
 
 /datum/language/canilunzt
 	name = "Technichespra"
-	desc = "The parlance from the remnants of an empire on which is notorious for starting the original first two World Wars. Reduced to a special economic zone, and then to its people, and then to nothing. Constant use in science and engineering circles led to significant use of technical terms even in casual use."
+	desc = "The parlance from the remnants of an empire on which is notorious for starting the original first two World Wars. Reduced to a special economic zone, and then to its people, and then to nothing. Constant dabbling in science and engineering circles led to significant use of technical terms even in casual intent. The official language of Massestimme."
 	key = "7"
 	flags = TONGUELESS_SPEECH
 	space_chance = 80
@@ -133,7 +133,7 @@
 
 /////////////////////////////// !!!!HEADER!!!! ///////////////////////////////
 // languages below this point are soft removals.
-// under no circumstances can they come back in their current state. either rework it to show off a different earth culture, or leave it how it is, dusty and forgotten at the bottom of a modular folder.
+// under no circumstances can they come back in their current state. either rework it to show off a different earth culture, or leave it how it is; dusty and forgotten at the bottom of a modular folder.
 /////////////////////////////// !!!!HEADER!!!! ///////////////////////////////
 
 /datum/language/akulan

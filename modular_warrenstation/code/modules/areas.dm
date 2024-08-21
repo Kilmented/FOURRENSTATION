@@ -1,5 +1,9 @@
+// additions
+
 /area/station/commons/dorms/dormblock
 	name = "\improper (Port/Starboard) Dormblock, Room X"
+	mood_bonus = 3
+	mood_message = "The Dormblock is so cozy! It feels good to be at home."
 
 /area/station/commons/dorms/dormblock/portone
 	name = "\improper Port Dormblock, Room 1"
@@ -31,5 +35,14 @@
 /area/station/commons/dorms/dormblock/starboardfive
 	name = "\improper Starboard Dormblock, Room 5"
 
+/area/station/commons/hangar
+	name = "\improper Hangar"
+	mood_bonus = 2
+	mood_message = "The hangar is so expansive and free! It feels good to be at home."
+
+// modular edits
+
 /area/station/service/cafeteria // modular edit
 	name = "\improper Canteen"
+	mood_bonus = 2
+	mood_message = "It feels good to be at home."

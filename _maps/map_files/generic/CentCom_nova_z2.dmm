@@ -49,7 +49,7 @@
 /obj/machinery/door/airlock/security/glass,
 /obj/effect/mapping_helpers/airlock/access/all/security/entrance,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/checkpoint)
 "ags" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/a/style_2,
@@ -64,7 +64,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "ahS" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
@@ -87,7 +87,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "aob" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -107,16 +107,16 @@
 /obj/structure/cable,
 /obj/structure/cable/layer1,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/power_room)
 "aqd" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
 	dir = 1
 	},
 /turf/closed/wall/r_wall,
-/area/space)
+/area/station/engineering/main)
 "arh" = (
 /turf/open/floor/iron/textured_half,
-/area/space)
+/area/station/cargo/lobby)
 "aru" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 2
@@ -133,7 +133,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "asu" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/dark{
@@ -145,11 +145,11 @@
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "atv" = (
-/turf/open/floor/iron/white/smooth_large,
-/area/space)
+/turf/open/floor/plating,
+/area/station/engineering/main)
 "axa" = (
 /turf/open/floor/plating/airless,
-/area/space)
+/area/station/engineering/main)
 "axk" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -191,7 +191,7 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/engineering/main)
 "aBb" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 10
@@ -237,7 +237,13 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/cargo/storage)
+"aEY" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/ai_monitored/security/armory)
 "aGu" = (
 /obj/machinery/mechpad,
 /turf/open/floor/circuit/green,
@@ -269,7 +275,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "aLR" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/textured_large,
@@ -317,6 +323,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"aTW" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/engineering/main)
 "aXZ" = (
 /obj/structure/disposalpipe/trunk,
 /obj/structure/window/spawner/directional/east,
@@ -326,7 +337,7 @@
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/office)
 "aYM" = (
 /obj/structure/table/glass,
 /obj/item/book/manual/wiki/cytology{
@@ -348,19 +359,25 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "bck" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/service/kitchen/kitchen_backroom)
+"bcG" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/command/bridge)
 "bdC" = (
 /obj/machinery/computer/atmos_control/air_tank{
 	dir = 1
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "bfb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -434,19 +451,29 @@
 "bnA" = (
 /obj/machinery/computer/atmos_control/plasma_tank,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "bnI" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/research)
+"bok" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/catwalk_floor/flat_white,
+/area/station/command/bridge)
 "bov" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/service/janitor)
+"bph" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/cargo/office)
 "bqe" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -462,7 +489,7 @@
 	name = "We ran out of budget. - MSTIMC"
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/ai_monitored/security/armory)
 "brd" = (
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/wood/tile,
@@ -472,7 +499,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "btj" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -509,7 +536,7 @@
 /area/station/medical/morgue)
 "bwy" = (
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "bwC" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 2
@@ -518,13 +545,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/port)
 "bwH" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "bzE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -537,24 +564,24 @@
 	dir = 5
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "bBV" = (
 /obj/machinery/camera/directional/east{
 	c_tag = "Atmospherics Tank - N2O"
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/nitrous_output,
 /turf/open/floor/engine/n2o,
-/area/space)
+/area/station/engineering/main)
 "bCd" = (
 /obj/structure/closet/crate/freezer,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "bCo" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/oxygen_input{
 	dir = 1
 	},
 /turf/open/floor/engine/o2,
-/area/space)
+/area/station/engineering/main)
 "bFe" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -581,7 +608,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "bGu" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 9
@@ -654,7 +681,10 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/grass,
-/area/space)
+/area/station/cargo/storage)
+"bMK" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/ai_monitored/security/armory)
 "bNL" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/b/style_5,
@@ -712,7 +742,7 @@
 	dir = 8
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "bQs" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/smooth_large,
@@ -745,13 +775,19 @@
 	},
 /obj/effect/spawner/random/food_or_drink/dinner,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "bTN" = (
 /obj/structure/cable,
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
+"bUx" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
 "bVd" = (
 /obj/machinery/gibber,
 /obj/effect/turf_decal/siding/dark{
@@ -779,7 +815,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/office)
 "cbV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -816,7 +852,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "cjI" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -838,7 +874,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "cll" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Service Hall"
@@ -851,10 +887,10 @@
 /area/station/service/kitchen/kitchen_backroom)
 "clw" = (
 /turf/closed/wall,
-/area/space)
+/area/station/engineering/main)
 "cmR" = (
 /turf/open/floor/iron/dark,
-/area/space)
+/area/station/engineering/gravity_generator)
 "cmS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -865,7 +901,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "coJ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/medkit/surgery,
@@ -894,10 +930,13 @@
 	dir = 8
 	},
 /area/station/commons/dorms/dormblock/portthree)
+"crg" = (
+/turf/open/floor/iron/textured,
+/area/station/engineering/gravity_generator)
 "crt" = (
 /obj/item/target,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "csB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/smooth_large,
@@ -941,7 +980,7 @@
 	c_tag = "Atmospherics Tank - N2"
 	},
 /turf/open/floor/engine/n2,
-/area/space)
+/area/station/engineering/main)
 "cyL" = (
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/dark,
@@ -976,7 +1015,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "cEh" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -988,12 +1027,12 @@
 "cEH" = (
 /obj/structure/railing/corner/end,
 /turf/open/floor/iron/textured_half,
-/area/space)
+/area/station/cargo/lobby)
 "cES" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/air_sensor/carbon_tank,
 /turf/open/floor/engine/co2,
-/area/space)
+/area/station/engineering/main)
 "cHw" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/iron/dark,
@@ -1001,7 +1040,7 @@
 "cIS" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/manifold,
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "cKL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1017,7 +1056,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "cMl" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/corp/corner{
@@ -1038,7 +1077,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "cOw" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
@@ -1048,14 +1087,14 @@
 "cOM" = (
 /obj/machinery/ammo_workbench,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/ai_monitored/security/armory)
 "cPg" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
 	color = "ACA3FF"
 	},
-/area/space)
+/area/station/security/range)
 "cPT" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/b/style_4,
@@ -1067,12 +1106,12 @@
 	name = "reinforced bulkhead";
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
-/area/space)
+/area/station/security/checkpoint)
 "cQR" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/power_room)
 "cRb" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
@@ -1129,6 +1168,18 @@
 	dir = 10
 	},
 /area/station/commons/dorms/dormblock/portthree)
+"cZM" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/hallway/primary/starboard)
+"dac" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "daZ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 2
@@ -1136,16 +1187,20 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/portfive)
+"dbl" = (
+/obj/structure/cable,
+/turf/open/floor/iron/textured,
+/area/station/engineering/main)
 "dcw" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /obj/machinery/meter,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "dcT" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/vehicle/sealed/mecha/ripley/cargo,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "ddE" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/grass,
@@ -1169,7 +1224,7 @@
 /area/station/science/robotics/mechbay)
 "dfc" = (
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "dhf" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -1180,7 +1235,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/shipping,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "dhD" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -1209,7 +1264,7 @@
 	},
 /obj/machinery/rnd/production/techfab/department/cargo,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "dkv" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 10
@@ -1269,11 +1324,16 @@
 	dir = 9
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/office)
 "dsb" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
+"dvp" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/cargo/office)
 "dvy" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/turf_decal/siding/dark{
@@ -1322,6 +1382,12 @@
 /obj/machinery/light/warm/directional/north,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"dyK" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
 "dyY" = (
 /obj/structure/table/optable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1344,7 +1410,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "dEZ" = (
 /obj/machinery/power/stirling_generator{
 	dir = 1
@@ -1354,7 +1420,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "dFK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/holopad,
@@ -1373,7 +1439,7 @@
 "dGC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "dJq" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /obj/structure/grille,
@@ -1381,13 +1447,13 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/engineering/main)
 "dLJ" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/cargo/storage)
 "dNt" = (
 /obj/machinery/computer/cryopod/directional/south,
 /obj/machinery/cryopod/prison/directional/east,
@@ -1398,7 +1464,7 @@
 "dNF" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrous_input,
 /turf/open/floor/engine/n2o,
-/area/space)
+/area/station/engineering/main)
 "dPY" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1412,7 +1478,7 @@
 	},
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "dSs" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1434,6 +1500,13 @@
 "dTD" = (
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"dUM" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/science/research)
 "dVB" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1533,6 +1606,11 @@
 	},
 /turf/open/floor/wood/tile,
 /area/station/service/cafeteria)
+"ege" = (
+/obj/structure/cable/layer1,
+/obj/structure/cable,
+/turf/open/floor/iron/textured,
+/area/station/engineering/power_room)
 "egh" = (
 /obj/machinery/door/airlock/virology/glass{
 	name = "Vitrifigenics"
@@ -1540,6 +1618,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/common/cryopods)
+"egH" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/maintenance/port/fore)
 "egN" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/hydroponics/constructable,
@@ -1552,11 +1635,11 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "eje" = (
 /obj/machinery/air_sensor/nitrogen_tank,
 /turf/open/floor/engine/n2,
-/area/space)
+/area/station/engineering/main)
 "ejq" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
@@ -1565,7 +1648,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "ekK" = (
 /obj/effect/turf_decal/siding/dark/end,
 /obj/structure/toilet{
@@ -1617,7 +1700,12 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/power_room)
+"eoq" = (
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/station/cargo/storage)
 "eor" = (
 /obj/structure/table,
 /obj/item/stock_parts/micro_laser,
@@ -1683,7 +1771,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "evh" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 2
@@ -1717,7 +1805,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "ezl" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
@@ -1733,13 +1821,22 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
+"eBk" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/security/prison/safe)
+"eBF" = (
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "eDg" = (
 /obj/structure/window/reinforced/fulltile{
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /obj/structure/grille,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "eDO" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1760,11 +1857,11 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/door/window/left/directional/south,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "eIL" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/closed/wall/r_wall,
-/area/space)
+/area/station/engineering/main)
 "eLi" = (
 /obj/structure/rack,
 /obj/item/assembly/timer,
@@ -1785,7 +1882,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/security/office)
 "eMJ" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 4
@@ -1814,7 +1911,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "eRf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1858,9 +1955,11 @@
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "eVQ" = (
-/obj/effect/turf_decal/siding/thinplating/dark/corner,
-/turf/open/floor/iron/textured_large,
-/area/space)
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/engineering/main)
 "eWX" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1917,7 +2016,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "fbo" = (
 /obj/machinery/door/airlock/bathroom,
 /obj/effect/turf_decal/siding/dark,
@@ -1928,6 +2027,13 @@
 	dir = 4
 	},
 /area/station/commons/dorms/dormblock/portfour)
+"fdt" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/science/genetics)
 "feG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -1941,7 +2047,7 @@
 "fgF" = (
 /obj/effect/turf_decal/siding/dark_blue,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "fis" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -2012,13 +2118,13 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/carbon_output,
 /turf/open/floor/engine/co2,
-/area/space)
+/area/station/engineering/main)
 "fqo" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "fqu" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/siding/dark{
@@ -2036,6 +2142,9 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/commons/dorms/dormblock/portfive)
+"fsa" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/office)
 "ftc" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 1
@@ -2053,7 +2162,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "ftU" = (
 /obj/effect/turf_decal/siding{
 	dir = 9
@@ -2065,7 +2174,15 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/security/office)
+"fxM" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/structure/flora/grass/jungle/a/style_2,
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+	},
+/turf/open/floor/grass,
+/area/station/cargo/storage)
 "fyn" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -2077,7 +2194,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "fyL" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 5
@@ -2111,6 +2228,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/portone)
+"fGj" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/security/range)
 "fIF" = (
 /obj/machinery/bci_implanter,
 /obj/machinery/light/small/directional/south,
@@ -2170,6 +2292,14 @@
 	dir = 8
 	},
 /area/space)
+"fQg" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/central)
 "fQp" = (
 /obj/machinery/oven/range_frontier,
 /obj/machinery/microwave/frontier_printed{
@@ -2184,10 +2314,20 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/portone)
+"fQV" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/medical/morgue)
 "fSt" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/central)
+"fSB" = (
+/turf/open/floor/plating/airless,
+/area/station/maintenance/starboard/fore)
 "fSY" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -2225,12 +2365,12 @@
 	dir = 2
 	},
 /turf/open/floor/iron/dark/side,
-/area/space)
+/area/station/cargo/lobby)
 "gaT" = (
 /obj/machinery/air_sensor/plasma_tank,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/engine/plasma,
-/area/space)
+/area/station/engineering/main)
 "gbj" = (
 /obj/machinery/computer/scan_consolenew{
 	dir = 4
@@ -2250,7 +2390,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/port)
 "gcR" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/a/style_2,
@@ -2270,6 +2410,12 @@
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/research)
+"ghc" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/station/hallway/primary/port)
 "gjp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/frontier_appliance{
@@ -2290,6 +2436,12 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/space)
+"gkp" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/station/hallway/primary/central)
 "gkJ" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -2319,6 +2471,12 @@
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/commons/dorms/dormblock/portfour)
+"gqG" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/office)
 "gsK" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 10
@@ -2335,7 +2493,7 @@
 /area/station/commons/storage/primary)
 "gtg" = (
 /turf/closed/wall/r_wall,
-/area/space)
+/area/station/engineering/main)
 "gtr" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -2363,7 +2521,7 @@
 "gyy" = (
 /obj/machinery/computer/atmos_control/mix_tank,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "gyF" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2402,13 +2560,13 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/power_room)
 "gBw" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "gDk" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
@@ -2433,7 +2591,7 @@
 /obj/structure/cable/layer1,
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/gravity_generator)
 "gJN" = (
 /obj/machinery/door/airlock/bathroom,
 /obj/effect/turf_decal/siding/dark,
@@ -2447,7 +2605,7 @@
 "gKf" = (
 /obj/item/target/alien,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "gLC" = (
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
@@ -2463,6 +2621,12 @@
 	},
 /turf/open/floor/circuit/green,
 /area/station/science/robotics/mechbay)
+"gMF" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "gNu" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -2567,6 +2731,12 @@
 	},
 /turf/open/floor/grass,
 /area/station/science/research)
+"hao" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/office)
 "hat" = (
 /obj/effect/turf_decal/siding/dark/end,
 /obj/machinery/smartfridge/food,
@@ -2578,6 +2748,23 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"hbB" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
+"hbM" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/station/hallway/primary/starboard)
 "hca" = (
 /obj/effect/turf_decal/siding/dark/end{
 	dir = 2
@@ -2593,7 +2780,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "hdR" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -2610,7 +2797,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/port)
 "hgZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2641,7 +2828,7 @@
 /obj/structure/window/reinforced/tinted/frosted/spawner/directional/east,
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/lockers)
 "hjF" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/tile,
@@ -2660,7 +2847,7 @@
 "hkD" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/dark/textured_half,
-/area/space)
+/area/station/cargo/lobby)
 "hlt" = (
 /obj/structure/window/reinforced/fulltile{
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
@@ -2679,7 +2866,7 @@
 	color = "ACA3FF"
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/command/bridge)
 "hlP" = (
 /obj/structure/window/reinforced/fulltile{
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
@@ -2689,7 +2876,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "hom" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2699,6 +2886,12 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/portthree)
+"hoz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
 "hpz" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/siding/dark,
@@ -2724,7 +2917,7 @@
 /turf/open/floor/iron/dark/textured_corner{
 	dir = 4
 	},
-/area/space)
+/area/station/cargo/lobby)
 "hsx" = (
 /obj/machinery/door/airlock/virology{
 	name = "Patient Room B"
@@ -2738,6 +2931,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms/room_b)
+"htg" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 2
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "htr" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -2760,7 +2962,7 @@
 /obj/structure/table/reinforced,
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/ai_monitored/security/armory)
 "hvf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2820,7 +3022,7 @@
 "hBb" = (
 /obj/machinery/air_sensor/oxygen_tank,
 /turf/open/floor/engine/o2,
-/area/space)
+/area/station/engineering/main)
 "hBr" = (
 /obj/structure/table/glass,
 /obj/item/storage/medkit/fire{
@@ -2882,6 +3084,19 @@
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/starboardfour)
+"hHq" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
+"hHU" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/port)
 "hIo" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white,
@@ -2971,7 +3186,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/side,
-/area/space)
+/area/station/cargo/lobby)
 "hTp" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -3010,7 +3225,7 @@
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/space)
+/area/station/engineering/gravity_generator)
 "hXI" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3018,13 +3233,13 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "hXW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/oxygen_output{
 	dir = 1
 	},
 /turf/open/floor/engine/o2,
-/area/space)
+/area/station/engineering/main)
 "hYK" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -3043,7 +3258,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "ibP" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/b/style_4,
@@ -3074,6 +3289,10 @@
 	dir = 8
 	},
 /area/station/commons/dorms/dormblock/portone)
+"ieL" = (
+/obj/structure/cable,
+/turf/open/floor/iron/textured,
+/area/station/engineering/power_room)
 "ift" = (
 /obj/effect/landmark/latejoin,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -3090,10 +3309,14 @@
 /obj/machinery/rnd/server,
 /turf/open/floor/circuit/telecomms/server,
 /area/station/science/server)
+"igS" = (
+/obj/structure/cable/layer1,
+/turf/open/floor/catwalk_floor/iron,
+/area/station/engineering/power_room)
 "ihu" = (
 /obj/structure/closet/secure_closet/miner,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "iir" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -3132,7 +3355,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/central)
 "ilb" = (
 /obj/effect/turf_decal/siding/purple,
 /obj/structure/table,
@@ -3166,7 +3389,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "iqh" = (
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 2
@@ -3195,6 +3418,11 @@
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/medical/medbay/central)
+"iqT" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/maintenance/disposal)
 "irE" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -3227,6 +3455,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"ixw" = (
+/obj/effect/turf_decal/siding/dark_blue,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/office)
 "ixT" = (
 /obj/structure/flora/bush/sparsegrass/style_2,
 /obj/structure/flora/bush/lavendergrass/style_4,
@@ -3254,7 +3486,7 @@
 	},
 /obj/machinery/brm,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "izy" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 5
@@ -3284,7 +3516,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/engineering/main)
 "iDy" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -3306,7 +3538,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "iFt" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
@@ -3345,12 +3577,19 @@
 	},
 /turf/open/floor/grass,
 /area/station/service/cafeteria)
+"iGY" = (
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
+"iHu" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "iJb" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/plasma_input{
 	dir = 2
 	},
 /turf/open/floor/engine/plasma,
-/area/space)
+/area/station/engineering/main)
 "iJz" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
@@ -3396,11 +3635,20 @@
 /obj/structure/table,
 /turf/open/floor/iron/textured_large,
 /area/station/service/hydroponics)
+"iSa" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
 "iUY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "iUZ" = (
 /obj/machinery/door/airlock/multi_tile/public/glass{
 	name = "Hydroponics"
@@ -3437,7 +3685,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine/air,
-/area/space)
+/area/station/engineering/main)
 "jam" = (
 /obj/structure/chair/sofa/corp,
 /obj/effect/turf_decal/siding/dark{
@@ -3451,6 +3699,12 @@
 	name = "bulkhead"
 	},
 /area/station/service/kitchen)
+"jbq" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/engineering/gravity_generator)
 "jcB" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/stripes/line{
@@ -3516,7 +3770,7 @@
 /obj/structure/cable/layer1,
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/gravity_generator)
 "jnP" = (
 /obj/effect/turf_decal/siding/dark_blue/corner{
 	dir = 4
@@ -3525,7 +3779,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/office)
 "joi" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
@@ -3564,6 +3818,12 @@
 	color = "ACA3FF"
 	},
 /area/station/commons/dorms/dormblock/starboardone)
+"jsX" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/range)
 "jtn" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 4
@@ -3574,7 +3834,7 @@
 /obj/machinery/door/airlock/security/glass,
 /obj/effect/mapping_helpers/airlock/access/all/security/entrance,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/checkpoint)
 "jtV" = (
 /obj/machinery/cryopod/prison/directional/east,
 /obj/effect/landmark/latejoin,
@@ -3594,7 +3854,7 @@
 	},
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "jua" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3630,7 +3890,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "jyI" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3639,7 +3899,7 @@
 "jzV" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/port)
 "jzX" = (
 /turf/closed/wall,
 /area/station/science/circuits)
@@ -3701,7 +3961,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "jBz" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/cell_charger_multi/wall_mounted/directional/north,
@@ -3718,7 +3978,7 @@
 	},
 /obj/structure/cable/layer1,
 /turf/open/floor/catwalk_floor/iron,
-/area/space)
+/area/station/engineering/gravity_generator)
 "jEh" = (
 /obj/effect/turf_decal/siding/dark/end,
 /obj/structure/toilet{
@@ -3733,7 +3993,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "jGN" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
@@ -3751,17 +4011,24 @@
 "jIa" = (
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark,
-/area/space)
+/area/station/engineering/gravity_generator)
 "jJy" = (
 /obj/machinery/air_sensor/nitrous_tank,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/engine/n2o,
-/area/space)
+/area/station/engineering/main)
 "jKb" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/structure/window/reinforced/tinted/frosted/spawner/directional/north,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"jMX" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/medical/surgery)
 "jNr" = (
 /obj/effect/turf_decal/siding{
 	dir = 8
@@ -3781,7 +4048,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "jPz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/dark,
@@ -3817,7 +4084,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/engineering/main)
 "jRg" = (
 /obj/structure/table,
 /turf/open/floor/iron/white,
@@ -3835,7 +4102,7 @@
 	},
 /obj/machinery/mineral/unloading_machine,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "jSW" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -3849,7 +4116,7 @@
 /turf/open/floor/iron/dark/textured_corner{
 	dir = 1
 	},
-/area/space)
+/area/station/cargo/lobby)
 "jTm" = (
 /obj/structure/window/reinforced/fulltile{
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
@@ -3895,6 +4162,14 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/mechbay)
+"jWI" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/station/hallway/primary/starboard)
 "jXe" = (
 /obj/structure/table/reinforced,
 /obj/machinery/requests_console/directional/east{
@@ -3969,11 +4244,15 @@
 	},
 /turf/open/floor/grass,
 /area/station/service/hydroponics)
+"kiL" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/office)
 "kkO" = (
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "kkR" = (
 /obj/structure/table/glass,
 /obj/item/modular_computer/laptop/preset/civilian{
@@ -3996,7 +4275,7 @@
 	},
 /obj/item/target/syndicate,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "klX" = (
 /obj/effect/landmark/latejoin,
 /obj/structure/cable,
@@ -4015,7 +4294,7 @@
 "kmN" = (
 /obj/effect/turf_decal/bot_white/right,
 /turf/open/floor/iron/dark,
-/area/space)
+/area/station/engineering/gravity_generator)
 "knI" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -4029,6 +4308,12 @@
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/medical/patients_rooms/room_a)
+"kpg" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/office)
 "kqx" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -4041,19 +4326,24 @@
 "kqI" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /turf/open/floor/engine/plasma,
-/area/space)
+/area/station/engineering/main)
 "ksh" = (
 /obj/machinery/mineral/ore_redemption,
 /obj/item/paper{
 	name = "Buggy old tech. Reset the I/O for us until it stops being weird,  - MSTIMC"
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "ksP" = (
 /obj/machinery/light/directional/east,
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/mechbay)
+"kum" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/engineering/gravity_generator)
 "kwl" = (
 /obj/structure/table/glass,
 /obj/item/stack/sheet/mineral/plasma{
@@ -4134,6 +4424,11 @@
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/medical/pharmacy)
+"kBe" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/security/lockers)
 "kDE" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -4151,13 +4446,20 @@
 "kHx" = (
 /obj/effect/turf_decal/siding/purple/corner,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/central)
 "kJc" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
+"kJx" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/ai_monitored/security/armory)
 "kKI" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
@@ -4166,7 +4468,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/starboard)
 "kLw" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/dark{
@@ -4179,7 +4481,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/central)
 "kMu" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
@@ -4245,9 +4547,8 @@
 /turf/open/floor/iron,
 /area/station/science/circuits)
 "kRt" = (
-/obj/machinery/door/airlock/command/glass,
-/turf/open/floor/catwalk_floor/flat_white,
-/area/space)
+/turf/open/floor/iron/white/smooth_large,
+/area/station/command/bridge)
 "kTg" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 2
@@ -4280,7 +4581,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "kWz" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -4304,7 +4605,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/cargo/office)
 "laf" = (
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
@@ -4359,7 +4660,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "lci" = (
 /obj/machinery/griddle,
 /obj/structure/showcase/machinery/microwave{
@@ -4448,7 +4749,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/power_room)
 "lkx" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 8
@@ -4476,12 +4777,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "lmQ" = (
 /obj/machinery/power/smes/full,
 /obj/item/paper/guides/jobs/engi/gravity_gen,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/gravity_generator)
 "lnV" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 2
@@ -4504,7 +4805,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/port)
 "lpN" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -4530,7 +4831,16 @@
 "ltb" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/lockers)
+"ltg" = (
+/obj/structure/flora/bush/sparsegrass/style_2,
+/obj/structure/flora/bush/lavendergrass/style_4,
+/obj/structure/flora/bush/grassy,
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+	},
+/turf/open/floor/grass,
+/area/station/security/checkpoint)
 "lts" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/small/directional/south,
@@ -4538,7 +4848,7 @@
 	c_tag = "Atmospherics Tank - O2"
 	},
 /turf/open/floor/engine/o2,
-/area/space)
+/area/station/engineering/main)
 "luV" = (
 /obj/machinery/door/airlock/bathroom,
 /obj/effect/turf_decal/siding/dark,
@@ -4549,6 +4859,13 @@
 	dir = 4
 	},
 /area/station/commons/dorms/dormblock/porttwo)
+"lwH" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/maintenance/disposal)
 "lyZ" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -4558,7 +4875,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "lAf" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4628,6 +4945,10 @@
 /obj/machinery/smartfridge/chemistry/preloaded,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
+"lGA" = (
+/obj/structure/cable/layer1,
+/turf/open/floor/catwalk_floor/iron,
+/area/station/engineering/gravity_generator)
 "lGU" = (
 /obj/structure/railing{
 	dir = 8
@@ -4655,7 +4976,7 @@
 "lHP" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/open/floor/engine/co2,
-/area/space)
+/area/station/engineering/main)
 "lIJ" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -4664,7 +4985,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/side,
-/area/space)
+/area/station/cargo/lobby)
 "lJb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4685,7 +5006,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "lLl" = (
 /obj/structure/chair{
 	dir = 4
@@ -4699,7 +5020,7 @@
 "lQe" = (
 /obj/machinery/power/smes/full,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/power_room)
 "lQy" = (
 /obj/machinery/computer/cryopod/directional/south,
 /obj/machinery/cryopod/prison/directional/west,
@@ -4715,7 +5036,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "lSe" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -4746,7 +5067,13 @@
 /turf/open/floor/iron/textured_corner{
 	dir = 8
 	},
-/area/space)
+/area/station/cargo/lobby)
+"mdM" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/office)
 "mdS" = (
 /obj/effect/turf_decal/siding/dark/end{
 	dir = 2
@@ -4764,7 +5091,7 @@
 	name = "Mixed Air Tank In"
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "mky" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -4791,14 +5118,14 @@
 	dir = 2
 	},
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/port)
 "moD" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 6
 	},
 /obj/structure/bed/pod,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/prison/safe)
 "mrP" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 2
@@ -4823,11 +5150,17 @@
 "mwk" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/closed/wall/r_wall,
-/area/space)
+/area/station/engineering/main)
+"mxl" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/office)
 "myM" = (
 /obj/machinery/air_sensor/air_tank,
 /turf/open/floor/engine/air,
-/area/space)
+/area/station/engineering/main)
 "mAP" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
@@ -4988,7 +5321,7 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine/air,
-/area/space)
+/area/station/engineering/main)
 "mUm" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple/layer4,
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
@@ -5011,12 +5344,17 @@
 	},
 /obj/machinery/piratepad/civilian,
 /turf/open/floor/iron/dark/side,
-/area/space)
+/area/station/cargo/lobby)
 "mXa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/service/janitor)
+"mXA" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/cargo/storage)
 "mYn" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
@@ -5100,7 +5438,7 @@
 	name = "Mixed Air Tank Out"
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "nfM" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/iron/dark,
@@ -5176,7 +5514,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "nrz" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron/white,
@@ -5195,7 +5533,7 @@
 	dir = 8
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "nxw" = (
 /obj/structure/flora/bush/sparsegrass/style_2,
 /obj/structure/flora/bush/lavendergrass/style_4,
@@ -5212,7 +5550,7 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/grass,
-/area/space)
+/area/station/cargo/storage)
 "nzb" = (
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/iron/white,
@@ -5257,7 +5595,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "nFJ" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/cell_charger_multi/wall_mounted/directional/north,
@@ -5276,6 +5614,12 @@
 /obj/machinery/chem_dispenser,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
+"nJS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/office)
 "nKw" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/siding/dark{
@@ -5356,7 +5700,7 @@
 "nUv" = (
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/gravity_generator)
 "nUW" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
 	dir = 1
@@ -5365,7 +5709,10 @@
 	name = "Mixed Air Tank Out"
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
+"nVi" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/office)
 "nWi" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
@@ -5379,7 +5726,7 @@
 "nYT" = (
 /obj/structure/cable/layer1,
 /turf/open/floor/catwalk_floor/iron,
-/area/space)
+/area/station/engineering/main)
 "oaF" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
@@ -5424,6 +5771,13 @@
 	dir = 8
 	},
 /area/station/commons/dorms/dormblock/starboardfive)
+"odi" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/command/bridge)
 "oeh" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -5479,11 +5833,11 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "ojn" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrous_input,
 /turf/open/floor/engine/co2,
-/area/space)
+/area/station/engineering/main)
 "ojO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/dark/corner{
@@ -5511,6 +5865,9 @@
 /obj/effect/mapping_helpers/airlock/access/any/medical/pharmacy,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
+"ook" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/range)
 "oom" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -5522,7 +5879,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured_corner,
-/area/space)
+/area/station/cargo/lobby)
 "oqb" = (
 /obj/machinery/door/airlock/virology/glass{
 	name = "Operating Room"
@@ -5546,6 +5903,15 @@
 	},
 /turf/open/floor/iron/diagonal,
 /area/station/commons/storage/primary)
+"oqJ" = (
+/obj/structure/flora/bush/sparsegrass/style_2,
+/obj/structure/flora/bush/lavendergrass/style_4,
+/obj/structure/flora/bush/grassy,
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+	},
+/turf/open/floor/grass,
+/area/station/security/prison/safe)
 "osc" = (
 /obj/machinery/door/airlock/freezer{
 	name = "Coldroom"
@@ -5560,6 +5926,12 @@
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen/coldroom)
+"osw" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/prison/safe)
 "otA" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -5635,7 +6007,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "oyy" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
@@ -5644,7 +6016,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/cargo/office)
 "oAk" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -5668,7 +6040,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "oBv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -5733,7 +6105,13 @@
 	dir = 4
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
+"oHY" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "oKd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/chair/comfy/shuttle{
@@ -5767,13 +6145,13 @@
 /obj/structure/cable/layer1,
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/power_room)
 "oNp" = (
 /obj/structure/cable/layer1,
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "oNC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -5804,11 +6182,17 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "oOs" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
+"oPs" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/maintenance/port/fore)
 "oPv" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/purple{
@@ -5830,6 +6214,13 @@
 /obj/machinery/cell_charger,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"oSx" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/science/xenobiology)
 "oSM" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/turf_decal/siding/dark/corner{
@@ -5867,7 +6258,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "oVk" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
@@ -5878,6 +6269,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
+"oVK" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/engineering/power_room)
 "oWf" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 8
@@ -5886,7 +6282,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "oWy" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
@@ -5911,6 +6307,10 @@
 	},
 /turf/open/floor/iron/diagonal,
 /area/station/commons/storage/primary)
+"oZN" = (
+/obj/machinery/door/airlock/engineering,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "pap" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -5977,6 +6377,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
+"pkc" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "pkj" = (
 /obj/effect/turf_decal/siding{
 	dir = 4
@@ -6066,7 +6472,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/prison/safe)
 "ptH" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/dark/smooth_large,
@@ -6087,7 +6493,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "pBE" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/siding/dark{
@@ -6159,7 +6565,29 @@
 	pixel_y = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
+"pNc" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/range)
+"pNu" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
+"pNM" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/range)
 "pOh" = (
 /turf/closed/wall{
 	name = "bulkhead"
@@ -6178,7 +6606,7 @@
 "pQP" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "pRn" = (
 /obj/structure/flora/bush/sparsegrass/style_2,
 /obj/structure/flora/bush/lavendergrass/style_4,
@@ -6216,7 +6644,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "qbO" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 2
@@ -6257,7 +6685,7 @@
 /obj/structure/window/reinforced/tinted/frosted/spawner/directional/west,
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/lockers)
 "qkD" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 10
@@ -6266,6 +6694,11 @@
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
+"qkK" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/security/office)
 "qkQ" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -6340,6 +6773,15 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/circuits)
+"qvq" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/structure/flora/grass/jungle/b/style_4,
+/obj/structure/flora/bush/fullgrass,
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+	},
+/turf/open/floor/grass,
+/area/station/cargo/storage)
 "qvE" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -6348,7 +6790,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/central)
 "qvS" = (
 /obj/machinery/oven/range_frontier,
 /obj/machinery/microwave/frontier_printed{
@@ -6368,7 +6810,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/prison/safe)
 "qwv" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -6390,6 +6832,15 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/science/server)
+"qAI" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "qBs" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/frontier_appliance{
@@ -6407,7 +6858,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/starboard)
 "qBJ" = (
 /obj/machinery/vending/wardrobe/robo_wardrobe,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -6423,7 +6874,7 @@
 /area/station/science/research)
 "qEj" = (
 /turf/open/floor/plating,
-/area/space)
+/area/station/maintenance/starboard/fore)
 "qGh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/chair/comfy/shuttle{
@@ -6460,7 +6911,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/office)
 "qIo" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/siding/dark{
@@ -6469,6 +6920,11 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/starboardthree)
+"qID" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/maintenance/starboard/fore)
 "qLA" = (
 /turf/open/floor/circuit/green,
 /area/station/science/robotics/mechbay)
@@ -6559,7 +7015,7 @@
 /turf/open/floor/iron/white/smooth_half{
 	dir = 8
 	},
-/area/space)
+/area/station/command/bridge)
 "qWR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/frontier_appliance{
@@ -6597,7 +7053,13 @@
 	name = "Mixed Air Tank In"
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
+"qXL" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/security/range)
 "qYB" = (
 /obj/structure/sink/directional/west,
 /obj/effect/turf_decal/siding/purple{
@@ -6605,6 +7067,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"qYL" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/central)
 "qYN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6679,10 +7147,16 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/research)
+"rbS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "rcO" = (
 /obj/machinery/door/airlock/engineering,
 /turf/open/floor/plating,
-/area/space)
+/area/station/maintenance/port/fore)
 "reZ" = (
 /obj/machinery/door/airlock/multi_tile/public/glass{
 	name = "Hydroponics"
@@ -6711,13 +7185,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "rhe" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/engineering/main)
 "rhu" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -6732,7 +7206,7 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron,
-/area/space)
+/area/station/engineering/main)
 "rjE" = (
 /obj/structure/railing/corner/end/flip{
 	dir = 8
@@ -6741,7 +7215,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/side,
-/area/space)
+/area/station/cargo/lobby)
 "rjN" = (
 /obj/effect/turf_decal/siding/purple,
 /obj/structure/table,
@@ -6788,6 +7262,9 @@
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"rpO" = (
+/turf/open/floor/plating,
+/area/station/maintenance/port/fore)
 "rqf" = (
 /turf/closed/wall{
 	name = "bulkhead"
@@ -6801,7 +7278,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "rrK" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/b/style_4,
@@ -6820,7 +7297,7 @@
 "rua" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "ruk" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/machinery/airalarm/directional/north,
@@ -6832,7 +7309,7 @@
 "rur" = (
 /obj/structure/rack/shelf,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "ruy" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
@@ -6909,6 +7386,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"rBQ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/port)
 "rBZ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white/smooth_large,
@@ -6935,7 +7418,7 @@
 "rFb" = (
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /turf/open/floor/engine/n2o,
-/area/space)
+/area/station/engineering/main)
 "rFz" = (
 /obj/structure/railing{
 	dir = 4
@@ -6948,7 +7431,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/autolathe,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "rFR" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6959,13 +7442,13 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "rGn" = (
 /obj/machinery/computer/atmos_control/oxygen_tank{
 	dir = 1
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "rHn" = (
 /obj/structure/chair/office/light{
 	name = "Xenobiology Gaming Chair"
@@ -6979,7 +7462,16 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
+"rIX" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/ai_monitored/security/armory)
+"rJb" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/ai_monitored/security/armory)
 "rKR" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/siding/wood{
@@ -6994,7 +7486,7 @@
 /obj/structure/cable/layer1,
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/power_room)
 "rNi" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 2
@@ -7005,7 +7497,7 @@
 "rNr" = (
 /obj/structure/rack/shelf,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "rPh" = (
 /turf/closed/wall{
 	name = "bulkhead"
@@ -7082,7 +7574,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "rVV" = (
 /obj/structure/railing{
 	dir = 8
@@ -7099,7 +7591,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "rYA" = (
 /obj/effect/turf_decal/siding/dark/end{
 	dir = 1
@@ -7164,12 +7656,33 @@
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/mechbay)
+"siO" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/engineering/power_room)
+"snD" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/space)
 "spu" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/right/directional/north,
 /obj/item/folder/yellow,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
+"sqq" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/science/robotics/mechbay)
 "sqx" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -7265,7 +7778,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "sCY" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7273,18 +7786,31 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "sDk" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/gravity_generator)
 "sEr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 2
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"sFV" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
+"sHx" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/engineering/main)
 "sHG" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/siding/dark/end{
@@ -7446,6 +7972,12 @@
 	dir = 9
 	},
 /area/station/commons/dorms/dormblock/portfive)
+"sUb" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/starboard)
 "sVc" = (
 /obj/machinery/firealarm/directional/west,
 /obj/structure/rack,
@@ -7456,7 +7988,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /obj/machinery/meter,
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "sXZ" = (
 /obj/effect/turf_decal/tile/purple/full,
 /obj/machinery/door/airlock/research/glass{
@@ -7494,13 +8026,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/port)
 "tcC" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/air_input{
 	dir = 1
 	},
 /turf/open/floor/engine/air,
-/area/space)
+/area/station/engineering/main)
+"tdR" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/lockers)
 "teo" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 8
@@ -7508,13 +8043,13 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/machinery/door/window/right/directional/south,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "tew" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "teL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -7568,7 +8103,7 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/grass,
-/area/space)
+/area/station/cargo/office)
 "tir" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 8
@@ -7586,7 +8121,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/starboard)
 "tnR" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -7602,6 +8137,9 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/grass,
 /area/station/science/genetics)
+"trg" = (
+/turf/open/floor/plating,
+/area/station/science/server)
 "tsH" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -7637,6 +8175,15 @@
 /obj/machinery/light/warm/directional/south,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"ttz" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/port)
 "ttZ" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -7703,6 +8250,12 @@
 	name = "bulkhead"
 	},
 /area/station/commons/dorms/dormblock/porttwo)
+"tyD" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/maintenance/starboard/fore)
 "tzk" = (
 /obj/structure/table/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7715,7 +8268,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "tAZ" = (
 /obj/structure/bed/double/pod{
 	dir = 4
@@ -7729,6 +8282,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"tCf" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/starboard)
 "tCo" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -7771,7 +8332,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "tFC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white/smooth_large,
@@ -7801,7 +8362,7 @@
 	},
 /obj/machinery/bouldertech/refinery,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "tKu" = (
 /turf/closed/wall{
 	name = "bulkhead"
@@ -7862,7 +8423,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "tRg" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -7871,7 +8432,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/port)
 "tUl" = (
 /obj/structure/railing{
 	dir = 8
@@ -7921,6 +8482,9 @@
 /obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/mechbay)
+"uaA" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/storage)
 "ubx" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -7933,6 +8497,17 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/server)
+"ubO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/starboard)
 "uea" = (
 /obj/machinery/computer/cargo{
 	dir = 2
@@ -7940,7 +8515,7 @@
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "ufy" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -7979,7 +8554,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/prison/safe)
 "ujF" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 4
@@ -7988,7 +8563,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/checkpoint)
 "ujL" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/turf_decal/siding/dark{
@@ -8034,6 +8609,13 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/grass,
 /area/station/science/genetics)
+"uqX" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/maintenance/port/fore)
 "urP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -8044,6 +8626,12 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"usX" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/port)
 "uts" = (
 /obj/structure/table/glass,
 /turf/open/floor/wood/tile,
@@ -8109,7 +8697,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "uAk" = (
 /turf/closed/wall,
 /area/station/science/xenobiology)
@@ -8219,7 +8807,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "uMy" = (
 /obj/structure/rack,
 /obj/item/stack/cable_coil,
@@ -8233,6 +8821,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/commons/storage/primary)
+"uNd" = (
+/turf/open/floor/iron/dark/textured_half{
+	dir = 8
+	},
+/area/station/security/office)
 "uNv" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -8320,14 +8913,25 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
+"uVH" = (
+/obj/structure/cable/layer1,
+/obj/structure/cable,
+/turf/open/floor/iron/textured,
+/area/station/engineering/main)
+"uVP" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/cargo/lobby)
 "uVY" = (
 /obj/structure/cable/layer1,
 /obj/machinery/atmospherics/components/unary/passive_vent/layer4{
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "uWy" = (
 /obj/structure/window/reinforced/fulltile{
 	color = "ACA3FF"
@@ -8342,7 +8946,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "uXf" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 8
@@ -8506,18 +9110,18 @@
 /obj/structure/cable/layer1,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
-/area/space)
+/area/station/engineering/power_room)
 "vpX" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/lockers)
 "vqX" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "vsw" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -8529,6 +9133,12 @@
 /obj/machinery/rnd/server/master,
 /turf/open/floor/circuit/telecomms/server,
 /area/station/science/server)
+"vsY" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
 "vtj" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
@@ -8554,7 +9164,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "vxn" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 4
@@ -8563,7 +9173,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/office)
 "vxV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/dark{
@@ -8576,7 +9186,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/port)
 "vBF" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -8615,7 +9225,7 @@
 "vCs" = (
 /obj/effect/turf_decal/bot_white/left,
 /turf/open/floor/iron/dark,
-/area/space)
+/area/station/engineering/gravity_generator)
 "vEQ" = (
 /obj/structure/table/reinforced,
 /obj/structure/desk_bell{
@@ -8639,7 +9249,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine/n2,
-/area/space)
+/area/station/engineering/main)
 "vFU" = (
 /turf/closed/wall{
 	name = "bulkhead"
@@ -8665,7 +9275,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/space)
+/area/station/hallway/primary/central)
 "vHu" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
@@ -8674,7 +9284,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/port)
 "vHC" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -8720,7 +9330,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/port)
 "vOi" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -8729,7 +9339,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
-/area/space)
+/area/station/hallway/primary/central)
 "vOm" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -8739,7 +9349,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "vOL" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/cell_charger_multi/wall_mounted/directional/north,
@@ -8768,7 +9378,7 @@
 	dir = 2
 	},
 /turf/open/floor/engine/plasma,
-/area/space)
+/area/station/engineering/main)
 "vQw" = (
 /obj/structure/railing{
 	dir = 8
@@ -8777,12 +9387,23 @@
 /obj/machinery/light/floor,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
+"vQH" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/starboard)
+"vSG" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/maintenance/starboard/fore)
 "vTE" = (
 /obj/structure/window/reinforced/fulltile{
 	color = "ACA3FF"
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "vVA" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 2
@@ -8802,7 +9423,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/space)
+/area/station/hallway/primary/starboard)
 "vVG" = (
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/locked,
@@ -8851,19 +9472,19 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "waG" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/side,
-/area/space)
+/area/station/cargo/lobby)
 "wcs" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "wds" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
@@ -8916,6 +9537,22 @@
 /obj/effect/mapping_helpers/requests_console/supplies,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
+"wir" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/security/checkpoint)
+"wkn" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/engineering/main)
 "wld" = (
 /obj/machinery/cell_charger_multi/wall_mounted/directional/east,
 /obj/structure/table/reinforced,
@@ -8963,7 +9600,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/main)
 "wnd" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -9001,11 +9638,33 @@
 "wpk" = (
 /turf/closed/wall,
 /area/station/science/server)
+"wpG" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/central)
+"wpZ" = (
+/obj/effect/turf_decal/siding/dark_blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/office)
 "wqN" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrogen_input{
 	dir = 1
 	},
 /turf/open/floor/engine/n2,
+/area/station/engineering/main)
+"wqP" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/half{
+	dir = 8
+	},
 /area/space)
 "wtI" = (
 /obj/machinery/airalarm/directional/east,
@@ -9019,7 +9678,7 @@
 "wvO" = (
 /obj/machinery/autolathe,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/ai_monitored/security/armory)
 "wxt" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks/beer{
@@ -9058,13 +9717,16 @@
 	},
 /obj/structure/window/spawner/directional/east,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/office)
 "wzB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
+"wzJ" = (
+/turf/open/floor/iron/textured_large,
+/area/station/command/bridge)
 "wAR" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -9095,7 +9757,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/security/range)
 "wDE" = (
 /obj/structure/closet/generic/wall{
 	density = 0;
@@ -9131,6 +9793,13 @@
 "wFn" = (
 /turf/open/floor/iron/textured_large,
 /area/station/service/hydroponics)
+"wFQ" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/engineering/gravity_generator)
 "wHh" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/a/style_2,
@@ -9157,7 +9826,7 @@
 	},
 /obj/machinery/computer/order_console/mining,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "wKD" = (
 /obj/effect/turf_decal/siding/dark/end{
 	dir = 1
@@ -9174,7 +9843,7 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/iron/textured,
-/area/space)
+/area/station/engineering/gravity_generator)
 "wLt" = (
 /obj/machinery/door/airlock/bathroom,
 /obj/effect/turf_decal/siding/dark,
@@ -9198,7 +9867,7 @@
 	},
 /obj/machinery/bouldertech/refinery/smelter,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "wOd" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -9269,7 +9938,7 @@
 	pixel_x = -4
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/office)
 "wUw" = (
 /obj/machinery/vending/tool,
 /obj/machinery/light/directional/west,
@@ -9299,6 +9968,21 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"wYp" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/port)
+"wYx" = (
+/obj/structure/flora/bush/sparsegrass/style_2,
+/obj/structure/flora/bush/lavendergrass/style_4,
+/obj/structure/flora/bush/grassy,
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+	},
+/turf/open/floor/grass,
+/area/station/security/range)
 "wYA" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -9387,7 +10071,7 @@
 	},
 /obj/effect/turf_decal/siding/purple/corner,
 /turf/open/floor/iron,
-/area/space)
+/area/station/hallway/primary/central)
 "xht" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
@@ -9416,7 +10100,7 @@
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/office)
 "xkg" = (
 /obj/machinery/light_switch/directional/east,
 /obj/machinery/light/directional/south,
@@ -9470,6 +10154,12 @@
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/research)
+"xmK" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/hallway/primary/port)
 "xmN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/dark,
@@ -9490,17 +10180,27 @@
 	dir = 2
 	},
 /area/station/commons/dorms/dormblock/porttwo)
+"xnX" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+	},
+/area/station/cargo/storage)
 "xpj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/west,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/science/robotics/lab)
+"xpt" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "xpz" = (
 /obj/structure/closet/crate/preopen,
 /obj/effect/spawner/random/maintenance/no_decals/five,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "xpD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -9511,6 +10211,16 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
+"xpL" = (
+/turf/open/floor/plating,
+/area/station/cargo/storage)
+"xqM" = (
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+	},
+/obj/structure/grille,
+/turf/open/floor/iron/textured,
+/area/station/engineering/power_room)
 "xrt" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/a/style_2,
@@ -9518,7 +10228,7 @@
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
 /turf/open/floor/grass,
-/area/space)
+/area/station/cargo/office)
 "xru" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 6
@@ -9558,7 +10268,7 @@
 	req_access = list("shipping")
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/office)
 "xtl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/chair/comfy/shuttle{
@@ -9619,11 +10329,19 @@
 	dir = 6
 	},
 /turf/open/floor/engine/airless,
-/area/space)
+/area/station/engineering/main)
 "xFA" = (
 /obj/machinery/rnd/production/techfab/department/security,
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/ai_monitored/security/armory)
+"xGX" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/security/prison/safe)
+"xIj" = (
+/turf/open/floor/plating/airless,
+/area/station/maintenance/port/fore)
 "xIs" = (
 /obj/structure/window/reinforced/fulltile{
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
@@ -9633,7 +10351,7 @@
 /turf/open/floor/iron/half{
 	dir = 8
 	},
-/area/space)
+/area/station/engineering/main)
 "xIv" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -9703,6 +10421,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/research)
+"xQy" = (
+/turf/open/floor/iron/textured,
+/area/station/engineering/power_room)
 "xRY" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "mining";
@@ -9715,7 +10436,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/space)
+/area/station/cargo/storage)
 "xSo" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
@@ -9723,7 +10444,7 @@
 /turf/open/floor/iron/dark/textured_half{
 	dir = 8
 	},
-/area/space)
+/area/station/cargo/office)
 "xSR" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -9740,6 +10461,15 @@
 "xTY" = (
 /turf/open/floor/iron/dark,
 /area/station/commons/storage/primary)
+"xUa" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/port)
 "xUe" = (
 /obj/machinery/rnd/production/circuit_imprinter/department/science,
 /obj/structure/cable,
@@ -9756,6 +10486,9 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/commons/dorms/dormblock/starboardtwo)
+"xUr" = (
+/turf/open/floor/plating,
+/area/station/science/research)
 "xUA" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 2
@@ -9765,6 +10498,23 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/morgue)
+"xVs" = (
+/turf/closed/wall/r_wall{
+	name = "reinforced bulkhead";
+	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily.";
+	color = "ACA3FF"
+	},
+/area/station/medical/medbay/central)
+"xVP" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "xWa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -9777,6 +10527,12 @@
 /obj/machinery/light/floor,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
+"xZS" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 2
+	},
+/turf/open/floor/iron/textured_large,
+/area/station/hallway/primary/central)
 "ybH" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 9
@@ -9807,7 +10563,12 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_half,
-/area/space)
+/area/station/cargo/lobby)
+"ygA" = (
+/turf/closed/wall{
+	name = "bulkhead"
+	},
+/area/station/medical/surgery)
 "yhQ" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/machinery/defibrillator_mount/directional/south,
@@ -9825,7 +10586,7 @@
 "yjT" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
-/area/space)
+/area/station/cargo/storage)
 "ykM" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
@@ -9846,7 +10607,7 @@
 /obj/machinery/gravity_generator/main,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark,
-/area/space)
+/area/station/engineering/gravity_generator)
 "ylP" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -25647,25 +26408,25 @@ aaa
 aaa
 aaa
 aaa
-cPg
-cPg
-cPg
+sHx
+sHx
+sHx
 vTE
 uWy
 vTE
-cPg
-cPg
+sHx
+sHx
 vTE
 uWy
 vTE
-cPg
-cPg
+sHx
+sHx
 vTE
 uWy
 vTE
-cPg
-cPg
-cPg
+sHx
+sHx
+sHx
 aaa
 aaa
 aaa
@@ -25904,25 +26665,25 @@ aaa
 aaa
 aaa
 aaa
-cPg
-aNU
-dhD
+sHx
+aTW
+eVQ
 oUo
 uKc
 bAq
-dhD
-dhD
+eVQ
+eVQ
 oUo
 uKc
 bAq
-dhD
-dhD
+eVQ
+eVQ
 oUo
 uKc
 bAq
-dhD
-aNU
-cPg
+eVQ
+aTW
+sHx
 aaa
 aaa
 aaa
@@ -26151,45 +26912,45 @@ tLM
 tLM
 aaa
 aaa
-cPg
-dhD
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
+eVQ
+sHx
 aaa
 aaa
-cPg
-aNU
-dhD
+sHx
+aTW
+eVQ
 rgu
 dCT
 dEZ
-dhD
-dhD
+eVQ
+eVQ
 rgu
 dCT
 dEZ
-dhD
-dhD
+eVQ
+eVQ
 rgu
 dCT
 dEZ
-dhD
-aNU
-cPg
+eVQ
+aTW
+sHx
 aaa
 aaa
-cPg
-dhD
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
+eVQ
+sHx
 aaa
 aaa
 tLM
@@ -26408,45 +27169,45 @@ tLM
 tLM
 tLM
 aaa
-cPg
-dhD
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
+eVQ
+sHx
 aaa
 aaa
-cPg
-aNU
-dhD
+sHx
+aTW
+eVQ
 rgu
 dGC
 dEZ
-dhD
-dhD
+eVQ
+eVQ
 rgu
 dGC
 dEZ
-dhD
-dhD
+eVQ
+eVQ
 rgu
 dGC
 dEZ
-dhD
-aNU
-cPg
+eVQ
+aTW
+sHx
 aaa
 aaa
-cPg
-dhD
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
+eVQ
+sHx
 aaa
 tLM
 tLM
@@ -26664,47 +27425,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-cPg
-dhD
+sHx
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
+eVQ
+sHx
 aaa
 aaa
-cPg
-aNU
-dhD
+sHx
+aTW
+eVQ
 rgu
 dGC
 dEZ
-dhD
-dhD
+eVQ
+eVQ
 rgu
 dGC
 dEZ
-dhD
-dhD
+eVQ
+eVQ
 rgu
 dGC
 dEZ
-dhD
-aNU
-cPg
+eVQ
+aTW
+sHx
 aaa
 aaa
-cPg
-dhD
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
-cPg
+eVQ
+sHx
+sHx
 tLM
 tLM
 tLM
@@ -26921,47 +27682,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
+sHx
+eVQ
+eVQ
 axa
 axa
 axa
 axa
-dhD
-cPg
-cPg
-cPg
-cPg
-aNU
-dhD
+eVQ
+sHx
+sHx
+sHx
+sHx
+aTW
+eVQ
 uVY
 lKR
 coy
-dhD
-dhD
+eVQ
+eVQ
 uVY
 lKR
 coy
-dhD
-dhD
+eVQ
+eVQ
 uVY
 lKR
 coy
-dhD
-aNU
-cPg
-cPg
-cPg
-cPg
-dhD
+eVQ
+aTW
+sHx
+sHx
+sHx
+sHx
+eVQ
 axa
 axa
 axa
 axa
-dhD
-dhD
-cPg
+eVQ
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -27178,47 +27939,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
+sHx
+eVQ
+eVQ
 axa
 axa
 axa
 axa
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
 xIs
 uAe
 xIs
-dhD
-dhD
+eVQ
+eVQ
 xIs
 uAe
 xIs
-dhD
-dhD
+eVQ
+eVQ
 xIs
 uAe
 xIs
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
 axa
 axa
 axa
 axa
-dhD
-dhD
-cPg
+eVQ
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -27435,47 +28196,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
+sHx
+eVQ
+eVQ
 axa
 axa
 axa
 axa
-dhD
-dhD
+eVQ
+eVQ
 xFd
 ntV
 wcs
 eDg
-qEj
+atv
 nYT
 rhZ
 nYT
-qEj
-qEj
+atv
+atv
 nYT
 rhZ
 nYT
-qEj
-qEj
+atv
+atv
 nYT
 rhZ
 nYT
-qEj
+atv
 eDg
 xFd
 ntV
 wcs
-dhD
-dhD
+eVQ
+eVQ
 axa
 axa
 axa
 axa
-dhD
-dhD
-cPg
+eVQ
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -27692,15 +28453,15 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+sHx
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
 oBk
 oHR
 jGv
@@ -27724,15 +28485,15 @@ oiZ
 cIS
 oHR
 oBk
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-cPg
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -27949,21 +28710,21 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
+sHx
+eVQ
+aTW
 clw
 clw
-aNU
+aTW
 clw
 clw
-dhD
+eVQ
 jPd
 bQa
 ejq
 eDg
-qEj
-qEj
+atv
+atv
 nYT
 nYT
 nYT
@@ -27975,21 +28736,21 @@ nYT
 nYT
 nYT
 nYT
-qEj
-qEj
+atv
+atv
 eDg
 jPd
 bQa
 ejq
-dhD
+eVQ
 clw
 clw
 clw
 clw
 clw
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -28206,47 +28967,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
+sHx
+eVQ
+aTW
 clw
 clw
 clw
 clw
 clw
-dhD
+eVQ
 eDg
 euD
 eDg
-dhD
-qEj
-qEj
-qEj
-qEj
+eVQ
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+eVQ
 rVN
 euD
 rVN
-dhD
-dhD
+eVQ
+eVQ
 clw
 clw
 clw
 clw
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -28463,47 +29224,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
-dhD
-dhD
-dhD
-dhD
+sHx
+eVQ
+aTW
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
 bwy
 jRa
 iDw
 jRa
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 jRa
 iDw
 jRa
 bwy
-dhD
-dhD
-dhD
-dhD
-dhD
+eVQ
+eVQ
+eVQ
+eVQ
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -28720,10 +29481,10 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 gtg
 gtg
@@ -28732,23 +29493,23 @@ bwy
 rhe
 rhe
 rhe
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 rhe
 rhe
 rhe
@@ -28757,10 +29518,10 @@ gtg
 gtg
 gtg
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -28977,47 +29738,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 cES
 ojn
 aAM
 sVN
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 mjZ
 aAM
 wqN
 eje
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -29234,47 +29995,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 lHP
 fqh
 eIL
 dcw
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nUW
 aqd
 vFP
 cyg
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -29491,10 +30252,10 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
-dhD
+sHx
+eVQ
+eVQ
+eVQ
 gtg
 gtg
 gtg
@@ -29528,10 +30289,10 @@ gtg
 gtg
 gtg
 gtg
-dhD
-dhD
-dhD
-cPg
+eVQ
+eVQ
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -29748,47 +30509,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 gaT
 iJb
 aAM
 sVN
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 mjZ
 aAM
 bCo
 hBb
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -30005,47 +30766,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 kqI
 vQu
 eIL
 dcw
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nUW
 aqd
 hXW
 lts
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -30262,47 +31023,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 gtg
 gtg
 gtg
 bnA
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 rGn
 gtg
 gtg
 gtg
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -30519,47 +31280,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 jJy
 dNF
 aAM
 sVN
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 qXt
 dJq
 tcC
 myM
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -30776,47 +31537,47 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 rFb
 bBV
 eIL
 dcw
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nYT
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
+atv
 nft
 mwk
 jad
 mSF
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -31033,10 +31794,10 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-aNU
-dhD
+sHx
+eVQ
+aTW
+eVQ
 gtg
 gtg
 gtg
@@ -31050,10 +31811,10 @@ bwy
 bwy
 bwy
 bwy
-gHS
+uVH
 oyw
 wlp
-nUv
+dbl
 rua
 gBw
 bwy
@@ -31070,10 +31831,10 @@ gtg
 gtg
 gtg
 gtg
-dhD
+eVQ
 clw
-dhD
-cPg
+eVQ
+sHx
 tLM
 tLM
 tLM
@@ -31290,27 +32051,27 @@ aaa
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+wFQ
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+siO
 lkh
 gzW
 gzW
 gzW
-dhD
+siO
 enA
-dhD
+siO
 vOm
-aZX
+wkn
 jBe
 kDE
 kDE
@@ -31330,7 +32091,7 @@ uPF
 uPF
 uPF
 uPF
-cPg
+sqq
 tLM
 tLM
 tLM
@@ -31547,28 +32308,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-dhD
-aNU
-eDg
-eDg
-eDg
-eDg
-aNU
+wFQ
+jbq
+kum
+kum
+kum
+kum
+kum
+kum
+kum
+kum
+jbq
+oVK
+xqM
+xqM
+xqM
+xqM
+oVK
 aoH
-aNU
-irE
-jYR
-aLR
+oVK
+gMF
+oHY
+xpt
 jTm
 qxz
 wUw
@@ -31587,7 +32348,7 @@ fLb
 hjF
 uGU
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -31804,8 +32565,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+wFQ
+jbq
 cmR
 cmR
 cmR
@@ -31814,15 +32575,15 @@ cmR
 wKU
 lmQ
 jCD
-dhD
-bwy
+jbq
+xQy
 lQe
 lQe
 lQe
 lQe
-bwy
-gHS
-aNU
+xQy
+ege
+oVK
 pBr
 hXI
 tQT
@@ -31844,7 +32605,7 @@ erz
 erz
 vaA
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -32061,25 +32822,25 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+wFQ
+jbq
 cmR
 kmN
 jIa
 vCs
 cmR
 wKU
-bwy
-nYT
-dhD
-nUv
+crg
+lGA
+jbq
+ieL
 oLU
 oLU
 oLU
 oLU
-bwy
-gHS
-aNU
+xQy
+ege
+oVK
 qax
 lmK
 nFt
@@ -32101,7 +32862,7 @@ qUJ
 ebH
 nrB
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -32318,25 +33079,25 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+wFQ
+jbq
 cmR
 jIa
 cmR
 ylA
 cmR
 hXy
-bwy
+crg
 gHS
 jja
-gHS
-nYT
-nYT
-nYT
+ege
+igS
+igS
+igS
 vnx
-gHS
-gHS
-aNU
+ege
+ege
+oVK
 qax
 lmK
 cgQ
@@ -32358,7 +33119,7 @@ erz
 poH
 fJp
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -32575,28 +33336,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+wFQ
+jbq
 cmR
 vCs
 jIa
 kmN
 cmR
 wKU
-bwy
+crg
 nUv
-dhD
+jbq
 cQR
 rLP
 rLP
 rLP
 rLP
-bwy
-bwy
-aNU
+xQy
+xQy
+oVK
 vHf
 eyq
-vAX
+gkp
 hlt
 kNK
 qYN
@@ -32615,7 +33376,7 @@ exd
 tzk
 ebB
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -32832,28 +33593,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+wFQ
+jbq
 cmR
 cmR
 cmR
 cmR
 cmR
 wKU
-bwy
+crg
 sDk
-dhD
-bwy
+jbq
+xQy
 lQe
 lQe
 lQe
 lQe
-bwy
-bwy
-aNU
-irE
-jYR
-aLR
+xQy
+xQy
+oVK
+gMF
+oHY
+xpt
 jTm
 gNJ
 xDY
@@ -32872,7 +33633,7 @@ wuq
 uts
 xkg
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -33089,28 +33850,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-qsd
-hvf
-ssu
+wFQ
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+jbq
+siO
+siO
+siO
+siO
+siO
+siO
+siO
+siO
+fQg
+wpG
+qYL
 xkB
 xkB
 xkB
@@ -33129,7 +33890,7 @@ pqq
 pqq
 uPF
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -33346,28 +34107,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
-dhD
-irE
-jYR
-aLR
+kJx
+aEY
+rIX
+rIX
+rIX
+rIX
+rIX
+kBe
+kBe
+kBe
+kBe
+kBe
+qkK
+qkK
+qkK
+xGX
+xGX
+xGX
+eBk
+gMF
+oHY
+xpt
 cAu
 bPc
 xpj
@@ -33386,7 +34147,7 @@ gLV
 qLA
 vkn
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -33603,25 +34364,25 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+kJx
+aEY
 huT
 bqC
-jGN
-jGN
+bMK
+bMK
 wvO
-aNU
+kBe
 ltb
-jGN
+tdR
 ltb
-aNU
+kBe
 drT
-ptw
+kpg
 qHy
 uiF
 ptw
-vwC
-dhD
+osw
+eBk
 pBr
 hXI
 tQT
@@ -33643,7 +34404,7 @@ qLA
 qLA
 vYE
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -33860,25 +34621,25 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-pQP
-jGN
-jGN
-jGN
-jGN
-aNU
+kJx
+aEY
+rJb
+bMK
+bMK
+bMK
+bMK
+kBe
 hiM
-jGN
+tdR
 hiM
-aNU
-vqX
-jGN
-fgF
-bMA
+kBe
+mdM
+fsa
+ixw
+oqJ
 qwf
 moD
-dhD
+eBk
 qax
 lmK
 xgW
@@ -33900,7 +34661,7 @@ gEo
 aGu
 fah
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -34117,28 +34878,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-jGN
-jGN
+kJx
+aEY
+bMK
+bMK
 cOM
-jGN
-jGN
+bMK
+bMK
 vpX
-jGN
-jGN
-jGN
+tdR
+tdR
+tdR
 vpX
-jGN
-jGN
-fgF
-aNU
-aNU
-aNU
-dhD
+fsa
+fsa
+ixw
+xGX
+xGX
+xGX
+eBk
 qax
 lmK
-jzV
+iHu
 hih
 tWv
 laf
@@ -34157,7 +34918,7 @@ qLA
 qLA
 vYE
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -34374,28 +35135,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-pQP
-jGN
-jGN
-jGN
-jGN
-aNU
+kJx
+aEY
+rJb
+bMK
+bMK
+bMK
+bMK
+kBe
 qiY
-jGN
+tdR
 qiY
-aNU
-vqX
-jGN
+kBe
+mdM
+fsa
 bYC
 uiF
 ptw
-vwC
-dhD
+osw
+eBk
 vHf
 eyq
-vAX
+gkp
 vEQ
 vkv
 amy
@@ -34414,7 +35175,7 @@ gNu
 qLA
 vkn
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -34631,28 +35392,28 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-pQP
-pQP
-jGN
-jGN
+kJx
+aEY
+rJb
+rJb
+bMK
+bMK
 xFA
-aNU
+kBe
 ltb
-jGN
+tdR
 ltb
-aNU
-vqX
-jGN
-fgF
-bMA
+kBe
+mdM
+fsa
+ixw
+oqJ
 qwf
 moD
-dhD
-irE
-jYR
-aLR
+eBk
+gMF
+oHY
+xpt
 hih
 jXe
 hJh
@@ -34671,7 +35432,7 @@ ksP
 nfM
 deA
 uPF
-cPg
+sqq
 tLM
 tLM
 aaa
@@ -34889,27 +35650,27 @@ aaa
 tLM
 tLM
 cPg
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+qXL
+qXL
+qXL
+qXL
+qXL
+qXL
+qXL
+qXL
+qXL
+qXL
+qXL
 eMv
-fPH
+uNd
 fuR
-aNU
-aNU
-aNU
-dhD
-qsd
-hvf
-ssu
+xGX
+xGX
+xGX
+eBk
+fQg
+wpG
+qYL
 sxO
 sxO
 sxO
@@ -34928,7 +35689,7 @@ sxO
 sxO
 sxO
 sxO
-cPg
+oSx
 tLM
 tLM
 aaa
@@ -35146,27 +35907,27 @@ aaa
 tLM
 tLM
 cPg
-dhD
-drT
-ptw
-ptw
-ptw
-ptw
-ptw
+qXL
+pNc
+jsX
+jsX
+jsX
+jsX
+jsX
 teo
-ptw
+jsX
 vwC
-bMA
-vqX
-jGN
+wYx
+mdM
+fsa
 bYC
 uiF
 ptw
-vwC
-dhD
-irE
-jYR
-aLR
+osw
+eBk
+gMF
+oHY
+xpt
 mQt
 sxO
 feG
@@ -35185,7 +35946,7 @@ sgx
 uEP
 sgx
 sxO
-cPg
+oSx
 tLM
 tLM
 aaa
@@ -35403,24 +36164,24 @@ aaa
 tLM
 tLM
 cPg
-dhD
+qXL
 klQ
-jGN
-jGN
-jGN
-jGN
-jGN
+ook
+ook
+ook
+ook
+ook
 pQP
-jGN
+ook
 fgF
-bMA
-vqX
-jGN
-fgF
-bMA
+wYx
+mdM
+fsa
+ixw
+oqJ
 qwf
 moD
-dhD
+eBk
 pBr
 hXI
 tQT
@@ -35442,7 +36203,7 @@ wAR
 wAR
 neS
 sxO
-cPg
+oSx
 tLM
 tLM
 aaa
@@ -35660,27 +36421,27 @@ aaa
 tLM
 tLM
 cPg
-dhD
+qXL
 vqX
 gKf
-jGN
-jGN
-jGN
-jGN
+ook
+ook
+ook
+ook
 pQP
-jGN
+ook
 fgF
-bMA
-vqX
-jGN
-fgF
-dhD
-dhD
-dhD
-dhD
+wYx
+mdM
+fsa
+ixw
+eBk
+eBk
+eBk
+eBk
 qax
 lmK
-jzV
+iHu
 mQt
 sxO
 deh
@@ -35699,7 +36460,7 @@ sgx
 sgx
 sgx
 sxO
-cPg
+oSx
 tLM
 tLM
 aaa
@@ -35917,19 +36678,19 @@ aaa
 tLM
 tLM
 cPg
-dhD
+qXL
 vqX
-jGN
+ook
 crt
-jGN
-jGN
-jGN
+ook
+ook
+ook
 pQP
-jGN
+ook
 fgF
-aNU
-vqX
-jGN
+fGj
+mdM
+fsa
 bYC
 jtn
 ujF
@@ -35937,7 +36698,7 @@ ujF
 afa
 qax
 lmK
-jzV
+iHu
 mQt
 sxO
 sxO
@@ -35956,7 +36717,7 @@ nrz
 nrz
 nrz
 sxO
-cPg
+oSx
 tLM
 tLM
 aaa
@@ -36174,27 +36935,27 @@ aaa
 tLM
 tLM
 cPg
-dhD
+qXL
 klQ
-jGN
-jGN
-jGN
-jGN
-jGN
+ook
+ook
+ook
+ook
+ook
 pQP
-jGN
-jGN
+ook
+ook
 uVk
 jnP
-jGN
-fgF
-dhD
-bMA
+fsa
+ixw
+wir
+ltg
 cPT
-dhD
+wir
 vHf
 eyq
-vAX
+gkp
 vFU
 gkJ
 pPJ
@@ -36213,7 +36974,7 @@ uAk
 uAk
 uAk
 sxO
-cPg
+oSx
 tLM
 tLM
 aaa
@@ -36431,8 +37192,8 @@ aaa
 tLM
 tLM
 cPg
-dhD
-qwf
+qXL
+pNM
 wCr
 wCr
 wCr
@@ -36441,17 +37202,17 @@ wCr
 eIj
 wCr
 nqt
-aNU
-qwf
-wCr
+fGj
+gqG
+wpZ
 vxn
 jtn
 ujF
 ujF
 afa
-irE
-jYR
-aLR
+gMF
+oHY
+xpt
 vFU
 gkJ
 pPJ
@@ -36470,7 +37231,7 @@ aBK
 flL
 clh
 prJ
-cPg
+fdt
 tLM
 tLM
 aaa
@@ -36687,8 +37448,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+jMX
+qkQ
 qkQ
 qkQ
 qkQ
@@ -36706,9 +37467,9 @@ kAJ
 gzu
 gzu
 kAJ
-qsd
-hvf
-ssu
+fQg
+wpG
+qYL
 gkJ
 gkJ
 gkJ
@@ -36727,7 +37488,7 @@ gPY
 upN
 clh
 prJ
-cPg
+fdt
 tLM
 tLM
 aaa
@@ -36944,8 +37705,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-aNU
+jMX
+ygA
 qkQ
 bGu
 uno
@@ -36963,9 +37724,9 @@ nGc
 vxV
 mQz
 nLR
-irE
-jYR
-aLR
+gMF
+oHY
+xpt
 hah
 qXq
 lkx
@@ -36984,7 +37745,7 @@ gPY
 tnT
 ddE
 prJ
-cPg
+fdt
 tLM
 tLM
 aaa
@@ -37201,8 +37962,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-aNU
+jMX
+ygA
 qkQ
 axk
 dyY
@@ -37241,7 +38002,7 @@ bIX
 tir
 dkv
 prJ
-cPg
+fdt
 tLM
 tLM
 aaa
@@ -37458,8 +38219,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-aNU
+jMX
+ygA
 qkQ
 aoA
 oVk
@@ -37479,7 +38240,7 @@ nzb
 uCa
 qax
 lmK
-jzV
+iHu
 cAd
 fyL
 pAi
@@ -37498,7 +38259,7 @@ kTL
 oPv
 oAY
 prJ
-cPg
+fdt
 tLM
 tLM
 aaa
@@ -37715,8 +38476,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-aNU
+jMX
+ygA
 qkQ
 lga
 oqb
@@ -37736,7 +38497,7 @@ gmF
 gvp
 qax
 lmK
-jzV
+iHu
 lde
 cAd
 bNL
@@ -37755,7 +38516,7 @@ bSp
 bSp
 bSp
 prJ
-cPg
+fdt
 tLM
 tLM
 aaa
@@ -37972,8 +38733,8 @@ aaa
 aaa
 tLM
 tLM
-cPg
-aNU
+xVs
+wQm
 iqv
 uYU
 iFt
@@ -38012,7 +38773,7 @@ lqq
 jRY
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 aaa
@@ -38229,8 +38990,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+xVs
+wQm
 iqv
 xIv
 uUH
@@ -38248,8 +39009,8 @@ scN
 nQv
 kfU
 wQm
-irE
-jYR
+gMF
+oHY
 kHx
 sKA
 sNJ
@@ -38269,7 +39030,7 @@ xmI
 rjN
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -38486,8 +39247,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
+xVs
+iqv
 iqv
 jBa
 eTs
@@ -38505,9 +39266,9 @@ knI
 bhY
 oyv
 iqv
-qsd
-hvf
-ssu
+fQg
+wpG
+qYL
 qqf
 qqf
 qqf
@@ -38526,7 +39287,7 @@ rbM
 wPn
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -38743,8 +39504,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+fQV
+rPh
 hxa
 rPh
 rPh
@@ -38762,9 +39523,9 @@ wHh
 qoT
 wHh
 dok
-irE
-jYR
-aLR
+gMF
+oHY
+xpt
 kiB
 pSI
 van
@@ -38783,7 +39544,7 @@ uhu
 oNM
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -39000,8 +39761,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+fQV
+rPh
 hxa
 xUA
 wBm
@@ -39040,7 +39801,7 @@ cyL
 vIl
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -39257,8 +40018,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+fQV
+rPh
 hxa
 xDT
 cvD
@@ -39297,7 +40058,7 @@ cgw
 pkj
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -39514,8 +40275,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+fQV
+rPh
 hxa
 xDT
 cvD
@@ -39554,7 +40315,7 @@ eor
 ilb
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -39771,8 +40532,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+fQV
+rPh
 hxa
 xDT
 cvD
@@ -39792,7 +40553,7 @@ fYS
 hBJ
 ePa
 amR
-vAX
+gkp
 tMN
 wFn
 wFn
@@ -39811,7 +40572,7 @@ bQK
 xhz
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -40028,8 +40789,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+fQV
+rPh
 hxa
 mrP
 uFL
@@ -40047,9 +40808,9 @@ sAw
 sAw
 sAw
 sAw
-irE
+gMF
 ikM
-aLR
+xpt
 tMN
 pSI
 van
@@ -40068,7 +40829,7 @@ lUB
 eXL
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -40285,8 +41046,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
+fQV
+hxa
 hxa
 hxa
 hxa
@@ -40304,9 +41065,9 @@ jfZ
 eWX
 qZZ
 bno
-qsd
+fQg
 ary
-ssu
+qYL
 qqf
 qqf
 qqf
@@ -40325,7 +41086,7 @@ egN
 yln
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -40542,8 +41303,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+lwH
+iqT
 bVv
 yiF
 yiF
@@ -40561,9 +41322,9 @@ ruk
 ioZ
 lmx
 sAw
-irE
+gMF
 ikM
-aLR
+xpt
 hrk
 hrk
 hrk
@@ -40582,7 +41343,7 @@ bQK
 xhz
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -40799,8 +41560,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+lwH
+iqT
 bVv
 yiF
 yiF
@@ -40839,7 +41600,7 @@ wQq
 ggn
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -41056,8 +41817,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+lwH
+iqT
 bVv
 yiF
 yiF
@@ -41077,7 +41838,7 @@ sAw
 sAw
 qax
 tew
-jzV
+iHu
 pRn
 dZf
 aNA
@@ -41096,7 +41857,7 @@ bQK
 xhz
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -41313,8 +42074,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+lwH
+iqT
 bVv
 yiF
 yiF
@@ -41334,7 +42095,7 @@ gsK
 hya
 qax
 tew
-jzV
+iHu
 lBP
 uiv
 aNA
@@ -41353,7 +42114,7 @@ qBT
 aaD
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -41570,8 +42331,8 @@ tLM
 tLM
 tLM
 tLM
-cPg
-aNU
+lwH
+iqT
 bVv
 bVv
 yiF
@@ -41610,7 +42371,7 @@ lde
 lde
 mPZ
 hYK
-cPg
+dUM
 tLM
 tLM
 tLM
@@ -41827,9 +42588,9 @@ tLM
 tLM
 tLM
 tLM
-cPg
-cPg
-cPg
+lwH
+lwH
+lwH
 bVv
 bVv
 bVv
@@ -41846,28 +42607,28 @@ neA
 fPt
 sJM
 hya
-irE
-jYR
-aLR
+gMF
+oHY
+xpt
 hrk
 hrk
 hrk
 hrk
 hrk
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-cPg
-cPg
-cPg
+trg
+trg
+trg
+trg
+trg
+trg
+trg
+xUr
+xUr
+xUr
+xUr
+dUM
+dUM
+dUM
 tLM
 tLM
 tLM
@@ -42103,21 +42864,21 @@ pGC
 vIQ
 vIQ
 vIQ
-qsd
-hvf
-ssu
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+fQg
+wpG
+qYL
+uVP
+uVP
+uVP
+bph
+bph
+bph
+bph
+bph
+bph
+bph
+cZM
+cZM
 ylP
 ylP
 ylP
@@ -42360,9 +43121,9 @@ fis
 xbb
 qkD
 ixT
-irE
-jYR
-pFS
+gMF
+oHY
+pkc
 opQ
 waG
 hrH
@@ -42373,8 +43134,8 @@ xsR
 wzs
 aXZ
 xrt
-lBg
-mYn
+vsY
+hoz
 uAU
 wDE
 cwl
@@ -42606,7 +43367,7 @@ nhN
 nox
 nox
 tRg
-tQT
+ghc
 khy
 uYn
 hUL
@@ -42627,11 +43388,11 @@ tim
 wTs
 pLZ
 kUD
-rWm
+hao
 djI
 tim
-pBr
-aLR
+hbM
+vQH
 uAU
 thG
 oaY
@@ -42881,14 +43642,14 @@ arh
 hQi
 hkD
 uea
-fys
-jGN
-jGN
-jGN
+mxl
+nVi
+nVi
+nVi
 rFL
 xrt
-qax
-aLR
+sUb
+vQH
 uAU
 hzh
 uuB
@@ -43139,12 +43900,12 @@ rjE
 hkD
 spu
 sCo
-jGN
-jGN
-jGN
-dsb
+nVi
+nVi
+nVi
+kiL
 tim
-qax
+sUb
 qBw
 vhZ
 xTV
@@ -43394,14 +44155,14 @@ hdm
 arh
 fZQ
 yfK
-aNU
+dvp
 lQM
-jGN
-jGN
-jGN
-dsb
-aNU
-vHf
+nVi
+nVi
+nVi
+kiL
+dvp
+jWI
 qBw
 uAU
 uAU
@@ -43634,7 +44395,7 @@ daZ
 vuk
 nox
 tbI
-aLR
+hHU
 khy
 vcY
 tEn
@@ -43645,20 +44406,20 @@ tPx
 sqx
 ahS
 oBG
-irE
-jYR
-nRP
+gMF
+oHY
+xZS
 mdr
 lIJ
 jSW
 lbJ
 iEl
-ibj
+nJS
 kJc
-jGN
+nVi
 tFe
 aKz
-bMj
+iGY
 qBw
 uAU
 dBt
@@ -43891,7 +44652,7 @@ wLC
 wLC
 wLC
 lpm
-ssu
+xmK
 tJT
 iLS
 kxW
@@ -43902,20 +44663,20 @@ nPU
 cMG
 hat
 vIQ
-qsd
-hvf
-ssu
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
+fQg
+wpG
+qYL
+uVP
+uVP
+uVP
+bph
+bph
+bph
 kXl
 oyy
 xSo
-dhD
-qsd
+bph
+tCf
 tls
 oEO
 oEO
@@ -44148,7 +44909,7 @@ vBF
 ydG
 jNL
 tbI
-aLR
+hHU
 xgn
 dyG
 teL
@@ -44159,20 +44920,20 @@ hLZ
 uvw
 ttq
 xgn
-irE
-jYR
-aLR
-aNU
+gMF
+oHY
+xpt
+mXA
 agM
 wMr
 agM
 ksh
-aNU
-tim
+mXA
+qvq
 dhf
-tim
-aNU
-irE
+qvq
+mXA
+dyK
 qBw
 ctG
 xav
@@ -44418,7 +45179,7 @@ mGG
 iqh
 vOi
 hXI
-aLR
+xpt
 bMA
 tKo
 xRY
@@ -44429,7 +45190,7 @@ rWm
 oWf
 bwH
 bMA
-pBr
+hbM
 qBw
 ctG
 jQe
@@ -44662,7 +45423,7 @@ jPz
 mIE
 sex
 tbI
-aLR
+hHU
 gcR
 wyP
 rtm
@@ -44673,20 +45434,20 @@ brd
 eez
 ndi
 gcR
-irE
+gMF
 lmK
-aLR
+xpt
 bMA
 iyO
 vYZ
-jGN
-jGN
-jGN
-jGN
-qEj
+uaA
+uaA
+uaA
+uaA
+xpL
 dsb
 bMA
-qax
+sUb
 qBw
 ctG
 uEJ
@@ -44919,7 +45680,7 @@ xwu
 aAi
 jNL
 tbI
-aLR
+hHU
 tLU
 bFe
 aaM
@@ -44930,20 +45691,20 @@ brd
 ruy
 fbc
 rrK
-irE
+gMF
 lmK
-aLR
+xpt
 bMA
 jSs
 vYZ
-jGN
+uaA
 xpz
 bCd
-qEj
-jGN
+xpL
+uaA
 dsb
 bMA
-qax
+sUb
 qBw
 jua
 rzu
@@ -45189,18 +45950,18 @@ mGG
 iqh
 vOi
 eyq
-aLR
-xrt
+xpt
+fxM
 cMX
 fbk
-jGN
-qEj
-qEj
-qEj
-qEj
+uaA
+xpL
+xpL
+xpL
+xpL
 dsb
-xrt
-vHf
+fxM
+jWI
 qBw
 ctG
 ctG
@@ -45433,7 +46194,7 @@ rNi
 oNC
 jNL
 tbI
-aLR
+hHU
 xgn
 tCo
 tBp
@@ -45444,20 +46205,20 @@ rKR
 rKR
 sPF
 xgn
-irE
-jYR
-aLR
-aNU
-qEj
-jGN
+gMF
+oHY
+xpt
+mXA
+xpL
+uaA
 ihu
 jtY
 rur
-qEj
-qEj
-qEj
-aNU
-irE
+xpL
+xpL
+xpL
+mXA
+dyK
 qBw
 ctG
 rYA
@@ -45690,7 +46451,7 @@ gnn
 gnn
 gnn
 lpm
-ssu
+xmK
 lSe
 bXH
 ixb
@@ -45701,20 +46462,20 @@ emn
 iDy
 ezl
 lSe
-qsd
-hvf
-ssu
-dhD
+fQg
+wpG
+qYL
+xnX
 aEF
-qEj
+xpL
 ihu
 bFZ
-qEj
-fPH
-fPH
+xpL
+eoq
+eoq
 dLJ
-dhD
-qsd
+xnX
+tCf
 tls
 qwv
 qwv
@@ -45947,7 +46708,7 @@ cpS
 cXc
 coN
 tbI
-aLR
+hHU
 rrK
 wzB
 aSL
@@ -45958,20 +46719,20 @@ cfr
 bmS
 tKN
 nnF
-irE
-jYR
-aLR
-aNU
+gMF
+oHY
+xpt
+mXA
 fys
-qEj
+xpL
 ihu
 bTL
-qEj
-qEj
-jGN
-qEj
-aNU
-irE
+xpL
+xpL
+uaA
+xpL
+mXA
+dyK
 qBw
 iZJ
 xcV
@@ -46204,7 +46965,7 @@ wLt
 coN
 coN
 tbI
-aLR
+hHU
 fLJ
 cMl
 rRn
@@ -46215,20 +46976,20 @@ tFC
 tFC
 hZv
 gcR
-irE
+gMF
 hXI
-aLR
+xpt
 bMA
 fys
-qEj
-qEj
+xpL
+xpL
 rNr
 rur
-qEj
-jGN
+xpL
+uaA
 dsb
 bMA
-pBr
+hbM
 qBw
 iZJ
 nbR
@@ -46461,7 +47222,7 @@ jQE
 gwX
 ivN
 tbI
-aLR
+hHU
 nnF
 jam
 xXe
@@ -46472,20 +47233,20 @@ lnV
 vQw
 syC
 rrK
-irE
+gMF
 lmK
-aLR
+xpt
 bMA
 fys
-jGN
-qEj
-qEj
-qEj
-qEj
-qEj
+uaA
+xpL
+xpL
+xpL
+xpL
+xpL
 dcT
 bMA
-qax
+sUb
 qBw
 iZJ
 qBs
@@ -46718,7 +47479,7 @@ oWy
 tuF
 coN
 tbI
-aLR
+hHU
 nnF
 taB
 oaF
@@ -46729,20 +47490,20 @@ xKv
 rgc
 joi
 gcR
-irE
+gMF
 lmK
-aLR
-aNU
+xpt
+mXA
 ftS
 dRV
 yjT
-qEj
-qEj
+xpL
+xpL
 ibj
 rrv
 cli
-aNU
-qax
+mXA
+sUb
 qBw
 flz
 eIf
@@ -46975,7 +47736,7 @@ ndX
 xtl
 coN
 tbI
-aLR
+hHU
 xgn
 fLJ
 fLJ
@@ -46986,20 +47747,20 @@ rrK
 gcR
 gcR
 xgn
-irE
+gMF
 eyq
-aLR
-aNU
-aNU
+xpt
+mXA
+mXA
 bMA
 nxw
-tim
-xrt
-xrt
-xrt
-aNU
-aNU
-vHf
+qvq
+fxM
+fxM
+fxM
+mXA
+mXA
+jWI
 qBw
 iZJ
 iZJ
@@ -47233,30 +47994,30 @@ hom
 coN
 tbI
 moc
-iiX
-fpO
-lFw
-lFw
-lFw
-lFw
-lFw
-lFw
-lFw
-lFw
-cWO
-jYR
-pFS
-lFw
-lFw
-lFw
-lFw
-lFw
-lFw
-lFw
-lFw
-gjZ
-iiX
-ykM
+pNu
+hHq
+rbS
+rbS
+rbS
+rbS
+rbS
+rbS
+rbS
+rbS
+dac
+oHY
+pkc
+rbS
+rbS
+rbS
+rbS
+rbS
+rbS
+rbS
+rbS
+htg
+pNu
+hbB
 qBw
 iZJ
 jHm
@@ -47489,31 +48250,31 @@ bup
 bup
 bup
 lpm
-tls
+ttz
 aZX
 oOp
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
-hvf
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
+wpG
 rFR
 aZX
-oOp
+ubO
 tls
 tHN
 tHN
@@ -47746,9 +48507,9 @@ ttZ
 gXc
 txP
 tbI
-aru
-iiX
-lUZ
+xUa
+pNu
+qAI
 kMe
 kMe
 kMe
@@ -47757,9 +48518,9 @@ kMe
 kMe
 kMe
 kMe
-bMj
-jYR
-bMj
+eBF
+oHY
+eBF
 kMe
 kMe
 kMe
@@ -47769,8 +48530,8 @@ kMe
 kMe
 kMe
 qvE
-ace
-raI
+xVP
+iSa
 qBw
 uJa
 jTN
@@ -48003,7 +48764,7 @@ luV
 txP
 txP
 tbI
-tQT
+ghc
 aNU
 aNU
 cuq
@@ -48027,7 +48788,7 @@ cuq
 cuq
 aNU
 aNU
-pBr
+hbM
 qBw
 uJa
 uTl
@@ -48284,7 +49045,7 @@ kqx
 tPR
 mYn
 aNU
-qax
+sUb
 qBw
 uJa
 pib
@@ -48541,7 +49302,7 @@ pHz
 irE
 aLR
 cuq
-qax
+sUb
 qBw
 xUi
 oBv
@@ -48798,7 +49559,7 @@ tEY
 irE
 aLR
 aNU
-vHf
+jWI
 qBw
 uJa
 uJa
@@ -49031,7 +49792,7 @@ iVL
 bqe
 txP
 tbI
-aLR
+hHU
 cuq
 irE
 evh
@@ -49055,7 +49816,7 @@ tEY
 irE
 aLR
 cuq
-irE
+dyK
 qBw
 uJa
 wKD
@@ -49288,7 +50049,7 @@ fyn
 fyn
 fyn
 lpm
-ssu
+xmK
 cuq
 qsd
 aPv
@@ -49312,7 +50073,7 @@ sJb
 qsd
 ssu
 cuq
-qsd
+tCf
 tls
 tHN
 tHN
@@ -49545,7 +50306,7 @@ iez
 ekK
 pOh
 tbI
-aLR
+hHU
 aNU
 irE
 evh
@@ -49569,7 +50330,7 @@ tEY
 irE
 aLR
 aNU
-irE
+dyK
 qBw
 kgU
 oEP
@@ -50083,7 +50844,7 @@ tEY
 irE
 aLR
 xuJ
-qax
+sUb
 qBw
 kgU
 qWR
@@ -50315,7 +51076,7 @@ fQp
 cOw
 fEt
 pOh
-irE
+rBQ
 bwC
 ace
 ykM
@@ -50572,7 +51333,7 @@ hDp
 ptH
 lbH
 pOh
-irE
+rBQ
 vAX
 aNU
 irE
@@ -50597,8 +51358,8 @@ tEY
 irE
 aLR
 aNU
-vHf
-aLR
+jWI
+vQH
 kgU
 kgU
 rzh
@@ -50829,8 +51590,8 @@ uZU
 rbm
 bLV
 pOh
-vtj
-tHu
+wYp
+usX
 aNU
 irE
 evh
@@ -50854,8 +51615,8 @@ tEY
 irE
 aLR
 aNU
-vtj
-tHu
+sFV
+bUx
 kgU
 bfq
 fSY
@@ -51086,9 +51847,9 @@ dSG
 dSG
 dSG
 dSG
-dhD
-dhD
-dhD
+oPs
+oPs
+oPs
 qsd
 aPv
 gyF
@@ -51110,9 +51871,9 @@ fPH
 sJb
 qsd
 ssu
-dhD
-dhD
-dhD
+tyD
+tyD
+tyD
 ufy
 ufy
 ufy
@@ -51338,14 +52099,14 @@ aaa
 aaa
 tLM
 bHJ
-cPg
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-aNU
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+egH
 irE
 evh
 pIq
@@ -51367,14 +52128,14 @@ jGN
 tEY
 irE
 aLR
-aNU
+qID
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-cPg
+tyD
+vSG
 bHJ
 tLM
 aaa
@@ -51595,13 +52356,13 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
 rcO
 irE
 evh
@@ -51624,14 +52385,14 @@ lrz
 tEY
 irE
 aLR
-rcO
+oZN
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 aaa
@@ -51852,14 +52613,14 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-dhD
-dhD
-dhD
-qEj
-qEj
-aNU
+uqX
+oPs
+oPs
+oPs
+oPs
+rpO
+rpO
+egH
 irE
 evh
 urP
@@ -51881,14 +52642,14 @@ oHD
 mMy
 irE
 aLR
-aNU
+qID
 qEj
 qEj
-dhD
-dhD
-dhD
-dhD
-cPg
+tyD
+tyD
+tyD
+tyD
+vSG
 tLM
 tLM
 aaa
@@ -52109,14 +52870,14 @@ aaa
 aaa
 tLM
 tLM
-cPg
-cPg
-cPg
-cPg
-dhD
-qEj
-qEj
-aNU
+uqX
+uqX
+uqX
+uqX
+oPs
+rpO
+rpO
+egH
 vtj
 wSX
 iFE
@@ -52138,14 +52899,14 @@ iFE
 iFE
 lUZ
 tHu
-aNU
+qID
 qEj
 qEj
-dhD
-cPg
-cPg
-cPg
-cPg
+tyD
+vSG
+vSG
+vSG
+vSG
 tLM
 tLM
 aaa
@@ -52366,19 +53127,19 @@ aaa
 aaa
 tLM
 tLM
-cPg
-axa
-axa
-cPg
-dhD
-qEj
-qEj
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
+uqX
+xIj
+xIj
+uqX
+oPs
+rpO
+rpO
+egH
+egH
+egH
+egH
+egH
+egH
 irE
 bMj
 bMj
@@ -52390,19 +53151,19 @@ bMj
 bMj
 bMj
 aLR
-aNU
-aNU
-aNU
-aNU
-aNU
-aNU
+qID
+qID
+qID
+qID
+qID
+qID
 qEj
 qEj
-dhD
-cPg
-axa
-axa
-cPg
+tyD
+vSG
+fSB
+fSB
+vSG
 tLM
 tLM
 aaa
@@ -52626,16 +53387,16 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-aNU
+uqX
+oPs
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+egH
 vtj
 wHR
 bMj
@@ -52647,16 +53408,16 @@ bMj
 bMj
 nRP
 tHu
-aNU
+qID
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-dhD
-cPg
+tyD
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -52883,37 +53644,37 @@ tLM
 tLM
 tLM
 tLM
-cPg
-cPg
-dhD
+uqX
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+oPs
+oPs
+wqP
+snD
+bcG
+bok
+bcG
+bok
+bcG
+wqP
+snD
+tyD
+tyD
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-dhD
-qsd
-lzY
-lzY
-lzY
-lzY
-lzY
-lzY
-lzY
-aPv
-dhD
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
-cPg
+tyD
+vSG
+vSG
 tLM
 tLM
 tLM
@@ -53141,8 +53902,26 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+bcG
+bcG
+bcG
+qVA
+bcG
+qVA
+bcG
+bcG
+bcG
+bcG
 qEj
 qEj
 qEj
@@ -53150,26 +53929,8 @@ qEj
 qEj
 qEj
 qEj
-dhD
-irE
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-evh
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -53398,8 +54159,26 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+bcG
+bok
+bcG
+bok
+bcG
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
@@ -53407,26 +54186,8 @@ qEj
 qEj
 qEj
 qEj
-dhD
-irE
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-evh
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -53655,8 +54416,26 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
@@ -53664,26 +54443,8 @@ qEj
 qEj
 qEj
 qEj
-dhD
-irE
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-evh
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -53912,8 +54673,26 @@ tLM
 tLM
 tLM
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
@@ -53921,26 +54700,8 @@ qEj
 qEj
 qEj
 qEj
-dhD
-irE
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-bMj
-evh
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -54169,8 +54930,26 @@ aaa
 tLM
 tLM
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
@@ -54178,26 +54957,8 @@ qEj
 qEj
 qEj
 qEj
-dhD
-irE
-eVQ
-kMe
-kMe
-kMe
-kMe
-kMe
-wHR
-evh
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -54426,26 +55187,26 @@ aaa
 tLM
 tLM
 tLM
-cPg
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-vtj
-tHu
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
 kRt
-dhD
 kRt
-dhD
-vtj
-tHu
-dhD
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
@@ -54453,8 +55214,8 @@ qEj
 qEj
 qEj
 qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 tLM
@@ -54683,35 +55444,35 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
-dhD
+uqX
+oPs
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+oPs
+bcG
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
+bcG
+tyD
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-dhD
-dhD
-dhD
-dhD
-qVA
-dhD
-qVA
-dhD
-dhD
-dhD
-dhD
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-dhD
-cPg
+tyD
+tyD
+vSG
 tLM
 tLM
 aaa
@@ -54940,35 +55701,35 @@ aaa
 aaa
 aaa
 tLM
-cPg
-cPg
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-atv
-atv
-dhD
+uqX
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
 kRt
-dhD
 kRt
-dhD
-atv
-atv
-dhD
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-cPg
-cPg
+tyD
+vSG
+vSG
 tLM
 aaa
 aaa
@@ -55198,33 +55959,33 @@ aaa
 aaa
 tLM
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 tLM
 aaa
@@ -55455,33 +56216,33 @@ aaa
 aaa
 aaa
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 aaa
 aaa
@@ -55712,33 +56473,33 @@ aaa
 aaa
 aaa
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+wzJ
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-atv
-atv
-atv
-atv
-bMj
-atv
-atv
-atv
-atv
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 aaa
 aaa
@@ -55969,33 +56730,33 @@ aaa
 aaa
 aaa
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 aaa
 aaa
@@ -56226,33 +56987,33 @@ aaa
 aaa
 aaa
 tLM
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+rpO
+rpO
+bcG
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+kRt
+bcG
 qEj
 qEj
 qEj
 qEj
 qEj
 qEj
-dhD
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-atv
-dhD
-qEj
-qEj
-qEj
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 tLM
 aaa
 aaa
@@ -56483,16 +57244,16 @@ aaa
 aaa
 aaa
 aaa
-cPg
-dhD
-qEj
-qEj
-qEj
-qEj
-dhD
-dhD
-dhD
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+oPs
+oPs
+bcG
+bcG
 qVA
 qVA
 qVA
@@ -56500,16 +57261,16 @@ qVA
 qVA
 qVA
 qVA
-dhD
-dhD
-dhD
-dhD
+bcG
+bcG
+tyD
+tyD
 qEj
 qEj
 qEj
 qEj
-dhD
-cPg
+tyD
+vSG
 aaa
 aaa
 aaa
@@ -56740,33 +57501,33 @@ aaa
 aaa
 aaa
 aaa
-cPg
-dhD
+uqX
+oPs
+rpO
+rpO
+rpO
+rpO
+oPs
+uqX
+odi
+hlI
+hlI
+hlI
+hlI
+hlI
+hlI
+hlI
+hlI
+hlI
+vSG
+vSG
+tyD
+tyD
 qEj
 qEj
 qEj
-qEj
-dhD
-cPg
-cPg
-hlI
-hlI
-hlI
-hlI
-hlI
-hlI
-hlI
-hlI
-hlI
-cPg
-cPg
-dhD
-dhD
-qEj
-qEj
-qEj
-dhD
-cPg
+tyD
+vSG
 aaa
 aaa
 aaa
@@ -56997,14 +57758,14 @@ aaa
 aaa
 aaa
 aaa
-cPg
-dhD
-dhD
-dhD
-dhD
-dhD
-dhD
-cPg
+uqX
+oPs
+oPs
+oPs
+oPs
+oPs
+oPs
+uqX
 tLM
 tLM
 tLM
@@ -57016,14 +57777,14 @@ tLM
 tLM
 tLM
 tLM
-cPg
-cPg
-dhD
-dhD
-dhD
-dhD
-dhD
-cPg
+vSG
+vSG
+tyD
+tyD
+tyD
+tyD
+tyD
+vSG
 aaa
 aaa
 aaa
@@ -57254,14 +58015,14 @@ aaa
 aaa
 aaa
 aaa
-cPg
-cPg
-cPg
-cPg
-cPg
-cPg
-cPg
-cPg
+uqX
+uqX
+uqX
+uqX
+uqX
+uqX
+uqX
+uqX
 tLM
 tLM
 tLM
@@ -57273,14 +58034,14 @@ tLM
 tLM
 tLM
 tLM
-cPg
-cPg
-cPg
-cPg
-cPg
-cPg
-cPg
-cPg
+vSG
+vSG
+vSG
+vSG
+vSG
+vSG
+vSG
+vSG
 aaa
 aaa
 aaa

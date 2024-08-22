@@ -4743,12 +4743,6 @@
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
-"jay" = (
-/turf/open/floor/wood/parquet,
-/turf/closed/wall{
-	name = "bulkhead"
-	},
-/area/station/service/kitchen)
 "jbq" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -5683,7 +5677,6 @@
 /area/station/service/kitchen)
 "kAE" = (
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/research{
 	autoclose = 0;
 	frequency = 1449;
@@ -11451,14 +11444,6 @@
 	},
 /area/station/science/research)
 "uQC" = (
-/obj/machinery/door_buttons/access_button{
-	idDoor = "xeno_airlock_interior";
-	idSelf = "xeno_airlock_control";
-	name = "Access Button";
-	pixel_x = 29;
-	pixel_y = -8;
-	req_access = list("xenobiology")
-	},
 /obj/machinery/firealarm/directional/north,
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -12167,7 +12152,6 @@
 /area/station/hallway/primary/starboard)
 "vVG" = (
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/research{
 	autoclose = 0;
 	frequency = 1449;
@@ -46442,7 +46426,7 @@ khy
 uYn
 hUL
 vCj
-jay
+ycT
 lci
 aCl
 sIy

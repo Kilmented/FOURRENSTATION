@@ -434,12 +434,12 @@
 #define OFFSET_HAIR "hair" // NOVA EDIT - addition - Akulas
 
 //MINOR TWEAKS/MISC
-#define AGE_MIN	18 //youngest a character can be //NOVA EDIT CHANGE - ORIGINAL: #define AGE_MIN 17 //youngest a character can be
-#define AGE_MAX 100 //oldest a character can be //NOVA EDIT CHANGE - Increase max character age to 100 - ORIGINAL: #define AGE_MAX 85 //oldest a character can be
-#define AGE_CHRONO_MAX 400 //NOVA EDIT ADDITION - Chronological age
-#define AGE_MINOR 20 //legal age of space drinking and smoking
-#define WIZARD_AGE_MIN 30 //youngest a wizard can be
-#define APPRENTICE_AGE_MIN 29 //youngest an apprentice can be
+#define AGE_MIN 18 //youngest a character can be //NOVA EDIT CHANGE - ORIGINAL: #define AGE_MIN 17 //youngest a character can be
+#define AGE_MAX 115 //oldest a character can be //NOVA EDIT CHANGE - Increase max character age to 100 - ORIGINAL: #define AGE_MAX 85 //set to 125 to represent ever advancing medical technology increasing the life expectancy further.
+#define AGE_CHRONO_MAX 500 //NOVA EDIT ADDITION - Chronological age // WS EDIT CHANGE - increased chronological age to 500. vitrification has been around for a hot minute
+#define AGE_MINOR 17 // any characters at or below this number cannot buy certain age_restricted items. this was originally 20, however, I moved it lower to represent german drinking and smoking laws (18 versus America's 21! - 1 = at or below). this ALSO has the side effect of making all characters able to drink and smoke. Yippee!
+#define WIZARD_AGE_MIN 30 //youngest a wizard can be // 4chan joke DIE JUDGEMENT PREPARE THYSELF CRUSH
+#define APPRENTICE_AGE_MIN 29 //youngest an apprentice can be // 4chan joke DIE
 
 #define SHOES_SLOWDOWN 0 //How much shoes slow you down by default. Negative values speed you up
 #define POCKET_STRIP_DELAY (4 SECONDS) //time taken to search somebody's pockets

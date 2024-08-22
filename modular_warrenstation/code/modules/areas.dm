@@ -45,4 +45,16 @@
 /area/station/service/cafeteria // modular edit
 	name = "\improper Canteen"
 	mood_bonus = 2
-	mood_message = "It feels good to be at home."
+	mood_message = "It feels good to rest at home."
+
+/area/station/commons/storage/primary
+	mood_bonus = 2
+	mood_message = "It feels good to participate in the public workshop at home."
+
+/area/station/service/hydroponics/garden
+	mood_bonus = 2
+	mood_message = "It feels good to participate in the public garden at home."
+
+/area/station/service/bar
+	mood_bonus = 1
+	mood_message = "It feels good to mix drinks and change lives."

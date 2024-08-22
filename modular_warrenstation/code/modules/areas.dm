@@ -58,3 +58,7 @@
 /area/station/service/bar
 	mood_bonus = 1
 	mood_message = "It feels good to mix drinks and change lives."
+
+/area/station/common/cryopods
+	mood_bonus = 1
+	mood_message = "Vitrification lets me feel like I can live forever."

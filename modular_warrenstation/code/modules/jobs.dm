@@ -1,51 +1,46 @@
-/datum/job/geneticist
-	title = JOB_GENETICIST
-	description = "Alter genomes, turn monkeys into humans (and vice-versa), and make DNA backups."
-	department_head = list(JOB_RESEARCH_DIRECTOR)
-	faction = FACTION_STATION
-	total_positions = 0
-	spawn_positions = 0
-	supervisors = SUPERVISOR_RD
-	exp_requirements = 60
-	exp_required_type = EXP_TYPE_CREW
-	exp_granted_type = EXP_TYPE_CREW
-	config_tag = "GENETICIST"
+// These are all removals for a variety of reasons.
 
-	outfit = /datum/outfit/job/geneticist
-	plasmaman_outfit = /datum/outfit/plasmaman/genetics
-	departments_list = list(
-		/datum/job_department/science,
-		)
-
-	paycheck = PAYCHECK_CREW
-	paycheck_department = ACCOUNT_SCI
-
-	display_order = JOB_DISPLAY_ORDER_GENETICIST
-	bounty_types = CIV_JOB_SCI
-
-	mail_goodies = list(
-		/obj/item/storage/box/monkeycubes = 10
-	)
-
-	family_heirlooms = list(/obj/item/clothing/under/shorts/purple)
-	rpg_title = "Genemancer"
+/datum/job/atmospheric_technician // Future alt title.
 	job_flags = null
 
+/datum/job/curator // Doesn't fit as an actual traditional job. Fun assistant gimmick though! We sadly do not have a proper library. Yet.
+	job_flags = null
 
-/datum/outfit/job/geneticist
-	name = "Geneticist"
-	jobtype = /datum/job/geneticist
+/datum/job/chaplain // Doesn't fit as an actual traditional job. Fun assistant gimmick though! You'll be outright replaced with proper magic, though.
+	job_flags = null
 
-	id_trim = /datum/id_trim/job/geneticist
-	uniform = /obj/item/clothing/under/rank/rnd/geneticist
-	suit = /obj/item/clothing/suit/toggle/labcoat/genetics
-	suit_store = /obj/item/flashlight/pen
-	belt = /obj/item/modular_computer/pda/geneticist
-	ears = /obj/item/radio/headset/headset_sci
-	shoes = /obj/item/clothing/shoes/sneakers/white
-	l_pocket = /obj/item/sequence_scanner
+/datum/job/clown // Doesn't fit as an actual traditional job. Fun assistant gimmick though! All your sexy clothes, abilities, and quirks will be character customization soon.
+	job_flags = null
 
-	backpack = /obj/item/storage/backpack/genetics
-	satchel = /obj/item/storage/backpack/satchel/gen
-	duffelbag = /obj/item/storage/backpack/duffelbag/genetics
-	messenger = /obj/item/storage/backpack/messenger/gen
+/datum/job/chemist // Future alt title.
+	job_flags = null
+
+/datum/job/coroner // Future alt title.
+	job_flags = null
+
+/datum/job/geneticist // Future alt title.
+	job_flags = null
+
+/datum/job/head_of_personnel // I don't want HOP and First Mate frotting for power
+	job_flags = null
+
+/datum/job/head_of_security
+	job_flags = null // I don't want Warden and HOS frotting for power shit's weird
+
+/datum/job/janitor // Clean up after yourself. SOP will literally tell you to clean your messy ass gooncave you call a department.
+	job_flags = null
+
+/datum/job/lawyer // No traditional court.
+	job_flags = null
+
+/datum/job/mime // Doesn't fit as an actual traditional job. Fun assistant gimmick though! All your sexy clothes, abilities, and quirks will be character customization soon.
+	job_flags = null
+
+/datum/job/paramedic // The ship is not even one hundred fifty meters from tip to tail. You will NOT struggle to find bodies. Even then, at five minutes of being dead, a teleport back to the ship option will be avaliable.
+	job_flags = null
+
+/datum/job/prisoner // No permabrig. If someone is harshing the vibe enough to deserve a permanent punishment, character death is the intended answer.
+	job_flags = null
+
+/datum/job/psychologist // Future alt title.
+	job_flags = null

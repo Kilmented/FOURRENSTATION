@@ -57,20 +57,9 @@
 /datum/job/barber
 	job_flags = null
 
-/////////////header/////////////
-// the following are alt titles
-/////////////header/////////////
-
-/**
- * This is the file you should use to add alternate titles for each job, just
- * follow the way they're done here, it's easy enough and shouldn't take any
- * time at all to add more or add some for a job that doesn't have any.
- */
-
-/datum/job
-	/// The list of alternative job titles people can pick from, null by default.
-	var/list/alt_titles = null
-
+////////////////////////////////////////////////////////////////////// alt titles start here
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
 
 /datum/job/ai
 	alt_titles = list(

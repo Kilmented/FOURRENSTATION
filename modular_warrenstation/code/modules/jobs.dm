@@ -54,6 +54,9 @@
 /datum/job/bitrunner
 	job_flags = null
 
+/datum/job/barber
+	job_flags = null
+
 /////////////header/////////////
 // the following are alt titles
 /////////////header/////////////

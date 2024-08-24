@@ -8318,6 +8318,7 @@
 #include "modular_warrenstation\code\modules\areas.dm"
 #include "modular_warrenstation\code\modules\drip.dm"
 #include "modular_warrenstation\code\modules\guns.dm"
+#include "modular_warrenstation\code\modules\jobs.dm"
 #include "modular_warrenstation\code\modules\language.dm"
 #include "modular_warrenstation\code\modules\loot.dm"
 #include "modular_warrenstation\code\modules\numed.dm"

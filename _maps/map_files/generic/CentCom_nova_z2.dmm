@@ -2978,10 +2978,6 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron,
 /area/station/science/circuits)
-"fJp" = (
-/obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/wood/tile,
-/area/station/science/robotics/mechbay)
 "fJq" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/light/warm/directional/south,
@@ -36349,7 +36345,7 @@ vuN
 iev
 erz
 poH
-fJp
+erz
 uPF
 sqq
 tLM

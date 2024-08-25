@@ -185,6 +185,19 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/mine/lounge)
+"bN" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
+	},
+/obj/structure/closet,
+/obj/item/gun/energy/recharge/kinetic_accelerator,
+/obj/item/gun/energy/recharge/kinetic_accelerator,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/turf/open/floor/iron/dark,
+/area/mine/production)
 "bQ" = (
 /obj/structure/stone_tile/cracked{
 	dir = 8
@@ -46134,7 +46147,7 @@ RY
 RY
 dQ
 Cg
-lb
+bN
 pK
 Ob
 IL

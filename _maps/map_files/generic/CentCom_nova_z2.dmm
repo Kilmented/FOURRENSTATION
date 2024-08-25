@@ -2354,10 +2354,14 @@
 	},
 /area/station/command/bridge)
 "fnu" = (
-/obj/docking_port/stationary/mining_home{
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/machinery/computer/shuttle/mining{
+	dir = 2;
+	req_access = null
+	},
+/turf/open/floor/iron/textured_large,
 /area/station/commons/hangar)
 "foD" = (
 /obj/effect/turf_decal/siding/dark,
@@ -4726,16 +4730,13 @@
 	},
 /area/station/science/circuits)
 "kem" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/machinery/computer/shuttle/mining{
-	dir = 2;
-	req_access = null
-	},
-/turf/open/floor/iron/half{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/docking_port/stationary/mining_home/large{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/hangar)
 "kfv" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -6848,6 +6849,9 @@
 /turf/open/floor/grass,
 /area/station/service/kitchen)
 "oCK" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing,
+/obj/machinery/light/floor,
 /obj/docking_port/stationary{
 	dir = 1;
 	dwidth = 5;
@@ -50655,7 +50659,7 @@ evh
 xkW
 sAX
 sAX
-sAX
+kem
 sAX
 sAX
 pHz
@@ -50916,7 +50920,7 @@ dTD
 dTD
 noq
 tEY
-irE
+fnu
 jYR
 evh
 pIq
@@ -51953,7 +51957,7 @@ dTD
 dTD
 dTD
 jGN
-kGp
+oCK
 irE
 aru
 mXv
@@ -52199,7 +52203,7 @@ jGN
 dTD
 dTD
 dTD
-fnu
+jGN
 tEY
 irE
 sSA
@@ -52209,7 +52213,7 @@ jGN
 dTD
 dTD
 dTD
-oCK
+jGN
 tEY
 irE
 aLR
@@ -53229,7 +53233,7 @@ fPH
 fPH
 fPH
 sJb
-kem
+qsd
 hvf
 aPv
 gyF

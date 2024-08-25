@@ -22,7 +22,7 @@ $include auxtools.txt
 @SERVERNAME Warrenstation
 
 ## Server tagline: This will appear right below the server's title.
-@SERVERTAGLINE An 18+ HRP-PVE Nova Sector downstream.
+@SERVERTAGLINE An 18+ HRP server in a posthuman near future sci-fi setting. Whitelist in the discord to join!
 
 ## Discord Link: This is the link to Nova Sector's discord server
 DISCORD_LINK https://discord.gg/nmRsdygz3c
@@ -31,7 +31,7 @@ DISCORD_LINK https://discord.gg/nmRsdygz3c
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Warrenstation
+STATIONNAME SSN Suzerain Nokura
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB

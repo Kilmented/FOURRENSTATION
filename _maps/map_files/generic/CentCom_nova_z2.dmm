@@ -2053,6 +2053,21 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen/coldroom)
+"dXr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 1;
+	height = 13;
+	name = "tram dock";
+	roundstart_template = /datum/map_template/shuttle/arrivals_nova;
+	shuttle_id = "arrivals_shuttle";
+	width = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/commons/hangar)
 "dYC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2341,6 +2356,17 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/engine,
 /area/station/engineering/main)
+"euN" = (
+/obj/docking_port/stationary{
+	dir = 1;
+	dwidth = 5;
+	height = 5;
+	name = "Cargo Bay";
+	shuttle_id = "cargo_home";
+	width = 14
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/commons/hangar)
 "euY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -5546,7 +5572,9 @@
 	},
 /area/station/science/circuits)
 "kem" = (
-/obj/docking_port/stationary/mining_home,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/hangar)
 "kfv" = (
@@ -7937,14 +7965,7 @@
 /turf/open/floor/grass,
 /area/station/service/kitchen)
 "oCK" = (
-/obj/docking_port/stationary{
-	dir = 1;
-	dwidth = 5;
-	height = 5;
-	name = "Cargo Bay";
-	shuttle_id = "cargo_home";
-	width = 14
-	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/hangar)
 "oEn" = (
@@ -53528,23 +53549,23 @@ hHU
 aNU
 irE
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 jYR
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 aLR
 aNU
@@ -53785,23 +53806,23 @@ hee
 ace
 raI
 evh
-euY
+kem
 jGN
 dTD
 dTD
 dTD
-kem
-kGp
+jGN
+oCK
 irE
 sSA
 evh
-euY
+kem
 jGN
 dTD
 dTD
 dTD
+euN
 oCK
-kGp
 irE
 aru
 mXv
@@ -54042,23 +54063,23 @@ jzV
 nVz
 irE
 evh
-pIq
+kem
 jGN
 dTD
 dTD
 dTD
 jGN
-tEY
+oCK
 irE
 sSA
 evh
-pIq
+kem
 jGN
 dTD
 dTD
 dTD
 jGN
-tEY
+oCK
 irE
 aLR
 xuJ
@@ -54299,23 +54320,23 @@ bwC
 ahc
 ykM
 evh
-pIq
+kem
 jGN
 dTD
 dTD
 dTD
 jGN
-tEY
+oCK
 irE
 sSA
 evh
-pIq
+kem
 jGN
 dTD
 dTD
 dTD
 jGN
-tEY
+oCK
 irE
 ugV
 iiX
@@ -54556,23 +54577,23 @@ vAX
 aNU
 spS
 evh
-euY
+kem
 jGN
 dTD
 dTD
 dTD
 jGN
-kGp
+oCK
 irE
 sSA
 evh
-euY
+kem
 jGN
 dTD
 dTD
 dTD
 jGN
-kGp
+oCK
 irE
 aLR
 aNU
@@ -54813,23 +54834,23 @@ usX
 aNU
 spS
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 jYR
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 aLR
 aNU
@@ -55844,7 +55865,7 @@ evh
 urP
 oHD
 oHD
-oHD
+dXr
 oHD
 oHD
 mMy

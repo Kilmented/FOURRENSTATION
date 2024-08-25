@@ -1,0 +1,4 @@
+author: "Koltsov"
+delete-after: True
+changes:
+  - image: "Adds new implant sprites"

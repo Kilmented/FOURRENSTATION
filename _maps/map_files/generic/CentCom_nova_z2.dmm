@@ -2235,6 +2235,9 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/yellow{
+	dir = 2
+	},
 /turf/open/floor/iron/half{
 	dir = 8
 	},

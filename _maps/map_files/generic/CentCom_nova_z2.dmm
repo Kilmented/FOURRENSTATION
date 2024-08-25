@@ -3401,6 +3401,7 @@
 "gmG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "gnn" = (
@@ -5367,6 +5368,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "jvi" = (
@@ -10329,6 +10331,7 @@
 	dir = 9
 	},
 /obj/machinery/camera/directional/north,
+/obj/machinery/rnd/production/protolathe/department/medical,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "rUE" = (
@@ -10394,13 +10397,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
-"sbd" = (
-/obj/effect/turf_decal/siding/dark{
-	dir = 4
-	},
-/obj/machinery/rnd/production/protolathe/department/medical,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
 "scN" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -43036,7 +43032,7 @@ iqv
 jBa
 eTs
 wds
-sbd
+eTs
 lAi
 oRh
 eSP

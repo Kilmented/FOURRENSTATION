@@ -3,11 +3,15 @@
 	"map_name": "Suzerain Nokura",
 	"map_path": "map_files/SuzerainNokura",
 	"map_file": "SuzerainNokura.dmm",
-	"space_ruin_levels": 0,
-	"space_empty_levels": 0,
 	"shuttles": {
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_meta",
-		"emergency": "emergency_meta"}
+		"emergency": "emergency_meta"
+	},
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/bar", "/area/station/commons/lounge"]
+		}
+	}
 }

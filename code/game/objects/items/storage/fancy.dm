@@ -203,7 +203,7 @@
 	throwforce = 0
 	slot_flags = ITEM_SLOT_BELT
 	spawn_type = /obj/item/clothing/mask/cigarette/space_cigarette
-	spawn_count = 6
+	spawn_count = 20
 	custom_price = PAYCHECK_CREW
 	age_restricted = TRUE
 	contents_tag = "cigarette"

@@ -27,7 +27,7 @@
 "hn" = (
 /obj/machinery/computer/shuttle/mining,
 /obj/effect/turf_decal/shuttle/exploration/hazardstripe,
-/turf/open/floor/iron/shuttle/exploration/side,
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "iL" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -37,9 +37,7 @@
 "iN" = (
 /obj/effect/turf_decal/shuttle/exploration/hazardstripe,
 /obj/structure/cable,
-/turf/open/floor/iron/shuttle/exploration/doubleinvertcorner{
-	dir = 1
-	},
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "jP" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -47,8 +45,66 @@
 	},
 /area/shuttle/mining/large/advanced)
 "kU" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron/shuttle/exploration/side,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/closet/crate/internals,
+/obj/item/pickaxe/drill/compact,
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/suit/hazardvest{
+	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
+	name = "emergency lifejacket"
+	},
+/obj/item/clothing/head/utility/hardhat/orange{
+	name = "protective hat";
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/item/tank/internals/emergency_oxygen/double,
+/turf/open/floor/iron/shuttle/exploration/equipmentrail3{
+	dir = 4
+	},
 /area/shuttle/mining/large/advanced)
 "mX" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -56,8 +112,8 @@
 	},
 /area/shuttle/mining/large/advanced)
 "ne" = (
-/turf/open/floor/iron/shuttle/exploration/corner{
-	dir = 1
+/turf/open/floor/iron/shuttle/exploration/equipmentrail2{
+	dir = 8
 	},
 /area/shuttle/mining/large/advanced)
 "nE" = (
@@ -66,18 +122,19 @@
 	},
 /area/shuttle/mining/large/advanced)
 "nQ" = (
-/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
-	icon_state = "4,5"
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/shuttle/exploration/equipmentrail1{
+	dir = 4
 	},
 /area/shuttle/mining/large/advanced)
 "pa" = (
-/obj/machinery/light/small/directional/south,
-/obj/item/radio/intercom{
-	pixel_y = -29
+/obj/structure/railing{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/shuttle/exploration/side{
-	dir = 1
+/turf/open/floor/iron/shuttle/exploration/equipmentrail2{
+	dir = 4
 	},
 /area/shuttle/mining/large/advanced)
 "pe" = (
@@ -87,9 +144,6 @@
 /area/shuttle/mining/large/advanced)
 "pA" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large,
-/area/shuttle/mining/large/advanced)
-"qb" = (
-/turf/open/floor/iron/shuttle/exploration/side,
 /area/shuttle/mining/large/advanced)
 "rw" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -113,9 +167,7 @@
 /area/shuttle/mining/large/advanced)
 "sQ" = (
 /obj/structure/cable,
-/turf/open/floor/iron/shuttle/exploration/invertcorner_side_flipped{
-	dir = 8
-	},
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "ts" = (
 /obj/structure/cable,
@@ -130,25 +182,12 @@
 	name = "mining shuttle";
 	port_direction = 2
 	},
+/obj/structure/fans/tiny/forcefield,
 /turf/open/floor/iron/shuttle/exploration/flat,
 /area/shuttle/mining/large/advanced)
-"xn" = (
-/obj/machinery/status_display/evac,
-/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
-	icon_state = "2,5"
-	},
-/area/shuttle/mining/large/advanced)
 "xr" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/ore/iron{
-	pixel_x = -2;
-	pixel_y = -8
-	},
-/obj/item/stack/ore/iron{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/turf/open/floor/iron/shuttle/exploration/corner{
+/obj/structure/ore_box,
+/turf/open/floor/iron/shuttle/exploration/equipmentrail1{
 	dir = 8
 	},
 /area/shuttle/mining/large/advanced)
@@ -160,20 +199,7 @@
 "zb" = (
 /obj/structure/cable,
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/shuttle/exploration/side{
-	dir = 1
-	},
-/area/shuttle/mining/large/advanced)
-"zQ" = (
-/obj/machinery/door/airlock/mining{
-	name = "Mining Shuttle Cockpit"
-	},
-/turf/open/floor/iron/shuttle/exploration/textured_flat,
-/area/shuttle/mining/large/advanced)
-"Aq" = (
-/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
-	icon_state = "4-2,9"
-	},
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "Cq" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
@@ -186,12 +212,12 @@
 	},
 /area/shuttle/mining/large/advanced)
 "ER" = (
-/obj/structure/table/reinforced,
-/obj/item/screwdriver{
-	pixel_y = 18
+/obj/item/stack/ore/iron,
+/obj/item/stack/ore/iron{
+	pixel_x = -2;
+	pixel_y = -8
 	},
-/obj/item/stock_parts/cell/high,
-/turf/open/floor/iron/shuttle/exploration/side{
+/turf/open/floor/iron/shuttle/exploration/equipmentrail2{
 	dir = 8
 	},
 /area/shuttle/mining/large/advanced)
@@ -201,27 +227,31 @@
 	},
 /area/shuttle/mining/large/advanced)
 "Gl" = (
-/obj/structure/ore_box,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/shuttle/exploration/corner{
+/obj/item/stack/ore/iron{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/structure/railing{
 	dir = 8
+	},
+/turf/open/floor/iron/shuttle/exploration/equipmentrail2{
+	dir = 4
 	},
 /area/shuttle/mining/large/advanced)
 "Gv" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
-	icon_state = "1,5"
+	icon_state = "4,2";
+	dir = 4
 	},
 /area/shuttle/mining/large/advanced)
 "Ir" = (
-/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
-	icon_state = "5,5"
+/turf/open/floor/iron/shuttle/exploration/equipmentrail3{
+	dir = 8
 	},
 /area/shuttle/mining/large/advanced)
 "Iv" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/shuttle/exploration/invertcorner_side{
-	dir = 4
-	},
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "ID" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -230,8 +260,9 @@
 /area/shuttle/mining/large/advanced)
 "IG" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/toolbox/emergency,
-/turf/open/floor/iron/shuttle/exploration/side,
+/obj/item/radio/intercom,
+/obj/effect/turf_decal/shuttle/exploration/hazardstripe,
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "IX" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -260,7 +291,8 @@
 /area/shuttle/mining/large/advanced)
 "LL" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
-	icon_state = "0,5"
+	icon_state = "0,5";
+	dir = 1
 	},
 /area/shuttle/mining/large/advanced)
 "LO" = (
@@ -268,95 +300,16 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/shuttle/exploration/uside{
-	dir = 1
-	},
-/area/shuttle/mining/large/advanced)
-"Nr" = (
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/clothing/suit/hazardvest{
-	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
-	name = "emergency lifejacket"
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/tank/internals/emergency_oxygen{
-	pixel_x = 3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/breath{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/item/clothing/head/utility/hardhat/orange{
-	name = "protective hat";
-	pixel_y = 9
-	},
-/obj/structure/closet/crate/internals,
-/obj/item/pickaxe/emergency,
-/obj/item/pickaxe/emergency,
-/turf/open/floor/iron/shuttle/exploration/corner,
+/turf/open/floor/iron/shuttle/exploration/hazard,
 /area/shuttle/mining/large/advanced)
 "NL" = (
 /obj/structure/table/reinforced,
+/obj/item/folder/yellow,
+/obj/item/pen,
 /obj/item/storage/medkit/regular,
-/turf/open/floor/iron/shuttle/exploration/corner,
+/obj/item/storage/toolbox/emergency,
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "Oa" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -365,20 +318,13 @@
 /area/shuttle/mining/large/advanced)
 "Of" = (
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/shuttle/exploration/side{
-	dir = 1
-	},
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "Pw" = (
-/turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
-	icon_state = "3,9"
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
+	icon_state = "0,3";
+	dir = 4
 	},
-/area/shuttle/mining/large/advanced)
-"Qw" = (
-/obj/effect/turf_decal/shuttle/exploration/hazardstripe{
-	dir = 1
-	},
-/turf/open/floor/iron/shuttle/exploration/doubleinvertcorner,
 /area/shuttle/mining/large/advanced)
 "QT" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -422,12 +368,11 @@
 	},
 /area/shuttle/mining/large/advanced)
 "US" = (
-/obj/structure/table/reinforced,
-/obj/item/folder/yellow,
-/obj/item/pen,
-/turf/open/floor/iron/shuttle/exploration/side{
+/obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+/obj/effect/turf_decal/shuttle/exploration/bot,
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "Wv" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/mining_large{
@@ -440,15 +385,7 @@
 	},
 /area/shuttle/mining/large/advanced)
 "YH" = (
-/obj/effect/turf_decal/shuttle/exploration/hazardstripe,
-/turf/open/floor/iron/shuttle/exploration/doubleinvertcorner{
-	dir = 1
-	},
-/area/shuttle/mining/large/advanced)
-"YL" = (
-/turf/open/floor/iron/shuttle/exploration/corner{
-	dir = 4
-	},
+/turf/open/floor/iron/shuttle/exploration/blanktile,
 /area/shuttle/mining/large/advanced)
 "ZS" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/window/mining_large{
@@ -472,21 +409,21 @@ IY
 rw
 NL
 US
-YL
+US
 Gv
-Nr
+US
 Iv
 TL
 mX
 pe
 "}
 (3,1,1) = {"
-Aq
+Pw
 IG
-Ur
-Of
-xn
-qb
+YH
+YH
+YH
+YH
 Of
 eI
 dN
@@ -497,20 +434,20 @@ Pw
 hn
 Ur
 YH
-zQ
-Qw
+YH
+YH
 iN
 dl
 gl
 ts
 "}
 (5,1,1) = {"
-Aq
+Pw
 kU
-Ur
+Gl
 pa
 nQ
-qb
+YH
 zb
 Oa
 jP
@@ -522,7 +459,7 @@ xr
 ER
 ne
 Ir
-Gl
+YH
 sQ
 LO
 yQ

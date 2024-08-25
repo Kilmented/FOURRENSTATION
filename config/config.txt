@@ -31,7 +31,7 @@ DISCORD_LINK https://discord.gg/nmRsdygz3c
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME SSN Suzerain Nokura
+@STATIONNAME SSN Suzerain Nokura
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB

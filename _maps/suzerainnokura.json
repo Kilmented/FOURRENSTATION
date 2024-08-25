@@ -52,6 +52,6 @@
 			"No Parallax": true
 		}
 	],
-	"minetype": "none",
+	"minetype": "lavaland",
 	"blacklist_file": "iceruinblacklist.txt"
 }

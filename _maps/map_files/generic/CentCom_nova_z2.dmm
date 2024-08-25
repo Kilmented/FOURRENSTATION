@@ -2053,21 +2053,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen/coldroom)
-"dXr" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 1;
-	height = 13;
-	name = "tram dock";
-	roundstart_template = /datum/map_template/shuttle/arrivals_nova;
-	shuttle_id = "arrivals_shuttle";
-	width = 5
-	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/commons/hangar)
 "dYC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2356,17 +2341,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/engine,
 /area/station/engineering/main)
-"euN" = (
-/obj/docking_port/stationary{
-	dir = 1;
-	dwidth = 5;
-	height = 5;
-	name = "Cargo Bay";
-	shuttle_id = "cargo_home";
-	width = 14
-	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/commons/hangar)
 "euY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -4376,6 +4350,17 @@
 	name = "bulkhead"
 	},
 /area/station/cargo/office)
+"ihV" = (
+/obj/docking_port/stationary{
+	dir = 1;
+	dwidth = 5;
+	height = 5;
+	name = "Cargo Bay";
+	shuttle_id = "cargo_home";
+	width = 14
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/commons/hangar)
 "iir" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -13836,6 +13821,10 @@
 	dir = 8
 	},
 /area/station/science/research)
+"ylz" = (
+/obj/docking_port/stationary/mining_home,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/commons/hangar)
 "ylA" = (
 /obj/machinery/gravity_generator/main,
 /obj/effect/turf_decal/bot_white,
@@ -53811,7 +53800,7 @@ jGN
 dTD
 dTD
 dTD
-jGN
+ylz
 oCK
 irE
 sSA
@@ -53821,7 +53810,7 @@ jGN
 dTD
 dTD
 dTD
-euN
+ihV
 oCK
 irE
 aru
@@ -55865,7 +55854,7 @@ evh
 urP
 oHD
 oHD
-dXr
+oHD
 oHD
 oHD
 mMy

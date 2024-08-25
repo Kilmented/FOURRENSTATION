@@ -3,6 +3,9 @@
 /datum/job/atmospheric_technician // Future alt title.
 	job_flags = null
 
+/datum/job/botanist // Future alt title.
+	job_flags = null
+
 /datum/job/curator // Doesn't fit as an actual traditional job. Fun assistant gimmick though! We sadly do not have a proper library. Yet.
 	job_flags = null
 
@@ -48,13 +51,13 @@
 /datum/job/psychologist // Future alt title.
 	job_flags = null
 
-/datum/job/virologist
+/datum/job/virologist // Simply removed.
 	job_flags = null
 
-/datum/job/bitrunner
+/datum/job/bitrunner // I have plans for this. - Jaeger
 	job_flags = null
 
-/datum/job/barber
+/datum/job/barber // Future alt title.
 	job_flags = null
 
 ////////////////////////////////////////////////////////////////////// alt titles start here
@@ -159,18 +162,6 @@
 		"Blueshield",
 		"Command Bodyguard",
 		"Executive Protection Agent",
-	)
-
-/datum/job/botanist
-	alt_titles = list(
-		"Botanist",
-		"Botanical Researcher",
-		"Florist",
-		"Gardener",
-		"Herbalist",
-		"Hydroponicist",
-		"Mycologist",
-		"Junior Botanist",
 	)
 
 /datum/job/captain
@@ -325,6 +316,18 @@
 		"Geneticist",
 		"Gene Tailor",
 		"Mutation Researcher",
+
+
+// Borrowed from Botanist
+
+		"Botanist",
+		"Botanical Researcher",
+		"Florist",
+		"Gardener",
+		"Herbalist",
+		"Hydroponicist",
+		"Mycologist",
+		"Junior Botanist",
 	)
 
 /datum/job/shaft_miner

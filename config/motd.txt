@@ -1,4 +1,4 @@
 <!-- Most valid html will work in here, but you have to use URL links for images. -->
 
 <h1>Welcome to Warrenstation!</h1>
-<i>This server is 18+ only and considered "High Roleplay", please act accordingly.</i>
+<i>An 18+ HRP server in a posthuman near future sci-fi setting.</i>

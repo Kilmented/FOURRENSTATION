@@ -1619,7 +1619,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Deliveries"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/supply/shipping,
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/storage)
 "dhD" = (
@@ -2725,10 +2725,14 @@
 	},
 /area/station/command/bridge)
 "fnu" = (
-/obj/docking_port/stationary/mining_home{
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/machinery/computer/shuttle/mining{
+	dir = 2;
+	req_access = null
+	},
+/turf/open/floor/iron/textured_large,
 /area/station/commons/hangar)
 "foD" = (
 /obj/effect/turf_decal/siding/dark,
@@ -5542,16 +5546,10 @@
 	},
 /area/station/science/circuits)
 "kem" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
+/obj/docking_port/stationary/mining_home{
+	name = "SN: Mining Dock"
 	},
-/obj/machinery/computer/shuttle/mining{
-	dir = 2;
-	req_access = null
-	},
-/turf/open/floor/iron/half{
-	dir = 8
-	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/hangar)
 "kfv" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -6178,6 +6176,17 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
+"lcn" = (
+/obj/docking_port/stationary{
+	dir = 1;
+	dwidth = 5;
+	height = 5;
+	name = "Cargo Bay";
+	shuttle_id = "cargo_home";
+	width = 14
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/commons/hangar)
 "lcB" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 2
@@ -7941,14 +7950,7 @@
 /turf/open/floor/grass,
 /area/station/service/kitchen)
 "oCK" = (
-/obj/docking_port/stationary{
-	dir = 1;
-	dwidth = 5;
-	height = 7;
-	name = "Cargo Bay";
-	shuttle_id = "cargo_home";
-	width = 12
-	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/hangar)
 "oEn" = (
@@ -11385,6 +11387,12 @@
 /obj/machinery/light/warm/directional/south,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/command/bridge)
+"uwO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/commons/hangar)
 "uyh" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 8
@@ -52768,7 +52776,7 @@ dTD
 dTD
 noq
 tEY
-irE
+fnu
 jYR
 evh
 pIq
@@ -53532,23 +53540,23 @@ hHU
 aNU
 irE
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 jYR
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 aLR
 aNU
@@ -53789,23 +53797,23 @@ hee
 ace
 raI
 evh
-euY
+uwO
 jGN
 dTD
 dTD
 dTD
-jGN
-kGp
+kem
+oCK
 irE
 sSA
 evh
-euY
+uwO
 jGN
 dTD
 dTD
 dTD
-jGN
-kGp
+lcn
+oCK
 irE
 aru
 mXv
@@ -54046,23 +54054,23 @@ jzV
 nVz
 irE
 evh
-pIq
+uwO
 jGN
 dTD
 dTD
 dTD
-fnu
-tEY
+jGN
+oCK
 irE
 sSA
 evh
-pIq
+uwO
 jGN
 dTD
 dTD
 dTD
+jGN
 oCK
-tEY
 irE
 aLR
 xuJ
@@ -54303,23 +54311,23 @@ bwC
 ahc
 ykM
 evh
-pIq
+uwO
 jGN
 dTD
 dTD
 dTD
 jGN
-tEY
+oCK
 irE
 sSA
 evh
-pIq
+uwO
 jGN
 dTD
 dTD
 dTD
 jGN
-tEY
+oCK
 irE
 ugV
 iiX
@@ -54560,23 +54568,23 @@ vAX
 aNU
 spS
 evh
-euY
+uwO
 jGN
 dTD
 dTD
 dTD
 jGN
-kGp
+oCK
 irE
 sSA
 evh
-euY
+uwO
 jGN
 dTD
 dTD
 dTD
 jGN
-kGp
+oCK
 irE
 aLR
 aNU
@@ -54817,23 +54825,23 @@ usX
 aNU
 spS
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 jYR
 evh
-pIq
+euY
 jGN
 jGN
 jGN
 jGN
 jGN
-tEY
+kGp
 irE
 aLR
 aNU
@@ -55081,7 +55089,7 @@ fPH
 fPH
 fPH
 sJb
-kem
+qsd
 hvf
 aPv
 gyF

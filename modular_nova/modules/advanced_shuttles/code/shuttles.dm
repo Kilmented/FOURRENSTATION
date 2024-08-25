@@ -190,7 +190,7 @@
 	roundstart_template = /datum/map_template/shuttle/mining/nova
 
 /datum/map_template/shuttle/mining/nova/large
-	name = "NMC Manticore (Mining)"
+	name = "MSN Kobold (Mining and Salvage)"
 	prefix = "_maps/shuttles/nova/"
 	suffix = "nova_large"
 

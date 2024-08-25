@@ -428,6 +428,7 @@
 /area/station/science/research)
 "aQb" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/light/warm/directional/south,
 /turf/open/floor/iron/textured_large,
 /area/station/service/hydroponics/garden)
 "aQx" = (
@@ -972,7 +973,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/porttwo)
 "bPc" = (
-/obj/machinery/light_switch/directional/north,
 /obj/machinery/firealarm/directional/west,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3600,7 +3600,6 @@
 /area/station/engineering/power_room)
 "gPs" = (
 /obj/structure/table/reinforced,
-/obj/machinery/light_switch/directional/west,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
@@ -5736,7 +5735,6 @@
 /obj/item/modular_computer/laptop/preset/civilian{
 	pixel_y = 3
 	},
-/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/mechbay)
 "klL" = (
@@ -5764,6 +5762,7 @@
 /obj/machinery/camera/xray/directional/south{
 	c_tag = station
 	},
+/obj/machinery/light/warm/directional/south,
 /turf/open/floor/iron/white,
 /area/station/common/cryopods)
 "kmp" = (
@@ -8619,12 +8618,6 @@
 /obj/effect/landmark/start/detective,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
-"poH" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/wood/tile,
-/area/station/science/robotics/mechbay)
 "pqq" = (
 /obj/structure/window/reinforced/fulltile{
 	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
@@ -10255,7 +10248,6 @@
 /area/station/maintenance/disposal)
 "shq" = (
 /obj/structure/rack,
-/obj/machinery/light_switch/directional/north,
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/mechbay)
@@ -10495,9 +10487,9 @@
 /turf/open/floor/iron/textured_large,
 /area/station/hallway/primary/starboard)
 "sHq" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "sHx" = (
@@ -11601,10 +11593,6 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/station/hallway/primary/port)
-"uts" = (
-/obj/structure/table/glass,
-/turf/open/floor/wood/tile,
-/area/station/science/robotics/mechbay)
 "uuB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/dark/corner{
@@ -11808,8 +11796,7 @@
 /area/station/science/robotics/mechbay)
 "uIl" = (
 /obj/machinery/power/terminal{
-	dir = 8;
-	cable_layer = 1
+	dir = 8
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
@@ -13511,8 +13498,10 @@
 /turf/open/floor/iron/textured_large,
 /area/station/hallway/primary/port)
 "xkg" = (
-/obj/machinery/light_switch/directional/east,
 /obj/machinery/light/directional/south,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/wood/tile,
 /area/station/science/robotics/mechbay)
 "xkB" = (
@@ -36656,7 +36645,7 @@ vXS
 vuN
 iev
 erz
-poH
+erz
 erz
 uPF
 sqq
@@ -37170,7 +37159,7 @@ uyh
 fjG
 gNU
 wuq
-uts
+tzk
 xkg
 uPF
 sqq
@@ -39989,7 +39978,7 @@ kfQ
 nTt
 vFU
 jUy
-sHq
+vnd
 vnd
 vnd
 vnd
@@ -39998,7 +39987,7 @@ bLy
 sgx
 sgx
 sgx
-sgx
+sHq
 sxO
 oSx
 tLM

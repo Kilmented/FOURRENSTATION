@@ -3967,6 +3967,16 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"wz" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/docking_port/stationary/movable{
+	dir = 2;
+	shuttle_id = "landing_zone_dock";
+	height = 10;
+	width = 7
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/lavaland/surface/outdoors)
 "wA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -47003,7 +47013,7 @@ cc
 XM
 CM
 lM
-BP
+wz
 BP
 BP
 BP

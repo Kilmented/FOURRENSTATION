@@ -10,7 +10,7 @@
 	density = TRUE
 	max_integrity = 250
 	idle_power_usage = 0
-	active_power_usage = BASE_MACHINE_ACTIVE_CONSUMPTION * 50 // Should be 50 kw or an entire SOFIE generator's power production
+	active_power_usage = BASE_MACHINE_ACTIVE_CONSUMPTION * 5 // Should be 50 kw or an entire SOFIE generator's power production // but lowered because material gathering is a moot point for balance on Warrenstation
 	anchored = TRUE
 	can_change_cable_layer = FALSE
 	circuit = null
@@ -22,7 +22,7 @@
 	/// How many times we've slammed, counts up until the number is high enough to make a box of materials
 	var/slam_jams = 0
 	/// How many times we need to slam in order to produce a box of materials
-	var/slam_jams_needed = 30
+	var/slam_jams_needed = 10
 	/// List of the thumping sounds we can choose from
 	var/static/list/list_of_thumper_sounds = list(
 		'modular_nova/modules/kahraman_equipment/sound/thumper_thump/punch_press_1.wav',
@@ -44,15 +44,15 @@
 	)
 	/// How much of the listed types of ores should we spawn when spawning ore
 	var/static/list/ore_spawn_values = list(
-		/obj/item/stack/ore/iron = 25,
-		/obj/item/stack/ore/glass/basalt = 25,
-		/obj/item/stack/ore/plasma = 15,
-		/obj/item/stack/ore/uranium = 10,
-		/obj/item/stack/ore/silver = 10,
-		/obj/item/stack/ore/gold = 10,
-		/obj/item/stack/ore/titanium = 10,
-		/obj/item/stack/ore/diamond = 5,
-		/obj/item/stack/ore/bluespace_crystal = 1,
+		/obj/item/stack/ore/iron = 50,
+		/obj/item/stack/ore/glass/basalt = 50,
+		/obj/item/stack/ore/plasma = 30,
+		/obj/item/stack/ore/uranium = 20,
+		/obj/item/stack/ore/silver = 20,
+		/obj/item/stack/ore/gold = 20,
+		/obj/item/stack/ore/titanium = 20,
+		/obj/item/stack/ore/diamond = 10,
+		/obj/item/stack/ore/bluespace_crystal = 5,
 	)
 	/// What's the limit for ore near us? Counts by stacks, not individual amounts of ore
 	var/nearby_ore_limit = 5

@@ -149,11 +149,3 @@ GLOBAL_LIST_INIT(nova_snow_recipes, list(
 	. += GLOB.nova_snow_recipes
 
 // Sand
-
-GLOBAL_LIST_INIT(nova_sand_recipes, list(
-	new/datum/stack_recipe("ant farm", /obj/structure/antfarm, 20, time = 2 SECONDS, crafting_flags = CRAFT_CHECK_DENSITY | CRAFT_ONE_PER_TURF | CRAFT_ON_SOLID_GROUND, category = CAT_TOOLS),
-))
-
-/obj/item/stack/ore/glass/get_main_recipes()
-	. = ..()
-	. += GLOB.nova_sand_recipes

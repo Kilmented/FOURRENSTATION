@@ -8322,4 +8322,5 @@
 #include "modular_warrenstation\code\modules\language.dm"
 #include "modular_warrenstation\code\modules\loot.dm"
 #include "modular_warrenstation\code\modules\numed.dm"
+#include "modular_warrenstation\code\modules\quirks.dm"
 // END_INCLUDE

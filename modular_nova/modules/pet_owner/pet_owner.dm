@@ -2,9 +2,9 @@
 	name = "Pet Owner"
 	desc = "You bring your pet to work with you so that it, too, can experience the dangers of station life."
 	icon = FA_ICON_HORSE
-	value = 4
+	value = 1
 	mob_trait = TRAIT_PET_OWNER
-	veteran_only = TRUE
+	veteran_only = FALSE // die
 	gain_text = span_notice("You brought your pet with you to work.")
 	lose_text = span_danger("You feel lonely, as if leaving somebody behind...")
 	medical_record_text = "Patient mentions their fondness for their pet."

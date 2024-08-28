@@ -8327,7 +8327,6 @@
 #include "modular_warrenstation/epic_loot/code/loot_structures/register.dm"
 #include "modular_warrenstation/epic_loot/code/loot_structures/wall_jackets.dm"
 #include "modular_warrenstation/money_rework/code/atm.dm"
-#include "modular_warrenstation/money_rework/code/atmflatpacked.dm"
 #include "modular_warrenstation/money_rework/code/money.dm"
 #include "modular_warrenstation/money_rework/code/moneyspawners.dm"
 // END_INCLUDE

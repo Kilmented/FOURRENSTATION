@@ -241,6 +241,23 @@
 	)
 	construction_time = 1 MINUTES
 
+/datum/design/flatpack_atm
+	name = "Flat-Packed Banking Terminal"
+	desc = "A convenient way to store necessary currency through a peer-to-peer Lich-spatial \
+		banking network. Low-risk, and cannot be tracked."
+	id = "flatpack_atm"
+	build_type = COLONY_FABRICATOR
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 5,
+	)
+	build_path = /obj/item/flatpacked_machine/atm
+	category = list(
+		RND_CATEGORY_INITIAL,
+		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MATERIALS,
+	)
+	construction_time = 30 SECONDS
+
 // Wind turbine, produces tiny amounts of power when placed outdoors in an atmosphere, but makes significantly more if there's a storm in that area
 
 /datum/design/flatpack_turbine_team_fortress_two

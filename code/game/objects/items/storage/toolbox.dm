@@ -448,12 +448,6 @@
 	weapon_to_spawn = /obj/effect/spawner/random/sakhno
 	extra_to_spawn = /obj/effect/spawner/random/sakhno/ammo
 
-/obj/item/storage/toolbox/guncase/soviet/plastikov
-	name = "ancient surplus gun case"
-	desc = "A gun case. Has the symbol of the Third Soviet Union stamped on the side."
-	weapon_to_spawn = /obj/item/gun/ballistic/automatic/plastikov
-	extra_to_spawn = /obj/item/food/rationpack //sorry comrade, cannot get you more ammo, here, have lunch
-
 /obj/item/storage/toolbox/guncase/monkeycase
 	name = "monkey gun case"
 	desc = "Everything a monkey needs to truly go ape-shit. There's a paw-shaped hand scanner lock on the front of the case."

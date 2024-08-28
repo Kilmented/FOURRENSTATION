@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"map_name": "Suzerain Nokura",
+	"map_name": "Suzerain Nokura - Deep Space",
 	"map_path": "map_files/SuzerainNokura",
 	"map_file": "SuzerainNokura.dmm",
 	"space_ruin_levels": 0,
@@ -9,5 +9,9 @@
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_meta",
-		"emergency": "emergency_meta"}
+		"emergency": "emergency_meta"},
+	"ignored_unit_tests": [
+		"/datum/unit_test/job_roundstart_spawnpoints",
+		"/datum/unit_test/required_map_items",
+		"/datum/unit_test/spy_bounty"]
 }

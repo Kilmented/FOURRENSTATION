@@ -43,7 +43,7 @@
 	desc = "An armband, worn to signify proficiency in a skill or association with a department. This one is blue."
 
 /obj/item/clothing/accessory/armband/deputy/lopland
-	desc = "A Mercenary-blue armband, showing the wearer to be certified by the SolStill Ministry of Labour and Social Protection as a mercenary."
+	desc = "A Mercenary-blue armband, showing the wearer to be certified by the Massestimme Ministry of Labour and Social Protection as a mercenary."
 
 /*
 * BACKPACKS

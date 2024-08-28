@@ -1,0 +1,6 @@
+author: "Koltsov"
+delete-after: True
+changes:
+  - image: "Adds new cash sprites"
+  - rscadd: "Adds ATM machine, Registers and Wall Jackets"
+  - rscdel: "Removes holopay table and ability to magically pull credits out of your ID card"

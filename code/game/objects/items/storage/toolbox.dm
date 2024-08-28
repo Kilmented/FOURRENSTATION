@@ -349,6 +349,11 @@
 	weapon_to_spawn = /obj/item/gun/ballistic/automatic/c20r
 	extra_to_spawn = /obj/item/ammo_box/magazine/smgm45
 
+	/obj/item/storage/toolbox/guncase/smartgun
+	name = "adielle smartgun case"
+	weapon_to_spawn = /obj/item/gun/ballistic/automatic/smartgun
+	extra_to_spawn = /obj/item/ammo_box/magazine/smartgun
+
 /obj/item/storage/toolbox/guncase/clandestine
 	name = "clandestine gun case"
 	weapon_to_spawn = /obj/item/gun/ballistic/automatic/pistol/clandestine

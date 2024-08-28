@@ -6,7 +6,7 @@
 /obj/item/lethalcash
 	name = "coin"
 	desc = "Ironically, this is worthless."
-	icon = 'modular_np_lethal/money_rework/icons/lethalmoney.dmi'
+	icon = 'modular_warrenstation/money_rework/icons/lethalmoney.dmi'
 	icon_state = "lethalcash1"
 	worn_icon_state = "nothing"
 	throwforce = 0
@@ -57,7 +57,7 @@
 		while(sum >= i && num < 50)
 			sum -= i
 			num++
-			var/image/banknote = image('modular_np_lethal/money_rework/icons/lethalmoney.dmi', "lethalcash[i]")
+			var/image/banknote = image('modular_warrenstation/money_rework/icons/lethalmoney.dmi', "lethalcash[i]")
 			var/matrix/M = matrix()
 			M.Translate(rand(-6, 6), rand(-4, 8))
 			banknote.transform = M

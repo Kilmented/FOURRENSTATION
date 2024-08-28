@@ -3,7 +3,7 @@
 	max_specific_storage = WEIGHT_CLASS_NORMAL
 	max_total_storage = WEIGHT_CLASS_NORMAL * 2
 	screen_max_columns = 2
-	opening_sound = 'modular_np_lethal/epic_loot/sound/containers/wood_crate_2.mp3'
+	opening_sound = 'modular_warrenstation/epic_loot/sound/containers/wood_crate_2.mp3'
 
 /obj/structure/maintenance_loot_structure/register
 	name = "credits register"
@@ -29,12 +29,14 @@
 /obj/structure/maintenance_loot_structure/register/random
 	icon_state = "register_random"
 	/// The different icon states we can swap to when initializing
+	/* Duplicate
 	var/list/random_icon_states = list(
 		"register_small",
 		"register_small_clean",
 		"register_big",
 		"register_big_clean",
 	)
+	*/
 
 /obj/structure/maintenance_loot_structure/register/random/Initialize(mapload)
 	. = ..()

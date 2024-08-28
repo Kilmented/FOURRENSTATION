@@ -57,6 +57,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/maintenance_loot_structure/wall_jacke
 /obj/structure/maintenance_loot_structure/wall_jacket/random
 	icon_state = "jacket_random"
 	/// The different icon states we can swap to when initializing
+	/* Duplicate
 	var/list/random_icon_states = list(
 		"jacket_green",
 		"jacket_yellow",
@@ -65,7 +66,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/maintenance_loot_structure/wall_jacke
 		"jacket_black",
 		"jacket_military",
 	)
-
+*/
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/maintenance_loot_structure/wall_jacket/random, 28)
 
 /obj/structure/maintenance_loot_structure/wall_jacket/random/Initialize(mapload)

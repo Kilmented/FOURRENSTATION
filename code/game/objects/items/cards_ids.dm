@@ -64,6 +64,8 @@
 	/// Linked bank account.
 	var/datum/bank_account/registered_account
 
+/* Money Rework Removal
+
 	/// Linked holopay.
 	var/obj/structure/holopay/my_store
 	/// Cooldown between projecting holopays
@@ -84,7 +86,7 @@
 	var/holopay_min_fee = 0
 	/// The holopay name chosen by the user
 	var/holopay_name = "holographic pay stand"
-
+*/
 	/// Registered owner's age.
 	var/registered_age = 18 //NOVA EDIT - ORIGINAL (13)
 
@@ -139,8 +141,8 @@
 /obj/item/card/id/Destroy()
 	if (registered_account)
 		registered_account.bank_cards -= src
-	if (my_store)
-		QDEL_NULL(my_store)
+	// if (my_store) // Money Rework Removal
+	// 	QDEL_NULL(my_store)
 	return ..()
 
 /obj/item/card/id/get_id_examine_strings(mob/user)
@@ -430,26 +432,27 @@
 		return
 	if(!proximity_flag || !check_allowed_items(target) || !isfloorturf(target))
 		return
-	try_project_paystand(user, target)
+	//try_project_paystand(user, target) // Money Rework Removal
 
 /obj/item/card/id/attack_self_secondary(mob/user, modifiers)
 	. = ..()
 	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
 		return
-	try_project_paystand(user)
+	//try_project_paystand(user) // Money Rework Removal
 	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/card/id/add_context(atom/source, list/context, obj/item/held_item, mob/user)
 	. = ..()
 
 	context[SCREENTIP_CONTEXT_LMB] = "Show ID"
-	context[SCREENTIP_CONTEXT_RMB] = "Project pay stand"
+	//context[SCREENTIP_CONTEXT_RMB] = "Project pay stand" // Money Rework Removal
 	if(isnull(registered_account) || registered_account.replaceable) //Same check we use when we check if we can assign an account
 		context[SCREENTIP_CONTEXT_ALT_RMB] = "Assign account"
-	else if(registered_account.account_balance > 0)
-		context[SCREENTIP_CONTEXT_ALT_LMB] = "Withdraw credits"
+	//else if(registered_account.account_balance > 0) // Money Rework Removal
+		//context[SCREENTIP_CONTEXT_ALT_LMB] = "Withdraw credits" // Money Rework Removal
 	return CONTEXTUAL_SCREENTIP_SET
 
+/* Money Rework Removal
 /obj/item/card/id/proc/try_project_paystand(mob/user, turf/target)
 	if(!COOLDOWN_FINISHED(src, last_holopay_projection))
 		balloon_alert(user, "still recharging")
@@ -633,6 +636,7 @@
 	QDEL_LIST(money)
 
 	return total
+*/
 
 /// Helper proc. Can the user alt-click the ID?
 /obj/item/card/id/proc/alt_click_can_use_id(mob/living/user)
@@ -675,7 +679,7 @@
 	if(!alt_click_can_use_id(user))
 		return NONE
 	if(registered_account.account_debt)
-		var/choice = tgui_alert(user, "Choose An Action", "Bank Account", list("Withdraw", "Pay Debt"))
+		var/choice = tgui_alert(user, "Choose An Action", "Bank Account", list("Pay Debt")) // Money Rework Edit - ORIGINAL - var/choice = tgui_alert(user, "Choose An Action", "Bank Account", list("Withdraw", "Pay Debt"))
 		if(!choice || QDELETED(user) || QDELETED(src) || !alt_click_can_use_id(user) || loc != user)
 			return CLICK_ACTION_BLOCKING
 		if(choice == "Pay Debt")
@@ -694,6 +698,7 @@
 		if(choice == "Link Account")
 			set_new_account(user)
 			return CLICK_ACTION_SUCCESS
+			/* Money Rework Removal - Holochips
 	var/amount_to_remove = tgui_input_number(user, "How much do you want to withdraw? (Max: [registered_account.account_balance] cr)", "Withdraw Funds", max_value = registered_account.account_balance)
 	if(!amount_to_remove || QDELETED(user) || QDELETED(src) || issilicon(user) || loc != user)
 		return CLICK_ACTION_BLOCKING
@@ -710,6 +715,7 @@
 		var/difference = amount_to_remove - registered_account.account_balance
 		registered_account.bank_card_talk(span_warning("ERROR: The linked account requires [difference] more credit\s to perform that withdrawal."), TRUE)
 		return CLICK_ACTION_BLOCKING
+		*/
 
 /obj/item/card/id/alt_click_secondary(mob/user)
 	. = ..()
@@ -787,8 +793,8 @@
 			var/datum/bank_account/D = SSeconomy.get_dep_account(registered_account.account_job.paycheck_department)
 			if(D)
 				. += "The [D.account_holder] reports a balance of [D.account_balance] cr."
-		. += span_info("Alt-Click the ID to pull money from the linked account in the form of holochips.")
-		. += span_info("You can insert credits into the linked account by pressing holochips, cash, or coins against the ID.")
+		//. += span_info("Alt-Click the ID to pull money from the linked account in the form of holochips.") // Money Rework Edit
+		//. += span_info("You can insert credits into the linked account by pressing holochips, cash, or coins against the ID.") // Money Rework Edit
 		if(registered_account.replaceable)
 			. += span_info("Alt-Right-Click the ID to change the linked bank account.")
 		if(registered_account.civilian_bounty)

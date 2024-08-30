@@ -10235,7 +10235,8 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
 	},
-/obj/machinery/light/warm/directional/west,
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "rpO" = (
@@ -10380,6 +10381,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/science/circuits)
+"rAJ" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/machinery/light/warm/directional/east,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "rBM" = (
 /obj/structure/chair{
 	dir = 8
@@ -43453,7 +43461,7 @@ iqv
 jBa
 eTs
 wds
-eTs
+rAJ
 lAi
 oRh
 eSP

@@ -1,0 +1,4 @@
+author: "Koltsov"
+delete-after: True
+changes:
+  - balance: "Deafness capped at 10 ticks"

@@ -61,7 +61,7 @@
 					text-decoration: none;
 					width: 100%;
 					text-align: right;
-					color:green;
+					color:#c44;
 					text-shadow: 1px 1px black;
 					margin-right: 0%;
 					margin-top: 0px;
@@ -77,8 +77,8 @@
 					left: 2vmin;
 					height: 4vmin;
 					width: calc(100% - 4vmin);
-					border-left: 2px solid green;
-					border-right: 2px solid green;
+					border-left: 2px solid #c44;
+					border-right: 2px solid #c44;
 					padding: 4px;
 					background-color: black;
 				}
@@ -86,7 +86,7 @@
 				.progress_bar {
 					width: 0%;
 					height: 100%;
-					background-color: green;
+					background-color: #c44;
 				}
 
 				@keyframes fade_out {
@@ -111,14 +111,14 @@
 					border: 2px solid white;
 					border-radius: 4px;
 					box-shadow: 2px 2px #333, inset 1px 1px #333;
-					background: linear-gradient(to bottom, rgba(68, 68, 204, 0.9), rgba(0, 0, 102, 0.9));
+					background: linear-gradient(to bottom, rgba(204, 68, 68, 0.9), rgba(102, 0, 0, 0.9));
 					opacity: 75%;
 					padding: 1em;
 				}
 
 				.container_nav hr {
 					height: 2px;
-					background-color: #cde;
+					background-color: #F44;
 					border: none;
 					box-shadow: 2px 2px black;
 				}
@@ -126,7 +126,7 @@
 				.menu_button {
 					display: block;
 					box-sizing: border-box;
-					font-family: "Fixedsys";
+					font-family: "Consolas";
 					font-weight: lighter;
 					text-decoration: none;
 					font-size: 4vmin;
@@ -134,7 +134,7 @@
 					line-height: 4vmin;
 					width: 100%;
 					text-align: left;
-					color: #cde;
+					color: #c44;
 					height: 4vmin;
 					padding-left: 5vmin;
 					letter-spacing: 1px;
@@ -223,7 +223,7 @@
 				}
 
 				.unchecked {
-					color: #F44;
+					color: #c44;
 				}
 
 				.checked {

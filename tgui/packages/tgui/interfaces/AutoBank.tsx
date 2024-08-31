@@ -22,8 +22,10 @@ export const AutoBank = (props) => {
   return (
     <Window width={350} height={155}>
       <Window.Content>
-        <NoticeBox danger>997473629173892347294324723. . .</NoticeBox>
-        <Section title={'Section 9 Currency Terminal'}>
+        <NoticeBox danger>
+          Connected to Massestimme::SRN. Input your ID card to start banking.
+        </NoticeBox>
+        <Section title={'Massestimme Automated Teller Machine'}>
           <LabeledList>
             <LabeledList.Item
               label="CURRENT BALANCE"

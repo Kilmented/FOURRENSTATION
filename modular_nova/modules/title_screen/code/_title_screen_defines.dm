@@ -111,7 +111,7 @@
 					border: 2px solid white;
 					border-radius: 4px;
 					box-shadow: 2px 2px #333, inset 1px 1px #333;
-					background: linear-gradient(to bottom, rgba(204, 68, 68, 0.9), rgba(102, 0, 0, 0.9));
+					background: linear-gradient(to bottom, rgba(54, 54, 54, 0.8), rgba(8, 8, 8, 1));
 					opacity: 75%;
 					padding: 1em;
 				}
@@ -130,11 +130,11 @@
 					font-weight: lighter;
 					text-decoration: none;
 					font-size: 4vmin;
-					text-shadow: 2px 2px black;
+					text-shadow: white 0px 2.5px;
 					line-height: 4vmin;
 					width: 100%;
-					text-align: left;
-					color: #c44;
+					text-align: center;
+					color: #f22;
 					height: 4vmin;
 					padding-left: 5vmin;
 					letter-spacing: 1px;
@@ -150,12 +150,12 @@
 
 				.menu_button:active {
 					padding-left: 0px;
-					transform: translate(2px, 2px);
+					transform: translate(0px, 2px);
 				}
 
 				.menu_button:hover::before {
-					content: "☞";
-					text-align: center;
+					content: "*";
+					text-align: left;
 					width: 5vmin;
 					display: inline-block;
 				}
@@ -166,8 +166,8 @@
 				}
 
 				.menu_button:active::before {
-					content: "☛";
-					text-align: center;
+					content: "♥";
+					text-align: left;
 					width: 5vmin;
 					animation: pulse_button 0.25s infinite alternate;
 				}
@@ -209,12 +209,12 @@
 
 				.menu_notice {
 					display: inline-block;
-					font-family: "Fixedsys";
+					font-family: "Consolas";
 					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;
 					text-align: left;
-					color: red;
+					color: white;
 					text-shadow: 1px 0px black, -1px 0px black, 0px 1px black, 0px -1px black, 2px 0px black, -2px 0px black, 0px 2px black, 0px -2px black;
 					margin-right: 0%;
 					margin-top: 0px;
@@ -223,7 +223,7 @@
 				}
 
 				.unchecked {
-					color: #c44;
+					color: #fff;
 				}
 
 				.checked {

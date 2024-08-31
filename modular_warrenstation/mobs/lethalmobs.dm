@@ -96,7 +96,7 @@
 
 /mob/living/basic/trooper/gakster/ranged
 	desc = "A gakster armed with a Seiba .27-54 submachinegun. They look pretty angry."
-	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob, /obj/item/gun/ballistic/automatic/seiba_smg, /obj/item/ammo_box/magazine/miecz)
+	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob, /obj/item/lethalcash/bundle/c10, /obj/item/ammo_box/magazine/miecz)
 	ai_controller = /datum/ai_controller/basic_controller/trooper/gakster/ranged
 	r_hand = /obj/item/lethalcash/bundle/c10
 

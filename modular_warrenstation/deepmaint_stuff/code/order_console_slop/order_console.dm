@@ -4,11 +4,7 @@
 	flags_1 = NO_DEBRIS_AFTER_DECONSTRUCTION
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	order_categories = list(
-		"Peacekeeper",
-		"Rayisa",
-		"Operator",
-		"Safariman",
-		"Dealer",
+		"ERR::1134::SELL ONLY"
 	)
 	blackbox_key = null
 	express_cost_multiplier = 1

@@ -1,4 +1,4 @@
-<html>
+	<html>
 		<head>
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -52,7 +52,7 @@
 					text-decoration: none;
 					width: 100%;
 					text-align: right;
-					color:green;
+					color:#c44;
 					text-shadow: 1px 1px black;
 					margin-right: 0%;
 					margin-top: 0px;
@@ -68,8 +68,8 @@
 					left: 2vmin;
 					height: 4vmin;
 					width: calc(100% - 4vmin);
-					border-left: 2px solid green;
-					border-right: 2px solid green;
+					border-left: 2px solid #c44;
+					border-right: 2px solid #c44;
 					padding: 4px;
 					background-color: black;
 				}
@@ -77,32 +77,17 @@
 				.progress_bar {
 					width: 0%;
 					height: 100%;
-					background-color: green;
+					background-color: #c44;
 				}
 
-				@keyframes looping_sub_pattern {
-					from {
-						background-position: 0px 0px;
-					}
+				@keyframes fade_out {
 					to {
-						background-position: 11.3137px 0px;
+						opacity: 0;
 					}
 				}
 
-				.sub_progress_bar {
-					width: 0%;
-					height: 100%;
-					float: right;
-					background-color: lime;
-					background-image: repeating-linear-gradient(
-						-45deg,
-						green,
-						green 7px,
-						black 7px,
-						black 8px
-					);
-					background-attachment: fixed;
-					animation: looping_sub_pattern 1s linear infinite;
+				.fade_out {
+					animation: fade_out 2s both;
 				}
 
 				.container_nav {
@@ -117,14 +102,14 @@
 					border: 2px solid white;
 					border-radius: 4px;
 					box-shadow: 2px 2px #333, inset 1px 1px #333;
-					background: linear-gradient(to bottom, rgba(68, 68, 204, 0.9), rgba(0, 0, 102, 0.9));
+					background: linear-gradient(to bottom, rgba(54, 54, 54, 0.8), rgba(8, 8, 8, 1));
 					opacity: 75%;
 					padding: 1em;
 				}
 
 				.container_nav hr {
 					height: 2px;
-					background-color: #cde;
+					background-color: #F44;
 					border: none;
 					box-shadow: 2px 2px black;
 				}
@@ -132,15 +117,15 @@
 				.menu_button {
 					display: block;
 					box-sizing: border-box;
-					font-family: "Fixedsys";
+					font-family: "Consolas";
 					font-weight: lighter;
 					text-decoration: none;
 					font-size: 4vmin;
-					text-shadow: 2px 2px black;
+					text-shadow: white 0px 2.5px;
 					line-height: 4vmin;
 					width: 100%;
-					text-align: left;
-					color: #cde;
+					text-align: center;
+					color: #f22;
 					height: 4vmin;
 					padding-left: 5vmin;
 					letter-spacing: 1px;
@@ -156,12 +141,12 @@
 
 				.menu_button:active {
 					padding-left: 0px;
-					transform: translate(2px, 2px);
+					transform: translate(0px, 2px);
 				}
 
 				.menu_button:hover::before {
-					content: "☞";
-					text-align: center;
+					content: "*";
+					text-align: left;
 					width: 5vmin;
 					display: inline-block;
 				}
@@ -172,8 +157,8 @@
 				}
 
 				.menu_button:active::before {
-					content: "☛";
-					text-align: center;
+					content: "♥";
+					text-align: left;
 					width: 5vmin;
 					animation: pulse_button 0.25s infinite alternate;
 				}
@@ -215,12 +200,12 @@
 
 				.menu_notice {
 					display: inline-block;
-					font-family: "Fixedsys";
+					font-family: "Consolas";
 					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;
 					text-align: left;
-					color: red;
+					color: white;
 					text-shadow: 1px 0px black, -1px 0px black, 0px 1px black, 0px -1px black, 2px 0px black, -2px 0px black, 0px 2px black, 0px -2px black;
 					margin-right: 0%;
 					margin-top: 0px;
@@ -229,7 +214,7 @@
 				}
 
 				.unchecked {
-					color: #F44;
+					color: #fff;
 				}
 
 				.checked {

@@ -1,0 +1,4 @@
+author: "Koltsov"
+delete-after: True
+changes:
+  - rscadd: "Adds lethalmobs to code"

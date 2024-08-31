@@ -198,13 +198,10 @@
 	name = "Blue Company Filtre"
 	desc = "A filtre wielding a Yari 12mm suppressed rifle. They seem decently upset!"
 	faction = list(ROLE_DEATHSQUAD)
-	loot = list(/obj/effect/mob_spawn/corpse/human/filtremob, /obj/item/gun/ballistic/automatic/suppressed_rifle, /obj/item/ammo_box/magazine/c12chinmoku/standard)
+	loot = list(/obj/effect/mob_spawn/corpse/human/filtremob)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/filtremob
 	r_hand = /obj/item/gun/ballistic/rifle/boltaction
-	var/casingtype = /obj/item/ammo_casing/spent
-	var/projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
-	var/burst_shots = 3
-	var/ranged_cooldown = 0.4 SECONDS
+
 
 /// BOSS MOBS
 
@@ -225,13 +222,10 @@
 	desc = "Armed with a Ramu 6 gauge shotgun, this gakster is notorious for their potency in close quarters combat."
 	maxHealth = 450
 	health = 450
-	loot = list(/obj/effect/mob_spawn/corpse/human/fathomer, /obj/item/gun/ballistic/shotgun/ramu, /obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/longshot = 2)
+	loot = list(/obj/effect/mob_spawn/corpse/human/fathomer)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/fathomer
 	r_hand = /obj/item/gun/ballistic/rifle/boltaction
-	var/casingtype = /obj/item/ammo_casing/spent
-	var/projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
-	var/burst_shots = 3
-	var/ranged_cooldown = 0.4 SECONDS
+
 
 // 253 Chauchat : Drops a Seiba & ballistic shield alongside ammunition and a full set of type 3 armor + helmet
 /mob/living/basic/trooper/gakster/ranged/chauchat
@@ -239,14 +233,10 @@
 	desc = "With an ever-imposing ballistic shield and a lightweight submachinegun, this gakster seems prepared to take on nearly any foe."
 	maxHealth = 600
 	health = 600
-	loot = list(/obj/effect/mob_spawn/corpse/human/chauchat, /obj/item/shield/ballistic, /obj/item/gun/ballistic/automatic/seiba_smg, /obj/item/ammo_box/magazine/miecz = 2)
+	loot = list(/obj/effect/mob_spawn/corpse/human/chauchat, /obj/item/shield/ballistic, /obj/item/ammo_box/magazine/miecz = 2)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/chauchat
 	r_hand = /obj/item/shield/ballistic
-	r_hand = /obj/item/gun/ballistic/rifle/boltaction
-	var/casingtype = /obj/item/ammo_casing/spent
-	var/projectilesound = 'sound/weapons/gun/rifle/shot.ogg'
-	var/burst_shots = 3
-	var/ranged_cooldown = 0.4 SECONDS
+	l_hand = /obj/item/gun/ballistic/rifle/boltaction
 
 // 287 Prophet : Drops double energy sword and type five armor
 /mob/living/basic/trooper/gakster/melee/prophet

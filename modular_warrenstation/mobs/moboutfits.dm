@@ -38,7 +38,7 @@
 /datum/outfit/filtremob
 	name = "\improper Blue Company Filtre Corpse"
 	uniform = /obj/item/clothing/under/syndicate/combat
-	suit = /obj/item/clothing/suit/armor/lethal_koranda
+	suit = /obj/item/lethalcash/bundle/c10
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	gloves = /obj/item/clothing/gloves/frontier_colonist
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
@@ -55,12 +55,12 @@
 /datum/outfit/razor
 	name = "\improper Corpse of 178 Razor"
 	uniform = /obj/item/clothing/under/syndicate
-	suit = /obj/item/clothing/suit/armor/lethal_kora_kulon
+	suit = /obj/item/lethalcash/bundle/c10
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	gloves = /obj/item/clothing/gloves/frontier_colonist
 	ears = /obj/item/radio/headset/syndicate/alt
 	mask = /obj/item/clothing/mask/balaclava
-	head = /obj/item/clothing/head/helmet/lethal_kulon_helmet/spawns_with_shield
+	head = /obj/item/lethalcash/bundle/c10
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 
 /obj/effect/mob_spawn/corpse/human/fathomer
@@ -91,12 +91,12 @@
 /datum/outfit/chauchat
 	name = "\improper Corpse of 253 Chauchat"
 	uniform = /obj/item/clothing/under/syndicate/combat
-	suit = /obj/item/clothing/suit/armor/lethal_kora_kulon/full_set
+	suit = /obj/item/lethalcash/bundle/c10
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	gloves = /obj/item/clothing/gloves/frontier_colonist
 	ears = /obj/item/radio/headset/syndicate/alt
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
-	head = /obj/item/clothing/head/helmet/lethal_kulon_helmet/spawns_with_shield
+	head = /obj/item/lethalcash/bundle/c10
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 	glasses = /obj/item/clothing/glasses/night
 
@@ -110,12 +110,12 @@
 /datum/outfit/prophet
 	name = "\improper Corpse of 287 Prophet"
 	uniform = /obj/item/clothing/under/syndicate/combat
-	suit = /obj/item/clothing/suit/armor/lethal_slick
+	suit = /obj/item/lethalcash/bundle/c10
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	gloves = /obj/item/clothing/gloves/frontier_colonist
 	ears = /obj/item/radio/headset/syndicate/alt
 	mask = /obj/item/clothing/mask/gas/hunter
-	head = /obj/item/clothing/head/helmet/lethal_larp_helmet
+	head = /obj/item/lethalcash/bundle/c10
 	back = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 	neck = /obj/item/clothing/neck/warrior_cape
 	glasses = /obj/item/clothing/glasses/night

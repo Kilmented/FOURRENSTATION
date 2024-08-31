@@ -207,13 +207,9 @@
 	desc = "A well-respected gakster whose primary claim to fame is their overwhelming love for pyrotechnics and incendiary weaponry."
 	maxHealth = 450
 	health = 450
-	loot = list(/obj/effect/mob_spawn/corpse/human/razor, /obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil, /obj/item/ammo_box/magazine/ammo_stack/c980/prefilled/fire)
+	loot = list(/obj/effect/mob_spawn/corpse/human/razor, /obj/item/lethalcash/bundle/c10, /obj/item/ammo_box/magazine/ammo_stack/c980/prefilled/fire)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/razor
-	r_hand = /obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil
-	casingtype = /obj/item/ammo_casing/c980grenade/shrapnel/phosphor
-	projectilesound = 'modular_nova/modules/modular_weapons/sounds/grenade_launcher.ogg'
-	burst_shots = 1
-	ranged_cooldown = 2.5 SECONDS
+	r_hand = /obj/item/lethalcash/bundle/c10
 
 // 201 Fathomer : Drops Ramu 6 gauge shotgun, a bunch of 6g longshot ammo, and sacrificial armor
 /mob/living/basic/trooper/gakster/ranged/fathomer

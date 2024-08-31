@@ -8329,5 +8329,4 @@
 #include "modular_warrenstation/money_rework/code/atm.dm"
 #include "modular_warrenstation/money_rework/code/money.dm"
 #include "modular_warrenstation/money_rework/code/moneyspawners.dm"
-#include "modular_warrenstation\money_rework\code\money.dm"
 // END_INCLUDE

@@ -1765,9 +1765,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/portfour)
 "dic" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1778,7 +1775,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/area/station/science/xenobiology)
 "djI" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
@@ -1912,7 +1909,6 @@
 /area/station/science/circuits)
 "dxe" = (
 /obj/machinery/cryopod/prison/directional/west,
-/obj/effect/landmark/latejoin,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
@@ -2080,9 +2076,7 @@
 	},
 /area/station/cargo/storage)
 "dNt" = (
-/obj/machinery/computer/cryopod/directional/south,
 /obj/machinery/cryopod/prison/directional/east,
-/obj/effect/landmark/latejoin,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
@@ -2090,6 +2084,8 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/machinery/light/warm/directional/south,
+/obj/effect/landmark/latejoin,
 /turf/open/floor/iron/white,
 /area/station/common/cryopods)
 "dNF" = (
@@ -2348,17 +2344,18 @@
 	},
 /area/station/commons/dorms/dormblock/portone)
 "emf" = (
-/obj/structure/closet/emcloset,
-/obj/machinery/camera/directional/west{
-	c_tag = "Xenobiology Lab - Airlock";
-	network = list("ss13","rd","xeno")
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
 	},
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/obj/structure/closet/firecloset/wall{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/side,
+/area/station/hallway/primary/central/fore)
 "emn" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 2
@@ -3519,11 +3516,18 @@
 	},
 /area/station/hallway/primary/central/aft)
 "gkJ" = (
-/turf/closed/wall/r_wall{
-	name = "reinforced bulkhead";
-	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/area/station/science/xenobiology/hallway)
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/structure/closet/emcloset/wall{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/side,
+/area/station/hallway/primary/central/aft)
 "gmu" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -5578,8 +5582,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint)
 "jtV" = (
-/obj/machinery/cryopod/prison/directional/east,
-/obj/effect/landmark/latejoin,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -6147,12 +6149,10 @@
 /area/station/medical/medbay/lobby)
 "klL" = (
 /obj/machinery/airalarm/directional/south,
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
 /obj/structure/closet/l3closet/scientist,
+/obj/machinery/camera/directional/east,
 /turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/area/station/science/xenobiology)
 "klQ" = (
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 1
@@ -6167,20 +6167,21 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 2
 	},
-/obj/machinery/camera/xray/directional/south,
-/obj/machinery/light/warm/directional/south,
 /turf/open/floor/iron/white,
 /area/station/common/cryopods)
 "kmp" = (
-/obj/structure/sink/directional/east,
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/structure/closet/emcloset/wall{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/side,
+/area/station/hallway/primary/central/fore)
 "kmz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/siding/dark_blue/corner{
@@ -6337,26 +6338,17 @@
 /turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "kAE" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research{
-	autoclose = 0;
-	frequency = 1449;
-	id_tag = "xeno_airlock_interior";
-	name = "Xenobiology Lab Internal Airlock"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/science/xenobio,
-/obj/effect/turf_decal/tile/purple/full,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/station/science/xenobiology/hallway)
+/area/station/science/xenobiology)
 "kAJ" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -6856,7 +6848,7 @@
 "lkN" = (
 /obj/machinery/processor/slime,
 /obj/effect/turf_decal/siding{
-	dir = 8
+	dir = 9
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
@@ -7029,13 +7021,18 @@
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "lBP" = (
-/obj/structure/flora/bush/sparsegrass/style_2,
-/obj/structure/flora/bush/lavendergrass/style_4,
-/obj/structure/window/reinforced/fulltile{
-	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/turf/open/floor/grass,
-/area/station/common/cryopods)
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/structure/closet/firecloset/wall{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/side,
+/area/station/hallway/primary/central/aft)
 "lDx" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
@@ -7182,9 +7179,7 @@
 /turf/open/floor/iron/textured,
 /area/station/engineering/power_room)
 "lQy" = (
-/obj/machinery/computer/cryopod/directional/south,
 /obj/machinery/cryopod/prison/directional/west,
-/obj/effect/landmark/latejoin,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
@@ -7192,6 +7187,8 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/machinery/camera/xray/directional/south,
+/obj/effect/landmark/latejoin,
 /turf/open/floor/iron/white,
 /area/station/common/cryopods)
 "lQz" = (
@@ -7241,6 +7238,9 @@
 /area/station/commons/hangar)
 "lVs" = (
 /obj/machinery/monkey_recycler,
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
 "lWU" = (
@@ -9320,8 +9320,9 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/commons/dorms/dormblock/starboardfive)
 "pCC" = (
-/turf/closed/wall,
-/area/station/science/xenobiology/hallway)
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white,
+/area/station/science/xenobiology)
 "pCE" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 2
@@ -9479,14 +9480,18 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/range)
 "pRn" = (
-/obj/structure/flora/bush/sparsegrass/style_2,
-/obj/structure/flora/bush/lavendergrass/style_4,
-/obj/structure/flora/bush/grassy,
-/obj/structure/window/reinforced/fulltile{
-	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/turf/open/floor/grass,
-/area/station/common/cryopods)
+/obj/effect/turf_decal/trimline/green/filled/line{
+	dir = 1
+	},
+/obj/structure/closet/emcloset/wall{
+	density = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/side,
+/area/station/hallway/primary/central/aft)
 "pRx" = (
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -10041,13 +10046,12 @@
 	},
 /area/station/command/bridge)
 "qWx" = (
-/obj/machinery/cryopod/prison/directional/west,
-/obj/effect/landmark/latejoin,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/computer/cryopod/directional/west,
 /turf/open/floor/iron/white,
 /area/station/common/cryopods)
 "qWR" = (
@@ -12482,7 +12486,6 @@
 /area/station/medical/pharmacy)
 "uCi" = (
 /obj/machinery/cryopod/prison/directional/east,
-/obj/effect/landmark/latejoin,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
@@ -12633,15 +12636,11 @@
 /area/station/science/research)
 "uQC" = (
 /obj/machinery/firealarm/directional/north,
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/item/soap,
 /obj/machinery/shower/directional/south,
 /obj/item/radio/intercom/directional/east,
+/obj/structure/sink/directional/west,
 /turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/area/station/science/xenobiology)
 "uQP" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -13109,9 +13108,6 @@
 	},
 /area/station/commons/dorms/dormblock/portfour)
 "vBK" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -13122,7 +13118,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/area/station/science/xenobiology)
 "vCj" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/turf_decal/siding/dark{
@@ -13363,12 +13359,6 @@
 /area/station/hallway/primary/starboard)
 "vVG" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/research{
-	autoclose = 0;
-	frequency = 1449;
-	id_tag = "xeno_airlock_interior";
-	name = "Xenobiology Lab Internal Airlock"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -13381,8 +13371,11 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/machinery/door/airlock/research/glass{
+	name = "Research and Development"
+	},
 /turf/open/floor/iron/white/smooth_large,
-/area/station/science/xenobiology/hallway)
+/area/station/science/xenobiology)
 "vXS" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/iron/dark,
@@ -14622,6 +14615,10 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
+	},
+/obj/structure/closet/firecloset/wall{
+	density = 0;
+	pixel_y = 32
 	},
 /turf/open/floor/iron/dark/side,
 /area/station/hallway/primary/central/fore)
@@ -38807,7 +38804,7 @@ uiF
 ptw
 osw
 eBk
-gMF
+gkJ
 kFO
 gkp
 cAu
@@ -39064,7 +39061,7 @@ oqJ
 qwf
 moD
 eBk
-gMF
+lBP
 igw
 xgW
 jAa
@@ -41127,11 +41124,11 @@ jXu
 sxO
 mKb
 tfv
-gkJ
-pCC
+gLC
+gLC
 kAE
-pCC
-pCC
+gLC
+gLC
 lkN
 jNr
 saQ
@@ -41384,10 +41381,10 @@ rHx
 sxO
 pPJ
 iyh
-pCC
-kmp
+gLC
+gLC
 vBK
-emf
+gLC
 pCC
 lVs
 rHn
@@ -41641,11 +41638,11 @@ pBr
 sxO
 sry
 wEZ
-pCC
+uAk
 uQC
 dic
 klL
-pCC
+uAk
 uAk
 uAk
 uAk
@@ -41898,11 +41895,11 @@ sxO
 sxO
 sxO
 sxO
-gkJ
-gkJ
+sxO
+sxO
 vVG
-gkJ
-gkJ
+sxO
+sxO
 jfu
 bId
 uCM
@@ -43176,7 +43173,7 @@ gzu
 olz
 gzu
 olq
-ctr
+pRn
 eyq
 tzv
 iUZ
@@ -46263,7 +46260,7 @@ sAw
 qAP
 tew
 dEd
-pRn
+hrk
 dZf
 aNA
 klX
@@ -46520,7 +46517,7 @@ hya
 gzv
 tew
 dEd
-lBP
+hrk
 uiv
 aNA
 ift
@@ -49087,7 +49084,7 @@ nPU
 cMG
 hat
 vIQ
-qAP
+emf
 wpG
 btd
 uVP
@@ -49344,7 +49341,7 @@ hLZ
 uvw
 ttq
 xgn
-qAP
+kmp
 ary
 jkb
 mXA

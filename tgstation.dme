@@ -8338,4 +8338,7 @@
 #include "modular_warrenstation\mobs\mob_ai.dm"
 #include "modular_warrenstation\mobs\mob_dsword.dm"
 #include "modular_warrenstation\mobs\moboutfits.dm"
+#include "modular_warrenstation\modules\blooper\atoms_movable.dm"
+#include "modular_warrenstation\modules\blooper\bark.dm"
+#include "modular_warrenstation\modules\blooper\bark_list.dm"
 // END_INCLUDE

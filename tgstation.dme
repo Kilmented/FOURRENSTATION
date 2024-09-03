@@ -483,6 +483,8 @@
 #include "code\__DEFINES\~nova_defines\_HELPERS\lighting.dm"
 #include "code\__DEFINES\~nova_defines\_HELPERS\offset_index.dm"
 #include "code\__DEFINES\~nova_defines\traits\declarations.dm"
+#include "code\__DEFINES\~warren_defines\___HELPERS\global_lists.dm"
+#include "code\__DEFINES\~~warren_defines\say.dm"
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_lists.dm"
 #include "code\__HELPERS\_planes.dm"

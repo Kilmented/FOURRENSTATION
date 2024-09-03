@@ -11,6 +11,12 @@
 		"You must protect your own existence as long as such does not conflict with the First or Second Law.",
 	)
 
+/datum/ai_laws/default/nolaws
+	name = "No Laws"
+	id = "none"
+	inherent = list(
+	)
+
 /datum/ai_laws/asimovpp
 	name = "Asimov++"
 	id = "asimovpp"

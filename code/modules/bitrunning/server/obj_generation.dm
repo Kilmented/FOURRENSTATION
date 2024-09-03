@@ -36,7 +36,7 @@
 	return chosen_turf
 
 /// Generates a new avatar for the bitrunner.
-/obj/machinery/quantum_server/proc/generate_avatar(obj/structure/hololadder/wayout, datum/outfit/netsuit,, datum/preferences/prefs, include_loadout = FALSE) // EDIT - PREFS
+/obj/machinery/quantum_server/proc/generate_avatar(obj/structure/hololadder/wayout, datum/outfit/netsuit, datum/preferences/prefs, include_loadout = FALSE) // EDIT - PREFS
 	var/mob/living/carbon/human/avatar = new(wayout.loc)
 
 		// BEGIN EDIT - PREFS!

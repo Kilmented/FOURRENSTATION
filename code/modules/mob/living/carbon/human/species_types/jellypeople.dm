@@ -14,7 +14,7 @@
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_SLIME
 	inherent_traits = list(
 		TRAIT_MUTANT_COLORS,
-		TRAIT_TOXINLOVER,
+		TRAIT_TOXIMMUNE,
 		TRAIT_NOBLOOD,
 	)
 	mutanttongue = /obj/item/organ/internal/tongue/jelly
@@ -42,27 +42,18 @@
 		BODY_ZONE_CHEST = /obj/item/bodypart/chest/jelly,
 	)
 	var/datum/action/innate/regenerate_limbs/regenerate_limbs
-	var/datum/action/innate/alter_form/alter_form //NOVA EDIT ADDITION - CUSTOMIZATION
 
 /datum/species/jelly/on_species_gain(mob/living/carbon/new_jellyperson, datum/species/old_species, pref_load)
 	. = ..()
 	if(ishuman(new_jellyperson))
 		regenerate_limbs = new
 		regenerate_limbs.Grant(new_jellyperson)
-		//NOVA EDIT ADDITION BEGIN - CUSTOMIZATION
-		alter_form = new
-		alter_form.Grant(new_jellyperson)
-		//NOVA EDIT ADDITION END
 	new_jellyperson.AddElement(/datum/element/soft_landing)
 	RegisterSignal(new_jellyperson, COMSIG_HUMAN_ON_HANDLE_BLOOD, PROC_REF(slime_blood))
 
 /datum/species/jelly/on_species_loss(mob/living/carbon/former_jellyperson, datum/species/new_species, pref_load)
 	if(regenerate_limbs)
 		regenerate_limbs.Remove(former_jellyperson)
-	//NOVA EDIT ADDITION BEGIN - CUSTOMIZATION
-	if(alter_form)
-		alter_form.Remove(former_jellyperson)
-	//NOVA EDIT ADDITION END
 	former_jellyperson.RemoveElement(/datum/element/soft_landing)
 	UnregisterSignal(former_jellyperson, COMSIG_HUMAN_ON_HANDLE_BLOOD)
 	return ..()
@@ -106,7 +97,7 @@
 	consumed_limb.drop_limb()
 	to_chat(H, span_userdanger("Your [consumed_limb] is drawn back into your body, unable to maintain its shape!"))
 	qdel(consumed_limb)
-	H.blood_volume += 20
+	H.blood_volume += 65
 
 /datum/species/jelly/get_species_description()
 	return "Jellypeople are a strange and alien species with three eyes, made entirely out of gel."

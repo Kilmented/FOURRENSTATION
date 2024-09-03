@@ -48,7 +48,10 @@
 	var/obj/item/organ/internal/liver/target_liver = target.get_organ_slot(ORGAN_SLOT_LIVER)
 	human_target.setOrganLoss(ORGAN_SLOT_LIVER, 10) //not bad, not great
 	if(target_liver)
-		target_liver.operated = TRUE
+		if(istype(target_liver, /obj/item/organ/internal/liver/slime))
+			addtimer(VARSET_CALLBACK(target_liver, operated, FALSE), 30 SECONDS)
+		else
+			target_liver.operated = TRUE
 	display_results(
 		user,
 		target,

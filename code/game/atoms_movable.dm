@@ -489,7 +489,12 @@
 		if(NAMEOF(src, glide_size))
 			set_glide_size(var_value)
 			. = TRUE
-
+		// EDIT ADDITION BEGIN - BLOOPER
+		if(NAMEOF(src, blooper)) // Sorry, Vishenka.
+			if(isfile(var_value))
+				blooper = sound(var_value) //bark() expects vocal_bark to already be a sound datum, for performance reasons. adminbus QoL!
+			. = TRUE
+		// EDIT ADDITION END
 	if(!isnull(.))
 		datum_flags |= DF_VAR_EDITED
 		return

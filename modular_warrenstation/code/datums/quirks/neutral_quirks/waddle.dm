@@ -11,7 +11,7 @@
 
 /datum/quirk/waddle/add(client/client_source)
 	. = ..()
-	quirk_holder.AddElement(/datum/element/waddling)
+	quirk_holder.AddElementTrait(TRAIT_WADDLING, QUIRK_TRAIT, /datum/element/waddling)
 
 /datum/quirk/waddle/remove()
 	. = ..()

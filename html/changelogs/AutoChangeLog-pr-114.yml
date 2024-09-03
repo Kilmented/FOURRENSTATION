@@ -1,0 +1,4 @@
+author: "Koltsov"
+delete-after: True
+changes:
+  - code_imp: "Ability to load prefs as bitrunner"

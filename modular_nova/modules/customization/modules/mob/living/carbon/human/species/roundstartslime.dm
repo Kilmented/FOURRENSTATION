@@ -407,8 +407,6 @@
 	examine_limb_id = SPECIES_SLIMEPERSON
 	coldmod = 6
 	heatmod = 0.5
-	brutemod = 2
-	burnmod = 2
 	specific_alpha = 155
 	markings_alpha = 130 //This is set lower than the other so that the alpha values don't stack on top of each other so much
 	mutanteyes = /obj/item/organ/internal/eyes/roundstartslime

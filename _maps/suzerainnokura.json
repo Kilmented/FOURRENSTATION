@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"map_name": "SSN Suzerain Nokura",
+	"map_name": "Suzerain Nokura - Deep Space",
 	"map_path": "map_files/SuzerainNokura",
 	"map_file": "SuzerainNokura.dmm",
 	"space_ruin_levels": 0,
@@ -9,49 +9,9 @@
 		"cargo": "cargo_nova",
 		"ferry": "ferry_fancy",
 		"whiteship": "whiteship_meta",
-		"emergency": "emergency_meta"
-	},
-	"traits": [
-		{
-			"Up": true,
-			"Mining": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Ice Ruins Underground": true,
-			"Baseturf": "/turf/open/lava/plasma/ice_moon",
-			"No Parallax": true
-		},
-		{
-			"Down": true,
-			"Up": true,
-			"Mining": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Ice Ruins Underground": true,
-			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
-			"No Parallax": true
-		},
-		{
-			"Down": true,
-			"Up": true,
-			"Mining": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Ice Ruins Underground": true,
-			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
-			"No Parallax": true
-		},
-		{
-			"Down": true,
-			"Mining": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Ice Ruins": true,
-			"Weather_Snowstorm": true,
-			"Baseturf": "/turf/open/openspace/icemoon/keep_below",
-			"No Parallax": true
-		}
-	],
-	"minetype": "none",
-	"blacklist_file": "iceruinblacklist.txt"
+		"emergency": "emergency_meta"},
+	"ignored_unit_tests": [
+		"/datum/unit_test/job_roundstart_spawnpoints",
+		"/datum/unit_test/required_map_items",
+		"/datum/unit_test/spy_bounty"]
 }

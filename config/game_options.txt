@@ -217,7 +217,7 @@ DEPSEC_ACCESS_LEVEL 1
 
 ## GHOST INTERACTION ###
 ## Uncomment to let ghosts spin chairs. You may be wondering why this is a config option. Don't ask.
-#GHOST_INTERACTION
+GHOST_INTERACTION
 
 ## NEAR-DEATH EXPERIENCE ###
 ## Comment this out to disable mobs hearing ghosts when unconscious and very close to death
@@ -360,7 +360,7 @@ ROUNDSTART_RACES lizard
 ROUNDSTART_RACES felinid
 ROUNDSTART_RACES fly
 ROUNDSTART_RACES moth
-ROUNDSTART_RACES plasmaman
+#ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
 
 ## Races that are better than humans in some ways, but worse in others
@@ -389,15 +389,15 @@ ROUNDSTART_RACES humanoid
 ROUNDSTART_RACES xeno
 ROUNDSTART_RACES slimeperson
 ROUNDSTART_RACES podweak
-ROUNDSTART_RACES dwarf
+#ROUNDSTART_RACES dwarf
 ROUNDSTART_RACES synth
-ROUNDSTART_RACES vox
+#ROUNDSTART_RACES vox
 ROUNDSTART_RACES aquatic
 ROUNDSTART_RACES insect
-ROUNDSTART_RACES ghoul
-ROUNDSTART_RACES teshari
+#ROUNDSTART_RACES ghoul
+#ROUNDSTART_RACES teshari
 ROUNDSTART_RACES hemophage
-ROUNDSTART_RACES vox_primalis
+#ROUNDSTART_RACES vox_primalis
 
 ##-------------------------------------------------------------------------------------------
 
@@ -506,7 +506,7 @@ ROUNDSTART_TRAITS
 SHIFT_TIME_START_HOUR 7
 
 ## Sets shift time to server time at roundstart. Overrides SHIFT_TIME_START_HOUR
-#SHIFT_TIME_REALTIME
+SHIFT_TIME_REALTIME
 
 ## Enable randomized shift start times. Overrides SHIFT_TIME_REALTIME and SHIFT_TIME_START_HOUR
 #RANDOMIZE_SHIFT_TIME

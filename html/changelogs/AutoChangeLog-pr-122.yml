@@ -1,0 +1,4 @@
+author: "Colfer1"
+delete-after: True
+changes:
+  - qol: "made respawn timer 20 seconds"

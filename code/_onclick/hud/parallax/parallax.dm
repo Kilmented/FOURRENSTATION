@@ -331,7 +331,7 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/parallax_layer)
 	layer = 3
 
 /atom/movable/screen/parallax_layer/planet
-	icon_state = "planet"
+	icon_state = "asteroids" // was "planet" but I changed it because asteroids is always applicable but lavaland + icemoon isn't
 	blend_mode = BLEND_OVERLAY
 	absolute = TRUE //Status of seperation
 	speed = 3

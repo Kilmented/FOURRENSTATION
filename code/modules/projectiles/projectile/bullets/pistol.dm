@@ -61,3 +61,15 @@
 	impact_light_intensity = 5
 	impact_light_range = 1
 	impact_light_color_override = LIGHT_COLOR_DIM_YELLOW
+
+// .160 Smart
+
+/obj/projectile/bullet/c160smart
+	name = ".160 smart bullet"
+	icon_state = "smartgun"
+	damage = 10
+	embedding = list(embed_chance=10, fall_chance=5, jostle_chance=3, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.25, pain_mult=3, jostle_pain_mult = 6, rip_time=5)
+	speed = 2
+	homing_turn_speed = 5
+	homing_inaccuracy_min = 4
+	homing_inaccuracy_max = 10

@@ -6,7 +6,7 @@
 @use 'sass:color';
 @use 'sass:meta';
 
-$nanotrasen: #384e68;
+$nanotrasen: #d25555; // a dulcet red
 
 @use '../colors.scss' with (
   $fg-map-keys: (),

@@ -20,12 +20,12 @@
 
 /** Plasteel
  *
- * An alloy of iron and plasma.
+ * An alloy of iron and ~~plasma.~~ plastic.
  * Applies a significant slowdown effect to any and all items that contain it.
  */
 /datum/material/alloy/plasteel
 	name = "plasteel"
-	desc = "The heavy duty result of infusing iron with plasma."
+	desc = "The heavy duty result of alloying plastics and steel together molecule by molecule."
 	color = "#706374"
 	greyscale_colors = "#706374"
 	init_flags = MATERIAL_INIT_MAPLOAD
@@ -35,7 +35,7 @@
 	armor_modifiers = list(MELEE = 1.4, BULLET = 1.4, LASER = 1.1, ENERGY = 1.1, BOMB = 1.5, BIO = 1, FIRE = 1.1, ACID = 1)
 	sheet_type = /obj/item/stack/sheet/plasteel
 	categories = list(MAT_CATEGORY_RIGID=TRUE, MAT_CATEGORY_BASE_RECIPES=TRUE, MAT_CATEGORY_ITEM_MATERIAL=TRUE)
-	composition = list(/datum/material/iron=1, /datum/material/plasma=1)
+	composition = list(/datum/material/iron=1, /datum/material/plastic=1)
 
 /datum/material/alloy/plasteel/on_applied_obj(obj/item/target_item, amount, material_flags)
 	. = ..()

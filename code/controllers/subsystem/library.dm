@@ -1,7 +1,7 @@
 /// Manages library data, loading bookselves, etc
 SUBSYSTEM_DEF(library)
 	name = "Library Loading"
-	flags = SS_NO_FIRE
+	flags = SS_NO_INIT
 
 	/// List of bookselves to prefill with books
 	var/list/shelves_to_load = list()
@@ -18,22 +18,25 @@ SUBSYSTEM_DEF(library)
 	/// List of areas that count as "a library", modified by map config
 	var/list/library_areas = list()
 
+// Library Loading subsystem within 841.58 seconds! says GO                 LF
+/*
 /datum/controller/subsystem/library/Initialize()
 	prepare_official_posters()
 	prepare_library_areas()
 	load_shelves()
 	return SS_INIT_SUCCESS
+*/
 
 /datum/controller/subsystem/library/proc/load_shelves()
 	var/list/datum/callback/load_callbacks = list()
-	
+
 	for(var/obj/structure/bookcase/case_to_load as anything in shelves_to_load)
 		if(!case_to_load)
 			stack_trace("A null bookcase somehow ended up in SSlibrary's shelves_to_load list. Did something harddel?")
 			continue
 		load_callbacks += CALLBACK(case_to_load, TYPE_PROC_REF(/obj/structure/bookcase, load_shelf))
 	shelves_to_load = null
-	
+
 	//Load all of the shelves asyncronously at the same time, blocking until the last one is finished.
 	callback_select(load_callbacks, savereturns = FALSE)
 

@@ -1,0 +1,4 @@
+author: "Koltsov"
+delete-after: True
+changes:
+  - rscadd: "New Quirk: Waddle"

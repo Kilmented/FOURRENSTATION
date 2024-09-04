@@ -1,4 +1,4 @@
-#define AI_LAWS_ASIMOV "asimov"
+#define AI_LAWS_ASIMOV "none"
 
 /// See [/proc/get_round_default_lawset], do not get directily.
 /// This is the default lawset for silicons.
@@ -41,7 +41,7 @@ GLOBAL_VAR(round_default_lawset)
 
 	switch(CONFIG_GET(number/default_laws))
 		if(CONFIG_ASIMOV)
-			return /datum/ai_laws/default/asimov
+			return /datum/ai_laws/default/nolaws
 		if(CONFIG_SPECIFIED)
 			var/list/specified_laws = list()
 			for (var/law_id in specified_law_ids)
@@ -90,7 +90,7 @@ GLOBAL_VAR(round_default_lawset)
 
 	if(!lawtype)
 		WARNING("No LAW_WEIGHT entries.")
-		lawtype = /datum/ai_laws/default/asimov
+		lawtype = /datum/ai_laws/default/nolaws
 
 	return lawtype
 

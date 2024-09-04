@@ -16,6 +16,7 @@
 		"flatpack_solar_panel",
 		"flatpack_solar_tracker",
 		"flatpack_arc_furnace",
+		"flatpack_ore_thumper",
 		"flatpack_colony_fab",
 		"flatpack_station_battery",
 		"flatpack_station_battery_large",
@@ -106,6 +107,23 @@
 		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MATERIALS,
 	)
 	construction_time = 15 SECONDS
+
+/datum/design/flatpack_ore_thumper
+	name = "Flat-Packed Ore Thumper"
+	desc = "A deployable thumper that forces ores out from underneath the surface. Takes thirty seconds to print."
+	id = "flatpack_ore_thumper"
+	build_type = COLONY_FABRICATOR
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 3,
+		/datum/material/gold = HALF_SHEET_MATERIAL_AMOUNT
+	)
+	build_path = /obj/item/flatpacked_machine/ore_thumper
+	category = list(
+		RND_CATEGORY_INITIAL,
+		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MATERIALS,
+	)
+	construction_time = 30 SECONDS
 
 // Power storage structures
 
@@ -222,6 +240,23 @@
 		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MATERIALS,
 	)
 	construction_time = 1 MINUTES
+
+/datum/design/flatpack_atm
+	name = "Flat-Packed Banking Terminal"
+	desc = "A convenient way to store necessary currency through a peer-to-peer Lich-spatial \
+		banking network. Low-risk, and cannot be tracked."
+	id = "flatpack_atm"
+	build_type = COLONY_FABRICATOR
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 5,
+	)
+	build_path = /obj/item/flatpacked_machine/atm
+	category = list(
+		RND_CATEGORY_INITIAL,
+		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MATERIALS,
+	)
+	construction_time = 30 SECONDS
 
 // Wind turbine, produces tiny amounts of power when placed outdoors in an atmosphere, but makes significantly more if there's a storm in that area
 

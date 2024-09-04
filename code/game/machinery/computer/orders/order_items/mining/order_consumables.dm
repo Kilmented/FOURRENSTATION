@@ -44,5 +44,5 @@
 
 /datum/orderable_item/consumables/space_cash
 	item_path = /obj/item/stack/spacecash/c1000
-	desc = "A stack of space cash worth 1000 credits."
+	desc = "A stack of bills worth 1000 credits."
 	cost_per_order = 2000

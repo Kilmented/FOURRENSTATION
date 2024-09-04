@@ -3,7 +3,7 @@
 	description = "Keep yourself occupied in permabrig."
 	department_head = list("The Security Team")
 	faction = FACTION_STATION
-	total_positions = 0		// NOVA EDIT: Original value (0)
+	total_positions = 0 // NOVA EDIT: Original value (0)
 	spawn_positions = 0
 	supervisors = "the security team"
 	exp_granted_type = EXP_TYPE_CREW

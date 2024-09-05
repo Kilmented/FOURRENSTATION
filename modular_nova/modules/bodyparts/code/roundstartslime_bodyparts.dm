@@ -9,7 +9,7 @@
 	is_dimorphic = TRUE
 	icon_greyscale = BODYPART_ICON_ROUNDSTARTSLIME
 	biological_state = (BIO_FLESH|BIO_BLOODED)
-	burn_modifier = 2
+	burn_modifier = 2 // dmg given here due to brutemod not working in chracter species creation
 	brute_modifier = 2
 
 /obj/item/bodypart/chest/jelly/slime/roundstart

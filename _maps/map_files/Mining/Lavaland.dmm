@@ -246,10 +246,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/mine/maintenance/public/south)
-"cj" = (
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "cm" = (
 /obj/machinery/door/airlock/external{
 	name = "Mining External Airlock"
@@ -13190,7 +13186,7 @@ aj
 fQ
 aj
 aj
-cj
+aj
 aj
 aj
 aj

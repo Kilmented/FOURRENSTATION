@@ -8324,7 +8324,6 @@
 #include "modular_warrenstation\code\modules\loot.dm"
 #include "modular_warrenstation\code\modules\numed.dm"
 #include "modular_warrenstation\code\modules\quirks.dm"
-#include "modular_warrenstation\code\modules\shelf.dm"
 #include "modular_warrenstation\code\modules\ammo_stacks\code\ammo_stack_base.dm"
 #include "modular_warrenstation\code\modules\ammo_stacks\code\stack_types.dm"
 #include "modular_warrenstation\code\modules\bitrunning\disks.dm"

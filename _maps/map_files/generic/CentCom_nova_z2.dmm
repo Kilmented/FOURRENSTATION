@@ -28,6 +28,7 @@
 /area/station/science/robotics/lab)
 "aaS" = (
 /obj/machinery/camera/xray/directional/north,
+/obj/machinery/computer/quantum_console,
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "ace" = (
@@ -402,6 +403,9 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/office)
 "aLR" = (
@@ -1749,6 +1753,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/storage)
 "dhD" = (
@@ -1841,7 +1848,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/service/janitor,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/white,
 /area/station/service/janitor)
 "dpQ" = (
@@ -2156,10 +2165,10 @@
 	name = "Genetics Lab"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/effect/mapping_helpers/airlock/access/all/science/genetics,
-/obj/effect/landmark/navigate_destination,
 /obj/effect/turf_decal/tile/purple/full,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/genetics)
 "dWD" = (
@@ -2180,10 +2189,10 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Mech Bay"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/science/robotics/mechbay)
 "dXm" = (
@@ -2388,6 +2397,9 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 2
 	},
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/half{
 	dir = 8
 	},
@@ -4656,6 +4668,8 @@
 /area/station/commons/dorms/dormblock/starboardone)
 "hXy" = (
 /obj/machinery/door/airlock/engineering,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -5264,6 +5278,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/research)
 "iVE" = (
@@ -5417,6 +5433,8 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/caution/stand_clear,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
 /turf/open/floor/iron/textured,
 /area/station/engineering/gravity_generator)
 "jjG" = (
@@ -5728,6 +5746,9 @@
 "jBe" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/door/airlock/engineering,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/half{
 	dir = 8
 	},
@@ -6552,6 +6573,11 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/service/hydroponics/garden)
+"kQb" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/computer/order_console/bitrunning,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/storage)
 "kRt" = (
 /turf/open/floor/iron/white/smooth_large,
 /area/station/command/bridge)
@@ -6725,6 +6751,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/office)
 "lci" = (
@@ -8455,7 +8484,8 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/dark,
-/obj/effect/mapping_helpers/airlock/access/any/medical/pharmacy,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "ook" = (
@@ -8502,6 +8532,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
 "oqo" = (
@@ -8534,7 +8566,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/dark,
-/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen/coldroom)
 "osw" = (
@@ -8798,7 +8832,6 @@
 /area/station/service/kitchen/kitchen_backroom)
 "oKR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
-/obj/effect/mapping_helpers/airlock/access/all/science/rd,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/machinery/door/airlock/research/glass{
 	name = "Research Servers"
@@ -9355,7 +9388,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/white/smooth_half{
 	dir = 8
 	},
@@ -10004,7 +10039,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/all/science/research,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
@@ -11395,6 +11429,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white,
 /area/station/medical/morgue)
 "sQM" = (
@@ -11477,6 +11513,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/research)
 "taB" = (
@@ -12138,11 +12176,12 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/all/science/rd,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/machinery/door/airlock/research/glass{
 	name = "Research Servers"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/dark,
 /area/station/science/server)
 "ubO" = (
@@ -12728,6 +12767,11 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/station/engineering/main)
+"uWb" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/computer/order_console/mining,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/cargo/storage)
 "uWy" = (
 /obj/structure/window/reinforced/fulltile{
 	color = "ACA3FF"
@@ -13265,6 +13309,9 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/engineering,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /turf/open/floor/iron/half{
 	dir = 8
 	},
@@ -13365,7 +13412,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/science/xenobio,
 /obj/effect/turf_decal/tile/purple/full,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -13374,6 +13420,7 @@
 /obj/machinery/door/airlock/research/glass{
 	name = "Research and Development"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/xenobiology)
 "vXS" = (
@@ -13887,6 +13934,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "wEZ" = (
@@ -13941,7 +13989,9 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
-/obj/machinery/computer/order_console/mining,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/storage)
 "wKD" = (
@@ -49605,8 +49655,8 @@ bMA
 tKo
 xRY
 rWm
-rWm
 wIc
+rWm
 rWm
 oWf
 bwH
@@ -50123,7 +50173,7 @@ xpz
 bCd
 xpL
 cKT
-dsb
+kQb
 bMA
 xjI
 qBw
@@ -50380,7 +50430,7 @@ xpL
 xpL
 xpL
 fJp
-dsb
+uWb
 fxM
 kkO
 qBw

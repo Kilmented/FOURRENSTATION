@@ -5957,10 +5957,6 @@
 /obj/structure/lattice/catwalk/mining,
 /turf/open/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"Ys" = (
-/turf/open/lava/smooth/lava_land_surface,
-/turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "YF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -12937,7 +12933,7 @@ aj
 aj
 aj
 aj
-Ys
+aj
 aj
 aj
 aj
@@ -13451,7 +13447,7 @@ fQ
 fQ
 fQ
 aj
-Ys
+aj
 aj
 aj
 aj

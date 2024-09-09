@@ -14781,6 +14781,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},

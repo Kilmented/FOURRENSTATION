@@ -97,11 +97,11 @@
 	return markings
 
 /datum/species/mammal/get_species_description()
-	return "This is a template species for your own creations!"
+	return "A Geneline."
 
 
 /datum/species/mammal/get_species_lore()
-	return list("MA Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur.")
+	return list("A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur.")
 
 /datum/species/mammal/prepare_human_for_preview(mob/living/carbon/human/human)
 	var/main_color = "#333333"

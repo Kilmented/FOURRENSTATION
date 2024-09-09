@@ -25,7 +25,7 @@
 	)
 
 /datum/species/humanoid/get_species_description()
-	return "This is a template species for your own creations!"
+	return "A geneline."
 
 /datum/species/humanoid/get_species_lore()
 	return list("A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur.")

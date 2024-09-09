@@ -5065,16 +5065,6 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
-"iAB" = (
-/obj/structure/flora/bush/sparsegrass/style_2,
-/obj/structure/flora/bush/lavendergrass/style_4,
-/obj/structure/flora/bush/grassy,
-/obj/structure/window/reinforced/fulltile{
-	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
-	},
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
-/turf/open/floor/grass,
-/area/station/security/prison/safe)
 "iBe" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/hydroponics/constructable,
@@ -5104,24 +5094,19 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
 "iEb" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
+/obj/effect/turf_decal/siding/purple{
 	dir = 8
 	},
-/obj/machinery/door/airlock/research{
-	name = "Robotics Lab"
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/machinery/door/airlock/multi_tile/public/glass{
+	name = "Hydroponics"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
-/obj/effect/turf_decal/trimline/purple/filled/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/purple/filled/warning{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/station/science/robotics/lab)
+/turf/open/floor/iron/white/smooth_large,
+/area/station/science/research)
 "iEl" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -7223,6 +7208,7 @@
 	},
 /obj/machinery/airalarm/directional/west,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/self_actualization_device,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "lLr" = (
@@ -7895,6 +7881,9 @@
 /obj/machinery/camera/directional/south{
 	network = list("ss13","rd","xeno")
 	},
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "nfi" = (
@@ -8060,8 +8049,8 @@
 /area/station/security/range)
 "nrz" = (
 /obj/structure/window/reinforced/spawner/directional/north,
-/turf/open/floor/iron/white,
-/area/station/science/xenobiology)
+/turf/open/floor/iron/white/smooth_large,
+/area/station/command/bridge)
 "nrB" = (
 /obj/machinery/vending/cola/black,
 /turf/open/floor/wood/tile,
@@ -9020,6 +9009,9 @@
 "oSb" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /mob/living/basic/slime,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "oSx" = (
@@ -9961,19 +9953,15 @@
 /turf/open/floor/plating,
 /area/station/engineering/main)
 "qCn" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 8
+/obj/structure/flora/bush/sparsegrass/style_2,
+/obj/structure/flora/bush/lavendergrass/style_4,
+/obj/structure/flora/bush/grassy,
+/obj/structure/window/reinforced/fulltile{
+	desc = "A full tile window that is reinforced with metal rods. Additionally, features a planty terrarium."
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/obj/machinery/door/airlock/multi_tile/public/glass{
-	name = "Hydroponics"
-	},
-/obj/effect/mapping_helpers/airlock/access/any/science/general,
-/turf/open/floor/iron/white/smooth_large,
-/area/station/science/research)
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/turf/open/floor/grass,
+/area/station/security/prison/safe)
 "qEj" = (
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
@@ -10197,6 +10185,9 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/west,
 /mob/living/basic/slime,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "qXB" = (
@@ -11056,6 +11047,9 @@
 "sgx" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/north,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "shk" = (
@@ -11273,8 +11267,10 @@
 /area/station/commons/hangar)
 "sBf" = (
 /obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "sCo" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -11328,6 +11324,9 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/light/directional/south,
 /mob/living/basic/slime,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "sHx" = (
@@ -12073,10 +12072,6 @@
 /obj/effect/landmark/start/mime,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
-"tLl" = (
-/obj/structure/window/reinforced/spawner/directional/north,
-/turf/open/floor/iron/white/smooth_large,
-/area/station/command/bridge)
 "tLM" = (
 /turf/open/floor/iron/smooth/airless{
 	color = "ACA3FF"
@@ -12642,6 +12637,9 @@
 "uEP" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "uFL" = (
@@ -13334,6 +13332,25 @@
 	desc = "A huge chunk of reinforced metal used to separate rooms. This one features ribbing that adds to the structural integrity of the ship. If it bends, it means it's not gonna break so easily."
 	},
 /area/station/service/kitchen)
+"vLr" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/door/airlock/research{
+	name = "Robotics Lab"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/robotics/lab)
 "vLT" = (
 /obj/structure/table,
 /obj/item/stack/cable_coil,
@@ -13481,7 +13498,7 @@
 /obj/machinery/door/airlock/research/glass{
 	name = "Research and Development"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/science/general,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/xenobiology)
 "vXS" = (
@@ -13935,6 +13952,9 @@
 "wAR" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "wBm" = (
@@ -38394,7 +38414,7 @@ xkB
 xkB
 xkB
 xkB
-iEb
+vLr
 xkB
 xkB
 xkB
@@ -39153,7 +39173,7 @@ kBe
 mce
 fsa
 ixw
-iAB
+qCn
 qwf
 moD
 eBk
@@ -41230,9 +41250,9 @@ jNr
 saQ
 sBf
 oSb
-nrz
-nrz
-nrz
+sBf
+sBf
+sBf
 sxO
 oSx
 tLM
@@ -43280,7 +43300,7 @@ iUZ
 syx
 kou
 hCp
-qCn
+iEb
 xXY
 biD
 biD
@@ -61006,7 +61026,7 @@ ucN
 gPH
 quI
 mFK
-tLl
+nrz
 jKQ
 bcG
 qEj

@@ -100,11 +100,11 @@
 	H.blood_volume += 65
 
 /datum/species/jelly/get_species_description()
-	return "Jellypeople are a strange and alien species with three eyes, made entirely out of gel."
+	return "A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur."
 
 /datum/species/jelly/get_species_lore()
 	return list(
-		"Jellypeople are actively being experimented on my Nanotrasen scientists, who are trying to unlock the secrets of their unique biology.",
+		"A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur.",
 	)
 
 /datum/species/jelly/prepare_human_for_preview(mob/living/carbon/human/human)

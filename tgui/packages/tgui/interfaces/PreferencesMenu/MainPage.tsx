@@ -66,7 +66,7 @@ const CharacterControls = (props: {
           onClick={props.handleOpenSpecies}
           fontSize="22px"
           icon="paw"
-          tooltip="geneline"
+          tooltip="Geneline"
           tooltipPosition="top"
         />
       </Stack.Item>

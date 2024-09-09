@@ -395,11 +395,11 @@
 		return COMSIG_MOB_STOP_REAGENT_CHECK
 
 
-/datum/species/jelly/roundstartslime/get_species_description()
-	return "A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur."
+/datum/species/jelly/get_species_description()
+	return placeholder_description
 
-/datum/species/jelly/roundstartslime/get_species_lore()
-	return "A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur."
+/datum/species/jelly/get_species_lore()
+	return list(placeholder_lore)
 
 /datum/species/jelly/roundstartslime
 	name = "Amorphean"

@@ -122,8 +122,8 @@
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 		SPECIES_PERK_ICON = "tint",
 		SPECIES_PERK_NAME = "Jelly Blood",
-		SPECIES_PERK_DESC = "[plural_form] don't have blood, but instead have toxic [initial(exotic_blood.name)]! \
-			Jelly is extremely important, as losing it will cause you to lose limbs. Having low jelly will make medical treatment very difficult.",
+		SPECIES_PERK_DESC = "Amorpheans don't have blood, but instead have cytoplasm! \
+			cytoplasm is extremely important, as losing it will cause you to lose limbs. Having low jelly will make medical treatment very difficult. This unique composition of fluids also renders them immune to toxins!",
 	))
 
 	return to_add

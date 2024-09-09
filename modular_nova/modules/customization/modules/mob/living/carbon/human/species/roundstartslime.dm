@@ -4,7 +4,7 @@
 	mutant_bodyparts = list()
 	hair_alpha = 160 //a notch brighter so it blends better.
 	facial_hair_alpha = 160
-	mutantliver = /obj/item/organ/internal/liver/slime
+	mutantliver = null
 	mutantstomach = /obj/item/organ/internal/stomach/slime
 	mutantbrain = /obj/item/organ/internal/brain/slime
 	mutantears = /obj/item/organ/internal/ears/jelly
@@ -242,7 +242,7 @@
 	if(damage && item.is_drainable() && item.reagents.has_reagent(/datum/reagent/toxin/plasma) && item.reagents.get_reagent_amount(/datum/reagent/toxin/plasma) >= 100 && (organ_flags & ORGAN_ORGANIC)) //attempt to heal the brain
 
 		user.visible_message(span_notice("[user] starts to slowly pour the contents of [item] onto [src]. It seems to bubble and roil, beginning to stretch its cytoskeleton outwards..."), span_notice("You start to slowly pour the contents of [item] onto [src]. It seems to bubble and roil, beginning to stretch its membrane outwards..."))
-		if(!do_after(user, 60 SECONDS, src))
+		if(!do_after(user, 15 SECONDS, src))
 			to_chat(user, span_warning("You failed to pour the contents of [item] onto [src]!"))
 			return TRUE
 
@@ -388,10 +388,10 @@
 		if(slime.blood_volume > BLOOD_VOLUME_SLIME_SPLIT)
 			slime.adjustOrganLoss(
 			pick(organs_we_mend),
-			- 4 * seconds_per_tick,
+			- 16 * seconds_per_tick,
 		)
 		if(SPT_PROB(5, seconds_per_tick))
-			to_chat(slime, span_purple("Your body's thirst for plasma is quenched, your inner and outer membrane using it to regenerate."))
+			to_chat(slime, span_purple("Your body's thirst for plasma is quenched, your inner and outer membrane is using it to regenerate."))
 		return COMSIG_MOB_STOP_REAGENT_CHECK
 
 
@@ -402,7 +402,7 @@
 	return list(placeholder_lore)
 
 /datum/species/jelly/roundstartslime
-	name = "Xenobiological Slime Hybrid"
+	name = "Amorphean"
 	id = SPECIES_SLIMESTART
 	examine_limb_id = SPECIES_SLIMEPERSON
 	coldmod = 6
@@ -426,7 +426,7 @@
 
 	to_add += list(
 		list(
-			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "scissors",
 			SPECIES_PERK_NAME = "Headcase",
 			SPECIES_PERK_DESC = "Given slimepeople have all their organs in their chest, and no neck to boot, they can be decapitated easily. However, this is also non-lethal.",

@@ -394,13 +394,6 @@
 			to_chat(slime, span_purple("Your body's thirst for plasma is quenched, your inner and outer membrane is using it to regenerate."))
 		return COMSIG_MOB_STOP_REAGENT_CHECK
 
-
-/datum/species/jelly/get_species_description()
-	return placeholder_description
-
-/datum/species/jelly/get_species_lore()
-	return list(placeholder_lore)
-
 /datum/species/jelly/roundstartslime
 	name = "Amorphean"
 	id = SPECIES_SLIMESTART
@@ -467,6 +460,14 @@
 /datum/species/jelly/roundstartslime/apply_supplementary_body_changes(mob/living/carbon/human/target, datum/preferences/preferences, visuals_only = FALSE)
 	if(preferences.read_preference(/datum/preference/toggle/allow_mismatched_hair_color))
 		target.dna.species.hair_color_mode = null
+
+/datum/species/jelly/get_species_description()
+	return "A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur."
+
+/datum/species/jelly/get_species_lore()
+	return list(
+		"A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur.",
+	)
 
 /**
  * Alter Form is the ability of slimes to edit many of their character attributes at will

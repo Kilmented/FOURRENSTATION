@@ -4,7 +4,7 @@
 	mutant_bodyparts = list()
 	hair_alpha = 160 //a notch brighter so it blends better.
 	facial_hair_alpha = 160
-	mutantliver = null
+	mutantliver = /obj/item/organ/internal/liver/slime
 	mutantstomach = /obj/item/organ/internal/stomach/slime
 	mutantbrain = /obj/item/organ/internal/brain/slime
 	mutantears = /obj/item/organ/internal/ears/jelly

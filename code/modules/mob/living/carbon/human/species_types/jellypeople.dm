@@ -14,7 +14,7 @@
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_SLIME
 	inherent_traits = list(
 		TRAIT_MUTANT_COLORS,
-		TRAIT_TOXINLOVER,
+		TRAIT_TOXIMMUNE,
 		TRAIT_NOBLOOD,
 	)
 	mutanttongue = /obj/item/organ/internal/tongue/jelly
@@ -26,7 +26,7 @@
 	blood_deficiency_drain_rate = JELLY_REGEN_RATE + BLOOD_DEFICIENCY_MODIFIER
 	coldmod = 6   // = 3x cold damage
 	heatmod = 0.5 // = 1/4x heat damage
-	payday_modifier = 1.0
+	payday_modifier = 2.0
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_PRIDE | MIRROR_MAGIC | RACE_SWAP | ERT_SPAWN | SLIME_EXTRACT
 	inherent_factions = list(FACTION_SLIME)
 	species_language_holder = /datum/language_holder/jelly
@@ -42,27 +42,18 @@
 		BODY_ZONE_CHEST = /obj/item/bodypart/chest/jelly,
 	)
 	var/datum/action/innate/regenerate_limbs/regenerate_limbs
-	var/datum/action/innate/alter_form/alter_form //NOVA EDIT ADDITION - CUSTOMIZATION
 
 /datum/species/jelly/on_species_gain(mob/living/carbon/new_jellyperson, datum/species/old_species, pref_load)
 	. = ..()
 	if(ishuman(new_jellyperson))
 		regenerate_limbs = new
 		regenerate_limbs.Grant(new_jellyperson)
-		//NOVA EDIT ADDITION BEGIN - CUSTOMIZATION
-		alter_form = new
-		alter_form.Grant(new_jellyperson)
-		//NOVA EDIT ADDITION END
 	new_jellyperson.AddElement(/datum/element/soft_landing)
 	RegisterSignal(new_jellyperson, COMSIG_HUMAN_ON_HANDLE_BLOOD, PROC_REF(slime_blood))
 
 /datum/species/jelly/on_species_loss(mob/living/carbon/former_jellyperson, datum/species/new_species, pref_load)
 	if(regenerate_limbs)
 		regenerate_limbs.Remove(former_jellyperson)
-	//NOVA EDIT ADDITION BEGIN - CUSTOMIZATION
-	if(alter_form)
-		alter_form.Remove(former_jellyperson)
-	//NOVA EDIT ADDITION END
 	former_jellyperson.RemoveElement(/datum/element/soft_landing)
 	UnregisterSignal(former_jellyperson, COMSIG_HUMAN_ON_HANDLE_BLOOD)
 	return ..()
@@ -106,14 +97,14 @@
 	consumed_limb.drop_limb()
 	to_chat(H, span_userdanger("Your [consumed_limb] is drawn back into your body, unable to maintain its shape!"))
 	qdel(consumed_limb)
-	H.blood_volume += 20
+	H.blood_volume += 65
 
 /datum/species/jelly/get_species_description()
-	return "Jellypeople are a strange and alien species with three eyes, made entirely out of gel."
+	return "A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur."
 
 /datum/species/jelly/get_species_lore()
 	return list(
-		"Jellypeople are actively being experimented on my Nanotrasen scientists, who are trying to unlock the secrets of their unique biology.",
+		"A Geneline. Biotampering has been popular since the nineteen nineties, and as such, whole subcultures have formed around certain sets of Patterns. Nowadays, the average person is able to swap Patterns in a matter of minutes - when in the past it would be weeks to months of agonizing pain as a metamorphosis would occur.",
 	)
 
 /datum/species/jelly/prepare_human_for_preview(mob/living/carbon/human/human)
@@ -130,9 +121,9 @@
 	to_add += list(list(
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 		SPECIES_PERK_ICON = "tint",
-		SPECIES_PERK_NAME = "Jelly Blood",
-		SPECIES_PERK_DESC = "[plural_form] don't have blood, but instead have toxic [initial(exotic_blood.name)]! \
-			Jelly is extremely important, as losing it will cause you to lose limbs. Having low jelly will make medical treatment very difficult.",
+		SPECIES_PERK_NAME = "Cytoplasm",
+		SPECIES_PERK_DESC = "Amorpheans don't have blood, but instead have cytoplasm! \
+			cytoplasm is extremely important, as losing it will cause you to lose limbs. Having low jelly will make medical treatment very difficult. This unique composition of fluids also renders them immune to toxins!",
 	))
 
 	return to_add
@@ -203,8 +194,7 @@
 
 /datum/species/jelly/slime/get_physical_attributes()
 	return "Slimepeople have jelly for blood and their vacuoles can extremely quickly convert plasma to it if they're breathing it in.\
-		They can then use the excess blood to split off an excess body, which their consciousness can transfer to at will or on death.\
-		Most things that are toxic heal them, but most things that prevent toxicity damage them!"
+		They can then use the excess blood to split off an excess body, which their consciousness can transfer to at will or on death."
 
 /datum/species/jelly/slime/on_species_loss(mob/living/carbon/C)
 	if(slime_split)
@@ -513,8 +503,7 @@
 	COOLDOWN_DECLARE(extract_cooldown)
 
 /datum/species/jelly/luminescent/get_physical_attributes()
-	return "Luminescent are able to integrate slime extracts into themselves for wondrous effects. \
-		Most things that are toxic heal them, but most things that prevent toxicity damage them!"
+	return "Luminescent are able to integrate slime extracts into themselves for wondrous effects"
 
 //Species datums don't normally implement destroy, but JELLIES SUCK ASS OUT OF A STEEL STRAW and have to i guess
 /datum/species/jelly/luminescent/Destroy(force)
@@ -686,8 +675,7 @@
 	var/datum/action/innate/project_thought/project_action
 
 /datum/species/jelly/stargazer/get_physical_attributes()
-	return "Stargazers can link others' minds with their own, creating a private communication channel. \
-		Most things that are toxic heal them, but most things that prevent toxicity damage them!"
+	return "Stargazers can link others' minds with their own, creating a private communication channel."
 
 /datum/species/jelly/stargazer/on_species_gain(mob/living/carbon/grant_to, datum/species/old_species)
 	. = ..()

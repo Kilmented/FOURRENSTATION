@@ -8327,6 +8327,7 @@
 #include "modular_warrenstation\code\modules\ammo_stacks\code\ammo_stack_base.dm"
 #include "modular_warrenstation\code\modules\ammo_stacks\code\stack_types.dm"
 #include "modular_warrenstation\code\modules\bitrunning\disks.dm"
+#include "modular_warrenstation\code\modules\mob\dead\new_player\body_markings.dm"
 #include "modular_warrenstation\deafness_cap\code\deafness_limit.dm"
 #include "modular_warrenstation\deepmaint_stuff\code\order_console_slop\order_console.dm"
 #include "modular_warrenstation\epic_loot\code\loot_structures\register.dm"

@@ -23,7 +23,7 @@
 	var/client_echo_group = LOWER_TEXT(client_source?.prefs.read_preference(/datum/preference/choiced/echolocation_key))
 	if (isnull(client_echo_group))
 		client_echo_group = "echolocation"
-	if (client_echo_group == "psychic")
+	if (client_echo_group == "Lich-Martin")
 		client_echo_group = "psyker" // set this non-player-facing so they share echolocation with coded chaplain psykers/pirates and the like
 
 	var/client_use_echo = client_source?.prefs.read_preference(/datum/preference/toggle/echolocation_overlay)
@@ -127,7 +127,7 @@
 	return "Echolocation" in preferences.all_quirks
 
 /datum/preference/choiced/echolocation_key/init_possible_values()
-	var/list/values = list("Extrasensory", "Psychic", "Auditory/Vibrational")
+	var/list/values = list("Auditory/Vibrational", "Lich-Martin")
 	return values
 
 /datum/preference/choiced/echolocation_key/apply_to_human(mob/living/carbon/human/target, value)

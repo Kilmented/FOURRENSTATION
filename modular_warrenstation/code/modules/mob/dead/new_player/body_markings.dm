@@ -4,7 +4,7 @@
 */
 
 /datum/body_marking/bubber
-	icon = 'modular_zubbers/icons/mob/body_markings/markings.dmi'
+	icon = 'modular_warrenstation/icons/mob/body_markings/markings.dmi'
 	default_color = "#000000"
 	recommended_species = null
 

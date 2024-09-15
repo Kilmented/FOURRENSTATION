@@ -38,7 +38,7 @@
 	icon_state = "deer"
 	affected_bodyparts = HEAD
 
-	/datum/body_marking/bubber/anime_inner
+/datum/body_marking/bubber/anime_inner
 	name = "Anime Eyes (Inner)"
 	icon_state = "eyesinner"
 	affected_bodyparts = HEAD

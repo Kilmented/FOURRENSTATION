@@ -78,7 +78,7 @@
 /obj/item/clothing/suit/space/breaker/armored
 	desc = "A pressure-sealed suit adorned with high-vis strips and plenty of gear rigging; additionally, this one's been fitted with an armored vest. A worn-out tag on the side says " + span_engradio("\"Safety Second\"") + "."
 	icon_state = "space_breaker_armored"
-	armor = list(MELEE = 35, BULLET = 30, LASER = 30, ENERGY = 40, BOMB = 25, BIO = 100, FIRE = 80, ACID = 70, WOUND = 10)
+	armor_type = /datum/armor/mod_theme_security
 	/*For comparison, view the two references:
 	/obj/item/clothing/suit/space: armor = list(MELEE = 0, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 100, FIRE = 80, ACID = 70)
 	/obj/item/clothing/suit/armor: armor = list(MELEE = 35, BULLET = 30, LASER = 30, ENERGY = 40, BOMB = 25, BIO = 0, FIRE = 50, ACID = 50, WOUND = 10)

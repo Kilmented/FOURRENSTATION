@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;quirk&#x2F;magical - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/quirk/magical.html#var">Var Details</a> - <a href="datum/quirk/magical.html#proc">Proc Details</a></header>
+<main>
+<h1>magical <aside>/<a href="datum.html">datum</a>/<a href="datum/quirk.html">quirk</a>/<a href="datum/quirk/magical.html">magical</a></aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L7">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 7"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/added_spells">added_spells</a></th><td>The list of spells we've added for cleanup upon quirk removal.</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/bonded_item">bonded_item</a></th><td>The bonded item we've marked. Holding this gives us a pretty big mana regeneration efficiency buff.</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/halt_regen">halt_regen</a></th><td>Is regeneration currently halted at the moment?</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/mana">mana</a></th><td>The mana value held by the quirk and used to power quirk-only spells.</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/mana_notify">mana_notify</a></th><td>TimerID for the mana notification alert</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/max_mana">max_mana</a></th><td>The maximum possible mana value, in case we want to increase this at any point.</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/regeneration_mana_modifier">regeneration_mana_modifier</a></th><td>Our current mana regeneration modifier. Scale this UP to make things more efficient.</td></tr>
+            <tr><th><a href="datum/quirk/magical.html#var/regeneration_nutrition_modifier">regeneration_nutrition_modifier</a></th><td>Our current nutrition efficiency modifier. Scale this DOWN to make things more efficient.</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="datum/quirk/magical.html#proc/cast_quirk_spell">cast_quirk_spell</a></th><td>To be called inside spells/items that should consume mana from the Magical quirk. Deducts mana and calls appropriate checks.</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/added_spells"><aside class="declaration">var </aside>added_spells
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L23">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 23"/></a></h3>
+        <p>The list of spells we've added for cleanup upon quirk removal.</p><h3 id="var/bonded_item"><aside class="declaration">var </aside>bonded_item
+            <aside>&ndash; /<a href="obj.html">obj</a></aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L29">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 29"/></a></h3>
+        <p>The bonded item we've marked. Holding this gives us a pretty big mana regeneration efficiency buff.</p><h3 id="var/halt_regen"><aside class="declaration">var </aside>halt_regen
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L27">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 27"/></a></h3>
+        <p>Is regeneration currently halted at the moment?</p><h3 id="var/mana"><aside class="declaration">var </aside>mana
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L19">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 19"/></a></h3>
+        <p>The mana value held by the quirk and used to power quirk-only spells.</p><h3 id="var/mana_notify"><aside class="declaration">var </aside>mana_notify
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L25">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 25"/></a></h3>
+        <p>TimerID for the mana notification alert</p><h3 id="var/max_mana"><aside class="declaration">var </aside>max_mana
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L21">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 21"/></a></h3>
+        <p>The maximum possible mana value, in case we want to increase this at any point.</p><h3 id="var/regeneration_mana_modifier"><aside class="declaration">var </aside>regeneration_mana_modifier
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L31">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 31"/></a></h3>
+        <p>Our current mana regeneration modifier. Scale this UP to make things more efficient.</p><h3 id="var/regeneration_nutrition_modifier"><aside class="declaration">var </aside>regeneration_nutrition_modifier
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L33">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 33"/></a></h3>
+        <p>Our current nutrition efficiency modifier. Scale this DOWN to make things more efficient.</p><h2 id="proc">Proc Details</h2><h3 id="proc/cast_quirk_spell"><aside class="declaration">proc </aside>cast_quirk_spell<aside>(mana_cost) 
+        
+    
+            <a href="https://github.com/Kilmented/FOURRENSTATION/blob/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3/modular_warrenstation/code/modules/quirks.dm#L124">
+        <img src="git.png" width="16" height="16" title="modular_warrenstation&#x2F;code&#x2F;modules&#x2F;quirks.dm 124"/></a></aside>
+        </h3>
+        <p>To be called inside spells/items that should consume mana from the Magical quirk. Deducts mana and calls appropriate checks.</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/Kilmented/FOURRENSTATION/tree/71c5d61518261f6a7ca76ef2e7995acaa4ccf5c3">71c5d61</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/crates/dmdoc/README.md">dmdoc 1.8.0</a></footer>
+</body>
+</html>

@@ -1575,6 +1575,7 @@
 /obj/machinery/ammo_workbench,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/disk/ammo_workbench/advanced,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/ai_monitored/security/armory)
 "cPg" = (
@@ -2445,6 +2446,13 @@
 /obj/machinery/drone_dispenser,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
+"eqF" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/machinery/seed_extractor,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/science/research)
 "erz" = (
 /turf/open/floor/wood/tile,
 /area/station/science/robotics/mechbay)
@@ -2460,6 +2468,18 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/central/fore)
+"esR" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/dark/filled/line{
+	dir = 6
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/commons/hangar)
 "etZ" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -7904,18 +7924,6 @@
 	dir = 1
 	},
 /area/station/commons/hangar)
-"ngz" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 6
-	},
-/obj/effect/turf_decal/trimline/dark/filled/line{
-	dir = 6
-	},
-/obj/machinery/recharge_station,
-/turf/open/floor/iron/half{
-	dir = 8
-	},
-/area/station/commons/hangar)
 "nhr" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/left/directional/north,
@@ -10428,6 +10436,11 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/science/robotics/mechbay)
+"rkQ" = (
+/obj/machinery/seed_extractor,
+/obj/item/storage/bag/plants/portaseeder,
+/turf/open/floor/iron/white,
+/area/station/service/hydroponics/garden)
 "rlc" = (
 /turf/closed/wall/r_wall{
 	name = "reinforced bulkhead";
@@ -12417,18 +12430,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/storage)
-"urq" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 5
-	},
-/obj/effect/turf_decal/trimline/dark/filled/line{
-	dir = 5
-	},
-/obj/machinery/recharge_station,
-/turf/open/floor/iron/half{
-	dir = 8
-	},
-/area/station/commons/hangar)
 "urP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -12674,6 +12675,12 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/central/fore)
+"uMm" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/biogenerator,
+/turf/open/floor/iron/white,
+/area/station/service/hydroponics/garden)
 "uMy" = (
 /obj/structure/rack,
 /obj/item/stack/cable_coil,
@@ -13883,11 +13890,17 @@
 /turf/open/floor/wood/parquet,
 /area/station/service/cafeteria)
 "wzs" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/biogenerator,
-/turf/open/floor/iron/white,
-/area/station/service/hydroponics/garden)
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/dark/filled/line{
+	dir = 5
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/iron/half{
+	dir = 8
+	},
+/area/station/commons/hangar)
 "wzB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -14833,13 +14846,6 @@
 /obj/effect/landmark/start/head_of_security,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/service/cafeteria)
-"xKV" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 4
-	},
-/obj/machinery/seed_extractor,
-/turf/open/floor/iron/white/smooth_large,
-/area/station/science/research)
 "xMk" = (
 /obj/effect/turf_decal/siding/dark/end{
 	dir = 1
@@ -14997,11 +15003,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/range)
-"xYz" = (
-/obj/machinery/seed_extractor,
-/obj/item/storage/bag/plants/portaseeder,
-/turf/open/floor/iron/white,
-/area/station/service/hydroponics/garden)
 "xZS" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 2
@@ -44552,7 +44553,7 @@ iUY
 reZ
 aQx
 gLM
-wzs
+uMm
 pbu
 uEI
 xrH
@@ -44809,7 +44810,7 @@ dfc
 iTE
 eTz
 bqb
-xYz
+rkQ
 pbu
 uEI
 xrH
@@ -46618,7 +46619,7 @@ sMt
 lKl
 tKu
 gdd
-xKV
+eqF
 qBT
 aaD
 mPZ
@@ -58165,13 +58166,13 @@ bSG
 bmx
 bmx
 wqP
-ngz
+esR
 bcG
 bok
 bcG
 bUe
 bcG
-urq
+wzs
 snD
 tyD
 tyD

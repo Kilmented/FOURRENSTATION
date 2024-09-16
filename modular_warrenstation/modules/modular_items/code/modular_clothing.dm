@@ -41,7 +41,6 @@
 	icon_state = "skirt"
 	can_adjust = FALSE
 	body_parts_covered = GROIN|LEGS
-	fitted = FEMALE_UNIFORM_TOP
 
 //Shipbreaker Softsuits - Mostly fluff for ruins, may be implemented as a ghostrole in Overmap
 /obj/item/clothing/head/helmet/space/breaker

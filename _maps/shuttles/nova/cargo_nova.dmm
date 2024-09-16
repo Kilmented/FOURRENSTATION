@@ -77,14 +77,6 @@
 	},
 /turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
 /area/shuttle/supply)
-"O" = (
-/obj/effect/turf_decal/tile/neutral/diagonal_edge,
-/obj/effect/turf_decal/box/white/corners{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/mineral/titanium/spaceship/nodiagonal,
-/area/shuttle/supply)
 "P" = (
 /obj/structure/marker_beacon/olive,
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -154,7 +146,7 @@ b
 "}
 (7,1,1) = {"
 m
-O
+T
 x
 T
 m

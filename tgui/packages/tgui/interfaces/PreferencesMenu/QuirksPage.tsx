@@ -343,15 +343,15 @@ export function QuirksPage(props) {
               maxPositiveQuirks !== -1 &&
               positiveQuirks >= maxPositiveQuirks
             ) {
-              return "You can't have any more positive quirks!";
+              return "You can't have any more positive Biotampers!";
             } else if (pointsEnabled && balance + quirk.value > 0) {
-              return 'You need a negative quirk to balance this out!';
+              return 'You need a negative Biotamper to balance this out!';
             }
           }
 
           // NOVA EDIT START - Veteran quirks
           if (quirk.veteran_only && !data.is_veteran) {
-            return 'You need to be a veteran to select this quirk, apply today!';
+            return 'You need to be a veteran to select this Biotamper!';
           }
           // NOVA EDIT END
 
@@ -381,7 +381,7 @@ export function QuirksPage(props) {
           const quirk = quirkInfo[quirkName];
 
           if (pointsEnabled && balance - quirk.value > 0) {
-            return 'You need to remove a positive quirk first!';
+            return 'You need to remove a positive Biotamper first!';
           }
 
           return undefined;
@@ -393,7 +393,7 @@ export function QuirksPage(props) {
               <Stack vertical fill align="center">
                 <Stack.Item>
                   {maxPositiveQuirks > 0 ? (
-                    <Box fontSize="1.3em">Positive Quirks</Box>
+                    <Box fontSize="1.3em">Positive Biotampers</Box>
                   ) : (
                     <Box mt={pointsEnabled ? 3.4 : 0} />
                   )}
@@ -411,7 +411,7 @@ export function QuirksPage(props) {
 
                 <Stack.Item>
                   <Box as="b" fontSize="1.6em">
-                    Available Quirks
+                    Available Biotampers
                   </Box>
                 </Stack.Item>
 
@@ -455,7 +455,7 @@ export function QuirksPage(props) {
               <Stack vertical fill align="center">
                 <Stack.Item>
                   {pointsEnabled ? (
-                    <Box fontSize="1.3em">Quirk Balance</Box>
+                    <Box fontSize="1.3em">Complexity Balance</Box>
                   ) : (
                     <Box mt={maxPositiveQuirks > 0 ? 3.4 : 0} />
                   )}
@@ -471,7 +471,7 @@ export function QuirksPage(props) {
 
                 <Stack.Item>
                   <Box as="b" fontSize="1.6em">
-                    Current Quirks
+                    Current Biotampers
                   </Box>
                 </Stack.Item>
 

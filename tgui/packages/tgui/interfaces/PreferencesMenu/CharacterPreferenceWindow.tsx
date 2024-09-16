@@ -180,7 +180,7 @@ export const CharacterPreferenceWindow = (props) => {
                   page={Page.Antags}
                   setPage={setCurrentPage}
                 >
-                  Antagonists
+                  REDACTED
                 </PageButton>
               </Stack.Item>
 
@@ -190,7 +190,7 @@ export const CharacterPreferenceWindow = (props) => {
                   page={Page.Quirks}
                   setPage={setCurrentPage}
                 >
-                  Quirks
+                  Biotampering
                 </PageButton>
               </Stack.Item>
             </Stack>

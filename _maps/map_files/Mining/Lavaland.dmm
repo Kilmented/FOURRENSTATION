@@ -3585,18 +3585,6 @@
 	},
 /turf/open/floor/iron/large,
 /area/mine/lounge)
-"Ec" = (
-/obj/docking_port/stationary{
-	dir = 2;
-	dwidth = 3;
-	height = 10;
-	name = "lavaland mine";
-	shuttle_id = "mining_away";
-	width = 7
-	},
-/obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_atmos,
-/area/lavaland/surface/outdoors)
 "Eg" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/disposalpipe/segment,
@@ -44609,7 +44597,7 @@ cc
 XM
 CM
 lM
-Ec
+BP
 BP
 BP
 BP

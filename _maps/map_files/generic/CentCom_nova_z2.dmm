@@ -224,6 +224,7 @@
 	pixel_y = 19
 	},
 /obj/machinery/camera/xray/directional/north,
+/obj/item/kitchen/rollingpin,
 /turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "asJ" = (
@@ -1488,6 +1489,13 @@
 	name = "bulkhead"
 	},
 /area/station/science/robotics/lab)
+"cAY" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/machinery/seed_extractor,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/science/research)
 "cCE" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -7204,6 +7212,11 @@
 /obj/machinery/light/warm/directional/east,
 /turf/open/floor/iron/white,
 /area/station/science/circuits)
+"lLx" = (
+/obj/machinery/seed_extractor,
+/obj/item/storage/bag/plants/portaseeder,
+/turf/open/floor/iron/white,
+/area/station/service/hydroponics/garden)
 "lPi" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/telecomms,
@@ -8915,6 +8928,12 @@
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
+"oOw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/biogenerator,
+/turf/open/floor/iron/white,
+/area/station/service/hydroponics/garden)
 "oPs" = (
 /obj/structure/flora/bush/sparsegrass,
 /obj/structure/flora/grass/jungle/a/style_2,
@@ -12699,6 +12718,7 @@
 	},
 /area/station/science/robotics/mechbay)
 "uQA" = (
+/obj/machinery/vending/hydronutrients,
 /turf/open/floor/iron/white/smooth_half{
 	dir = 8
 	},
@@ -15126,6 +15146,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/machinery/vending/hydroseeds,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/science/research)
 
@@ -44548,7 +44569,7 @@ iUY
 reZ
 aQx
 gLM
-gLM
+oOw
 pbu
 uEI
 xrH
@@ -44805,7 +44826,7 @@ dfc
 iTE
 eTz
 bqb
-bqb
+lLx
 pbu
 uEI
 xrH
@@ -46614,7 +46635,7 @@ sMt
 lKl
 tKu
 gdd
-mtw
+cAY
 qBT
 aaD
 mPZ

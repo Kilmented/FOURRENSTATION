@@ -8336,6 +8336,7 @@
 #include "modular_warrenstation\mobs\mob_ai.dm"
 #include "modular_warrenstation\mobs\mob_dsword.dm"
 #include "modular_warrenstation\mobs\moboutfits.dm"
+#include "modular_warrenstation\modules\modular_items\code\modular_clothing.dm"
 #include "modular_warrenstation\money_rework\code\atm.dm"
 #include "modular_warrenstation\money_rework\code\money.dm"
 #include "modular_warrenstation\money_rework\code\moneyspawners.dm"

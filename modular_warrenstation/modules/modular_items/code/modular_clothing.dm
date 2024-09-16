@@ -25,7 +25,7 @@
 	icon = 'modular_warrenstation/modules/modular_items/icons/modular_clothing.dmi'
 	worn_icon = 'modular_warrenstation/modules/modular_items/icons/modular_clothing_mob.dmi'
 	icon_state = "fatigues"
-	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 30, ACID = 30, WOUND = 10)
+	armor_type = /datum/armor/clothing_under/rank_security
 	strip_delay = 50
 	alt_covers_chest = FALSE
 	sensor_mode = SENSOR_COORDS
@@ -50,7 +50,7 @@
 	worn_icon = 'modular_warrenstation/master_files/icons/mob/clothing/head.dmi'
 	icon_state = "space_breaker"
 	desc = "A specially designed helmet with high-grade UV shielding, protecting the wearers eyes from the brightest arc-flashes. A worn-out tag on the side says " + span_engradio("\"Safety Second\"") + "."
-	mutant_variants = NONE //No sprites
+
 
 /obj/item/clothing/head/helmet/space/breaker/alt
 	icon_state = "space_breaker_alt"
@@ -64,7 +64,7 @@
 	icon_state = "space_breaker"
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals)	//This will have more when its added I swear
 	cell = /obj/item/stock_parts/cell/high
-	mutant_variants = NONE //No sprites
+
 
 /obj/item/clothing/suit/space/breaker/worn_overlays(mutable_appearance/standing, isinhands, icon_file)
 	. = ..()

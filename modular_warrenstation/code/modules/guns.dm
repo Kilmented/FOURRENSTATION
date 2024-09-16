@@ -9,9 +9,36 @@
 
 // Happy 100th PR, Warrenstation!
 
+// LINE BREAK FOR CALIBER SIZE DEFINES
+
+#define CALIBER_COMPACT "Compact"
+#define CALIBER_MEDIUM "Medium"
+#define CALIBER_LARGE "Large"
+
 // LINE BREAK FOR CALIBER DEFINES
 
+#define CALIBER_98MM "98mm"
+
 // Special Warrenstation calibers start below!
+
+/obj/item/ammo_box/magazine/uzim9mm
+	name = "uzi magazine (9mm)"
+	icon_state = "uzi9mm-32"
+	base_icon_state = "uzi9mm"
+	ammo_type = /obj/item/ammo_casing/ccmm
+	caliber = list(CALIBER_9MM, CALIBER_COMPACT)
+	max_ammo = 32
+
+/obj/item/ammo_casing/ccmm
+	name = "9mm bullet casing"
+	desc = "A 9mm bullet casing."
+	caliber = list(CALIBER_9MM, CALIBER_COMPACT)
+	projectile_type = /obj/projectile/bullet/c9mm
+
+/obj/projectile/bullet/c9mm
+	name = "9mm bullet"
+	damage = 30
+	embedding = list(embed_chance=15, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.4, pain_mult=5, jostle_pain_mult=6, rip_time=10)
 
 // LINE SEPERATION FOR RESKINS
 
@@ -19,14 +46,15 @@
 
 /obj/item/firing_pin/wsexplorer
 	name = "SolStill TAC Firing Pin"
-	desc = "A firing pin created and used by SolStill to allow civilians to use guns without the risk of them going off in civil areas. TAC doesn't stand for anything, it just sounds cool."
+	desc = "A firing pin created and used by SolStill to allow civilians to use guns without the risk of them going off in preprogrammed civil areas. TAC doesn't stand for anything, it just sounds cool."
 	icon_state = "firing_pin_explorer"
 	fail_message = "Location error!"
+	pin_removable = FALSE
 
 // This checks that the user isn't on the station Z-level.
 /obj/item/firing_pin/wsexplorer/pin_auth(mob/living/user)
 	var/turf/station_check = get_turf(user)
-	if(!station_check || is_station_level(station_check.z))
+	if(!station_check || is_centcom_level(station_check.z))
 		return FALSE
 	return TRUE
 

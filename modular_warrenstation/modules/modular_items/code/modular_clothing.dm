@@ -63,7 +63,7 @@
 	worn_icon = 'modular_warrenstation/master_files/icons/mob/clothing/suit.dmi'
 	icon_state = "space_breaker"
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals)	//This will have more when its added I swear
-	cell = /obj/item/stock_parts/cell/high/plus
+	cell = /obj/item/stock_parts/cell/high
 	mutant_variants = NONE //No sprites
 
 /obj/item/clothing/suit/space/breaker/worn_overlays(mutable_appearance/standing, isinhands, icon_file)

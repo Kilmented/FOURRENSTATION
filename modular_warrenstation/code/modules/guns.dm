@@ -9,36 +9,19 @@
 
 // Happy 100th PR, Warrenstation!
 
-// LINE BREAK FOR CALIBER SIZE DEFINES
-
-#define CALIBER_COMPACT "Compact"
-#define CALIBER_MEDIUM "Medium"
-#define CALIBER_LARGE "Large"
-
 // LINE BREAK FOR CALIBER DEFINES
 
-#define CALIBER_98MM "98mm"
+#define CALIBER_C1 "9x19mm Parabellum"
+#define CALIBER_C2 "10x25mm Auto"
 
-// Special Warrenstation calibers start below!
+#define CALIBER_M1 "5.56x45mm NATO"
+#define CALIBER_M2 "6.5x48mm Creedmoor"
 
-/obj/item/ammo_box/magazine/uzim9mm
-	name = "uzi magazine (9mm)"
-	icon_state = "uzi9mm-32"
-	base_icon_state = "uzi9mm"
-	ammo_type = /obj/item/ammo_casing/ccmm
-	caliber = list(CALIBER_9MM, CALIBER_COMPACT)
-	max_ammo = 32
+#define CALIBER_L1 "7.62x51mm NATO"
+#define CALIBER_L2 "8.6×70mm Lapua Magnum"
 
-/obj/item/ammo_casing/ccmm
-	name = "9mm bullet casing"
-	desc = "A 9mm bullet casing."
-	caliber = list(CALIBER_9MM, CALIBER_COMPACT)
-	projectile_type = /obj/projectile/bullet/c9mm
-
-/obj/projectile/bullet/c9mm
-	name = "9mm bullet"
-	damage = 30
-	embedding = list(embed_chance=15, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.4, pain_mult=5, jostle_pain_mult=6, rip_time=10)
+#define CALIBER_S1 ".410 bore"
+#define CALIBER_S2 "12 Gauge"
 
 // LINE SEPERATION FOR RESKINS
 
@@ -51,7 +34,7 @@
 	fail_message = "Location error!"
 	pin_removable = FALSE
 
-// This checks that the user isn't on the station Z-level.
+// This checks that the user isn't on the ship Z-level.
 /obj/item/firing_pin/wsexplorer/pin_auth(mob/living/user)
 	var/turf/station_check = get_turf(user)
 	if(!station_check || is_centcom_level(station_check.z))
@@ -79,4 +62,3 @@
 	name = "firing pin"
 	desc = "A small authentication device, to be inserted into a firearm receiver to allow operation. This one is as standard as they come, allowing usage everywhere."
 
-// LINE SEPERATION FOR AMMO BOXES

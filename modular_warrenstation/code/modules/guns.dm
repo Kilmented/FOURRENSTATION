@@ -26,9 +26,6 @@
 #define DAMAGE_HEAVY_SMALL 185
 #define DAMAGE_HEAVY_LARGE 250
 
-
-
-
 #define CALIBER_COMPACT_MEDIUM_MSTIM "9x18mm VEB"
 #define CALIBER_COMPACT_LARGE_MSTIM "10x25mm VEB"
 
@@ -43,7 +40,6 @@
 // these defines are for OPFOR, for use in weapons that are not so easy to obtain, and ammo that is "scarce" putting it lightly
 #define CALIBER_COMPACT_SMALL_SS "5.7x28mm SolStill"
 #define CALIBER_MEDIUM_LARGE_SS "6.8x51mm SolStill"
-
 
 // defines for gun stats
 
@@ -103,8 +99,6 @@
 #define DEFAULT_EMBEDDED_PAIN_STAM_PCT 0.5 //This percentage of all pain will be dealt as stam damage rather than brute (0-1)
 #define LOW_EMBEDDED_PAIN_STAM_PCT 0.2
 
-// LINE BREAK FOR CASINGS + PROJECTILES
-// LINE BREAK FOR CASINGS + PROJECTILES
 // LINE BREAK FOR CASINGS + PROJECTILES
 
 /obj/projectile/bullet/veb9by18
@@ -203,7 +197,6 @@
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
 
-
 /obj/projectile/bullet/ss6point8by51
 	name = "6.8mm bullet"
 	icon_state = "gauss"
@@ -224,8 +217,8 @@
 	name = "9x18mm cartridge"
 	desc = "Surplus even from before the Cosmodrome Challenge."
 
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
 
 	caliber = CALIBER_COMPACT_MEDIUM_MSTIM
 	projectile_type = /obj/projectile/bullet/veb9by18
@@ -234,8 +227,8 @@
 	name = "10x25mm cartridge"
 	desc = "An older cartridge brought to modern standards."
 
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
 
 	caliber = CALIBER_COMPACT_LARGE_MSTIM
 	projectile_type = /obj/projectile/bullet/veb10by25
@@ -244,18 +237,28 @@
 	name = "7.62x39mm cartridge"
 	desc = "It gets the job done."
 
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
 
 	caliber = CALIBER_MEDIUM_INTERMEDIATE_MSTIM
 	projectile_type = /obj/projectile/bullet/veb762by39
+
+/obj/item/ammo_casing/veb762by54r
+	name = "7.62x54mmR cartridge"
+	desc = "It gets the job done."
+
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
+
+	caliber = CALIBER_MEDIUM_INTERMEDIATE_MSTIM
+	projectile_type = /obj/projectile/bullet/veb762by54r
 
 /obj/item/ammo_casing/veb12gauge
 	name = "12 gauge buckshot shell"
 	desc = "A buckshot shell with five pellets special made to thoroughly ruin someone's day."
 
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
 
 	caliber = CALIBER_SHOTGUN_LARGE_MSTIM
 	projectile_type = /obj/projectile/bullet/veb12gauge
@@ -266,8 +269,8 @@
 	name = "5.7x28mm cartridge"
 	desc = "It gets the job do-- hey! This is from the enemy! Traitor!"
 
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
 
 	caliber = CALIBER_COMPACT_SMALL_SS
 	projectile_type = /obj/projectile/bullet/ss5point7by28
@@ -276,8 +279,8 @@
 	name = "6.8x51mm cartridge"
 	desc = "It gets the job do-- hey! This is from the enemy! Traitor!"
 
-	icon = ''
-	icon_state = ""
+	icon = 'icons/obj/weapons/guns/ammo.dmi'
+	icon_state = "s-casing"
 
 	caliber = CALIBER_MEDIUM_LARGE_SS
 	projectile_type = /obj/projectile/bullet/ss6point8by51
@@ -305,6 +308,25 @@
 /obj/item/ammo_box/magazine/ammo_stack/veb762by54r/prefilled
 	start_empty = FALSE
 
+/obj/item/ammo_box/magazine/ammo_stack/veb762by54r
+	name = "7.62x54mmR cartridges"
+	desc = "A stack of up to six 7.62x54mmR cartridges."
+	caliber = CALIBER_MEDIUM_LARGE_MSTIM
+	ammo_type = /obj/item/ammo_casing/veb762by54r
+	max_ammo = 6
+	casing_x_positions = list(
+		-6,
+		-4,
+		-2,
+		0,
+		2,
+		4,
+		6,
+	)
+	casing_y_padding = 6
+
+/obj/item/ammo_box/magazine/ammo_stack/veb762by54r/prefilled
+	start_empty = FALSE
 
 /obj/item/ammo_box/magazine/ammo_stack/veb12gauge
 	name = "12 gauge shells"
@@ -324,25 +346,8 @@
 /obj/item/ammo_box/magazine/ammo_stack/veb12gauge/prefilled
 	start_empty = FALSE
 
-
-
-
-
-
-
-// LINE BREAK FOR GUNS
-// LINE BREAK FOR GUNS
 // LINE BREAK FOR GUNS
 
-
-
-
-
-
-
-
-// LINE BREAK FOR FIRING PINS
-// LINE BREAK FOR FIRING PINS
 // LINE BREAK FOR FIRING PINS
 
 /obj/item/firing_pin/wsexplorer
@@ -379,4 +384,3 @@
 /obj/item/firing_pin/wsnormal
 	name = "firing pin"
 	desc = "A small authentication device, to be inserted into a firearm receiver to allow operation. This one is as standard as they come, allowing usage everywhere."
-

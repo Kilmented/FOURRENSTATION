@@ -160,13 +160,57 @@
 	bare_wound_bonus = DEFAULT_WOUND_BONUS
 	ricochets_max = DEFAULT_RICOCHETS_MAX
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = HIGH__SPEED
+
+	stamina = (damage * 2)
+	eyeblur = DEFAULT_PAIN
+	stutter = DEFAULT_PAIN
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
+
+
+// these bullets are for OPFOR
+
+/obj/projectile/bullet/ss5point7by28
+	name = "5.7mm bullet"
+	icon_state = "gaussweak"
+	damage = DAMAGE_COMPACT_SMALL
+	wound_bonus = LOW_WOUND_BONUS
+	bare_wound_bonus = LOW_WOUND_BONUS
+	ricochets_max = DEFAULT_RICOCHETS_MAX
+	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = DEFAULT_SPEED
 
 	stamina = (damage * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
-
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
+
+
+/obj/projectile/bullet/ss6point8by51
+	name = "6.8mm bullet"
+	icon_state = "gauss"
+	damage = DAMAGE_MEDIUM_LARGE
+	wound_bonus = DEFAULT_WOUND_BONUS
+	bare_wound_bonus = DEFAULT_WOUND_BONUS
+	ricochets_max = DEFAULT_RICOCHETS_MAX
+	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = HIGH_SPEED
+
+	stamina = (damage * 2)
+	eyeblur = DEFAULT_PAIN
+	stutter = DEFAULT_PAIN
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
+
+
+
+
+
+
+
+
+
+
+
 
 /obj/item/ammo_casing/veb762by54r
 	name = "7.62x54mmR cartridge"

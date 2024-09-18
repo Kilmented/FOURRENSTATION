@@ -41,8 +41,8 @@
 #define CALIBER_HEAVY_LARGE_MSTIM "23×115mm VEB"
 
 // these defines are for OPFOR, for use in weapons that are not so easy to obtain, and ammo that is "scarce" putting it lightly
-#define CALIBER_COMPACT_SMALL_OPFOR_BLUE "5.7x28mm SolStill"
-#define CALIBER_MEDIUM_LARGE_OPFOR_BLUE "6.8x51mm SolStill"
+#define CALIBER_COMPACT_SMALL_SS "5.7x28mm SolStill"
+#define CALIBER_MEDIUM_LARGE_SS "6.8x51mm SolStill"
 
 
 // defines for gun stats
@@ -201,26 +201,83 @@
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
 
-
-
-
-
-
-
-
-
-
-
-
-/obj/item/ammo_casing/veb762by54r
-	name = "7.62x54mmR cartridge"
-	desc = "It do be hitting kinda hard."
+// LINE BREAK THE START OF CASINGS
+/obj/item/ammo_casing/veb9by18
+	name = "9x18mm cartridge"
+	desc = "Surplus even from before the Cosmodrome Challenge."
 
 	icon = ''
 	icon_state = ""
 
-	caliber = CALIBER_MEDIUM_LARGE_MSTIM
-	projectile_type = /obj/projectile/bullet/veb762by54r
+	caliber = CALIBER_COMPACT_MEDIUM_MSTIM
+	projectile_type = /obj/projectile/bullet/veb9by18
+
+/obj/item/ammo_casing/veb10by25
+	name = "10x25mm cartridge"
+	desc = "An older cartridge brought to modern standards."
+
+	icon = ''
+	icon_state = ""
+
+	caliber = CALIBER_COMPACT_LARGE_MSTIM
+	projectile_type = /obj/projectile/bullet/veb10by25
+
+/obj/item/ammo_casing/veb762by39
+	name = "7.62x39mm cartridge"
+	desc = "It gets the job done."
+
+	icon = ''
+	icon_state = ""
+
+	caliber = CALIBER_MEDIUM_INTERMEDIATE_MSTIM
+	projectile_type = /obj/projectile/bullet/veb762by39
+
+/obj/item/ammo_casing/ss5point7by28
+	name = "5.7x28mm cartridge"
+	desc = "It gets the job do-- hey! This is from the enemy! Traitor!"
+
+	icon = ''
+	icon_state = ""
+
+	caliber = CALIBER_COMPACT_SMALL_SS
+	projectile_type = /obj/projectile/bullet/ss5point7by28
+
+/obj/item/ammo_casing/ss6point8by51
+	name = "6.8x51mm cartridge"
+	desc = "It gets the job do-- hey! This is from the enemy! Traitor!"
+
+	icon = ''
+	icon_state = ""
+
+	caliber = CALIBER_MEDIUM_LARGE_SS
+	projectile_type = /obj/projectile/bullet/ss6point8by51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /obj/item/ammo_box/magazine/ammo_stack/veb762by54r
 	name = "7.62x54mmR cartridges"

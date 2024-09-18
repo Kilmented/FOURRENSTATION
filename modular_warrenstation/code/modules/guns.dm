@@ -107,23 +107,66 @@
 // LINE BREAK FOR CASINGS + PROJECTILES
 // LINE BREAK FOR CASINGS + PROJECTILES
 
-/obj/projectile/bullet/veb762by54r
-	name = "7.62 bullet"
-	icon_state = "gauss"
-	damage = DAMAGE_MEDIUM_LARGE
-	stamina = (DAMAGE_MEDIUM_LARGE * 2)
-	wound_bonus = DEFAULT_WOUND_BONUS
-	bare_wound_bonus = DEFAULT_WOUND_BONUS
-
-	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
-
-	speed = DEFAULT_SPEED
-
+/obj/projectile/bullet/veb9by18
+	name = "9mm bullet"
+	icon_state = "gaussweak"
+	damage = DAMAGE_COMPACT_MEDIUM
+	wound_bonus = LOW_WOUND_BONUS
+	bare_wound_bonus = LOW_WOUND_BONUS
 	ricochets_max = DEFAULT_RICOCHETS_MAX
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = DEFAULT_SPEED
 
+	stamina = (damage * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
+
+/obj/projectile/bullet/veb10by25
+	name = "10mm bullet"
+	icon_state = "gauss"
+	damage = DAMAGE_COMPACT_LARGE
+	wound_bonus = DEFAULT_WOUND_BONUS
+	bare_wound_bonus = DEFAULT_WOUND_BONUS
+	ricochets_max = DEFAULT_RICOCHETS_MAX
+	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = DEFAULT_SPEED
+
+	stamina = (damage * 2)
+	eyeblur = DEFAULT_PAIN
+	stutter = DEFAULT_PAIN
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
+
+/obj/projectile/bullet/veb762by39
+	name = "7.62mm bullet"
+	icon_state = "gauss"
+	damage = DAMAGE_MEDIUM_INTERMEDIATE
+	wound_bonus = DEFAULT_WOUND_BONUS
+	bare_wound_bonus = DEFAULT_WOUND_BONUS
+	ricochets_max = DEFAULT_RICOCHETS_MAX
+	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = DEFAULT_SPEED
+
+	stamina = (damage * 2)
+	eyeblur = DEFAULT_PAIN
+	stutter = DEFAULT_PAIN
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
+
+/obj/projectile/bullet/veb762by54r
+	name = "7.62mm bullet"
+	icon_state = "gauss"
+	damage = DAMAGE_MEDIUM_LARGE
+	wound_bonus = DEFAULT_WOUND_BONUS
+	bare_wound_bonus = DEFAULT_WOUND_BONUS
+	ricochets_max = DEFAULT_RICOCHETS_MAX
+	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = DEFAULT_SPEED
+
+	stamina = (damage * 2)
+	eyeblur = DEFAULT_PAIN
+	stutter = DEFAULT_PAIN
+
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
 
 /obj/item/ammo_casing/veb762by54r
 	name = "7.62x54mmR cartridge"

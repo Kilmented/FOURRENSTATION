@@ -160,13 +160,31 @@
 	bare_wound_bonus = DEFAULT_WOUND_BONUS
 	ricochets_max = DEFAULT_RICOCHETS_MAX
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
-	speed = HIGH__SPEED
+	speed = HIGH_SPEED
 
 	stamina = (damage * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
 
+/obj/projectile/bullet/veb12gauge
+	name = "12 gauge buckshot cloud"
+	icon_state = "guardian" // temp
+	damage = DAMAGE_SHOTGUN_LARGE
+	wound_bonus = DEFAULT_WOUND_BONUS
+	bare_wound_bonus = DEFAULT_WOUND_BONUS
+	ricochets_max = DEFAULT_RICOCHETS_MAX
+	ricochet_chance = DEFAULT_RICOCHET_CHANCE
+	speed = LOW_SPEED
+
+	wound_falloff_tile = 1
+	damage_falloff_tile = 0.25
+	range = 20
+
+	stamina = (damage * 2)
+	eyeblur = DEFAULT_PAIN
+	stutter = DEFAULT_PAIN
+	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
 
 // these bullets are for OPFOR
 
@@ -232,6 +250,18 @@
 	caliber = CALIBER_MEDIUM_INTERMEDIATE_MSTIM
 	projectile_type = /obj/projectile/bullet/veb762by39
 
+/obj/item/ammo_casing/veb12gauge
+	name = "12 gauge buckshot shell"
+	desc = "A buckshot shell with five pellets special made to thoroughly ruin someone's day."
+
+	icon = ''
+	icon_state = ""
+
+	caliber = CALIBER_SHOTGUN_LARGE_MSTIM
+	projectile_type = /obj/projectile/bullet/veb12gauge
+
+	variance = 35
+
 /obj/item/ammo_casing/ss5point7by28
 	name = "5.7x28mm cartridge"
 	desc = "It gets the job do-- hey! This is from the enemy! Traitor!"
@@ -253,31 +283,7 @@
 	projectile_type = /obj/projectile/bullet/ss6point8by51
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// LINE BREAK FOR THE START OF AMMO STACKS
 
 /obj/item/ammo_box/magazine/ammo_stack/veb762by54r
 	name = "7.62x54mmR cartridges"
@@ -299,35 +305,6 @@
 /obj/item/ammo_box/magazine/ammo_stack/veb762by54r/prefilled
 	start_empty = FALSE
 
-
-
-
-
-
-
-
-
-/obj/projectile/bullet/veb12gauge
-	name = "12 gauge buckshot pellet"
-	damage = 35
-
-	wound_falloff_tile = 1
-	damage_falloff_tile = 0.25
-
-	range = 20
-
-/obj/item/ammo_casing/veb12gauge
-	name = "12 gauge buckshot shell"
-	desc = "A buckshot shell with five pellets special made to thoroughly ruin someone's day."
-
-	icon = ''
-	icon_state = ""
-
-	caliber = CALIBER_SHOTGUN_LARGE_MSTIM
-	projectile_type = /obj/projectile/bullet/veb12gauge
-
-	pellets = 5
-	variance = 35
 
 /obj/item/ammo_box/magazine/ammo_stack/veb12gauge
 	name = "12 gauge shells"

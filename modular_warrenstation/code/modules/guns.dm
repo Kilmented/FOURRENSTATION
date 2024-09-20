@@ -13,6 +13,9 @@
 // LINE BREAK FOR DEFINES
 // LINE BREAK FOR DEFINES
 
+#define COMPANY_VEB "It has <b>[span_red("VEB")]</b> in tightly grouped letters laser engraved on the barrel about a Millimeter deep or so."
+#define COMPANY_SS "It has a small <b>[span_cyan("a trio of stars")]</b> alongside <b>[span_cyan("Solarian Starforge")]</b> etched underneath it."
+
 #define DAMAGE_COMPACT_SMALL 25
 #define DAMAGE_COMPACT_MEDIUM 35
 #define DAMAGE_COMPACT_LARGE 55
@@ -285,148 +288,82 @@
 	caliber = CALIBER_MEDIUM_LARGE_SS
 	projectile_type = /obj/projectile/bullet/ss6point8by51
 
+// LINE BREAK FOR MAGS
 
-// LINE BREAK FOR THE START OF AMMO STACKS
-
-/obj/item/ammo_box/magazine/ammo_stack/veb9by18
-	name = "9x18m cartridges"
-	desc = "A stack of up to 42 9x18mm cartridges."
-	caliber = CALIBER_COMPACT_MEDIUM_MSTIM
-	ammo_type = /obj/item/ammo_casing/veb9by18
-	max_ammo = 42 // all of these are arbitrary numbers based off of pictures I have seen on the internet. I have thin girl hands and not manly grippers so this is to say that none of this is strictly accurate and can be given to or taken from
-	casing_x_positions = list(
-		-6,
-		-4,
-		-2,
-		0,
-		2,
-		4,
-		6,
-	)
-	casing_y_padding = 6
-
-/obj/item/ammo_box/magazine/ammo_stack/veb9by18/prefilled
-	start_empty = FALSE
-
-/obj/item/ammo_box/magazine/ammo_stack/veb10by25
-	name = "10x25mm cartridges"
-	desc = "A stack of up to 34 10x25mm cartridges."
+/obj/item/ammo_box/magazine/veb10by25
+	name = "generic 10x25 magazine"
+	desc = "this is a template item! bugreport if you have this!"
 	caliber = CALIBER_COMPACT_LARGE_MSTIM
-	ammo_type = /obj/item/ammo_casing/veb10by25
-	max_ammo = 34 // all of these are arbitrary numbers based off of pictures I have seen on the internet. I have thin girl hands and not manly grippers so this is to say that none of this is strictly accurate and can be given to or taken from
-	casing_x_positions = list(
-		-6,
-		-4,
-		-2,
-		0,
-		2,
-		4,
-		6,
-	)
-	casing_y_padding = 6
+	ammo_type = /obj/item/ammo_casing/c27_54cesarzowa
 
-/obj/item/ammo_box/magazine/ammo_stack/veb10by25/prefilled
-	start_empty = FALSE
+/obj/item/ammo_box/magazine/veb10by25/submachinegun
+	name = "VEB 10x25mm submachinegun magazine"
+	desc = "A standardized single stack magazine for VEB submachineguns. Can hold up to 30 rounds, and the single stack design leads to less jams, neat!"
 
-/obj/item/ammo_box/magazine/ammo_stack/veb762by39
-	name = "7.62x39mm cartridges"
-	desc = "A stack of up to 22 7.62x39mm cartridges."
-	caliber = CALIBER_MEDIUM_INTERMEDIATE_MSTIM
-	ammo_type = /obj/item/ammo_casing/veb762by39
-	max_ammo = 22 // all of these are arbitrary numbers based off of pictures I have seen on the internet. I have thin girl hands and not manly grippers so this is to say that none of this is strictly accurate and can be given to or taken from
-	casing_x_positions = list(
-		-6,
-		-4,
-		-2,
-		0,
-		2,
-		4,
-		6,
-	)
-	casing_y_padding = 6
+	icon_state = "uzi9mm"
+	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
-/obj/item/ammo_box/magazine/ammo_stack/veb762by39/prefilled
-	start_empty = FALSE
+	max_ammo = 32
 
-/obj/item/ammo_box/magazine/ammo_stack/veb762by54r
-	name = "7.62x54mmR cartridges"
-	desc = "A stack of up to six 7.62x54mmR cartridges."
-	caliber = CALIBER_MEDIUM_LARGE_MSTIM
-	ammo_type = /obj/item/ammo_casing/veb762by54r
-	max_ammo = 6
-	casing_x_positions = list(
-		-6,
-		-4,
-		-2,
-		0,
-		2,
-		4,
-		6,
-	)
-	casing_y_padding = 6
-
-/obj/item/ammo_box/magazine/ammo_stack/veb762by54r/prefilled
-	start_empty = FALSE
-
-/obj/item/ammo_box/magazine/ammo_stack/veb12gauge
-	name = "12 gauge shells"
-	desc = "A stack of up to three 12 gauge shells."
-	caliber = CALIBER_SHOTGUN_LARGE_MSTIM
-	ammo_type = /obj/item/ammo_casing/veb12gauge
-	max_ammo = 3
-	casing_x_positions = list(
-		-8,
-		-4,
-		0,
-		4,
-		8,
-	)
-	casing_y_padding = 9
-
-/obj/item/ammo_box/magazine/ammo_stack/veb12gauge/prefilled
-	start_empty = FALSE
-
-/obj/item/ammo_box/magazine/ammo_stack/ss5point7by28
-	name = "5.7x28mm cartridges"
-	desc = "A stack of up to 50 5.7x28mm cartridges."
-	caliber = CALIBER_COMPACT_SMALL_SS
-	ammo_type = /obj/item/ammo_casing/ss5point7by28
-	max_ammo = 50
-	casing_x_positions = list(
-		-6,
-		-4,
-		-2,
-		0,
-		2,
-		4,
-		6,
-	)
-	casing_y_padding = 6
-
-/obj/item/ammo_box/magazine/ammo_stack/ss5point7by28/prefilled
-	start_empty = FALSE
-
-/obj/item/ammo_box/magazine/ammo_stack/ss6point8by51
-	name = "6.8x51mm cartridges"
-	desc = "A stack of up to 28 6.8x51mm cartridges."
-	caliber = CALIBER_MEDIUM_LARGE_SS
-	ammo_type = /obj/item/ammo_casing/ss6point8by51
-	max_ammo = 28
-	casing_x_positions = list(
-		-6,
-		-4,
-		-2,
-		0,
-		2,
-		4,
-		6,
-	)
-	casing_y_padding = 6
-
-/obj/item/ammo_box/magazine/ammo_stack/ss6point8by51/prefilled
-	start_empty = FALSE
+/obj/item/ammo_box/magazine/veb10by25/submachinegun/spawns_empty
+	start_empty = TRUE
 
 // LINE BREAK FOR GUNS
+
+/obj/item/gun/ballistic/automatic/seiba_smg
+	name = "\improper MPi-2M Heather"
+	desc = "A compact submachinegun firing 10x25 cartridges out of standard magazines. Has threading for a muzzle device, and a folding stock meaning it's easily concealed into a backpack or trench coat."
+
+	icon = 'modular_warrenstation/lethalguns/icons/guns48x.dmi'
+	icon_state = "seiba"
+
+	worn_icon = 'modular_warrenstation/lethalguns/icons/mob_sprites/worn.dmi'
+	worn_icon_state = "seiba"
+
+	lefthand_file = 'modular_warrenstation/lethalguns/icons/mob_sprites/lefthand.dmi'
+	righthand_file = 'modular_warrenstation/lethalguns/icons/mob_sprites/righthand.dmi'
+	inhand_icon_state = "seiba"
+
+	w_class = WEIGHT_CLASS_SMALL
+	weapon_weight = WEAPON_MEDIUM
+	slot_flags = ITEM_SLOT_BELT
+
+	accepted_magazine_type = /obj/item/ammo_box/magazine/miecz
+
+	load_sound = 'modular_warrenstation/lethalguns/sound/seiba/seiba_magin.wav'
+	rack_sound = 'modular_warrenstation/lethalguns/sound/seiba/seiba_rack.wav'
+	fire_sound = 'modular_warrenstation/lethalguns/sound/seiba/seiba.wav'
+	suppressed_sound = 'modular_warrenstation/lethalguns/sound/seiba/seiba_silenced.wav'
+	can_suppress = TRUE
+
+	pickup_sound = 'modular_warrenstation/lethalguns/sound/pickup_sounds/drop_lightgun.wav'
+	drop_sound = 'modular_warrenstation/lethalguns/sound/pickup_sounds/drop_lightgun.wav'
+
+	can_bayonet = FALSE
+
+	suppressor_x_offset = 6
+
+	burst_size = 3
+	fire_delay = 0.18 SECONDS
+
+	spread = 7.5
+
+/obj/item/gun/ballistic/automatic/seiba_smg/give_manufacturer_examine()
+	AddElement(/datum/element/manufacturer_examine, COMPANY_VEB)
+
+/obj/item/gun/ballistic/automatic/seiba_smg/examine(mob/user)
+	. = ..()
+	. += span_notice("You can <b>examine closer</b> to learn a little more about this weapon.")
+
+/obj/item/gun/ballistic/automatic/seiba_smg/examine_more(mob/user)
+	. = ..()
+
+	. += "How does a revolution get a hold of guns in the modern world? By making them themselves, of course."
+
+	return .
+
+/obj/item/gun/ballistic/automatic/seiba_smg/starts_empty
+	spawnwithmagazine = FALSE
 
 // LINE BREAK FOR FIRING PINS
 

@@ -46,9 +46,9 @@
 
 // defines for gun stats
 
-#define HIGH_SPEED 0.2
-#define DEFAULT_SPEED 0.5
-#define LOW_SPEED 0.8
+#define HIGH_SPEED 0.1
+#define DEFAULT_SPEED 0.3
+#define LOW_SPEED 0.5
 
 #define HIGH_PAIN 1.5 SECONDS
 #define DEFAULT_PAIN 1 SECONDS
@@ -298,10 +298,10 @@
 
 /obj/item/ammo_box/magazine/veb10by25/submachinegun
 	name = "VEB 10x25mm submachinegun magazine"
-	desc = "A standardized single stack magazine for VEB submachineguns. Can hold up to 30 rounds, and the single stack design leads to less jams, neat!"
+	desc = "A standardized double stack magazine for VEB submachineguns. Can hold up to 32 rounds, and the double stack design is tried and true!"
 
 	icon_state = "uzi9mm"
-	multiple_sprites = AMMO_BOX_FULL_EMPTY
+	multiple_sprites = AMMO_BOX_PER_BULLET
 
 	max_ammo = 32
 
@@ -344,7 +344,7 @@
 	suppressor_x_offset = 6
 
 	burst_size = 3
-	fire_delay = 0.9 SECONDS
+	fire_delay = 0.6
 
 	spread = 7.5
 

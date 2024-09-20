@@ -294,7 +294,7 @@
 	name = "generic 10x25 magazine"
 	desc = "this is a template item! bugreport if you have this!"
 	caliber = CALIBER_COMPACT_LARGE_MSTIM
-	ammo_type = /obj/item/ammo_casing/c27_54cesarzowa
+	ammo_type = /obj/item/ammo_casing/veb10by25
 
 /obj/item/ammo_box/magazine/veb10by25/submachinegun
 	name = "VEB 10x25mm submachinegun magazine"
@@ -310,7 +310,7 @@
 
 // LINE BREAK FOR GUNS
 
-/obj/item/gun/ballistic/automatic/seiba_smg
+/obj/item/gun/ballistic/automatic/heide_smg
 	name = "\improper MPi-2M Heide"
 	desc = "A compact submachinegun firing 10x25 cartridges out of standard magazines. Has threading for a muzzle device, and a folding stock meaning it's easily concealed into a backpack or trench coat."
 
@@ -343,26 +343,26 @@
 
 	suppressor_x_offset = 6
 
-	burst_size = 2
-	fire_delay = 0.18 SECONDS
+	burst_size = 3
+	fire_delay = 0.9 SECONDS
 
 	spread = 7.5
 
-/obj/item/gun/ballistic/automatic/seiba_smg/give_manufacturer_examine()
+/obj/item/gun/ballistic/automatic/heide_smg/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_VEB)
 
-/obj/item/gun/ballistic/automatic/seiba_smg/examine(mob/user)
+/obj/item/gun/ballistic/automatic/heide_smg/examine(mob/user)
 	. = ..()
 	. += span_notice("You can <b>examine closer</b> to learn a little more about this weapon.")
 
-/obj/item/gun/ballistic/automatic/seiba_smg/examine_more(mob/user)
+/obj/item/gun/ballistic/automatic/heide_smg/examine_more(mob/user)
 	. = ..()
 
 	. += "How does a revolution get a hold of guns in the modern world? By making them themselves, of course."
 
 	return .
 
-/obj/item/gun/ballistic/automatic/seiba_smg/starts_empty
+/obj/item/gun/ballistic/automatic/heide_smg/starts_empty
 	spawnwithmagazine = FALSE
 
 // LINE BREAK FOR FIRING PINS

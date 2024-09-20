@@ -311,7 +311,7 @@
 // LINE BREAK FOR GUNS
 
 /obj/item/gun/ballistic/automatic/seiba_smg
-	name = "\improper MPi-2M Heather"
+	name = "\improper MPi-2M Heide"
 	desc = "A compact submachinegun firing 10x25 cartridges out of standard magazines. Has threading for a muzzle device, and a folding stock meaning it's easily concealed into a backpack or trench coat."
 
 	icon = 'modular_warrenstation/lethalguns/icons/guns48x.dmi'
@@ -328,7 +328,7 @@
 	weapon_weight = WEAPON_MEDIUM
 	slot_flags = ITEM_SLOT_BELT
 
-	accepted_magazine_type = /obj/item/ammo_box/magazine/miecz
+	accepted_magazine_type = /obj/item/ammo_box/magazine/veb10by25/submachinegun
 
 	load_sound = 'modular_warrenstation/lethalguns/sound/seiba/seiba_magin.wav'
 	rack_sound = 'modular_warrenstation/lethalguns/sound/seiba/seiba_rack.wav'
@@ -343,7 +343,7 @@
 
 	suppressor_x_offset = 6
 
-	burst_size = 3
+	burst_size = 2
 	fire_delay = 0.18 SECONDS
 
 	spread = 7.5

@@ -288,12 +288,12 @@
 
 // LINE BREAK FOR THE START OF AMMO STACKS
 
-/obj/item/ammo_box/magazine/ammo_stack/veb762by54r
-	name = "7.62x54mmR cartridges"
-	desc = "A stack of up to six 7.62x54mmR cartridges."
-	caliber = CALIBER_MEDIUM_LARGE_MSTIM
-	ammo_type = /obj/item/ammo_casing/veb762by54r
-	max_ammo = 6
+/obj/item/ammo_box/magazine/ammo_stack/veb9by18
+	name = "9x18m cartridges"
+	desc = "A stack of up to 42 9x18mm cartridges."
+	caliber = CALIBER_COMPACT_MEDIUM_MSTIM
+	ammo_type = /obj/item/ammo_casing/veb9by18
+	max_ammo = 42 // all of these are arbitrary numbers based off of pictures I have seen on the internet. I have thin girl hands and not manly grippers so this is to say that none of this is strictly accurate and can be given to or taken from
 	casing_x_positions = list(
 		-6,
 		-4,
@@ -305,7 +305,47 @@
 	)
 	casing_y_padding = 6
 
-/obj/item/ammo_box/magazine/ammo_stack/veb762by54r/prefilled
+/obj/item/ammo_box/magazine/ammo_stack/veb9by18/prefilled
+	start_empty = FALSE
+
+/obj/item/ammo_box/magazine/ammo_stack/veb10by25
+	name = "10x25mm cartridges"
+	desc = "A stack of up to 34 10x25mm cartridges."
+	caliber = CALIBER_COMPACT_LARGE_MSTIM
+	ammo_type = /obj/item/ammo_casing/veb10by25
+	max_ammo = 34 // all of these are arbitrary numbers based off of pictures I have seen on the internet. I have thin girl hands and not manly grippers so this is to say that none of this is strictly accurate and can be given to or taken from
+	casing_x_positions = list(
+		-6,
+		-4,
+		-2,
+		0,
+		2,
+		4,
+		6,
+	)
+	casing_y_padding = 6
+
+/obj/item/ammo_box/magazine/ammo_stack/veb10by25/prefilled
+	start_empty = FALSE
+
+/obj/item/ammo_box/magazine/ammo_stack/veb762by39
+	name = "7.62x39mm cartridges"
+	desc = "A stack of up to 22 7.62x39mm cartridges."
+	caliber = CALIBER_MEDIUM_INTERMEDIATE_MSTIM
+	ammo_type = /obj/item/ammo_casing/veb762by39
+	max_ammo = 22 // all of these are arbitrary numbers based off of pictures I have seen on the internet. I have thin girl hands and not manly grippers so this is to say that none of this is strictly accurate and can be given to or taken from
+	casing_x_positions = list(
+		-6,
+		-4,
+		-2,
+		0,
+		2,
+		4,
+		6,
+	)
+	casing_y_padding = 6
+
+/obj/item/ammo_box/magazine/ammo_stack/veb762by39/prefilled
 	start_empty = FALSE
 
 /obj/item/ammo_box/magazine/ammo_stack/veb762by54r
@@ -344,6 +384,46 @@
 	casing_y_padding = 9
 
 /obj/item/ammo_box/magazine/ammo_stack/veb12gauge/prefilled
+	start_empty = FALSE
+
+/obj/item/ammo_box/magazine/ammo_stack/ss5point7by28
+	name = "5.7x28mm cartridges"
+	desc = "A stack of up to 50 5.7x28mm cartridges."
+	caliber = CALIBER_COMPACT_SMALL_SS
+	ammo_type = /obj/item/ammo_casing/ss5point7by28
+	max_ammo = 50
+	casing_x_positions = list(
+		-6,
+		-4,
+		-2,
+		0,
+		2,
+		4,
+		6,
+	)
+	casing_y_padding = 6
+
+/obj/item/ammo_box/magazine/ammo_stack/ss5point7by28/prefilled
+	start_empty = FALSE
+
+/obj/item/ammo_box/magazine/ammo_stack/ss6point8by51
+	name = "6.8x51mm cartridges"
+	desc = "A stack of up to 28 6.8x51mm cartridges."
+	caliber = CALIBER_MEDIUM_LARGE_SS
+	ammo_type = /obj/item/ammo_casing/ss6point8by51
+	max_ammo = 28
+	casing_x_positions = list(
+		-6,
+		-4,
+		-2,
+		0,
+		2,
+		4,
+		6,
+	)
+	casing_y_padding = 6
+
+/obj/item/ammo_box/magazine/ammo_stack/ss6point8by51/prefilled
 	start_empty = FALSE
 
 // LINE BREAK FOR GUNS

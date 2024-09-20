@@ -114,7 +114,7 @@
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = DEFAULT_SPEED
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_COMPACT_MEDIUM * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
@@ -129,7 +129,7 @@
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = DEFAULT_SPEED
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_COMPACT_LARGE * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
@@ -144,7 +144,7 @@
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = DEFAULT_SPEED
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_MEDIUM_INTERMEDIATE * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
@@ -159,7 +159,7 @@
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = HIGH_SPEED
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_MEDIUM_LARGE * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
@@ -178,7 +178,7 @@
 	damage_falloff_tile = 0.25
 	range = 20
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_SHOTGUN_LARGE * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
@@ -195,7 +195,7 @@
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = DEFAULT_SPEED
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_COMPACT_SMALL * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)
@@ -210,7 +210,7 @@
 	ricochet_chance = DEFAULT_RICOCHET_CHANCE
 	speed = HIGH_SPEED
 
-	stamina = (damage * 2)
+	stamina = (DAMAGE_MEDIUM_LARGE * 2)
 	eyeblur = DEFAULT_PAIN
 	stutter = DEFAULT_PAIN
 	embedding = list(embed_chance=DEFAULT_EMBED_CHANCE,fall_chance=DEFAULT_EMBEDDED_ITEM_FALLOUT,jostle_chance=DEFAULT_EMBEDDED_JOSTLE_CHANCE,ignore_throwspeed_threshold=TRUE,pain_stam_pct=DEFAULT_EMBEDDED_PAIN_STAM_PCT,pain_mult=DEFAULT_EMBEDDED_JOSTLE_PAIN_MULTIPLIER)

@@ -1,8 +1,8 @@
 /mob/living/basic/trooper/gakster
 	name = "Gakster"
 	desc = "This assclown looks like they barely know what they're doing."
-	maxHealth = 150
-	health = 150
+	maxHealth = 100
+	health = 100
 	faction = list(ROLE_SYNDICATE)
 	ai_controller = /datum/ai_controller/basic_controller/trooper/gakster
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob)
@@ -19,7 +19,7 @@
 		"Shit!",
 		"Fuck!",
 		"Hostile!",
-		"Get out of here, Gakster!",
+		"Get out of here!",
 		"Oh, shit!",
 		"Drop dead!",
 		"Enemy!",
@@ -54,7 +54,7 @@
 		"Fuck you!",
 	)
 	if(prob(25))
-		say(language = /datum/language/gutter, message = pick(melee_taunts))
+		say(language = /datum/language/common, message = pick(melee_taunts))
 
 /mob/living/basic/trooper/gakster/apply_damage(damage, damagetype, def_zone, blocked, forced, spread_damage, wound_bonus, bare_wound_bonus, sharpness, attack_direction, attacking_item)
 	. = ..()
@@ -81,7 +81,7 @@
 		"Fuck you!",
 	)
 	if(prob(40))
-		say(language = /datum/language/gutter, message = pick(pain_taunts))
+		say(language = /datum/language/common, message = pick(pain_taunts))
 
 /mob/living/basic/trooper/gakster/melee
 	desc = "A gakster with a combat knife and very little to lose."
@@ -140,7 +140,7 @@
 		"Bastard!",
 	)
 	if(prob(25))
-		say(language = /datum/language/gutter, message = pick(ranged_taunts))
+		say(language = /datum/language/common, message = pick(ranged_taunts))
 
 /mob/living/basic/trooper/gakster/suicide
 	name = "Gakster Suicide Bomber"

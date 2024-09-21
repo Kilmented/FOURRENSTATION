@@ -299,13 +299,24 @@
 /obj/item/ammo_box/magazine/veb10by25/submachinegun
 	name = "VEB 10x25mm submachinegun magazine"
 	desc = "A standardized double stack magazine for VEB submachineguns. Can hold up to 32 rounds, and the double stack design is tried and true!"
-
-	icon_state = "uzi9mm"
+	icon_state = "uzi9mm-32"
+	base_icon_state = "uzi9mm"
 	multiple_sprites = AMMO_BOX_PER_BULLET
 
 	max_ammo = 32
 
 /obj/item/ammo_box/magazine/veb10by25/submachinegun/spawns_empty
+	start_empty = TRUE
+
+/obj/item/ammo_box/magazine/internal/boltaction/veb762by54r
+	name = "mosin nagant internal magazine"
+	desc = "bug report if you can see this"
+	ammo_type = /obj/item/ammo_casing/veb762by54r
+	caliber = CALIBER_MEDIUM_LARGE_MSTIM
+	max_ammo = 5
+	multiload = TRUE
+
+/obj/item/ammo_box/magazine/internal/boltaction/veb762by54r/spawns_empty
 	start_empty = TRUE
 
 // LINE BREAK FOR GUNS
@@ -364,6 +375,41 @@
 
 /obj/item/gun/ballistic/automatic/heide_smg/starts_empty
 	spawnwithmagazine = FALSE
+
+/obj/item/gun/ballistic/rifle/boltaction/mosin_rifle
+	name = "Karabiner 2121"
+	desc = "A Mosin-Nagant bolt action rifle, modernized with the rear sight filed down and replaced with mini holographic sight."
+
+	icon = 'modular_warrenstation/icons/obj/guns/mosin.dmi'
+	icon_state = "mosin"
+	inhand_icon_state = "sakhno"
+	worn_icon_state = "sakhno"
+
+	slot_flags = ITEM_SLOT_BELT
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/veb762by54r
+	can_bayonet = FALSE
+	can_be_sawn_off = FALSE
+	weapon_weight = WEAPON_HEAVY
+	can_jam = FALSE
+
+	pickup_sound = 'modular_warrenstation/lethalguns/sound/pickup_sounds/drop_heavygun.wav'
+	pickup_sound = 'modular_warrenstation/lethalguns/sound/pickup_sounds/drop_heavygun.wav'
+
+/obj/item/gun/ballistic/rifle/boltaction/mosin_rifle/give_manufacturer_examine()
+	AddElement(/datum/element/manufacturer_examine, COMPANY_VEB)
+
+/obj/item/gun/ballistic/rifle/boltaction/mosin_rifle/examine(mob/user)
+	. = ..()
+	. += span_notice("You can <b>examine closer</b> to learn a little more about this weapon.")
+
+/obj/item/gun/ballistic/rifle/boltaction/mosin_rifle/examine_more(mob/user)
+	. = ..()
+
+	. += "How does a revolution get a hold of guns in the modern world? By making them themselves, of course."
+
+	return .
+
+//	SET_BASE_PIXEL(-8, 0)
 
 // LINE BREAK FOR FIRING PINS
 

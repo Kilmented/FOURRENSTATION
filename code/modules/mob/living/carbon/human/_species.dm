@@ -2111,28 +2111,6 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(!length(bonus_languages))
 		return // You're boring
 
-	var/list/to_add = list()
-	if(common_language in basic_holder.spoken_languages)
-		to_add += list(list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "comment",
-			SPECIES_PERK_NAME = "Native Speaker",
-			/* NOVA EDIT - Digitigrade customization - ORIGINAL:
-			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] gain the ability to speak [english_list(bonus_languages)].",
-			*/ // ORIGINAL END - NOVA EDIT START:
-			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] commonly speak [english_list(bonus_languages)].",
-			// NOVA EDIT END
-		))
-
-	else
-		to_add += list(list(
-			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-			SPECIES_PERK_ICON = "comment",
-			SPECIES_PERK_NAME = "Foreign Speaker",
-			SPECIES_PERK_DESC = "[plural_form] may not speak [initial(common_language.name)], but they can speak [english_list(bonus_languages)].",
-		))
-
-	return to_add
 
 ///Handles replacing all of the bodyparts with their species version during set_species()
 /datum/species/proc/replace_body(mob/living/carbon/target, datum/species/new_species)

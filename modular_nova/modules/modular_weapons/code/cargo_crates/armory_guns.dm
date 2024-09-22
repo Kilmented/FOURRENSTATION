@@ -28,7 +28,7 @@
 		/obj/item/ammo_box/c980grenade/riot = 1,
 	)
 	crate_name = "Kiboko Grenade Launcher Crate"
-
+/*
 /datum/supply_pack/security/armory/short_mod_laser
 	name = "Modular Laser Carbine Crate"
 	desc = "Five 'Hoshi' modular laser carbines, compact energy weapons that can be rapidly reconfigured into different firing modes."
@@ -52,3 +52,4 @@
 		/obj/item/gun/energy/modular_laser_rifle,
 	)
 	crate_name = "\improper Modular Laser Rifle Crate"
+*/

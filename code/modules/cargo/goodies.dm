@@ -58,7 +58,7 @@
 	cost = PAYCHECK_COMMAND * 15
 	access_view = ACCESS_ARMORY
 	contains = list(/obj/item/gun/ballistic/shotgun/automatic/combat, /obj/item/storage/belt/bandolier)
-
+/*
 /datum/supply_pack/goody/disabler_single
 	name = "Disabler Single-Pack"
 	desc = "Contains one disabler, the nonlethal workhorse of Nanotrasen security everywehere. Comes in a energy holster, just in case you happen to have an extra disabler."
@@ -93,7 +93,7 @@
 	cost = PAYCHECK_COMMAND * 15
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/storage/belt/holster/energy/thermal)
-
+*/
 /datum/supply_pack/goody/sologamermitts
 	name = "Insulated Gloves Single-Pack"
 	desc = "The backbone of modern society. Barely ever ordered for actual engineering."

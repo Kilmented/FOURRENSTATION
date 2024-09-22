@@ -218,7 +218,7 @@
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/gun/energy/e_gun/dragnet = 3)
 	crate_name = "\improper DRAGnet crate"
-
+/*
 /datum/supply_pack/security/armory/energy
 	name = "Energy Guns Crate"
 	desc = "Contains two Energy Guns, capable of firing both nonlethal and lethal \
@@ -243,7 +243,7 @@
 	contains = list(/obj/item/gun/energy/disabler/smg = 3)
 	crate_name = "disabler smg crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
-
+*/
 /datum/supply_pack/security/armory/exileimp
 	name = "Exile Implants Crate"
 	desc = "Contains five Exile implants."
@@ -327,7 +327,7 @@
 					/obj/item/clothing/gloves/tackler/combat = 2,
 				)
 	crate_name = "swat crate"
-
+/*
 /datum/supply_pack/security/armory/thermal
 	name = "Thermal Pistol Crate"
 	desc = "Contains a pair of holsters each with two experimental thermal pistols, \
@@ -335,7 +335,7 @@
 	cost = CARGO_CRATE_VALUE * 10
 	contains = list(/obj/item/storage/belt/holster/energy/thermal = 2)
 	crate_name = "thermal pistol crate"
-
+*/
 /datum/supply_pack/security/sunglasses
 	name = "Sunglasses Crate"
 	desc = "A single pair of flash-proof sunglasses."
